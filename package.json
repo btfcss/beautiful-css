@@ -1,0 +1,43 @@
+{
+  "name": "beautiful-css",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Beautiful web components for JavaScript and CSS",
+  "main": "./dist/index.js",
+  "types": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btfcss/beautiful-css.git"
+  },
+  "keywords": [
+    "CSS",
+    "Web",
+    "Components",
+    "JavaScript",
+    "UI"
+  ],
+  "author": "Beautiful CSS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btfcss/beautiful-css/issues"
+  },
+  "homepage": "https://github.com/btfcss/beautiful-css#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "postcss-cli": "^11.0.0",
+    "rollup": "^4.14.1",
+    "rollup-copy-transform-css": "^1.2.5",
+    "rollup-plugin-cleandir": "^2.0.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.74.1"
+  }
+}
