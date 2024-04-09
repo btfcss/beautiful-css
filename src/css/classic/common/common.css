@@ -1,0 +1,80 @@
+.btfcss-classic {
+  --bc-black: #333;
+  --bc-black-hover: #565656;
+
+  --bc-purple: #8842dc;
+  --bc-purple-hover: #9e64e2;
+
+  --bc-blue: #2977f5;
+  --bc-blue-hover: #4b8df7;
+
+  --bc-green: #56bb2b;
+  --bc-green-hover: #69d23c;
+
+  --bc-yellow: #ffde59;
+  --bc-yellow-hover: #ffe682;
+
+  --bc-orange: #f57c00;
+  --bc-orange-hover: #ff901f;
+
+  --bc-red: #ff3131;
+  --bc-red-hover: #ff5a5a;
+
+  --bc-white: #fcfcfc;
+  --bc-white-hover: #e8e8e8;
+}
+
+.btfcss-classic {
+  font-family: Inter var,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+
+/*#region Background Colors */
+.btfcss-classic.bg-dark,
+.btfcss-classic .bg-dark,
+.btfcss-classic.bg-black,
+.btfcss-classic .bg-black {
+  background-color: var(--bc-black);
+}
+
+.btfcss-classic.bg-tertiary,
+.btfcss-classic .bg-tertiary,
+.btfcss-classic.bg-purple,
+.btfcss-classic .bg-purple {
+  background-color: var(--bc-purple);
+}
+
+
+.btfcss-classic.bg-blue,
+.btfcss-classic .bg-blue,
+.btfcss-classic.bg-primary,
+.btfcss-classic .bg-primary {
+  background-color: var(--bc-blue);
+}
+
+
+.btfcss-classic.bg-green,
+.btfcss-classic .bg-green,
+.btfcss-classic.bg-success,
+.btfcss-classic .bg-success {
+  background-color: var(--bc-green);
+}
+
+.btfcss-classic.bg-warning,
+.btfcss-classic .bg-orange {
+  background-color: var(--bc-orange);
+}
+
+.btfcss-classic.bg-red,
+.btfcss-classic .bg-red,
+.btfcss-classic.bg-danger,
+.btfcss-classic .bg-error {
+  background-color: var(--bc-red);
+}
+
+.btfcss-classic.bg-white,
+.btfcss-classic .bg-white,
+.btfcss-classic.bg-light,
+.btfcss-classic .bg-light {
+  background-color: var(--bc-white);
+}
+/*#endregion Background Colors */
