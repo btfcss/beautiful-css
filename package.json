@@ -1,0 +1,39 @@
+{
+  "name": "beautiful-css",
+  "version": "1.0.0",
+  "description": "Beautifull CSS web components",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development LOG_STREAM=console node --watch index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btfcss/beautiful-css-website.git"
+  },
+  "keywords": [
+    "CSS",
+    "design",
+    "UX",
+    "UI",
+    "web"
+  ],
+  "author": "Beautiful CSS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btfcss/beautiful-css-website/issues"
+  },
+  "homepage": "https://github.com/btfcss/beautiful-css-website#readme",
+  "volta": {
+    "node": "20.18.2",
+    "npm": "11.1.0"
+  },
+  "dependencies": {
+    "compression": "^1.8.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-minify": "^1.0.0",
+    "express-minify-html-2": "^2.0.0",
+    "i18n": "^0.15.1"
+  }
+}
