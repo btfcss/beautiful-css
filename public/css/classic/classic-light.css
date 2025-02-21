@@ -2,8 +2,11 @@
 
 :root {
   --background-color: #F8F9FD;
+  --text-color: #333;
 
-  --h1-font-size: 4.23606797rem;
+  --h1-font-size: calc(3vw + 1.1rem);
+  --h1-font-size: calc(1vw + 1.1rem);
+
   --h2-font-size: calc(1rem + 0.5954915028*(var(--h1-font-size) - 1rem));
   --h3-font-size: calc(1rem + 0.3454915028*(var(--h1-font-size) - 1rem));
   --h4-font-size: calc(1rem + 0.1909830056*(var(--h1-font-size) - 1rem));
@@ -16,6 +19,20 @@
   --h4-margin-top: calc(0.6180339887*var(--h4-font-size));
   --h5-margin-top: calc(0.6180339887*var(--h5-font-size));
   --h6-margin-top: calc(0.6180339887*var(--h6-font-size));
+
+  --h1-color: #000000;
+  --h2-color: #080808;
+  --h3-color: #101010;
+  --h4-color: #181818;
+  --h5-color: #202020;
+  --h6-color: #282828;
+
+  --blue: #162BA9;
+  --green: #058C42;
+  --red: #FF220C;
+  --orange: #FDB833;
+  --purple: #5951CD;
+  --grey: #3B4154;
 }
 
 
@@ -25,41 +42,97 @@
   margin: 0;
   padding: 0;
   background-color: var(--background-color);
+  color: var(--text-color);    
+  line-height: 161%;  
 }
 
+.h1,
 h1 {
   font-size: var(--h1-font-size);
   margin-top: var(--h1-margin-top);
+  color: var(--h1-color);
 }
 
-
+.h2,
 h2 {
   font-size: var(--h2-font-size);
   margin-top: var(--h2-margin-top);
+  color: var(--h2-color);
 }
 
+.h3,
 h3 {
   font-size: var(--h3-font-size);
   margin-top: var(--h3-margin-top);
+  color: var(--h3-color);
 }
 
+.h4,
 h4 {
   font-size: var(--h4-font-size);
   margin-top: var(--h4-margin-top);
+  color: var(--h4-color);
 }
 
-
+.h5,
 h5 {
   font-size: var(--h5-font-size);
   margin-top: var(--h5-margin-top);
+  color: var(--h5-color);
 }
 
+.h6,
 h6 {
   font-size: var(--h6-font-size);
   margin-top: var(--h6-margin-top);
+  color: var(--h6-color);
 }
 
 p {
   margin-top: 0.618rem;
   text-align: justify;
+}
+
+
+
+
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 5 colonnes égales */
+  gap: 2rem; /* Espacement entre les cases */
+}
+
+.box {
+  padding: 1rem;
+  text-align: center;
+  aspect-ratio : 1 / 1;
+  border-radius: 1.61rem;
+  color: white;
 }
