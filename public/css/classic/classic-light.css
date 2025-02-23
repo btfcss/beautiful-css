@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-  --background-color: #F8F9FD;
+  --background-color: #f3f4f7;
   --text-color: #333;
+
+  --font-family: "Inter", serif;
 
   --h1-font-size: calc(3vw + 1.1rem);
   --h1-font-size: calc(1vw + 1.1rem);
@@ -31,19 +33,30 @@
   --green: #058C42;
   --red: #FF220C;
   --orange: #FDB833;
+  --orange: #FFAB36;
   --purple: #5951CD;
+  --purple: #B834C7;
   --grey: #3B4154;
+
+  --red: #DE3023;
+  --orange: #FFAA40;
+  --yellow: #DED140;
+  --green: #1F8F49;
+  --purple: #B834C7;
+  --blue: #162BA9;
+  --grey: #dcdee6;
 }
 
 
 * {
-  font-family: "Inter", serif;
+  font-family: var(--font-family);
   font-optical-sizing: auto;
   margin: 0;
+  margin-bottom: 1vh;
   padding: 0;
   background-color: var(--background-color);
-  color: var(--text-color);    
-  line-height: 161%;  
+  color: var(--text-color);
+  line-height: 161%;
 }
 
 .h1,
@@ -96,6 +109,17 @@ p {
 
 
 
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
 
 .bg-blue {
   background-color: var(--blue);
@@ -110,13 +134,6 @@ p {
   background-color: var(--green);
 }
 
-.bg-red {
-  background-color: var(--red);
-}
-
-.bg-orange {
-  background-color: var(--orange);
-}
 
 .bg-grey {
   background-color: var(--grey);
@@ -125,14 +142,41 @@ p {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 5 colonnes égales */
-  gap: 2rem; /* Espacement entre les cases */
+  grid-template-columns: repeat(7, 1fr);
+  /* 5 colonnes égales */
+  gap: 2rem;
+  /* Espacement entre les cases */
 }
 
 .box {
   padding: 1rem;
   text-align: center;
-  aspect-ratio : 1 / 1;
+  aspect-ratio: 1 / 1;
   border-radius: 1.61rem;
   color: white;
+}
+
+.grid {
+  /*
+  grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+*/
+display: grid;
+grid-auto-flow: column; /* Automatically place items in columns */
+grid-auto-columns: minmax(100px, 1fr); /* Each item gets a flexible width */
+gap: 10px; /* Optional spacing */
+overflow-x: auto; /* Enable horizontal scrolling if needed */
+white-space: nowrap; /* Prevent wrapping */
+}
+
+.grid>* {
+  min-width: 0;  
+}
+
+
+.border-rounded {
+  border-radius: 1.61rem;
 }

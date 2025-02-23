@@ -28,12 +28,18 @@
   --h5-color: #dfdfdf;
   --h6-color: #d7d7d7;
   
+  --red: #DE3023;  
+  --orange: #FFAA40;
+  --yellow: #DED140;
+  --green: #1F8F49;
+  --purple: #B834C7;  
   --blue: #162BA9;
-  --green: #058C42;
-  --red: #FF220C;
-  --orange: #FDB833;
-  --purple: #5951CD;
   --grey: #3B4154;
+
+  
+
+  
+
 }
 
 
@@ -106,6 +112,19 @@ p {
 
 
 
+.bg-red {
+  background-color: var(--red);
+}
+
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
 .bg-blue {
   background-color: var(--blue);
 }
@@ -119,13 +138,7 @@ p {
   background-color: var(--green);
 }
 
-.bg-red {
-  background-color: var(--red);
-}
 
-.bg-orange {
-  background-color: var(--orange);
-}
 
 .bg-grey {
   background-color: var(--grey);
@@ -135,7 +148,7 @@ p {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* 5 colonnes égales */
+  grid-template-columns: repeat(7, 1fr); /* 5 colonnes égales */
   gap: 2rem; /* Espacement entre les cases */
 }
 
