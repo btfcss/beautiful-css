@@ -180,3 +180,14 @@ white-space: nowrap; /* Prevent wrapping */
 .border-rounded {
   border-radius: 1.61rem;
 }
+
+
+
+
+.card {
+  background-color: #f3f4f7;
+  border-radius: 0.61rem;
+  padding: 1.61rem;
+  
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
