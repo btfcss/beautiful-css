@@ -4,7 +4,8 @@
   --background-color: #1e212a;
   --text-color: #ddd;
 
-
+  --font-family: "Inter", serif;
+  
   --h1-font-size: calc(3vw + 1.1rem);
   --h1-font-size: calc(1vw + 1.1rem);
   /* --h1-font-size: 4.236067977rem; */
@@ -43,14 +44,16 @@
 }
 
 
+
 * {
-  font-family: "Inter", serif;
+  font-family: var(--font-family);
   font-optical-sizing: auto;
   margin: 0;
+  margin-bottom: 1vh;
   padding: 0;
   background-color: var(--background-color);
-  color: var(--text-color);    
-  line-height: 161%;  
+  color: var(--text-color);
+  line-height: 161%;
 }
 
 .h1,
@@ -95,7 +98,6 @@ h6 {
   color: var(--h6-color);
 }
 
-div,
 p {
   margin-top: 0.618rem;
   text-align: justify;
