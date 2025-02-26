@@ -6,8 +6,10 @@
 
   --font-family: "Inter", serif;
 
-  --h1-font-size: calc(3vw + 1.1rem);
+  
   --h1-font-size: calc(1vw + 1.1rem);
+  /*--h1-font-size: calc(3vw + 1.1rem);
+  --h1-font-size: 5rem;*/
 
   --h2-font-size: calc(1rem + 0.5954915028*(var(--h1-font-size) - 1rem));
   --h3-font-size: calc(1rem + 0.3454915028*(var(--h1-font-size) - 1rem));
@@ -21,6 +23,7 @@
   --h4-margin-top: calc(0.6180339887*var(--h4-font-size));
   --h5-margin-top: calc(0.6180339887*var(--h5-font-size));
   --h6-margin-top: calc(0.6180339887*var(--h6-font-size));
+
 
   --h1-color: #000000;
   --h2-color: #080808;
@@ -45,24 +48,27 @@
   --purple: #B834C7;
   --blue: #162BA9;
   --grey: #dcdee6;
+
+  --border-radius: 0.61rem;
 }
 
 
-* {
+body {
   font-family: var(--font-family);
   font-optical-sizing: auto;
   margin: 0;
   margin-bottom: 1vh;
   padding: 0;
   background-color: var(--background-color);
-  color: var(--text-color);
-  line-height: 161%;
+  color: var(--text-color);  
 }
 
 .h1,
 h1 {
   font-size: var(--h1-font-size);
   margin-top: var(--h1-margin-top);
+  margin-bottom: 0;
+  line-height: var(--h1-font-size);
   color: var(--h1-color);
 }
 
@@ -70,6 +76,7 @@ h1 {
 h2 {
   font-size: var(--h2-font-size);
   margin-top: var(--h2-margin-top);
+  margin-bottom: 0;
   color: var(--h2-color);
 }
 
@@ -77,6 +84,7 @@ h2 {
 h3 {
   font-size: var(--h3-font-size);
   margin-top: var(--h3-margin-top);
+  margin-bottom: 0;
   color: var(--h3-color);
 }
 
@@ -84,6 +92,7 @@ h3 {
 h4 {
   font-size: var(--h4-font-size);
   margin-top: var(--h4-margin-top);
+  margin-bottom: 0;
   color: var(--h4-color);
 }
 
@@ -91,6 +100,7 @@ h4 {
 h5 {
   font-size: var(--h5-font-size);
   margin-top: var(--h5-margin-top);
+  margin-bottom: 0;
   color: var(--h5-color);
 }
 
@@ -98,12 +108,14 @@ h5 {
 h6 {
   font-size: var(--h6-font-size);
   margin-top: var(--h6-margin-top);
+  margin-bottom: 0;
   color: var(--h6-color);
 }
 
 p {
   margin-top: 0.618rem;
   text-align: justify;
+  line-height: 1.3rem;
 }
 
 
@@ -178,7 +190,7 @@ white-space: nowrap; /* Prevent wrapping */
 
 
 .border-rounded {
-  border-radius: 1.61rem;
+  border-radius: var(--border-radius);
 }
 
 
@@ -186,8 +198,40 @@ white-space: nowrap; /* Prevent wrapping */
 
 .card {
   background-color: #f3f4f7;
-  border-radius: 0.61rem;
-  padding: 1.61rem;
-  
+  border-radius: var(--border-radius);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.card > *:first-child {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.card > *:last-child {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.card > div.header {
+  background-color: var(--grey);
+  padding: var(--border-radius);  
+}
+
+.card > img.header {    
+  padding: 0;
+  max-width: 100%;
+}
+
+
+
+.card > .header > :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+}
+.card > .body {
+  padding: var(--border-radius);
+}
+
+.card > .footer {
+  background-color: var(--grey);
+  padding: var(--border-radius);
 }

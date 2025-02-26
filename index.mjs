@@ -61,15 +61,14 @@ app.use(session({ ...sessionConfig, ...{ cookie: { secure: isProduction }, store
 app.use(i18n.init);
 
 app.use(compression());
-app.use(minify());
+//app.use(minify());
 
 // Overload render engine to minify HTML 
 app.use(minifyHTML({
-  //override: isProduction,
   override: isProduction,
-  /**
-   * exceptionUrls can also be spelled as exception_url for backwards compatibility
-   */
+
+   // exceptionUrls can also be spelled as exception_url for backwards compatibility
+   
   exceptionUrls: false,
   htmlMinifier: {
     removeComments: true,
