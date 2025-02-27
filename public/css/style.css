@@ -6,13 +6,32 @@
 }
 
 
-.masonry {
-  column-count: 4; /* Adjust the number of columns based on your design */
-  column-gap: 2rem; /* Space between columns */
+.masonry-2,
+.masonry-3,
+.masonry-4,
+.masonry-5,
+.masonry-6,
+.masonry-7
+ {
+  column-gap: 2rem; /* Space between columns */  
   width: 100%; /* Full width of the container */
 }
 
-.masonry > * {
+
+
+.masonry-2 { column-count: 2; }
+.masonry-3 { column-count: 3; }
+.masonry-4 { column-count: 4; }
+.masonry-5 { column-count: 5; }
+.masonry-6 { column-count: 6; }
+.masonry-7 { column-count: 7; }
+
+.masonry-2 > *,
+.masonry-3 > *,
+.masonry-4 > *,
+.masonry-5 > *,
+.masonry-6 > *,
+.masonry-7 > * {
   break-inside: avoid; /* Prevent items from splitting across columns */
   margin-bottom: 2rem;
 }

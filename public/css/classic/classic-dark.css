@@ -184,24 +184,24 @@ p {
 }
 
 .bg-orange {
-  background-color: var(--orange);
+  background-color: var(--orange)!important;
 }
 
 .bg-yellow {
-  background-color: var(--yellow);
+  background-color: var(--yellow)!important;
 }
 .bg-blue {
-  background-color: var(--blue);
+  background-color: var(--blue)!important;
 }
 
 .bg-purple {
-  background-color: var(--purple);
+  background-color: var(--purple)!important;
 }
 
 .bg-green {
-  background-color: var(--green);
+  background-color: var(--green)!important;
 }
 
 .bg-grey {
-  background-color: var(--grey);
+  background-color: var(--grey)!important;
 }

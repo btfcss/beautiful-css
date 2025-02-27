@@ -152,21 +152,7 @@ p {
 }
 
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  /* 5 colonnes égales */
-  gap: 2rem;
-  /* Espacement entre les cases */
-}
 
-.box {
-  padding: 1rem;
-  text-align: center;
-  aspect-ratio: 1 / 1;
-  border-radius: 1.61rem;
-  color: white;
-}
 
 .grid {
   /*
@@ -184,9 +170,6 @@ overflow-x: auto; /* Enable horizontal scrolling if needed */
 white-space: nowrap; /* Prevent wrapping */
 }
 
-.grid>* {
-  min-width: 0;  
-}
 
 
 .border-rounded {
