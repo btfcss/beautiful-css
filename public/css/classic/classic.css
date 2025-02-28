@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-:root {  
+:root {
+  color-scheme: light dark;
 
-  --background-color: #f3f4f7;
-  --text-color: #333;
+  --background-color: light-dark(#f3f4f7, #1e212a);
+  --text-color: light-dark(#333, #ddd);
 
   --font-family: "Inter", serif;
 
-  
+  --h1-font-size: calc(3vw + 1.1rem);
   --h1-font-size: calc(1vw + 1.1rem);
-  /*--h1-font-size: calc(3vw + 1.1rem);
-  --h1-font-size: 5rem;*/
-
+  /* --h1-font-size: 4.236067977rem; */
   --h2-font-size: calc(1rem + 0.5954915028*(var(--h1-font-size) - 1rem));
   --h3-font-size: calc(1rem + 0.3454915028*(var(--h1-font-size) - 1rem));
   --h4-font-size: calc(1rem + 0.1909830056*(var(--h1-font-size) - 1rem));
@@ -25,13 +24,12 @@
   --h5-margin-top: calc(0.6180339887*var(--h5-font-size));
   --h6-margin-top: calc(0.6180339887*var(--h6-font-size));
 
-
-  --h1-color: #000000;
-  --h2-color: #080808;
-  --h3-color: #101010;
-  --h4-color: #181818;
-  --h5-color: #202020;
-  --h6-color: #282828;
+  --h1-color: light-dark(#000000, #ffffff);
+  --h2-color: light-dark(#080808, #f7f7f7);
+  --h3-color: light-dark(#101010, #efefef);
+  --h4-color: light-dark(#181818, #e7e7e7);
+  --h5-color: light-dark(#202020, #dfdfdf);
+  --h6-color: light-dark(#282828, #d7d7d7);
 
 
   --red: #DE3023;
@@ -40,11 +38,13 @@
   --green: #1F8F49;
   --purple: #B834C7;
   --blue: #162BA9;
-  --grey: #dcdee6;
+  --grey: light-dark(#dcdee6, #3B4154);
+
 
   --border-radius: 0.61rem;
-}
 
+
+}
 
 body {
   font-family: var(--font-family);
@@ -53,7 +53,7 @@ body {
   margin-bottom: 1vh;
   padding: 0;
   background-color: var(--background-color);
-  color: var(--text-color);  
+  color: var(--text-color);
 }
 
 .h1,
@@ -105,109 +105,110 @@ h6 {
   color: var(--h6-color);
 }
 
+
+
 p {
   margin-top: 0.618rem;
   text-align: justify;
-  line-height: 1.3rem;
 }
 
 
 
 
-.bg-red {
-  background-color: var(--red);
-}
-
-.bg-orange {
-  background-color: var(--orange);
-}
-
-.bg-yellow {
-  background-color: var(--yellow);
-}
-
-.bg-blue {
-  background-color: var(--blue);
-}
-
-.bg-purple {
-  background-color: var(--purple);
-}
-
-
-.bg-green {
-  background-color: var(--green);
-}
-
-
-.bg-grey {
-  background-color: var(--grey);
-}
 
 
 
 
-.grid {
-  /*
-  grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+
+.grid-container {
   display: grid;
-  grid-template-columns: 1fr;
-*/
-display: grid;
-grid-auto-flow: column; /* Automatically place items in columns */
-grid-auto-columns: minmax(100px, 1fr); /* Each item gets a flexible width */
-gap: 10px; /* Optional spacing */
-overflow-x: auto; /* Enable horizontal scrolling if needed */
-white-space: nowrap; /* Prevent wrapping */
+  grid-template-columns: repeat(7, 1fr);
+  /* 5 colonnes égales */
+  gap: 2rem;
+  /* Espacement entre les cases */
 }
 
-
-
-.border-rounded {
-  border-radius: var(--border-radius);
+.box {
+  padding: 1rem;
+  text-align: center;
+  aspect-ratio: 1 / 1;
+  border-radius: 1.61rem;
+  color: white;
 }
 
 
 
 
 .card {
-  background-color: #f3f4f7;
+  background-color: light-dark(#f3f4f7,#292d39);
   border-radius: var(--border-radius);
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  box-shadow: light-dark(#0000000d, #ffffff0d) 0px 6px 24px 0px, light-dark(#00000014, #ffffff14) 0px 0px 0px 1px;
 }
 
-.card > *:first-child {
+.card>*:first-child {
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
 }
 
-.card > *:last-child {
+.card>*:last-child {
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
 }
 
-.card > div.header {
+.card>div.header {
   background-color: var(--grey);
-  padding: var(--border-radius);  
+  padding: var(--border-radius);
 }
 
-.card > img.header {    
+.card>img.header {
   padding: 0;
   max-width: 100%;
 }
 
 
 
-.card > .header > :is(h1, h2, h3, h4, h5, h6) {
+.card>.header> :is(h1, h2, h3, h4, h5, h6) {
   margin: 0;
 }
-.card > .body {
+
+.card>.body {
   padding: var(--border-radius);
 }
 
-.card > .footer {
+.card>.footer {
   background-color: var(--grey);
   padding: var(--border-radius);
+}
+
+
+
+
+
+
+.bg-red {
+  background-color: var(--red) !important;
+}
+
+.bg-orange {
+  background-color: var(--orange) !important;
+}
+
+.bg-yellow {
+  background-color: var(--yellow) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue) !important;
+}
+
+.bg-purple {
+  background-color: var(--purple) !important;
+}
+
+.bg-green {
+  background-color: var(--green) !important;
+}
+
+.bg-grey {
+  background-color: var(--grey) !important;
 }

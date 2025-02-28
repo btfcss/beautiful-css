@@ -5,15 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <link rel="stylesheet" type="text/css" href="/css/classic/classic-dark.css" id="style">
-
+  <link rel="stylesheet" type="text/css" href="/css/classic/classic.css" id="style">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Beautiful CSS</title>
   <meta name="description" content="Beautifull CSS Home page">
 </head>
 
 <body>
   <div id="main">
-    <button id="light-dark">Light / Dark</button>
+    <div>
+      <i id="btn-theme-light" class="fa-solid fa-sun"></i>&nbsp;
+      <i id="btn-theme-system" class="fa-solid fa-display"></i>&nbsp;
+      <i id="btn-theme-dark" class="fa-solid fa-moon "></i>
+    </div>
+
+
+
+
     <h1>Beautiful CSS | Classic Dark</h1>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend nisl metus, nec venenatis sapien
@@ -151,21 +161,26 @@
 
 
   <script>
-    let style = "/css/classic/classic-light.css";
-    let btn = document.getElementById('light-dark');
-    btn.addEventListener('click', () => {
-      if (style == "/css/classic/classic-light.css") style = "/css/classic/classic-dark.css"
-      else style = "/css/classic/classic-light.css"
-      document.getElementById('style').href = style;
+
+    document.getElementById('btn-theme-light').addEventListener('click', () => {
+      document.querySelector(':root').style.setProperty('color-scheme', 'light');
     })
-/*
-    var masonry1 = new MiniMasonry({
-      container: '.masonry',
-      baseWidth: 300,
-      surroundingGutter: 0,
-      gutter: 30
+
+    document.getElementById('btn-theme-system').addEventListener('click', () => {
+      document.querySelector(':root').style.setProperty('color-scheme', 'light dark');
+    })
+
+    document.getElementById('btn-theme-dark').addEventListener('click', () => {
+      document.querySelector(':root').style.setProperty('color-scheme', 'dark');
+    })
+
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) console.log('dark mode')
+    else console.log('light mode')
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+      const newColorScheme = e.matches ? "dark" : "light";
+      console.log('change', newColorScheme)
     });
-*/
   </script>
 </body>
 
