@@ -1,121 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(fonts.css);
+@import url(colors.css);
+@import url(typography.css);
+@import url(horizontal-rule.css);
+@import url(text-alignment.css);
+@import url(headings.css);
+@import url(cards.css);
 
 :root {
   color-scheme: light dark;
-
-  --background-color: light-dark(#f3f4f7, #1e212a);
+  --background-color: light-dark(var(--white), var(--black));
   --text-color: light-dark(#333, #ddd);
-
-  --font-family: "Inter", serif;
-
-  --h1-font-size: calc(3vw + 1.1rem);
-  --h1-font-size: calc(1vw + 1.1rem);
-  /* --h1-font-size: 4.236067977rem; */
-  --h2-font-size: calc(1rem + 0.5954915028*(var(--h1-font-size) - 1rem));
-  --h3-font-size: calc(1rem + 0.3454915028*(var(--h1-font-size) - 1rem));
-  --h4-font-size: calc(1rem + 0.1909830056*(var(--h1-font-size) - 1rem));
-  --h5-font-size: calc(1rem + 0.0954915028*(var(--h1-font-size) - 1rem));
-  --h6-font-size: calc(1rem + 0.0364745084*(var(--h1-font-size) - 1rem));
-
-  --h1-margin-top: calc(0.6180339887*var(--h1-font-size));
-  --h2-margin-top: calc(0.6180339887*var(--h2-font-size));
-  --h3-margin-top: calc(0.6180339887*var(--h3-font-size));
-  --h4-margin-top: calc(0.6180339887*var(--h4-font-size));
-  --h5-margin-top: calc(0.6180339887*var(--h5-font-size));
-  --h6-margin-top: calc(0.6180339887*var(--h6-font-size));
-
-  --h1-color: light-dark(#000000, #ffffff);
-  --h2-color: light-dark(#080808, #f7f7f7);
-  --h3-color: light-dark(#101010, #efefef);
-  --h4-color: light-dark(#181818, #e7e7e7);
-  --h5-color: light-dark(#202020, #dfdfdf);
-  --h6-color: light-dark(#282828, #d7d7d7);
-
-
-  --red: #DE3023;
-  --orange: #FFAA40;
-  --yellow: #DED140;
-  --green: #1F8F49;
-  --purple: #B834C7;
-  --blue: #162BA9;
-  --grey: light-dark(#dcdee6, #3B4154);
-
-
   --border-radius: 0.61rem;
-
-
 }
 
+
+
 body {
-  font-family: var(--font-family);
   font-optical-sizing: auto;
   margin: 0;
-  margin-bottom: 1vh;
   padding: 0;
   background-color: var(--background-color);
   color: var(--text-color);
 }
-
-.h1,
-h1 {
-  font-size: var(--h1-font-size);
-  margin-top: var(--h1-margin-top);
-  margin-bottom: 0;
-  line-height: var(--h1-font-size);
-  color: var(--h1-color);
-}
-
-.h2,
-h2 {
-  font-size: var(--h2-font-size);
-  margin-top: var(--h2-margin-top);
-  margin-bottom: 0;
-  color: var(--h2-color);
-}
-
-.h3,
-h3 {
-  font-size: var(--h3-font-size);
-  margin-top: var(--h3-margin-top);
-  margin-bottom: 0;
-  color: var(--h3-color);
-}
-
-.h4,
-h4 {
-  font-size: var(--h4-font-size);
-  margin-top: var(--h4-margin-top);
-  margin-bottom: 0;
-  color: var(--h4-color);
-}
-
-.h5,
-h5 {
-  font-size: var(--h5-font-size);
-  margin-top: var(--h5-margin-top);
-  margin-bottom: 0;
-  color: var(--h5-color);
-}
-
-.h6,
-h6 {
-  font-size: var(--h6-font-size);
-  margin-top: var(--h6-margin-top);
-  margin-bottom: 0;
-  color: var(--h6-color);
-}
-
-
-
-p {
-  margin-top: 0.618rem;
-  text-align: justify;
-}
-
-
-
-
-
 
 
 
@@ -134,81 +40,4 @@ p {
   aspect-ratio: 1 / 1;
   border-radius: 1.61rem;
   color: white;
-}
-
-
-
-
-.card {
-  background-color: light-dark(#f3f4f7,#292d39);
-  border-radius: var(--border-radius);
-  box-shadow: light-dark(#0000000d, #ffffff0d) 0px 6px 24px 0px, light-dark(#00000014, #ffffff14) 0px 0px 0px 1px;
-}
-
-.card>*:first-child {
-  border-top-left-radius: var(--border-radius);
-  border-top-right-radius: var(--border-radius);
-}
-
-.card>*:last-child {
-  border-bottom-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
-}
-
-.card>div.header {
-  background-color: var(--grey);
-  padding: var(--border-radius);
-}
-
-.card>img.header {
-  padding: 0;
-  max-width: 100%;
-}
-
-
-
-.card>.header> :is(h1, h2, h3, h4, h5, h6) {
-  margin: 0;
-}
-
-.card>.body {
-  padding: var(--border-radius);
-}
-
-.card>.footer {
-  background-color: var(--grey);
-  padding: var(--border-radius);
-}
-
-
-
-
-
-
-.bg-red {
-  background-color: var(--red) !important;
-}
-
-.bg-orange {
-  background-color: var(--orange) !important;
-}
-
-.bg-yellow {
-  background-color: var(--yellow) !important;
-}
-
-.bg-blue {
-  background-color: var(--blue) !important;
-}
-
-.bg-purple {
-  background-color: var(--purple) !important;
-}
-
-.bg-green {
-  background-color: var(--green) !important;
-}
-
-.bg-grey {
-  background-color: var(--grey) !important;
 }
