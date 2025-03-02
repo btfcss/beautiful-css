@@ -1,0 +1,75 @@
+:root {
+
+  --white: #f3f4f7;
+  --black: #1e212a;
+
+  --red: #DE3023;
+  --orange: #FFAA40;
+  --yellow: #DED140;
+  --green: #1F8F49;
+  --purple: #B834C7;
+  --blue: #162BA9;
+  --light-grey: #dcdee6;
+  --dark-grey: #3B4154;
+  --grey: light-dark(var(--light-grey), var(--dark-grey));
+}
+
+
+.bg-red {
+  background-color: var(--red) !important;
+}
+
+.bg-orange {
+  background-color: var(--orange) !important;
+}
+
+.bg-yellow {
+  background-color: var(--yellow) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue) !important;
+}
+
+.bg-purple {
+  background-color: var(--purple) !important;
+}
+
+.bg-green {
+  background-color: var(--green) !important;
+}
+
+.bg-grey {
+  background-color: var(--grey) !important;
+}
+
+
+
+
+.text-red {
+  background-color: var(--red) !important;
+}
+
+.text-orange {
+  background-color: var(--orange) !important;
+}
+
+.text-yellow {
+  background-color: var(--yellow) !important;
+}
+
+.text-blue {
+  background-color: var(--blue) !important;
+}
+
+.text-purple {
+  background-color: var(--purple) !important;
+}
+
+.text-green {
+  background-color: var(--green) !important;
+}
+
+.text-grey {
+  background-color: var(--grey) !important;
+}

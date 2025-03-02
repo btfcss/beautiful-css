@@ -1,0 +1,14 @@
+:root {
+  --border-radius: 0.61rem;
+  --border-color: light-dark(#00000014, #ffffff14);
+}
+
+
+.border-0 {
+  border: 0!important;
+}
+
+.border-top {
+  border-top: 1px solid var(--border-color)!important;
+  border-bottom: 0!important;
+}

@@ -26,18 +26,13 @@ body {
 
 
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  /* 5 colonnes égales */
-  gap: 2rem;
-  /* Espacement entre les cases */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
 }
 
-.box {
-  padding: 1rem;
-  text-align: center;
-  aspect-ratio: 1 / 1;
-  border-radius: 1.61rem;
-  color: white;
+
+.grid > * {
+  flex: 1 1; /* Grow, shrink, and base size */
 }
