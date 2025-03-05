@@ -4,13 +4,15 @@
 @import url(horizontal-rule.css);
 @import url(text-alignment.css);
 @import url(headings.css);
+@import url(color-gradient.css);
+@import url(buttons.css);
 @import url(cards.css);
 
 :root {
   color-scheme: light dark;
   --background-color: light-dark(var(--white), var(--black));
   --text-color: light-dark(#333, #ddd);
-  --border-radius: 0.61rem;
+  
 }
 
 

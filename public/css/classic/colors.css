@@ -10,10 +10,20 @@
   --purple: #B834C7;
   --blue: #162BA9;
   --light-grey: #dcdee6;
+  /*--light-grey: #bec2d1;*/
   --dark-grey: #3B4154;
   --grey: light-dark(var(--light-grey), var(--dark-grey));
+
 }
 
+
+.bg-black {
+  background-color: var(--black) !important;
+}
+
+.bg-white {
+  background-color: var(--white) !important;
+}
 
 .bg-red {
   background-color: var(--red) !important;
@@ -39,6 +49,14 @@
   background-color: var(--green) !important;
 }
 
+.bg-light-grey {
+  background-color: var(--light-grey) !important;
+}
+
+.bg-dark-grey {
+  background-color: var(--dark-grey) !important;
+}
+
 .bg-grey {
   background-color: var(--grey) !important;
 }
@@ -46,30 +64,38 @@
 
 
 
+.text-white {
+  color: var(--white) !important;
+}
+
+.text-black {
+  color: var(--black) !important;
+}
+
 .text-red {
-  background-color: var(--red) !important;
+  color: var(--red) !important;
 }
 
 .text-orange {
-  background-color: var(--orange) !important;
+  color: var(--orange) !important;
 }
 
 .text-yellow {
-  background-color: var(--yellow) !important;
+  color: var(--yellow) !important;
 }
 
 .text-blue {
-  background-color: var(--blue) !important;
+  color: var(--blue) !important;
 }
 
 .text-purple {
-  background-color: var(--purple) !important;
+  color: var(--purple) !important;
 }
 
 .text-green {
-  background-color: var(--green) !important;
+  color: var(--green) !important;
 }
 
 .text-grey {
-  background-color: var(--grey) !important;
+  color: var(--grey) !important;
 }
