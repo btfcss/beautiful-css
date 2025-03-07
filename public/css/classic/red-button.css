@@ -1,0 +1,25 @@
+@import url(blue-gradient);
+@import url(fonts.css);
+
+.btn-red {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: 0.309rem 0.618rem;
+  border-radius : 0.309rem;
+  border: 0;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--red-lighter-5);
+  outline: 0;
+}
+
+.btn-red:hover {
+  color: #fff;
+  background-color: var(--red);
+}
+
+.btn-red:focus,
+.btn-red:focus-visible {
+  background-color: var(--red-lighter-5);
+  box-shadow: 0 0 0 0.25rem var(--red-lighter-20);
+}

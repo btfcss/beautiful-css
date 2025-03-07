@@ -1,13 +1,13 @@
 :root {
-  --blue-lighter-5: #1931c0;
-  --blue-lighter-10: #1c36d6;
-  --blue-lighter-15 : #2843e3;
-  --blue-lighter-20: #3f57e6;
+  --blue-lighter-5: #203be2;
+  --blue-lighter-10: #364fe5;
+  --blue-lighter-15 : #4d63e8;
+  --blue-lighter-20: #6376eb;
 
-  --blue-darker-5: #132592;
-  --blue-darker-10: #10207c;
-  --blue-darker-15: #0d1a65;
-  --blue-darker-20: #0a144f;
+  --blue-darker-5: #182eb6;
+  --blue-darker-10: #1529a0;
+  --blue-darker-15: #122389;
+  --blue-darker-20: #0f1d73;
 }
 
 

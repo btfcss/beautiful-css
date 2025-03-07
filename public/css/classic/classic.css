@@ -7,6 +7,12 @@
 @import url(color-gradient.css);
 @import url(buttons.css);
 @import url(cards.css);
+@import url(borders.css);
+@import url(margins.css);
+@import url(paddings.css);
+@import url(overflow.css);
+@import url(width.css);
+
 
 :root {
   color-scheme: light dark;
