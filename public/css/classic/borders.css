@@ -34,6 +34,9 @@
 
 .border-blue {
   border-color: var(--blue);
+  border-width: 1px;
+  border-style: solid;
+
 }
 
 .border-purple {

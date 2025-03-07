@@ -1,10 +1,10 @@
-@import url(blue-gradient);
+@import url(../gradients/blue-gradient);
 @import url(fonts.css);
 
 .btn-red {
   font-family: var(--font-family);
   font-size: 1rem;
-  padding: 0.309rem 0.618rem;
+  padding: 0.3819660113rem 0.6180339887rem;
   border-radius : 0.309rem;
   border: 0;
   cursor: pointer;

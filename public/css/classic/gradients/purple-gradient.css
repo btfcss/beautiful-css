@@ -11,15 +11,15 @@
 }
 
 
-.bg-purple-lighter-5 { background-color: var(--purple-lighter-5); }
-.bg-purple-lighter-10 { background-color: var(--purple-lighter-10); }
-.bg-purple-lighter-15 { background-color: var(--purple-lighter-15); }
-.bg-purple-lighter-20 { background-color: var(--purple-lighter-20); }
+.bg-purple-lighter-5 { background-color: var(--purple-lighter-5); color: var(--white); }
+.bg-purple-lighter-10 { background-color: var(--purple-lighter-10); color: var(--white); }
+.bg-purple-lighter-15 { background-color: var(--purple-lighter-15); color: var(--white); }
+.bg-purple-lighter-20 { background-color: var(--purple-lighter-20); color: var(--white); }
 
-.bg-purple-darker-5 { background-color: var(--purple-darker-5); }
-.bg-purple-darker-10 { background-color: var(--purple-darker-10); }
-.bg-purple-darker-15 { background-color: var(--purple-darker-15); }
-.bg-purple-darker-20 { background-color: var(--purple-darker-20); }
+.bg-purple-darker-5 { background-color: var(--purple-darker-5); color: var(--white); }
+.bg-purple-darker-10 { background-color: var(--purple-darker-10); color: var(--white); }
+.bg-purple-darker-15 { background-color: var(--purple-darker-15); color: var(--white); }
+.bg-purple-darker-20 { background-color: var(--purple-darker-20); color: var(--white); }
 
 .text-purple-lighter-5 { color: var(--purple-lighter-5); }
 .text-purple-lighter-10 { color: var(--purple-lighter-10); }

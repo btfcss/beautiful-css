@@ -51,3 +51,14 @@
   font-family: var(--font-family-monospace);
   text-transform: uppercase;
 }
+
+
+.hashed {
+background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}

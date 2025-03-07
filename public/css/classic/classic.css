@@ -4,14 +4,16 @@
 @import url(horizontal-rule.css);
 @import url(text-alignment.css);
 @import url(headings.css);
-@import url(color-gradient.css);
-@import url(buttons.css);
+@import url(gradients/gradient.css);
+@import url(buttons/buttons.css);
 @import url(cards.css);
 @import url(borders.css);
 @import url(margins.css);
 @import url(paddings.css);
 @import url(overflow.css);
 @import url(width.css);
+@import url(stripes.css);
+@import url(hatching.css);
 
 
 :root {

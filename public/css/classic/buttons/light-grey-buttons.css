@@ -1,0 +1,25 @@
+@import url(../gradients/blue-gradient);
+@import url(fonts.css);
+
+.btn-light-grey {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: 0.3819660113rem 0.6180339887rem;
+  border-radius : 0.309rem;
+  border: 0;
+  cursor: pointer;
+  color: var(--black);
+  background-color: var(--light-grey-lighter-5);
+  outline: 0;
+}
+
+.btn-light-grey:hover {
+  color: #000;
+  background-color: var(--light-grey);
+}
+
+.btn-light-grey:focus,
+.btn-light-grey:focus-visible {
+  background-color: var(--light-grey-lighter-5);
+  box-shadow: 0 0 0 0.25rem var(--light-grey-lighter-20);
+}

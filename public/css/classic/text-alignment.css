@@ -1,23 +1,29 @@
+.align-left,
 .text-left {
   text-align: left;
 }
 
+.align-center,
 .text-center {
   text-align: center;
 }
 
+.align-right,
 .text-right {
   text-align: right;
 }
 
+.align-justify,
 .text-justify {
   text-align: justify;
 }
 
+.align-start,
 .text-start {
   text-align: start;
 }
 
+.align-end,
 .text-end {
   text-align: end;
 }

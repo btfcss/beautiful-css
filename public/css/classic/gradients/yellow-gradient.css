@@ -11,15 +11,15 @@
 }
 
 
-.bg-yellow-lighter-5 { background-color: var(--yellow-lighter-5); }
-.bg-yellow-lighter-10 { background-color: var(--yellow-lighter-10); }
-.bg-yellow-lighter-15 { background-color: var(--yellow-lighter-15); }
-.bg-yellow-lighter-20 { background-color: var(--yellow-lighter-20); }
+.bg-yellow-lighter-5 { background-color: var(--yellow-lighter-5); color: var(--black);}
+.bg-yellow-lighter-10 { background-color: var(--yellow-lighter-10); color: var(--black);}
+.bg-yellow-lighter-15 { background-color: var(--yellow-lighter-15); color: var(--black);}
+.bg-yellow-lighter-20 { background-color: var(--yellow-lighter-20); color: var(--black);}
 
-.bg-yellow-darker-5 { background-color: var(--yellow-darker-5); }
-.bg-yellow-darker-10 { background-color: var(--yellow-darker-10); }
-.bg-yellow-darker-15 { background-color: var(--yellow-darker-15); }
-.bg-yellow-darker-20 { background-color: var(--yellow-darker-20); }
+.bg-yellow-darker-5 { background-color: var(--yellow-darker-5); color: var(--black);}
+.bg-yellow-darker-10 { background-color: var(--yellow-darker-10); color: var(--black);}
+.bg-yellow-darker-15 { background-color: var(--yellow-darker-15); color: var(--black);}
+.bg-yellow-darker-20 { background-color: var(--yellow-darker-20); color: var(--black);}
 
 .text-yellow-lighter-5 { color: var(--yellow-lighter-5); }
 .text-yellow-lighter-10 { color: var(--yellow-lighter-10); }
