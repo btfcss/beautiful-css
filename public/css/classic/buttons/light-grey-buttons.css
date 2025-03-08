@@ -1,5 +1,5 @@
-@import url(../gradients/blue-gradient);
-@import url(fonts.css);
+@import url(../gradients/light-grey-gradient.css);
+@import url(../fonts.css);
 
 .btn-light-grey {
   font-family: var(--font-family);

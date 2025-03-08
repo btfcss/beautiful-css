@@ -17,42 +17,39 @@
 
 
 .border-red {
-  border-color: var(--red);
+  border: 1px solid var(--red);
 }
 
 .border-orange {
-  border-color: var(--orange);
+  border: 1px solid var(--orange);
 }
 
 .border-yellow {
-  border-color: var(--yellow);
+  border: 1px solid var(--yellow);
 }
 
 .border-green {
-  border-color: var(--green);
+  border: 1px solid var(--green);
 }
 
 .border-blue {
-  border-color: var(--blue);
-  border-width: 1px;
-  border-style: solid;
-
+  border: 1px solid var(--blue);
 }
 
 .border-purple {
-  border-color: var(--purple);
+  border: 1px solid var(--purple);
 }
 
 .border-dark-grey {
-  border-color: var(--dark-grey);
+  border: 1px solid var(--dark-grey);
 }
 
 .border-light-grey {
-  border-color: var(--light-grey);
+  border: 1px solid var(--light-grey);
 }
 
 .border-grey {
-  border-color: var(--grey);
+  border: 1px solid var(--grey);
 }
 
 
