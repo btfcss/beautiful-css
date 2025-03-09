@@ -1,0 +1,28 @@
+@import url(spacing.css);
+
+.grid {
+  grid-template-columns: repeat(auto-fit,minmax(0%,1fr));
+  grid-column-gap: var(--spacing-2);
+  grid-row-gap: var(--spacing-2);
+  display: grid;    
+}
+
+.grid-gap-0 {
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+
+.grid-gap-1 {
+  grid-column-gap: var(--spacing-1);
+  grid-row-gap: var(--spacing-1);
+}
+
+.grid-gap-2 {
+  grid-column-gap: var(--spacing-2);
+  grid-row-gap: var(--spacing-2);
+}
+
+.grid-gap-3 {
+  grid-column-gap: var(--spacing-3);
+  grid-row-gap: var(--spacing-3);
+}

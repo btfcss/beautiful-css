@@ -4,52 +4,64 @@
 }
 
 
-.border-0 {
-  border: 0!important;
+.border {
+  border-width: 1px;
+  border-style: solid;
 }
 
 
+.border-solid {
+  border-style: solid;
+}
 
-.border-1 {
-  border: 1px solid var(--grey);
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-double {
+  border-style: double;
 }
 
 
 
 .border-red {
-  border: 1px solid var(--red);
+  border-color: var(--red);
 }
 
 .border-orange {
-  border: 1px solid var(--orange);
+  border-color: var(--orange);
 }
 
 .border-yellow {
-  border: 1px solid var(--yellow);
+  border-color: var(--yellow);
 }
 
 .border-green {
-  border: 1px solid var(--green);
+  border-color: var(--green);
 }
 
 .border-blue {
-  border: 1px solid var(--blue);
+  border-color: var(--blue);
 }
 
 .border-purple {
-  border: 1px solid var(--purple);
+  border-color: var(--purple);
 }
 
 .border-dark-grey {
-  border: 1px solid var(--dark-grey);
+  border-color: var(--dark-grey);
 }
 
 .border-light-grey {
-  border: 1px solid var(--light-grey);
+  border-color: var(--light-grey);
 }
 
 .border-grey {
-  border: 1px solid var(--grey);
+  border-color: var(--grey);
 }
 
 
@@ -58,22 +70,68 @@
 
 
 .rounded-0 {
-  border-radius: 0!important;
+  border-radius: 0 !important;
 }
 
 .rounded,
 .rounded-1 {
-  border-radius: 0.3819660113rem!important;
+  border-radius: 0.3819660113rem !important;
 }
 
 .rounded-2 {
-  border-radius: 1rem!important;
+  border-radius: 1rem !important;
 }
 
 
 
 
 .border-top {
-  border-top: 1px solid var(--border-color)!important;
-  border-bottom: 0!important;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+
+.border-right {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+
+.border-bottom {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.border-left {
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+
+
+
+
+
+.border-0 {
+  border-width: 0;
+}
+
+.border-1 {
+  border-width: 1px; 
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-3 {
+  border-width: 3px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-5 {
+  border-width: 5px;
 }

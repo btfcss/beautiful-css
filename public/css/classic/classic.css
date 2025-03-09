@@ -8,10 +8,9 @@
 @import url(buttons/buttons.css);
 @import url(cards.css);
 @import url(borders.css);
-@import url(margins.css);
-@import url(paddings.css);
 @import url(overflow.css);
 @import url(sizing/sizing.css);
+@import url(layout/layout.css);
 @import url(stripes.css);
 @import url(hatching.css);
 @import url(masonry.css);
@@ -35,15 +34,3 @@ body {
 }
 
 
-
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.375rem;
-}
-
-
-.grid > * {
-  flex: 1 1; /* Grow, shrink, and base size */
-}
