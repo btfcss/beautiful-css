@@ -1,0 +1,25 @@
+@import url(../gradients/opposite-grey-gradient.css);
+@import url(../fonts.css);
+
+.btn-opposite-grey {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: 0.3819660113rem 0.6180339887rem;
+  border-radius : 0.309rem;
+  border: 0;
+  cursor: pointer;
+  color: var(--white-black);
+  background-color: var(--opposite-grey-lighter-5);
+  outline: 0;
+}
+
+.btn-opposite-grey:hover {
+  color: light-dark(#fff, #000);
+  background-color: var(--opposite-grey);
+}
+
+.btn-opposite-grey:focus,
+.btn-opposite-grey:focus-visible {
+  background-color: var(--opposite-grey-lighter-5);
+  box-shadow: 0 0 0 0.25rem var(--opposite-grey-lighter-20);
+}

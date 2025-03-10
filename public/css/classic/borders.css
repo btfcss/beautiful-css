@@ -65,6 +65,10 @@
 }
 
 
+.border-opposite-grey {
+  border-color: var(--opposite-grey);
+}
+
 
 
 

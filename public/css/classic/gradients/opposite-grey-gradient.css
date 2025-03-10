@@ -1,0 +1,87 @@
+@import url(dark-grey-gradient.css);
+@import url(light-grey-gradient.css);
+
+:root {
+  --opposite-grey-lighter-5: light-dark(var(--dark-grey-lighter-5), var(--light-grey-lighter-5));
+  --opposite-grey-lighter-10: light-dark(var(--dark-grey-lighter-10), var(--light-grey-lighter-10));
+  --opposite-grey-lighter-15: light-dark(var(--dark-grey-lighter-15), var(--light-grey-lighter-15));
+  --opposite-grey-lighter-20: light-dark(var(--dark-grey-lighter-20), var(--light-grey-lighter-20));
+
+  --opposite-grey-darker-5: light-dark(var(--dark-grey-darker-5), var(--light-grey-darker-5));
+  --opposite-grey-darker-10: light-dark(var(--dark-grey-darker-10), var(--light-grey-darker-10));
+  --opposite-grey-darker-15: light-dark(var(--dark-grey-darker-15), var(--light-grey-darker-15));
+  --opposite-grey-darker-20: light-dark(var(--dark-grey-darker-20), var(--light-grey-darker-20));
+}
+
+
+.bg-opposite-grey-lighter-5 {
+  background-color: var(--opposite-grey-lighter-5);
+  color: var(--black-white);
+}
+
+.bg-opposite-grey-lighter-10 {
+  background-color: var(--opposite-grey-lighter-10);
+  color: var(--black-white);
+}
+
+.bg-opposite-grey-lighter-15 {
+  background-color: var(--opposite-grey-lighter-15);
+  color: var(--black-white);
+}
+
+.bg-opposite-grey-lighter-20 {
+  background-color: var(--opposite-grey-lighter-20);
+  color: var(--black-white);
+}
+
+.bg-opposite-grey-darker-5 {
+  background-color: var(--opposite-grey-darker-5);
+  color: var(--black-white);
+}
+
+.bg-opposite-grey-darker-10 {
+  background-color: var(--opposite-grey-darker-10);
+  color: var(--black-white);
+}
+
+.bg-opposite-grey-darker-15 {
+  background-color: var(--opposite-grey-darker-15);
+  color: var(--black-white);
+}
+
+.bg-opposite-grey-darker-20 {
+  background-color: var(--opposite-grey-darker-20);
+  color: var(--black-white);
+}
+
+.text-opposite-grey-lighter-5 {
+  color: var(--opposite-grey-lighter-5);
+}
+
+.text-opposite-grey-lighter-10 {
+  color: var(--opposite-grey-lighter-10);
+}
+
+.text-opposite-grey-lighter-15 {
+  color: var(--opposite-grey-lighter-15);
+}
+
+.text-opposite-grey-lighter-20 {
+  color: var(--opposite-grey-lighter-20);
+}
+
+.text-opposite-grey-darker-5 {
+  color: var(--opposite-grey-darker-5);
+}
+
+.text-opposite-grey-darker-10 {
+  color: var(--opposite-grey-darker-10);
+}
+
+.text-opposite-grey-darker-15 {
+  color: var(--opposite-grey-darker-15);
+}
+
+.text-opposite-grey-darker-20 {
+  color: var(--opposite-grey-darker-20);
+}
