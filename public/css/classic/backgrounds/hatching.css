@@ -26,3 +26,34 @@
   background-size: 10px 10px;
   background-image: repeating-linear-gradient(135deg, var(--blue) 0 1px, transparent 0 50%);
 }
+
+
+.hatching-purple {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--purple) 0 1px, transparent 0 50%);
+}
+
+.hatching-dark-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--dark-grey) 0 1px, transparent 0 50%);
+}
+
+.hatching-light-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--light-grey) 0 1px, transparent 0 50%);
+}
+
+.hatching-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--grey) 0 1px, transparent 0 50%);
+}
+
+.hatching-opposite-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--opposite-grey) 0 1px, transparent 0 50%);
+}

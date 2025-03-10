@@ -1,3 +1,13 @@
+.scale-102 {
+  transform: scale(102%);
+}
+
+.hover\:scale-102:hover {
+  transform: scale(102%);
+}
+
+
+
 .scale-105 {
   transform: scale(105%);
 }
