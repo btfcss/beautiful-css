@@ -55,8 +55,8 @@
   color: var(--black-white);
 }
 
-.bg-opposite-grey {
-  background-color: var(--opposite-grey) !important;
+.bg-negative-grey {
+  background-color: var(--negative-grey) !important;
   color: var(--white-black);
 }
 

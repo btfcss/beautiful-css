@@ -72,10 +72,10 @@
       light-dark(var(--light-grey-lighter-5), var(--dark-grey-lighter-15)) 20px);
 }
 
-.stripes-opposite-grey {
+.stripes-negative-grey {
   background: repeating-linear-gradient(135deg,
-      var(--opposite-grey-lighter-20),
-      var(--opposite-grey-lighter-20) 10px,
+      var(--negative-grey-lighter-20),
+      var(--negative-grey-lighter-20) 10px,
       light-dark(var(--dark-grey-lighter-15), var(--light-grey-lighter-5)) 10px,
       light-dark(var(--dark-grey-lighter-15), var(--light-grey-lighter-5)) 20px);
 }

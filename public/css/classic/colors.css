@@ -14,7 +14,7 @@
   /*--light-grey: #bec2d1;*/
   --dark-grey: #3B4154;
   --grey: light-dark(var(--light-grey), var(--dark-grey));
-  --opposite-grey: light-dark(var(--dark-grey), var(--light-grey));
+  --negative-grey: light-dark(var(--dark-grey), var(--light-grey));
   --white-black: light-dark(var(--white), var(--black));
   --black-white: light-dark(var(--black), var(--white));
 

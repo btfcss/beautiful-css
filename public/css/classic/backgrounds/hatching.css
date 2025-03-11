@@ -52,8 +52,8 @@
   background-image: repeating-linear-gradient(135deg, var(--grey) 0 1px, transparent 0 50%);
 }
 
-.hatching-opposite-grey {
+.hatching-negative-grey {
   background-position: 0 0;
   background-size: 10px 10px;
-  background-image: repeating-linear-gradient(135deg, var(--opposite-grey) 0 1px, transparent 0 50%);
+  background-image: repeating-linear-gradient(135deg, var(--negative-grey) 0 1px, transparent 0 50%);
 }

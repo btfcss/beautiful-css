@@ -1,0 +1,87 @@
+@import url(dark-grey-gradient.css);
+@import url(light-grey-gradient.css);
+
+:root {
+  --negative-grey-lighter-5: light-dark(var(--dark-grey-lighter-5), var(--light-grey-lighter-5));
+  --negative-grey-lighter-10: light-dark(var(--dark-grey-lighter-10), var(--light-grey-lighter-10));
+  --negative-grey-lighter-15: light-dark(var(--dark-grey-lighter-15), var(--light-grey-lighter-15));
+  --negative-grey-lighter-20: light-dark(var(--dark-grey-lighter-20), var(--light-grey-lighter-20));
+
+  --negative-grey-darker-5: light-dark(var(--dark-grey-darker-5), var(--light-grey-darker-5));
+  --negative-grey-darker-10: light-dark(var(--dark-grey-darker-10), var(--light-grey-darker-10));
+  --negative-grey-darker-15: light-dark(var(--dark-grey-darker-15), var(--light-grey-darker-15));
+  --negative-grey-darker-20: light-dark(var(--dark-grey-darker-20), var(--light-grey-darker-20));
+}
+
+
+.bg-negative-grey-lighter-5 {
+  background-color: var(--negative-grey-lighter-5);
+  color: var(--black-white);
+}
+
+.bg-negative-grey-lighter-10 {
+  background-color: var(--negative-grey-lighter-10);
+  color: var(--black-white);
+}
+
+.bg-negative-grey-lighter-15 {
+  background-color: var(--negative-grey-lighter-15);
+  color: var(--black-white);
+}
+
+.bg-negative-grey-lighter-20 {
+  background-color: var(--negative-grey-lighter-20);
+  color: var(--black-white);
+}
+
+.bg-negative-grey-darker-5 {
+  background-color: var(--negative-grey-darker-5);
+  color: var(--black-white);
+}
+
+.bg-negative-grey-darker-10 {
+  background-color: var(--negative-grey-darker-10);
+  color: var(--black-white);
+}
+
+.bg-negative-grey-darker-15 {
+  background-color: var(--negative-grey-darker-15);
+  color: var(--black-white);
+}
+
+.bg-negative-grey-darker-20 {
+  background-color: var(--negative-grey-darker-20);
+  color: var(--black-white);
+}
+
+.text-negative-grey-lighter-5 {
+  color: var(--negative-grey-lighter-5);
+}
+
+.text-negative-grey-lighter-10 {
+  color: var(--negative-grey-lighter-10);
+}
+
+.text-negative-grey-lighter-15 {
+  color: var(--negative-grey-lighter-15);
+}
+
+.text-negative-grey-lighter-20 {
+  color: var(--negative-grey-lighter-20);
+}
+
+.text-negative-grey-darker-5 {
+  color: var(--negative-grey-darker-5);
+}
+
+.text-negative-grey-darker-10 {
+  color: var(--negative-grey-darker-10);
+}
+
+.text-negative-grey-darker-15 {
+  color: var(--negative-grey-darker-15);
+}
+
+.text-negative-grey-darker-20 {
+  color: var(--negative-grey-darker-20);
+}
