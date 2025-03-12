@@ -1,23 +1,18 @@
+@import url(button.css);
 @import url(../gradients/light-grey-gradient.css);
 @import url(../fonts.css);
 
 .btn-light-grey {
-  font-family: var(--font-family);
-  font-size: 1rem;
-  padding: 0.3819660113rem 0.6180339887rem;
-  border-radius : 0.309rem;
   border: 1px solid var(--light-grey-lighter-5);
-  cursor: pointer;
   color: var(--black);
   background-color: var(--light-grey-lighter-5);
-  outline: 0;
 }
 
 .btn-light-grey.outline {
-  background-color: transparent;
   color: var(--light-grey-lighter-5);
 }
 
+.btn-light-grey.outline:hover,
 .btn-light-grey:hover {
   color: #000;
   border-color: var(--light-grey);

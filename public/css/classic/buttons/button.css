@@ -1,0 +1,33 @@
+.btn-red,
+.btn-orange,
+.btn-yellow,
+.btn-green,
+.btn-blue,
+.btn-purple,
+.btn-dark-grey,
+.btn-light-grey,
+.btn-grey,
+.btn-negative-grey {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius : var(--spacing-2);
+  cursor: pointer;
+  outline: 0; 
+  transition: background-color,border-color,color,fill,stroke, 0.15s;
+
+}
+
+.btn-red.outline,
+.btn-orange.outline,
+.btn-yellow.outline,
+.btn-green.outline,
+.btn-blue.outline,
+.btn-purple.outline,
+.btn-dark-grey.outline,
+.btn-light-grey.outline,
+.btn-grey.outline,
+.btn-negative-grey.outline {
+  background-color: transparent;
+}
+

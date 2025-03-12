@@ -1,5 +1,7 @@
+@import url(layout/spacing.css);
+
 :root {
-  --border-radius: 0.61rem;
+  --border-radius: var(--spacing-4);
   --border-color: light-dark(#00000014, #ffffff14);
 }
 
@@ -79,7 +81,21 @@
 
 .rounded,
 .rounded-1 {
-  border-radius: 0.3819660113rem !important;
+  border-radius: var(--spacing-1) !important;
+}
+
+.rounded-2 {
+  border-radius: var(--spacing-2) !important;
+}
+
+.rounded,
+.rounded-3 {
+  border-radius: var(--spacing-3) !important;
+}
+
+
+.rounded-4 {
+  border-radius: var(--spacing-4) !important;
 }
 
 .rounded-2 {

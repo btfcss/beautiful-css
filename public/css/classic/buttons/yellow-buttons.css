@@ -1,23 +1,19 @@
+@import url(button.css);
 @import url(../gradients/yellow-gradient.css);
 @import url(../fonts.css);
 
 .btn-yellow {
   font-family: var(--font-family);
-  font-size: 1rem;
-  padding: 0.3819660113rem 0.6180339887rem;
-  border-radius : 0.309rem;
   border: 1px solid var(--yellow-lighter-5);
-  cursor: pointer;
   color: var(--black);
   background-color: var(--yellow-lighter-5);
-  outline: 0;
 }
 
 .btn-yellow.outline {
-  background-color: transparent;
   color: var(--yellow-lighter-5);
 }
 
+.btn-yellow.outline:hover,
 .btn-yellow:hover {
   color: #000;
   border-color: var(--yellow);

@@ -1,23 +1,20 @@
+@import url(button.css);
 @import url(../gradients/orange-gradient.css);
 @import url(../fonts.css);
 
 .btn-orange {
   font-family: var(--font-family);
-  font-size: 1rem;
-  padding: 0.3819660113rem 0.6180339887rem;
-  border-radius : 0.309rem;
   border: 1px solid var(--orange-lighter-5);
-  cursor: pointer;
   color: var(--black);
   background-color: var(--orange-lighter-5);
-  outline: 0;
+
 }
 
 .btn-orange.outline {
-  background-color: transparent;
   color: var(--orange-lighter-5);
 }
 
+.btn-orange.outline:hover ,
 .btn-orange:hover {
   color: #000;  
   border-color: var(--orange);

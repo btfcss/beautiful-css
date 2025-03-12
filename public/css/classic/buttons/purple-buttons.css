@@ -1,23 +1,19 @@
+@import url(button.css);
 @import url(../gradients/purple-gradient.css);
 @import url(../fonts.css);
 
 .btn-purple {
   font-family: var(--font-family);
-  font-size: 1rem;
-  padding: 0.3819660113rem 0.6180339887rem;
-  border-radius : 0.309rem;
   border: 1px solid var(--purple-lighter-5);
-  cursor: pointer;
   color: var(--white);
   background-color: var(--purple-lighter-5);
-  outline: 0;
 }
 
 .btn-purple.outline {
-  background-color: transparent;
   color: var(--purple-lighter-5);
 }
 
+.btn-purple.outline:hover,
 .btn-purple:hover {
   color: #fff;
   border-color: var(--purple);

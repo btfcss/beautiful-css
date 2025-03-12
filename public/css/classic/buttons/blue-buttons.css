@@ -1,23 +1,18 @@
+@import url(button.css);
 @import url(../gradients/blue-gradient.css);
 @import url(../fonts.css);
 
 .btn-blue {
-  font-family: var(--font-family);
-  font-size: 1rem;
-  padding: 0.3819660113rem 0.6180339887rem;
-  border-radius : 0.309rem;
   border: 1px solid var(--blue-lighter-10);
-  cursor: pointer;
   color: var(--white);
   background-color: var(--blue-lighter-10);
-  outline: 0;
 }
 
 .btn-blue.outline {
-  background-color: transparent;
   color: var(--blue-lighter-10);
 }
 
+.btn-blue.outline:hover,
 .btn-blue:hover {
   color: #fff;
   border-color: var(--blue-lighter-5);
