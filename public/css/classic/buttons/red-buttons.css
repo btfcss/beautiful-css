@@ -9,18 +9,29 @@
   background-color: var(--red-lighter-10);
 }
 
+.btn-red:disabled {
+  background-color: var(--red-lighter-20);
+  border-color: var(--red-lighter-20);
+  color: var(--light-grey-darker-5);
+  cursor: auto;
+}
+
 .btn-red.outline {
   color: var(--red-lighter-10);
 }
 
-.btn-red.outline:hover,
-.btn-red:hover {
+.btn-red.outline:disabled {
+  color: var(--red-lighter-20);
+}
+
+.btn-red.outline:hover:not(:disabled),
+.btn-red:hover:hover:not(:disabled) {
   color: #fff;
   border-color: var(--red-lighter-5);
   background-color: var(--red-lighter-5);
 }
 
-.btn-red:focus,
-.btn-red:focus-visible {
+.btn-red:focus:hover:not(:disabled),
+.btn-red:focus-visible:hover:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--red-lighter-20);
 }

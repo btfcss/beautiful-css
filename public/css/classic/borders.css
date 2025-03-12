@@ -93,15 +93,26 @@
   border-radius: var(--spacing-3) !important;
 }
 
-
 .rounded-4 {
   border-radius: var(--spacing-4) !important;
 }
 
-.rounded-2 {
-  border-radius: 1rem !important;
+.rounded-5 {
+  border-radius: var(--spacing-5) !important;
 }
 
+.rounded-6 {
+  border-radius: var(--spacing-6) !important;
+}
+
+.rounded-7 {
+  border-radius: var(--spacing-7) !important;
+}
+
+
+.rounded-pill {
+  border-radius: 50vh!important;
+}
 
 
 

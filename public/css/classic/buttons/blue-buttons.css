@@ -8,18 +8,31 @@
   background-color: var(--blue-lighter-10);
 }
 
+
+.btn-blue:disabled {
+  background-color: var(--blue-lighter-20);
+  border-color: var(--blue-darker-5);
+  color: var(--light-grey-darker-15);
+  cursor: auto;
+}
+
+
 .btn-blue.outline {
   color: var(--blue-lighter-10);
 }
 
-.btn-blue.outline:hover,
-.btn-blue:hover {
+.btn-blue.outline:disabled {
+  color: var(--blue-lighter-5);
+}
+
+.btn-blue.outline:hover:not(:disabled),
+.btn-blue:hover:not(:disabled) {
   color: #fff;
   border-color: var(--blue-lighter-5);
   background-color: var(--blue-lighter-5);
 }
 
-.btn-blue:focus,
-.btn-blue:focus-visible {
+.btn-blue:focus:not(:disabled),
+.btn-blue:focus-visible:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--blue-lighter-20);
 }
