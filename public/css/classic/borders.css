@@ -66,12 +66,17 @@
   border-color: var(--grey);
 }
 
-
 .border-negative-grey {
   border-color: var(--negative-grey);
 }
 
+.border-white {
+  border-color: var(--white);
+}
 
+.border-black {
+  border-color: var(--black);
+}
 
 
 

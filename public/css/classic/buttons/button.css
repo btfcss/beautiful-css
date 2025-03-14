@@ -18,16 +18,29 @@
 
 }
 
-.btn-red.outline,
-.btn-orange.outline,
-.btn-yellow.outline,
-.btn-green.outline,
-.btn-blue.outline,
-.btn-purple.outline,
-.btn-dark-grey.outline,
-.btn-light-grey.outline,
-.btn-grey.outline,
-.btn-negative-grey.outline {
-  background-color: transparent;
+
+
+.btn-red:disabled,
+.btn-orange:disabled,
+.btn-yellow:disabled,
+.btn-green:disabled,
+.btn-blue:disabled,
+.btn-purple:disabled,
+.btn-dark-grey:disabled,
+.btn-light-grey:disabled,
+.btn-grey:disabled,
+.btn-negative-grey:disabled {  
+  cursor: auto;
 }
+
+.btn-circular {
+  aspect-ratio: 1/1;
+  border-radius: 100%
+}
+
+
+.btn-square {
+  aspect-ratio: 1/1;
+}
+
 

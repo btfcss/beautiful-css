@@ -1,5 +1,5 @@
 @import url(button.css);
-@import url(../gradients/light-grey-gradient.css);
+@import url(../colors/light-grey-gradient.css);
 @import url(../fonts.css);
 
 .btn-light-grey {
@@ -8,18 +8,31 @@
   background-color: var(--light-grey-lighter-5);
 }
 
+.btn-light-grey:disabled {
+  border-color: var(--light-grey-disabled);
+  background-color: var(--light-grey-disabled);
+  color: var(--black-disabled)
+}
+
 .btn-light-grey.outline {
-  color: var(--light-grey-lighter-5);
+  background-color: transparent;
+  border-color: light-dark(var(--light-grey-darker-15), var(--light-grey-lighter-5));
+  color: light-dark(var(--light-grey-darker-15), var(--light-grey-lighter-5));
 }
 
-.btn-light-grey.outline:hover,
-.btn-light-grey:hover {
+.btn-light-grey.outline:disabled {
+  border-color: var(--dark-grey-disabled);
+  color: var(--dark-grey-disabled);
+}
+
+.btn-light-grey.outline:hover:not(:disabled),
+.btn-light-grey:hover:not(:disabled) {
   color: #000;
-  border-color: var(--light-grey);
-  background-color: var(--light-grey);
+  border-color: var(--light-grey-darker-5);
+  background-color: var(--light-grey-darker-5);
 }
 
-.btn-light-grey:focus,
-.btn-light-grey:focus-visible {
+.btn-light-grey:focus:not(:disabled),
+.btn-light-grey:focus-visible:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--light-grey-lighter-20);
 }

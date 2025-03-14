@@ -1,4 +1,4 @@
-@import url(../colors.css);
+@import url(../colors/colors.css);
 
 .bg-black {
   background-color: var(--black) !important;

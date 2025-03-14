@@ -1,5 +1,6 @@
 @import url(button.css);
-@import url(../gradients/red-gradient.css);
+@import url(../colors/red-gradient.css);
+@import url(../colors/disabled-colors.css);
 @import url(../fonts.css);
 
 .btn-red {
@@ -10,18 +11,18 @@
 }
 
 .btn-red:disabled {
-  background-color: var(--red-lighter-20);
-  border-color: var(--red-lighter-20);
-  color: var(--light-grey-darker-5);
-  cursor: auto;
+  border-color: var(--red-disabled);
+  background-color: var(--red-disabled);
+  color: var(--white-disabled)
 }
 
 .btn-red.outline {
+  background-color: transparent;
   color: var(--red-lighter-10);
 }
 
 .btn-red.outline:disabled {
-  color: var(--red-lighter-20);
+  color: var(--red-disabled);
 }
 
 .btn-red.outline:hover:not(:disabled),

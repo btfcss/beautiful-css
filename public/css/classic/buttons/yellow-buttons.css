@@ -1,26 +1,38 @@
 @import url(button.css);
-@import url(../gradients/yellow-gradient.css);
+@import url(../colors/yellow-gradient.css);
 @import url(../fonts.css);
 
 .btn-yellow {
-  font-family: var(--font-family);
   border: 1px solid var(--yellow-lighter-5);
   color: var(--black);
   background-color: var(--yellow-lighter-5);
 }
 
+
+.btn-yellow:disabled {
+  border-color: var(--yellow-disabled);
+  background-color: var(--yellow-disabled);
+  color: var(--black-disabled)
+}
+
+
 .btn-yellow.outline {
+  background-color: transparent;
   color: var(--yellow-lighter-5);
 }
 
-.btn-yellow.outline:hover,
-.btn-yellow:hover {
+.btn-yellow.outline:disabled {
+  color: var(--yellow-disabled);
+}
+
+.btn-yellow.outline:hover:not(:disabled),
+.btn-yellow:hover:not(:disabled) {
   color: #000;
   border-color: var(--yellow);
   background-color: var(--yellow);
 }
 
-.btn-yellow:focus,
-.btn-yellow:focus-visible {
+.btn-yellow:focus:not(:disabled),
+.btn-yellow:focus-visible:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--yellow-lighter-20);
 }

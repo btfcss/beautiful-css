@@ -1,10 +1,10 @@
 @import url(fonts.css);
-@import url(colors.css);
+@import url(colors/colors.css);
 @import url(typography.css);
 @import url(horizontal-rule.css);
 @import url(text-alignment.css);
 @import url(headings.css);
-@import url(gradients/gradient.css);
+@import url(colors/gradient.css);
 @import url(buttons/buttons.css);
 @import url(cards.css);
 @import url(borders.css);

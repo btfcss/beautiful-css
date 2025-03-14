@@ -1,26 +1,37 @@
 @import url(button.css);
-@import url(../gradients/purple-gradient.css);
+@import url(../colors/purple-gradient.css);
 @import url(../fonts.css);
 
 .btn-purple {
   font-family: var(--font-family);
-  border: 1px solid var(--purple-lighter-5);
+  border: 1px solid var(--purple-lighter-10);
   color: var(--white);
-  background-color: var(--purple-lighter-5);
+  background-color: var(--purple-lighter-10);
+}
+
+.btn-purple:disabled {
+  border-color: var(--purple-disabled);
+  background-color: var(--purple-disabled);
+  color: var(--white-disabled)
 }
 
 .btn-purple.outline {
-  color: var(--purple-lighter-5);
+  background-color: transparent;
+  color: var(--purple-lighter-10);
 }
 
-.btn-purple.outline:hover,
-.btn-purple:hover {
+.btn-purple.outline:disabled {
+  color: var(--purple-disabled);
+}
+
+.btn-purple.outline:hover:not(:disabled),
+.btn-purple:hover:not(:disabled) {
   color: #fff;
   border-color: var(--purple);
   background-color: var(--purple);
 }
 
-.btn-purple:focus,
-.btn-purple:focus-visible {
+.btn-purple:focus:not(:disabled),
+.btn-purple:focus-visible:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--purple-lighter-20);
 }

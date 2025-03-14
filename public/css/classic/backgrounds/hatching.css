@@ -57,3 +57,16 @@
   background-size: 10px 10px;
   background-image: repeating-linear-gradient(135deg, var(--negative-grey) 0 1px, transparent 0 50%);
 }
+
+
+.hatching-white {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--white) 0 1px, transparent 0 50%);
+}
+
+.hatching-black {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--black) 0 1px, transparent 0 50%);
+}
