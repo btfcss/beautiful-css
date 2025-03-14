@@ -9,11 +9,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link id="code-theme" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+  <script async src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css" />
+
+
   <title>Beautiful CSS</title>
   <meta name="description" content="Beautifull CSS Home page">
 </head>
 
-<body>
+<body class="dotted-grey">
   <div id="main">
     <div>
       <i id="btn-theme-light" class="fa-solid fa-sun"></i>&nbsp;
@@ -40,7 +50,7 @@
     <div class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
 
 
-
+      <!-- Headings -->
       <div class="card">
         <div class="header">
           <h2>Headings</h2>
@@ -60,7 +70,7 @@
 
 
 
-
+      <!-- Typography -->
       <div class="card">
         <div class="header">
           <h2>Typography</h2>
@@ -102,6 +112,52 @@
       </div>
 
 
+      <!-- Colors -->
+      <div class="card">
+        <div class="header">
+          <h2>Text Colors</h2>
+        </div>
+        <div class="body text-center">
+
+          <div class="rounded hover:scale-105 m-2 text-red">Red</div>
+          <div class="rounded hover:scale-105 m-2 text-orange text-black">Orange</div>
+          <div class="rounded hover:scale-105 m-2 text-yellow text-black">Yellow</div>
+          <div class="rounded hover:scale-105 m-2 text-green">Green</div>
+          <div class="rounded hover:scale-105 m-2 text-blue">Blue</div>
+          <div class="rounded hover:scale-105 m-2 text-purple">Purple</div>
+          <div class="rounded hover:scale-105 m-2 text-dark-grey">Dark grey</div>
+          <div class="rounded hover:scale-105 m-2 text-light-grey text-black">Light grey</div>
+          <div class="rounded hover:scale-105 m-2 text-grey">Grey</div>
+          <div class="rounded hover:scale-105 m-2 text-negative-grey">Negative grey</div>
+        </div>
+        <div class="footer align-right">
+          <button class="btn-green">&lt;code&gt;</button>
+        </div>
+      </div>
+
+
+      <!-- Background Colors -->
+      <div class="card">
+        <div class="header">
+          <h2>Background Colors</h2>
+        </div>
+        <div class="body text-center">
+
+          <div class="rounded hover:scale-105 p-4 m-3 bg-red">Red</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-orange text-black">Orange</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-yellow text-black">Yellow</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-green">Green</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-blue">Blue</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-purple">Purple</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-dark-grey">Dark grey</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-light-grey text-black">Light grey</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-grey">Grey</div>
+          <div class="rounded hover:scale-105 p-4 m-3 bg-negative-grey">Negative grey</div>
+        </div>
+        <div class="footer align-right">
+          <button class="btn-green">&lt;code&gt;</button>
+        </div>
+      </div>
 
 
       <div class="card">
@@ -201,11 +257,7 @@
         </div>
       </div>
 
-
-
-
-
-
+      <!-- Buttons -->
       <div class="card">
         <div class="header">
           <h2>Buttons</h2>
@@ -227,6 +279,8 @@
         </div>
       </div>
 
+
+      <!-- Outline Buttons -->
       <div class="card">
         <div class="header">
           <h2>Outline Buttons</h2>
@@ -250,7 +304,7 @@
 
 
 
-
+      <!-- Button Size -->
       <div class="card">
         <div class="header">
           <h2>Button Size</h2>
@@ -279,6 +333,7 @@
         </div>
       </div>
 
+      <!-- Disabled Buttons -->
       <div class="card">
         <div class="header">
           <h2>Disabled Buttons</h2>
@@ -331,7 +386,7 @@
       </div>
 
 
-
+      <!-- Button Style -->
       <div class="card">
         <div class="header">
           <h2>Button Style</h2>
@@ -361,57 +416,9 @@
 
 
 
-      <!-- Colors -->
-      <div class="card">
-        <div class="header">
-          <h2>Colors</h2>
-        </div>
-        <div class="body">
 
-          <div class="rounded hover:scale-105 p-4 m-3 bg-red">
-            <span>Red</span>
-            <span>#DE3023</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 bg-orange text-black">
-            <span>Orange</span>
-            <span>#FFAA40</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 bg-yellow text-black"><span>Yellow</span><span>#DED140</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 bg-green">
-            <span>Green</span>
-            <span>#1F8F49</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 bg-blue">
-            <span>Blue</span>
-            <span>#162BA9</span>
-          </div>
 
-          <div class="rounded hover:scale-105 p-4 m-3 bg-purple">
-            <span>Purple</span>
-            <span>#B834C7</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 bg-dark-grey">
-            <span>Dark grey</span>
-            <span>#3B4154</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 bg-light-grey text-black">
-            <span>Light grey</span>
-            <span>#DCDEE6</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 bg-grey">
-            <span>Grey</span>
-            <span>#??????</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 bg-negative-grey">
-            <span>Negative grey</span>
-            <span>#??????</span>
-          </div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
+
 
 
       <!-- Border Colors -->
@@ -475,22 +482,22 @@
           <h2>Borders Size</h2>
         </div>
         <div class="body text-center">
-          <div class="border-0 rounded p-4 m-3 border border-negative-grey bg-grey">
+          <div class="border-0 rounded p-4 m-3 hover:scale-105 border border-negative-grey bg-grey">
             No Border
           </div>
-          <div class="border-1 rounded p-4 m-3 border border-negative-grey bg-grey">
+          <div class="border-1 rounded p-4 m-3 hover:scale-105  border border-negative-grey bg-grey">
             1px
           </div>
-          <div class="border-2 rounded p-4 m-3 border border-negative-grey bg-grey">
+          <div class="border-2 rounded p-4 m-3 hover:scale-105  border border-negative-grey bg-grey">
             2px
           </div>
-          <div class="border-3 rounded p-4 m-3 border border-negative-grey bg-grey">
+          <div class="border-3 rounded p-4 m-3 hover:scale-105  border border-negative-grey bg-grey">
             3px
           </div>
-          <div class="border-4 rounded p-4 m-3 border border-negative-grey bg-grey">
+          <div class="border-4 rounded p-4 m-3 hover:scale-105  border border-negative-grey bg-grey">
             4px
           </div>
-          <div class="border-5 rounded p-4 m-3 border border-negative-grey bg-grey">
+          <div class="border-5 rounded p-4 m-3 hover:scale-105  border border-negative-grey bg-grey">
             5px
           </div>
 
@@ -507,16 +514,16 @@
           <h2>Borders Styles</h2>
         </div>
         <div class="body text-center">
-          <div class="border-2 rounded border-solid p-4 m-3 border-negative-grey bg-grey">
+          <div class="border-2 rounded border-solid hover:scale-105  p-4 m-3 border-negative-grey bg-grey">
             Solid
           </div>
-          <div class="border-2 rounded border-dashed p-4 m-3 border-negative-grey bg-grey">
+          <div class="border-2 rounded border-dashed hover:scale-105  p-4 m-3 border-negative-grey bg-grey">
             Dashed
           </div>
-          <div class="border-2 rounded border-dotted p-4 m-3 border-negative-grey bg-grey">
+          <div class="border-2 rounded border-dotted hover:scale-105  p-4 m-3 border-negative-grey bg-grey">
             Dotted
           </div>
-          <div class="border-2 rounded border-double p-4 m-3 border-negative-grey bg-grey">
+          <div class="border-2 rounded border-double hover:scale-105  p-4 m-3 border-negative-grey bg-grey">
             Double
           </div>
         </div>
@@ -534,16 +541,16 @@
         </div>
         <div class="body text-center">
 
-          <div class="border-top p-4 m-3 border-negative-grey bg-grey">
+          <div class="border-top p-4 m-3 hover:scale-105  border-negative-grey bg-grey">
             Top Border
           </div>
-          <div class="border-right p-4 m-3 border-negative-grey bg-grey">
+          <div class="border-right p-4 m-3 hover:scale-105  border-negative-grey bg-grey">
             Right Border
           </div>
-          <div class="border-left p-4 m-3 border-negative-grey bg-grey">
+          <div class="border-left p-4 m-3 hover:scale-105  border-negative-grey bg-grey">
             Left Border
           </div>
-          <div class="border-bottom p-4 m-3 border-negative-grey bg-grey">
+          <div class="border-bottom p-4 m-3 hover:scale-105  border-negative-grey bg-grey">
             Bottom Border
           </div>
 
@@ -561,34 +568,34 @@
         </div>
         <div class="body text-center">
 
-          <div class="p-3 m-3 bg-grey">
+          <div class="p-3 m-3 bg-grey hover:scale-105 ">
             Rounded 0
           </div>
-          <div class="p-3 m-3 bg-grey rounded-1">
+          <div class="p-3 m-3 bg-grey hover:scale-105  rounded-1">
             Rounded 1
           </div>
-          <div class="p-3 m-3 bg-grey rounded-2">
+          <div class="p-3 m-3 bg-grey hover:scale-105  rounded-2">
             Rounded 2
           </div>
-          <div class="p-4 m-3 bg-grey rounded-2">
+          <div class="p-4 m-3 bg-grey hover:scale-105  rounded-2">
             Rounded 2
           </div>
-          <div class="p-4 m-3 bg-grey rounded-3">
+          <div class="p-4 m-3 bg-grey hover:scale-105  rounded-3">
             Rounded 3
           </div>
-          <div class="p-4 m-3 bg-grey rounded-4">
+          <div class="p-4 m-3 bg-grey hover:scale-105  rounded-4">
             Rounded 4
           </div>
-          <div class="p-5 m-3 bg-grey rounded-5">
+          <div class="p-5 m-3 bg-grey hover:scale-105  rounded-5">
             Rounded 5
           </div>
-          <div class="p-6 m-3 bg-grey rounded-6">
+          <div class="p-6 m-3 bg-grey hover:scale-105  rounded-6">
             Rounded 6
           </div>
-          <div class="p-7 m-3 bg-grey rounded-7">
+          <div class="p-7 m-3 bg-grey hover:scale-105  rounded-7">
             Rounded 7
           </div>
-          <div class="p-7 m-3 bg-grey rounded-pill">
+          <div class="p-7 m-3 bg-grey hover:scale-105  rounded-pill">
             Rounded pill
           </div>
         </div>
@@ -676,6 +683,22 @@
         </div>
       </div>
 
+      <!-- Code -->
+      <div class="card">
+        <div class="header">
+          <h2>Code</h2>
+        </div>
+        <div class="body">
+          <pre class="w-100">
+            <code  class="rounded border border-grey w-100" class="language-js">function readmeDemo() {
+  alert("Hello world!");
+}</code>
+          </pre>
+        </div>
+        <div class="footer align-right">
+          <button class="btn-green">&lt;code&gt;</button>
+        </div>
+      </div>
 
       <!-- Stripes -->
       <div class="card">
@@ -692,7 +715,8 @@
           <div class="rounded hover:scale-105 p-4 m-3 stripes-dark-grey text-white ">Dark grey stripes</div>
           <div class="rounded hover:scale-105 p-4 m-3 stripes-light-grey">Light grey stripes</div>
           <div class="rounded hover:scale-105 p-4 m-3 stripes-grey text-black-white">Grey stripes</div>
-          <div class="rounded hover:scale-105 p-4 m-3 stripes-negative-grey text-white-black">Negative grey stripes</div>
+          <div class="rounded hover:scale-105 p-4 m-3 stripes-negative-grey text-white-black">Negative grey stripes
+          </div>
         </div>
         <div class="footer align-right">
           <button class="btn-green">&lt;code&gt;</button>
@@ -721,6 +745,8 @@
         </div>
       </div>
 
+
+      <!-- Dotted Grid -->
       <div class="card">
         <div class="header">
           <h2>Dotted Grid</h2>
@@ -744,6 +770,7 @@
       </div>
 
 
+      <!-- Aspect Ratio -->
       <div class="card">
         <div class="header">
           <h2>Aspect Ratio</h2>
@@ -766,7 +793,7 @@
 
 
 
-
+      <!-- Color Gradient -->
       <div class="card">
         <div class="header ">
           <h2>Color Gradients</h2>
@@ -899,28 +926,82 @@
 
     </div> <!-- end of masonry -->
 
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
+
 
     <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        hljs.addPlugin(
+          new CopyButtonPlugin({
+            autohide: false, // Always show the copy button
+          })
+        );
+      });
+
 
       document.getElementById('btn-theme-light').addEventListener('click', () => {
         document.querySelector(':root').style.setProperty('color-scheme', 'light');
+        //  updateCodeTheme()
       })
 
       document.getElementById('btn-theme-system').addEventListener('click', () => {
         document.querySelector(':root').style.setProperty('color-scheme', 'light dark');
+        console.log (darkModeMediaQuery);
+        //updateCodeTheme()
+
       })
 
       document.getElementById('btn-theme-dark').addEventListener('click', () => {
         document.querySelector(':root').style.setProperty('color-scheme', 'dark');
+        //updateCodeTheme()
       })
 
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) console.log('dark mode')
-      else console.log('light mode')
+      // Function to handle theme change
+      function handleThemeChange(event) {
+        if (event.matches) {
+          console.log("Dark mode is active");
+          // Perform actions when dark mode is enabled
+        } else {
+          console.log("Light mode is active");
+          // Perform actions when light mode is enabled
+        }
+      }
+
+      // Create a media query listener
+      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+      // Initial check
+      handleThemeChange(darkModeMediaQuery);
+
+      // Listen for changes
+      darkModeMediaQuery.addEventListener('change', handleThemeChange);
+      /*
+      const darkMode = matchMedia?.(`(prefers-color-scheme: dark)`);
+
+
+      function updateCodeTheme() {
+        console.log(darkMode);
+        if (document.querySelector(':root').style.colorScheme == 'dark')
+          document.getElementById('code-theme').href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css";
+        else
+          document.getElementById('code-theme').href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-light.min.css";
+      }
+
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        console.log('dark mode');
+      }
+      else {
+        console.log('light mode');
+      }
 
       window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
         const newColorScheme = e.matches ? "dark" : "light";
         console.log('change', newColorScheme)
       });
+      */
     </script>
 </body>
 
