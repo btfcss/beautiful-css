@@ -4,19 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link id="code-theme" rel="stylesheet" href="/highlight/styles/tokyo-night-dark.min.css">
+
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="stylesheet" type="text/css" href="/css/classic/classic.css" id="style">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    
+    
+    <!--
+    <link id="prismjs-css-file" rel="stylesheet" href="/prismjs/prism-okaida-dark.css" />
+    -->
 
-  <link id="code-theme" rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 
-  <script async src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css" />
+  
+
 
 
   <title>Beautiful CSS</title>
@@ -689,15 +694,35 @@
           <h2>Code</h2>
         </div>
         <div class="body">
-          <pre class="w-100">
-            <code  class="rounded border border-grey w-100" class="language-js">function readmeDemo() {
-  alert("Hello world!");
-}</code>
-          </pre>
+
+<pre><code class="rounded language-js">// JavaScript
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(2, 3));
+</code></pre>
+
+<pre><code class="language-css rounded">/* CSS */
+  
+p { color: red }</code></pre>
+
+
+<pre><code class="language-python rounded"># Python
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana"]
+          
+for x in adj:
+  for y in fruits:
+    print(x, y)</code></pre>
         </div>
         <div class="footer align-right">
           <button class="btn-green">&lt;code&gt;</button>
         </div>
+
+
       </div>
 
       <!-- Stripes -->
@@ -927,81 +952,83 @@
     </div> <!-- end of masonry -->
 
     <!-- and it's easy to individually load additional languages -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
 
-    <script>hljs.highlightAll();</script>
+    <
+    <script src="/highlight/highlight.js"></script>
+    
+    
 
 
+    <!-- 
+    <script async src="/prismjs/prism.js"></script> -->
     <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        hljs.addPlugin(
-          new CopyButtonPlugin({
-            autohide: false, // Always show the copy button
-          })
-        );
+    
+      hljs.highlightAll({showLanguageLabel: true});
+      //hljs.highlightBlock(block, {showLanguageLabel: true});
+  
+      // Get system color scheme (return light ot dark)
+      function getSystemTheme() {
+        return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? "dark" : "light";
+      }
+
+
+
+      let userChoice = 'system';
+      let currentTheme = getSystemTheme();
+
+      // Triggered when the theme changed
+      document.addEventListener('color-scheme-changed', (event) => {
+        let newTheme = currentTheme;
+
+        // Check if the change comes from the system
+        if (event.detail.origin === "system") {
+          if (userChoice == 'system') newTheme = event.detail.theme;
+        }
+        else { 
+          newTheme = (event.detail.theme !== 'system') ? event.detail.theme : getSystemTheme();
+          userChoice = event.detail.theme;
+        }
+
+        if (newTheme != currentTheme) {
+          currentTheme = newTheme;
+          console.log("Theme changed to", currentTheme);
+        }
       });
 
 
+      // The light theme button is clicked
       document.getElementById('btn-theme-light').addEventListener('click', () => {
         document.querySelector(':root').style.setProperty('color-scheme', 'light');
-        //  updateCodeTheme()
+        const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "light" } });
+        document.dispatchEvent(colorSchemeChangedEvent);
       })
 
+      // The system default theme button is clicked
       document.getElementById('btn-theme-system').addEventListener('click', () => {
         document.querySelector(':root').style.setProperty('color-scheme', 'light dark');
-        console.log (darkModeMediaQuery);
-        //updateCodeTheme()
+        const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: 'system' } });
+        document.dispatchEvent(colorSchemeChangedEvent);
 
       })
 
+      // The dark theme button is clicked
       document.getElementById('btn-theme-dark').addEventListener('click', () => {
         document.querySelector(':root').style.setProperty('color-scheme', 'dark');
-        //updateCodeTheme()
+        const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "dark" } });
+        document.dispatchEvent(colorSchemeChangedEvent);
       })
 
-      // Function to handle theme change
-      function handleThemeChange(event) {
-        if (event.matches) {
-          console.log("Dark mode is active");
-          // Perform actions when dark mode is enabled
-        } else {
-          console.log("Light mode is active");
-          // Perform actions when light mode is enabled
-        }
-      }
 
-      // Create a media query listener
+      // Create a media query listener for the color sheme
       const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-      // Initial check
-      handleThemeChange(darkModeMediaQuery);
-
-      // Listen for changes
-      darkModeMediaQuery.addEventListener('change', handleThemeChange);
-      /*
-      const darkMode = matchMedia?.(`(prefers-color-scheme: dark)`);
-
-
-      function updateCodeTheme() {
-        console.log(darkMode);
-        if (document.querySelector(':root').style.colorScheme == 'dark')
-          document.getElementById('code-theme').href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css";
-        else
-          document.getElementById('code-theme').href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-light.min.css";
-      }
-
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        console.log('dark mode');
-      }
-      else {
-        console.log('light mode');
-      }
-
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-        const newColorScheme = e.matches ? "dark" : "light";
-        console.log('change', newColorScheme)
+      // Listen for changes on system color theme
+      darkModeMediaQuery.addEventListener('change', (event) => {
+        const newTheme = (event.matches) ? "dark" : "light";
+        const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'system', theme: newTheme } });
+        document.dispatchEvent(colorSchemeChangedEvent);
       });
-      */
+
     </script>
 </body>
 
