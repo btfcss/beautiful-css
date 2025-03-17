@@ -14,14 +14,14 @@
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    
-    
-    <!--
+
+
+  <!--
     <link id="prismjs-css-file" rel="stylesheet" href="/prismjs/prism-okaida-dark.css" />
     -->
 
 
-  
+
 
 
 
@@ -696,7 +696,7 @@
         </div>
         <div class="body">
 
-<pre><code class="rounded language-js">// JavaScript
+          <pre><code class="rounded language-js">// JavaScript
 
 function add(a, b) {
   return a + b;
@@ -705,12 +705,12 @@ function add(a, b) {
 console.log(add(2, 3));
 </code></pre>
 
-<pre><code class="language-css rounded">/* CSS */
+          <pre><code class="language-css rounded">/* CSS */
   
 p { color: red }</code></pre>
 
 
-<pre><code class="language-python rounded"># Python
+          <pre><code class="language-python rounded"># Python
 
 adj = ["red", "big", "tasty"]
 fruits = ["apple", "banana"]
@@ -817,6 +817,27 @@ for x in adj:
         </div>
       </div>
 
+
+
+      <!-- Aspect Ratio -->
+      <div class="card">
+        <div class="header">
+          <h2>Greyscale</h2>
+        </div>
+        <div class="body text-center">
+          <div class="grid grid-gap-3 mb-3">
+            <img class="w-100 rounded greyscale-25 hover:greyscale-0" src="/images/color-image.jpg">
+            <img class="w-100 rounded greyscale-50 hover:greyscale-0" src="/images/color-image.jpg">
+          </div>
+          <div class="grid grid-gap-3 mb-3">
+            <img class="w-100 rounded greyscale-75 hover:greyscale-0" src="/images/color-image.jpg">
+            <img class="w-100 rounded greyscale-100 hover:greyscale-0" src="/images/color-image.jpg">
+          </div>
+        </div>
+        <div class="footer align-right">
+          <button class="btn-green">&lt;code&gt;</button>
+        </div>
+      </div>
 
 
       <!-- Color Gradient -->
@@ -954,83 +975,83 @@ for x in adj:
 
     <!-- and it's easy to individually load additional languages -->
 
-    <
-    <script src="/highlight/highlight.js"></script>
-    
-    
+    < <script src="/highlight/highlight.js">
+      </script>
 
 
-    <!-- 
+
+
+      <!-- 
     <script async src="/prismjs/prism.js"></script> -->
-    <script>
-    
-      hljs.highlightAll({showLanguageLabel: true});
-      //hljs.highlightBlock(block, {showLanguageLabel: true});
-  
-      // Get system color scheme (return light ot dark)
-      function getSystemTheme() {
-        return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? "dark" : "light";
-      }
+      <script>
 
+        hljs.highlightAll({ showLanguageLabel: true });
+        //hljs.highlightBlock(block, {showLanguageLabel: true});
 
-
-      let userChoice = 'system';
-      let currentTheme = getSystemTheme();
-
-      // Triggered when the theme changed
-      document.addEventListener('color-scheme-changed', (event) => {
-        let newTheme = currentTheme;
-
-        // Check if the change comes from the system
-        if (event.detail.origin === "system") {
-          if (userChoice == 'system') newTheme = event.detail.theme;
-        }
-        else { 
-          newTheme = (event.detail.theme !== 'system') ? event.detail.theme : getSystemTheme();
-          userChoice = event.detail.theme;
+        // Get system color scheme (return light ot dark)
+        function getSystemTheme() {
+          return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? "dark" : "light";
         }
 
-        if (newTheme != currentTheme) {
-          currentTheme = newTheme;
-          console.log("Theme changed to", currentTheme);
-        }
-      });
 
 
-      // The light theme button is clicked
-      document.getElementById('btn-theme-light').addEventListener('click', () => {
-        document.querySelector(':root').style.setProperty('color-scheme', 'light');
-        const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "light" } });
-        document.dispatchEvent(colorSchemeChangedEvent);
-      })
+        let userChoice = 'system';
+        let currentTheme = getSystemTheme();
 
-      // The system default theme button is clicked
-      document.getElementById('btn-theme-system').addEventListener('click', () => {
-        document.querySelector(':root').style.setProperty('color-scheme', 'light dark');
-        const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: 'system' } });
-        document.dispatchEvent(colorSchemeChangedEvent);
+        // Triggered when the theme changed
+        document.addEventListener('color-scheme-changed', (event) => {
+          let newTheme = currentTheme;
 
-      })
+          // Check if the change comes from the system
+          if (event.detail.origin === "system") {
+            if (userChoice == 'system') newTheme = event.detail.theme;
+          }
+          else {
+            newTheme = (event.detail.theme !== 'system') ? event.detail.theme : getSystemTheme();
+            userChoice = event.detail.theme;
+          }
 
-      // The dark theme button is clicked
-      document.getElementById('btn-theme-dark').addEventListener('click', () => {
-        document.querySelector(':root').style.setProperty('color-scheme', 'dark');
-        const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "dark" } });
-        document.dispatchEvent(colorSchemeChangedEvent);
-      })
+          if (newTheme != currentTheme) {
+            currentTheme = newTheme;
+            console.log("Theme changed to", currentTheme);
+          }
+        });
 
 
-      // Create a media query listener for the color sheme
-      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        // The light theme button is clicked
+        document.getElementById('btn-theme-light').addEventListener('click', () => {
+          document.querySelector(':root').style.setProperty('color-scheme', 'light');
+          const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "light" } });
+          document.dispatchEvent(colorSchemeChangedEvent);
+        })
 
-      // Listen for changes on system color theme
-      darkModeMediaQuery.addEventListener('change', (event) => {
-        const newTheme = (event.matches) ? "dark" : "light";
-        const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'system', theme: newTheme } });
-        document.dispatchEvent(colorSchemeChangedEvent);
-      });
+        // The system default theme button is clicked
+        document.getElementById('btn-theme-system').addEventListener('click', () => {
+          document.querySelector(':root').style.setProperty('color-scheme', 'light dark');
+          const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: 'system' } });
+          document.dispatchEvent(colorSchemeChangedEvent);
 
-    </script>
+        })
+
+        // The dark theme button is clicked
+        document.getElementById('btn-theme-dark').addEventListener('click', () => {
+          document.querySelector(':root').style.setProperty('color-scheme', 'dark');
+          const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "dark" } });
+          document.dispatchEvent(colorSchemeChangedEvent);
+        })
+
+
+        // Create a media query listener for the color sheme
+        const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+        // Listen for changes on system color theme
+        darkModeMediaQuery.addEventListener('change', (event) => {
+          const newTheme = (event.matches) ? "dark" : "light";
+          const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'system', theme: newTheme } });
+          document.dispatchEvent(colorSchemeChangedEvent);
+        });
+
+      </script>
 </body>
 
 </html>

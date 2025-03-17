@@ -1,0 +1,41 @@
+.greyscale-0 {
+  filter: grayscale(0);
+}
+
+.greyscale-25 {
+  filter: grayscale(0.25);
+}
+
+.greyscale-50 {
+  filter: grayscale(0.50);
+}
+
+.greyscale-75 {
+  filter: grayscale(0.75);
+}
+
+.greyscale-100 {
+  filter: grayscale(1);
+}
+
+
+.hover\:greyscale-0:hover {
+  filter: grayscale(0);
+}
+
+.hover\:greyscale-25:hover {
+  filter: grayscale(0.25);
+}
+
+.hover\:greyscale-50:hover {
+  filter: grayscale(0.50);
+}
+
+.hover\:greyscale-75:hover {
+  filter: grayscale(0.75);
+}
+
+.hover\:greyscale-100:hover {
+  filter: grayscale(1);
+}
+
