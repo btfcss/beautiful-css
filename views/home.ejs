@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link id="code-theme" rel="stylesheet" href="/highlight/styles/tokyo-night-dark.min.css">
-  <link id="code-theme" rel="stylesheet" href="/highlight/styles/1c-light.min.css">
 
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="stylesheet" type="text/css" href="/css/classic/classic.css" id="style">
@@ -659,6 +658,71 @@
       </div>
 
 
+      <!-- Scale -->
+      <div class="card">
+        <div class="header">
+          <h2>Scale</h2>
+        </div>
+        <div class="body text-center v-grid grid-gap-3 cursor-default">
+          <div class="card mx-auto scale-50 hover:scale-100">50%</div>
+          <div class="card mx-auto scale-80 hover:scale-100">80%</div>
+          <div class="card mx-auto scale-90 hover:scale-100">90%</div>
+          <div class="card mx-auto scale-95 hover:scale-100">95%</div>
+          <div class="card mx-auto scale-98 hover:scale-100">98%</div>
+          <div class="card mx-auto">100%</div>
+          <div class="card mx-auto scale-102 hover:scale-100">102%</div>
+          <div class="card mx-auto scale-105 hover:scale-100">105%</div>
+          <div class="card mx-auto mb-3 scale-110 hover:scale-100">110%</div>
+          <div class="card mx-auto mb-5 scale-120 hover:scale-100">120%</div>
+          <div class="card mx-auto mb-2 scale-150 hover:scale-100">150%</div>
+        </div>
+        <div class="footer align-right">
+          <button class="btn-green">&lt;code&gt;</button>
+        </div>
+      </div>
+
+            <!-- Rotation -->
+            <div class="card">
+              <div class="header">
+                <h2>Rotation</h2>
+              </div>
+              <div class="body text-center v-grid grid-gap-4 cursor-default">
+                <img class="mx-auto hover:rotate-0 transition-rotate duration-500 rotate-45" src="/images/rotations.jpg">
+                <img class="mx-auto hover:rotate-0 transition-rotate duration-500 rotate-90" src="/images/rotations.jpg">
+                <img class="mx-auto hover:rotate-0 transition-rotate duration-500 rotate-135" src="/images/rotations.jpg">
+                <img class="mx-auto hover:rotate-0 transition-rotate duration-500 rotate-180" src="/images/rotations.jpg">
+                <img class="mx-auto hover:rotate-0 transition-rotate duration-500 rotate-225" src="/images/rotations.jpg">
+                <img class="mx-auto hover:rotate-0 transition-rotate duration-500 rotate-270" src="/images/rotations.jpg">
+                <img class="mx-auto hover:rotate-0 transition-rotate duration-500 rotate-315" src="/images/rotations.jpg">
+              </div>
+              <div class="footer align-right">
+                <button class="btn-green">&lt;code&gt;</button>
+              </div>
+            </div>
+
+      <!-- Cursor -->
+      <div class="card">
+        <div class="header">
+          <h2>Cursor</h2>
+        </div>
+        <div class="body">
+          <div class="card mb-3 text-center cursor-pointer">Pointer</div>
+          <div class="card mb-3 text-center cursor-wait">Wait</div>
+          <div class="card mb-3 text-center cursor-text">text</div>
+          <div class="card mb-3 text-center cursor-help">Help</div>
+          <div class="card mb-3 text-center cursor-crosshair">Crosshair</div>
+          <div class="card mb-3 text-center cursor-not-allowed">Not allowed</div>
+          <div class="card mb-3 text-center cursor-zoom-in">Zoom in</div>
+          <div class="card mb-3 text-center cursor-zoom-out">Zoom out</div>
+          <div class="card mb-3 text-center cursor-grab">Grab</div>
+          <div class="card mb-3 text-center cursor-default">Default</div>
+          <div class="card mb-3 text-center cursor-auto">Auto</div>
+        </div>
+        <div class="footer align-right">
+          <button class="btn-green">&lt;code&gt;</button>
+        </div>
+      </div>
+
 
       <!-- Masonry -->
       <div class="card">
@@ -688,6 +752,9 @@
           <button class="btn-green">&lt;code&gt;</button>
         </div>
       </div>
+
+
+
 
       <!-- Code -->
       <div class="card">
@@ -825,14 +892,11 @@ for x in adj:
           <h2>Greyscale</h2>
         </div>
         <div class="body text-center">
-          <div class="grid grid-gap-3 mb-3">
-            <img class="w-100 rounded greyscale-25 hover:greyscale-0" src="/images/color-image.jpg">
-            <img class="w-100 rounded greyscale-50 hover:greyscale-0" src="/images/color-image.jpg">
-          </div>
-          <div class="grid grid-gap-3 mb-3">
-            <img class="w-100 rounded greyscale-75 hover:greyscale-0" src="/images/color-image.jpg">
-            <img class="w-100 rounded greyscale-100 hover:greyscale-0" src="/images/color-image.jpg">
-          </div>
+          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-100 hover:greyscale-0" src="/images/color-image.jpg">
+          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-75 hover:greyscale-0" src="/images/color-image.jpg">
+          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-50 hover:greyscale-0" src="/images/color-image.jpg">
+          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-25 hover:greyscale-0" src="/images/color-image.jpg">
+          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-0 hover:greyscale-0" src="/images/color-image.jpg">
         </div>
         <div class="footer align-right">
           <button class="btn-green">&lt;code&gt;</button>
@@ -1014,6 +1078,7 @@ for x in adj:
           if (newTheme != currentTheme) {
             currentTheme = newTheme;
             console.log("Theme changed to", currentTheme);
+            document.getElementById('code-theme').href = (currentTheme == 'light') ? "/highlight/styles/1c-light.min.css" : "/highlight/styles/tokyo-night-dark.min.css";
           }
         });
 

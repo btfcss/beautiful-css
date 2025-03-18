@@ -10,11 +10,11 @@
 @import url(cards.css);
 @import url(borders.css);
 @import url(overflow.css);
-@import url(sizing/sizing.css);
+@import url(transform/transform.css);
 @import url(layout/layout.css);
 @import url(backgrounds/backgrounds.css);
 @import url(colors/greyscale.css);
-
+@import url(cursor.css);
 
 :root {
   color-scheme: light dark;
