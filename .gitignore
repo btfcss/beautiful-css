@@ -128,3 +128,16 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+
+
+# Dockers for local developments
+docker/mysql-phpmyadmin/data/*
+
+# Sensitive data 
+private/*.js
+private/*.json
+private/*.sh
+!private/encrypt-compress.sh
+!private/encrypt-uncompress.sh
