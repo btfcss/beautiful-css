@@ -130,11 +130,6 @@ dist
 .pnp.*
 
 
-
-
-# Dockers for local developments
-docker/mysql-phpmyadmin/data/*
-
 # Sensitive data 
 private/*.js
 private/*.json
