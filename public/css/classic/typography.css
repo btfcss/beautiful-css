@@ -1,9 +1,12 @@
 @import url(fonts.css);
 @import url(colors/colors.css);
 
+div {
+  font-family: var(--font-family);
+}
 
 p {
-  font-family: var(--font-family);  
+
   margin-top: 0.618rem;
   margin-bottom: 0.618rem;
 }
@@ -45,20 +48,20 @@ small {
   font-size: 0.8rem;
 }
 
-.monospace  {
+.monospace {
   font-family: var(--font-family-monospace);
 }
 
 
-.lowercase  {
+.lowercase {
   text-transform: lowercase;
 }
 
 
-.uppercase  {
+.uppercase {
   text-transform: uppercase;
 }
 
-.capitalize  {
+.capitalize {
   text-transform: capitalize;
 }

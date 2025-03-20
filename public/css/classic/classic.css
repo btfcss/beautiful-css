@@ -15,6 +15,7 @@
 @import url(backgrounds/backgrounds.css);
 @import url(colors/greyscale.css);
 @import url(cursor.css);
+@import url(navbar.css);
 
 :root {
   color-scheme: light dark;
