@@ -1,0 +1,37 @@
+@import url(button.css);
+@import url(../colors/grey-gradient.css);
+@import url(../fonts.css);
+
+.btn-grey {
+  border: 1px solid var(--grey-lighter-5);
+  color: var(--black-white);
+  background-color: var(--grey-lighter-5);
+}
+
+.btn-grey:disabled {
+  border-color: var(--grey-disabled);
+  background-color: var(--grey-disabled);
+  color: light-dark(var(--black-disabled), var(--white-disabled));
+}
+
+.btn-grey.outline {
+  background-color: transparent;
+  border-color: light-dark(var(--light-grey-darker-15), var(--grey-lighter-5));
+  color: light-dark(var(--light-grey-darker-15), var(--grey-lighter-5));
+}
+
+.btn-grey.outline:disabled {
+  color: var(--dark-grey-disabled);
+}
+
+.btn-grey.outline:hover:not(:disabled),
+.btn-grey:hover:not(:disabled) {
+  color: light-dark(#000, #fff);
+  border-color: light-dark(var(--light-grey-darker-5), var(--grey));
+  background-color: light-dark(var(--light-grey-darker-5), var(--grey));
+}
+
+.btn-grey:focus:not(:disabled),
+.btn-grey:focus-visible:not(:disabled) {
+  box-shadow: 0 0 0 0.25rem var(--grey-lighter-20);
+}

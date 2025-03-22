@@ -1,0 +1,58 @@
+@import url(colors.css);
+
+
+.text-white {
+  color: var(--white) !important;
+}
+
+.text-black {
+  color: var(--black) !important;
+}
+
+.text-black-white {
+  color: var(--black-white);
+}
+
+.text-white-black {
+  color: var(--white-black);
+}
+
+.text-red {
+  color: var(--red) !important;
+}
+
+.text-orange {
+  color: var(--orange) !important;
+}
+
+.text-yellow {
+  color: var(--yellow) !important;
+}
+
+.text-blue {
+  color: var(--blue) !important;
+}
+
+.text-purple {
+  color: var(--purple) !important;
+}
+
+.text-green {
+  color: var(--green) !important;
+}
+
+.text-light-grey {
+  color: var(--light-grey) !important;
+}
+
+.text-dark-grey {
+  color: var(--dark-grey) !important;
+}
+
+.text-grey {
+  color: var(--grey) !important;
+}
+
+.text-negative-grey {
+  color: var(--negative-grey) !important;
+}

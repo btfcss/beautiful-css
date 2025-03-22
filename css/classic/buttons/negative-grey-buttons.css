@@ -1,0 +1,41 @@
+@import url(button.css);
+@import url(../colors/negative-grey-gradient.css);
+@import url(../fonts.css);
+
+.btn-negative-grey {
+  border: 1px solid var(--negative-grey-lighter-5);
+  color: var(--white-black);
+  background-color: var(--negative-grey-lighter-5);
+}
+
+.btn-negative-grey:disabled {
+  border-color: var(--dark-grey-disabled);
+  background-color: var(--negative-grey-disabled);
+  color: light-dark(var(--white-disabled), var(--black-disabled));
+}
+
+
+.btn-negative-grey.outline {  
+  background-color: transparent;
+  border-color: var(--negative-grey);
+  color: var(--negative-grey);
+}
+
+.btn-negative-grey.outline:disabled {
+  border-color: var(--dark-grey-disabled);
+  color: var(--dark-grey-disabled);
+}
+
+
+
+.btn-negative-grey.outline:hover:not(:disabled),
+.btn-negative-grey:hover:not(:disabled) {
+  color: light-dark(#fff, #000);
+  border-color: light-dark(var(--negative-grey), var(--light-grey-darker-5));
+  background-color: light-dark(var(--negative-grey), var(--light-grey-darker-5));
+}
+
+.btn-negative-grey:focus:not(:disabled),
+.btn-negative-grey:focus-visible:not(:disabled) {
+  box-shadow: 0 0 0 0.25rem var(--negative-grey-lighter-20);
+}

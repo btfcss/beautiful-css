@@ -1,0 +1,72 @@
+.hatching-red {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg,var(--red) 0 1px,transparent  0 50%);
+}
+
+.hatching-yellow {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--yellow) 0 1px, transparent 0 50%);
+}
+
+.hatching-orange {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--orange) 0 1px, transparent 0 50%);
+}
+.hatching-green {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--green) 0 1px, transparent 0 50%);
+}
+
+.hatching-blue {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--blue) 0 1px, transparent 0 50%);
+}
+
+
+.hatching-purple {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--purple) 0 1px, transparent 0 50%);
+}
+
+.hatching-dark-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--dark-grey) 0 1px, transparent 0 50%);
+}
+
+.hatching-light-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--light-grey) 0 1px, transparent 0 50%);
+}
+
+.hatching-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--grey) 0 1px, transparent 0 50%);
+}
+
+.hatching-negative-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--negative-grey) 0 1px, transparent 0 50%);
+}
+
+
+.hatching-white {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--white) 0 1px, transparent 0 50%);
+}
+
+.hatching-black {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg, var(--black) 0 1px, transparent 0 50%);
+}

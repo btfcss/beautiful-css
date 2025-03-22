@@ -2,14 +2,13 @@
   "name": "beautiful-css",
   "version": "1.0.0",
   "description": "Beautifull CSS web components",
-  "main": "index.mjs",
-  "type": "module",
   "scripts": {
-    "start": "NODE_ENV=development LOG_STREAM=console node --watch index.mjs"
+    "dev": "webpack --env=mode=development",
+    "prod": "webpack --env=mode=production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/btfcss/beautiful-css-website.git"
+    "url": "git+https://github.com/btfcss/beautiful-css"
   },
   "keywords": [
     "CSS",
@@ -21,19 +20,25 @@
   "author": "Beautiful CSS",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/btfcss/beautiful-css-website/issues"
+    "url": "https://github.com/btfcss/beautiful-css/issues"
   },
-  "homepage": "https://github.com/btfcss/beautiful-css-website#readme",
+  "homepage": "https://beautiful-css.com",
   "volta": {
     "node": "20.18.2",
     "npm": "11.1.0"
   },
   "dependencies": {
-    "compression": "^1.8.0",
-    "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "express-minify": "^1.0.0",
-    "express-minify-html-2": "^2.0.0",
-    "i18n": "^0.15.1"
+    "highlight.js": "^11.11.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "ejs-loader": "^0.5.0",
+    "ejs-webpack-loader": "^2.2.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
   }
 }

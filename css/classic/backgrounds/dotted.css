@@ -1,0 +1,59 @@
+.dotted-red {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--red)1px,transparent 0); 
+}
+
+.dotted-orange {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--orange)1px,transparent 0); 
+}
+
+.dotted-yellow {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--yellow)1px,transparent 0); 
+}
+
+.dotted-green {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--green)1px,transparent 0); 
+}
+
+.dotted-blue {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--blue)1px,transparent 0); 
+}
+
+.dotted-purple {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--purple)1px,transparent 0); 
+}
+
+.dotted-dark-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--dark-grey)1px,transparent 0); 
+}
+
+.dotted-light-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--light-grey)1px,transparent 0); 
+}
+
+.dotted-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--grey)1px,transparent 0); 
+}
+
+.dotted-negative-grey {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: radial-gradient(var(--negative-grey)1px,transparent 0); 
+}

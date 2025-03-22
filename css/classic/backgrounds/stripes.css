@@ -1,0 +1,81 @@
+.stripes-red {
+  background: repeating-linear-gradient(135deg,
+      var(--red-lighter-20),
+      var(--red-lighter-20) 10px,
+      var(--red-lighter-15) 10px,
+      var(--red-lighter-15) 20px);
+}
+
+.stripes-orange {
+  background: repeating-linear-gradient(135deg,
+      var(--orange-lighter-20),
+      var(--orange-lighter-20) 10px,
+      var(--orange-lighter-15) 10px,
+      var(--orange-lighter-15) 20px);
+}
+
+.stripes-yellow {
+  background: repeating-linear-gradient(135deg,
+      var(--yellow-lighter-20),
+      var(--yellow-lighter-20) 10px,
+      var(--yellow-lighter-15) 10px,
+      var(--yellow-lighter-15) 20px);
+}
+
+.stripes-green {
+  background: repeating-linear-gradient(135deg,
+      var(--green-lighter-20),
+      var(--green-lighter-20) 10px,
+      var(--green-lighter-15) 10px,
+      var(--green-lighter-15) 20px);
+}
+
+
+.stripes-blue {
+  background: repeating-linear-gradient(135deg,
+      var(--blue-lighter-20),
+      var(--blue-lighter-20) 10px,
+      var(--blue-lighter-15) 10px,
+      var(--blue-lighter-15) 20px);
+}
+
+.stripes-purple {
+  background: repeating-linear-gradient(135deg,
+      var(--purple-lighter-20),
+      var(--purple-lighter-20) 10px,
+      var(--purple-lighter-15) 10px,
+      var(--purple-lighter-15) 20px);
+}
+
+.stripes-dark-grey {
+  background: repeating-linear-gradient(135deg,
+      var(--dark-grey-lighter-20),
+      var(--dark-grey-lighter-20) 10px,
+      var(--dark-grey-lighter-15) 10px,
+      var(--dark-grey-lighter-15) 20px);
+}
+
+
+.stripes-light-grey {
+  background: repeating-linear-gradient(135deg,
+      var(--light-grey-lighter-20),
+      var(--light-grey-lighter-20) 10px,
+      var(--light-grey-lighter-5) 10px,
+      var(--light-grey-lighter-5) 20px);
+}
+
+.stripes-grey {
+  background: repeating-linear-gradient(135deg,
+      var(--grey-lighter-20),
+      var(--grey-lighter-20) 10px,
+      light-dark(var(--light-grey-lighter-5), var(--dark-grey-lighter-15)) 10px,
+      light-dark(var(--light-grey-lighter-5), var(--dark-grey-lighter-15)) 20px);
+}
+
+.stripes-negative-grey {
+  background: repeating-linear-gradient(135deg,
+      var(--negative-grey-lighter-20),
+      var(--negative-grey-lighter-20) 10px,
+      light-dark(var(--dark-grey-lighter-15), var(--light-grey-lighter-5)) 10px,
+      light-dark(var(--dark-grey-lighter-15), var(--light-grey-lighter-5)) 20px);
+}
