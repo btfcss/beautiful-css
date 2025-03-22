@@ -13,4 +13,4 @@ lftp ftp://$FTP_USERNAME@$FTP_SERVER:$FTP_PASSWORD@ftp.beautiful-css.com -e "set
 -x .ftpquota \
 -x .htaccess \
 -x upload \
-./dist-prod/ / ; quit"
+./dist/ / ; quit"
