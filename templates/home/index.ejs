@@ -17,19 +17,23 @@
   <meta name="description" content="Beautifull CSS Home page">
 </head>
 
-<body class="dotted-grey">
-  <div class="sticky-top p-2">
+<body class="dotted-grey" style="display: none">
+
+
+
+  <div class="sticky-top p-2 w-100 bg-grey border-2 border-bottom">
     <img src="/images/logo.png" height="32">
     <span class="h2">Beautiful CSS</span>
-  </div>
-
-
-  <div id="main" class=" mx-4 pt-7">
-    <div>
+    <div class="pl-7 inline-block">
       <i id="btn-theme-light" class="fa-solid fa-sun"></i>&nbsp;
       <i id="btn-theme-system" class="fa-solid fa-display"></i>&nbsp;
       <i id="btn-theme-dark" class="fa-solid fa-moon "></i>
     </div>
+  </div>
+
+
+  <div id="main" class=" mx-4 mb-7 pt-7">
+
 
 
 
@@ -58,223 +62,13 @@
       <%- include cards/text-alignment.ejs %>
       <%- include cards/margins.ejs %>
       <%- include cards/paddings.ejs %>
+      <%- include cards/buttons.ejs %>
+      <%- include cards/outline-buttons.ejs %>
+      <%- include cards/button-size.ejs %>
+      <%- include cards/disabled-buttons.ejs %>
+      <%- include cards/button-style.ejs %>
+      <%- include cards/button-style.ejs %>
 
-
-      <!-- Buttons -->
-      <div class="card">
-        <div class="header">
-          <h2>Buttons</h2>
-        </div>
-        <div class="body">
-          <div class="m-4 text-center"><button class="btn-red">Red Button</button></div>
-          <div class="m-4 text-center"><button class="btn-orange">Orange Button</button></div>
-          <div class="m-4 text-center"><button class="btn-yellow">Yellow Button</button></div>
-          <div class="m-4 text-center"><button class="btn-green">Green Button</button></div>
-          <div class="m-4 text-center"><button class="btn-blue">Blue Button</button></div>
-          <div class="m-4 text-center"><button class="btn-purple">Purple Button</button></div>
-          <div class="m-4 text-center"><button class="btn-dark-grey">Dark Grey Button</button></div>
-          <div class="m-4 text-center"><button class="btn-light-grey">Light Grey Button</button></div>
-          <div class="m-4 text-center"><button class="btn-grey">Grey Button</button></div>
-          <div class="m-4 text-center"><button class="btn-negative-grey">Negative Grey Button</button></div>
-        </div>
-        <div class="footer text-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-      <!-- Outline Buttons -->
-      <div class="card">
-        <div class="header">
-          <h2>Outline Buttons</h2>
-        </div>
-        <div class="body">
-          <div class="m-4 text-center"><button class="outline btn-red">Red Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-orange">Orange Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-yellow">Yellow Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-green">Green Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-blue">Blue Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-purple">Purple Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-dark-grey">Dark Grey Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-light-grey">Light Grey Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-grey">Grey Button</button></div>
-          <div class="m-4 text-center"><button class="outline btn-negative-grey">Negative Grey Button</button></div>
-        </div>
-        <div class="footer text-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-
-      <!-- Button Size -->
-      <div class="card">
-        <div class="header">
-          <h2>Button Size</h2>
-        </div>
-        <div class="body">
-          <div class="m-4 text-center"><button class="btn-green btn-xs">Button XS</button></div>
-          <div class="m-4 text-center"><button class="btn-green outline btn-xs">Button XS</button></div>
-          <hr>
-          <div class="m-4 text-center"><button class="btn-green btn-sm">Button SM</button></div>
-          <div class="m-4 text-center"><button class="btn-green outline btn-sm">Button SM</button></div>
-          <hr>
-          <div class="m-4 text-center"><button class="btn-green">Regular</button></div>
-          <div class="m-4 text-center"><button class="btn-green outline">Regular</button></div>
-          <hr>
-          <div class="m-4 text-center"><button class="btn-green btn-lg">Button LG</button></div>
-          <div class="m-4 text-center"><button class="btn-green btn-lg outline">Button LG</button></div>
-          <hr>
-          <div class="m-4 text-center"><button class="btn-green btn-xl">Button XL</button></div>
-          <div class="m-4 text-center"><button class="btn-green btn-xl outline">Button XL</button></div>
-          <hr>
-          <div class="m-4 mx-0 text-center p-0"><button class="btn-green w-100">Full Width Button</button></div>
-          <div class="m-4 mx-0 text-center p-0"><button class="btn-green w-100 outline">Full Width Button</button></div>
-        </div>
-        <div class="footer text-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
-
-      <!-- Disabled Buttons -->
-      <div class="card">
-        <div class="header">
-          <h2>Disabled Buttons</h2>
-        </div>
-        <div class="body">
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-red" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-red outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-orange" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-orange outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-yellow" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-yellow outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-green" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-green outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-blue" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-blue outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-purple" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-purple outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-light-grey" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-light-grey outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-dark-grey" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-dark-grey outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-grey" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-grey outline" disabled>Disabled</button></div>
-          </div>
-          <div class="my-4 grid">
-            <div class="text-center"><button class="w-100 btn-negative-grey" disabled>Disabled</button></div>
-            <div class="text-center"><button class="w-100 btn-negative-grey outline" disabled>Disabled</button></div>
-          </div>
-        </div>
-        <div class="footer text-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-      <!-- Button Style -->
-      <div class="card">
-        <div class="header">
-          <h2>Button Style</h2>
-        </div>
-        <div class="body">
-          <div class="m-4 grid">
-            <div class="text-center"><button class="btn-blue rounded-pill">Rounded pill</button></div>
-            <div class="text-center"><button class="btn-blue outline rounded-pill">Rounded pill</button></div>
-          </div>
-
-          <div class="m-4 grid">
-            <div class="text-center"><button class="btn-blue btn-circular">Circular</button></div>
-            <div class="text-center"><button class="btn-blue btn-circular outline">Circular</button></div>
-          </div>
-
-          <div class="m-4 grid">
-            <div class="text-center"><button class="btn-blue btn-square">Square</button></div>
-            <div class="text-center"><button class="btn-blue btn-square outline">Square</button></div>
-          </div>
-
-
-        </div>
-        <div class="footer text-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-      <!-- Border Colors -->
-      <div class="card">
-        <div class="header">
-          <h2>Border Colors</h2>
-        </div>
-        <div class="body">
-          <div class="rounded hover:scale-105 p-4 m-3 border border-red">
-            <span>Red</span>
-            <span>#DE3023</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-orange">
-            <span>Orange</span>
-            <span>#FFAA40</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-yellow">
-            <span>Yellow</span>
-            <span>#DED140</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-green">
-            <span>Green</span>
-            <span>#1F8F49</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-blue">
-            <span>Blue</span>
-            <span>#162BA9</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-purple">
-            <span>Purple</span>
-            <span>#B834C7</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-dark-grey">
-            <span>Dark Grey</span>
-            <span>#3B4154</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-light-grey">
-            <span>Light Grey</span>
-            <span>#DCDEE6</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-grey">
-            <span>Grey</span>
-            <span>#??????</span>
-          </div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-negative-grey">
-            <span>Negative Grey</span>
-            <span>#??????</span>
-          </div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
 
 
 
@@ -829,90 +623,8 @@ for x in adj:
           <button class="btn-green">&lt;code&gt;</button>
         </div>
       </div>
-
-
-
-
     </div> <!-- end of masonry -->
 
-    <!-- and it's easy to individually load additional languages -->
-<!--
-    < <script src="/highlight/highlight.js">
-      </script>
--->
-
-
-
-      <!-- 
-    <script async src="/prismjs/prism.js"></script> -->
-
-    <!--
-      <script>
-
-        
-
-
-
-        let userChoice = 'system';
-        let currentTheme = getSystemTheme();
-
-        // Triggered when the theme changed
-        document.addEventListener('color-scheme-changed', (event) => {
-          let newTheme = currentTheme;
-
-          // Check if the change comes from the system
-          if (event.detail.origin === "system") {
-            if (userChoice == 'system') newTheme = event.detail.theme;
-          }
-          else {
-            newTheme = (event.detail.theme !== 'system') ? event.detail.theme : getSystemTheme();
-            userChoice = event.detail.theme;
-          }
-
-          if (newTheme != currentTheme) {
-            currentTheme = newTheme;
-            console.log("Theme changed to", currentTheme);
-            document.getElementById('code-theme').href = (currentTheme == 'light') ? "/highlight/styles/1c-light.min.css" : "/highlight/styles/tokyo-night-dark.min.css";
-          }
-        });
-
-
-        // The light theme button is clicked
-        document.getElementById('btn-theme-light').addEventListener('click', () => {
-          document.querySelector(':root').style.setProperty('color-scheme', 'light');
-          const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "light" } });
-          document.dispatchEvent(colorSchemeChangedEvent);
-        })
-
-        // The system default theme button is clicked
-        document.getElementById('btn-theme-system').addEventListener('click', () => {
-          document.querySelector(':root').style.setProperty('color-scheme', 'light dark');
-          const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: 'system' } });
-          document.dispatchEvent(colorSchemeChangedEvent);
-
-        })
-
-        // The dark theme button is clicked
-        document.getElementById('btn-theme-dark').addEventListener('click', () => {
-          document.querySelector(':root').style.setProperty('color-scheme', 'dark');
-          const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "dark" } });
-          document.dispatchEvent(colorSchemeChangedEvent);
-        })
-
-
-        // Create a media query listener for the color sheme
-        const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
-        // Listen for changes on system color theme
-        darkModeMediaQuery.addEventListener('change', (event) => {
-          const newTheme = (event.matches) ? "dark" : "light";
-          const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'system', theme: newTheme } });
-          document.dispatchEvent(colorSchemeChangedEvent);
-        });
-
-      </script>
-
-      -->
 </body>
 
 </html>

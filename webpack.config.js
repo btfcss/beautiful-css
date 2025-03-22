@@ -48,68 +48,17 @@ module.exports = (env) => {
     // CSS, images and HTML loaders
     module: {
       rules: [
-
-        {
-          test: /\.ejs$/,
-          loader: 'ejs-loader',
-          options: {
-            variable: 'data',
-            interpolate : '\\{\\{(.+?)\\}\\}',
-            evaluate : '\\[\\[(.+?)\\]\\]'
-          }
-        },
-
-
-
-
         // CSS loader
         {
           test: /\.css$/i,
           use: ["style-loader", "css-loader"],
         },
 
-        // Images loader
-        {
-          test: /\.(png|svg|jpg|jpeg|gif)$/i,
-          type: 'asset/resource',
-          /*
-          use: [
-            {
-              loader: "url-loader",
-              options: {
-                limit: 8000, // Convert images < 8kb to base64 strings
-                name: 'images/[hash]-[name].[ext]'
-              }
-            },
-          ],
-          */
-        },
-        /*
-        // HTML loader
-        {
-          test: /src(\/|\\)js(\/|\\).+(\/|\\)[A-Za-z]+\.html$/i,
-                  loader: "html-loader",
-                  options: { sources: false },
-                },
-        */
       ],
     },
 
     // Plugins (copy, html css minifiers)
     plugins: [
-
-
-      // 404.html
-      /*
-      new HtmlWebpackPlugin({
-        title: 'Error 404',
-        chunks: ['error404'],
-        filename: `ejs/404.ejs`,
-        minify: { collapseWhitespace: true, removeComments: true }, 
-        template: './templates/error404.ejs',
-        inject: 'body'
-      }),
-      */
 
       new CopyPlugin({
         patterns: [

@@ -4,7 +4,8 @@
   "description": "Beautifull CSS web components",
   "scripts": {
     "dev": "webpack --env=mode=development",
-    "prod": "webpack --env=mode=production"
+    "prod": "webpack --env=mode=production",
+    "deploy": "npm run prod && . private/create-env.sh && ./deploy.sh"
   },
   "repository": {
     "type": "git",

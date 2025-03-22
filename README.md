@@ -1,2 +1,2 @@
 # beautiful-css
-Beautiful css web site
+Beautiful CSS web site
