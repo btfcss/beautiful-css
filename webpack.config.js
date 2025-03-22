@@ -30,7 +30,7 @@ module.exports = (env) => {
 
     // The location of the build folder
     output: {
-      path: path.resolve(__dirname, (env.mode == 'production') ? './dist-prod' : './dist-dev'),
+      path: path.resolve(__dirname, (env.mode == 'production') ? './dist' : './dist-dev'),
       filename: 'js/[name].[contenthash].js',
       publicPath: '/',
       clean: true,
