@@ -45,6 +45,7 @@ module.exports = (env) => {
     },
 
 
+
     // CSS, images and HTML loaders
     module: {
       rules: [
@@ -53,8 +54,19 @@ module.exports = (env) => {
           test: /\.css$/i,
           use: ["style-loader", "css-loader"],
         },
-
+        {
+          test: /\.ejs$/,
+          loader: 'compile-ejs-loader',
+          options: {
+            'htmlmin': true,
+            'htmlminOptions': {
+              removeComments: true
+            }
+          }
+        }
       ],
+
+      
     },
 
     // Plugins (copy, html css minifiers)

@@ -1,0 +1,29 @@
+.h-flex-start {
+  display: flex;
+  justify-content: start;
+}
+
+.h-flex-end {
+  display: flex;
+  justify-content: end;
+}
+
+.h-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.h-flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h-flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.h-flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}

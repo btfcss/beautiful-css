@@ -1,9 +1,10 @@
 @import url(fonts.css);
 @import url(colors/colors.css);
 
-div {
+body {
   font-family: var(--font-family);
 }
+
 
 p {
 

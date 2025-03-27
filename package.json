@@ -29,6 +29,7 @@
     "npm": "11.1.0"
   },
   "dependencies": {
+    "compile-ejs-loader": "^0.0.3",
     "highlight.js": "^11.11.1"
   },
   "devDependencies": {
