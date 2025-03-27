@@ -1,6 +1,6 @@
 @import url(button.css);
 @import url(../colors/orange-gradient.css);
-@import url(../fonts.css);
+@import url(../text/fonts.css);
 
 .btn-orange {
   border: 1px solid var(--orange-lighter-5);

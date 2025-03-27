@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
+
 module.exports = (env) => {
 
   // Display compilation mode
@@ -24,6 +25,7 @@ module.exports = (env) => {
     // Default entry point is main
     entry: {
       home: ['./js/home.js'],
+      //css: ['./css/classic/classic.css']
       //error404: ['./js/main-error404.js'],
     },
 

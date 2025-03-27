@@ -27,3 +27,40 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+
+.v-flex-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.v-flex-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.v-flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.v-flex-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.v-flex-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.v-flex-evenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

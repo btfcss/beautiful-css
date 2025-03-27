@@ -1,6 +1,6 @@
 @import url(button.css);
 @import url(../colors/negative-grey-gradient.css);
-@import url(../fonts.css);
+@import url(../text/fonts.css);
 
 .btn-negative-grey {
   border: 1px solid var(--negative-grey-lighter-5);

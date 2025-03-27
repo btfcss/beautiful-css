@@ -1,0 +1,26 @@
+.text-normal {
+  white-space: normal;
+}
+
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+
+.text-pre {
+  white-space: pre;
+}
+
+
+.text-pre-line {
+  white-space: pre-line;
+}
+
+.text-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.text-break-spaces {
+  white-space: break-spaces;
+}

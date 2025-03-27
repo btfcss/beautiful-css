@@ -1,6 +1,6 @@
 @import url(button.css);
 @import url(../colors/blue-gradient.css);
-@import url(../fonts.css);
+@import url(../text/fonts.css);
 
 .btn-blue {
   border: 1px solid var(--blue-lighter-15);

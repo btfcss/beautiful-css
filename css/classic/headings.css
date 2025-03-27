@@ -1,4 +1,4 @@
-@import url(fonts.css);
+@import url(text/fonts.css);
 
 :root {
   --h1-font-size: calc(3vw + 1.1rem);
