@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
-
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = (env) => {
 
@@ -25,7 +25,7 @@ module.exports = (env) => {
     // Default entry point is main
     entry: {
       home: ['./js/home.js'],
-      //css: ['./css/classic/classic.css']
+      classic: ['./css/classic/classic.css']
       //error404: ['./js/main-error404.js'],
     },
 
@@ -47,15 +47,40 @@ module.exports = (env) => {
     },
 
 
+    optimization: {
+      minimize: true,
+      minimizer: [
+        new CssMinimizerPlugin({
+          minimizerOptions: {
+            preset: [
+              "default",
+              {
+                discardComments: { removeAll: true },
+              },
+            ],
+          },
+        }),
+      ],
+    },
+
 
     // CSS, images and HTML loaders
     module: {
       rules: [
+
+        {
+          test: /\.css$/i,
+          
+          //use: ["style-loader", "css-loader"],
+          use: [MiniCssExtractPlugin.loader, "css-loader"],
+        },
+/*
         // CSS loader
         {
           test: /\.css$/i,
           use: ["style-loader", "css-loader"],
         },
+*/
         {
           test: /\.ejs$/,
           loader: 'compile-ejs-loader',
@@ -68,7 +93,7 @@ module.exports = (env) => {
         }
       ],
 
-      
+
     },
 
     // Plugins (copy, html css minifiers)
@@ -91,7 +116,9 @@ module.exports = (env) => {
       }),
 
       // Minify CSS
-      new MiniCssExtractPlugin(),
+      new MiniCssExtractPlugin({
+        filename: "./css/[name].css",
+      }),
     ]
   }
 
