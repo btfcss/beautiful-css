@@ -7,16 +7,30 @@
   --xl: 2.618033989rem;
   --xxl: 4.236067977rem;
 
-  --xxs: 0.5rem;
+  
+  --xxxxs: 0.2360679775rem;
+  --xxxs: 0.3819660113rem;
+  --xxs: 0.6180339887rem;
   --xs: 0.75rem;
-  --sm: 0.9rem;
+  --sm: 0.875rem;
   --md: 1rem;
   --lg: 1.618033989rem;
   --xl: 2.618033989rem;
   --xxl: 4.236067977rem;
+  --xxxl: 6.854101966rem;
+  --xxxxl: 11.09016994rem;
+
 }
 
-.text-xxs {
+.text-4xs {
+  font-size: var(--xxxxs);
+}
+
+.text-3xs {
+  font-size: var(--xxxs);
+}
+
+.text-2xs {
   font-size: var(--xxs);
 }
 
@@ -40,6 +54,14 @@
   font-size: var(--xl)
 }
 
-.text-xxl {
+.text-2xl {
   font-size: var(--xxl)
+}
+
+.text-3xl {
+  font-size: var(--xxxl)
+}
+
+.text-4xl {
+  font-size: var(--xxxxl)
 }
