@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = (env) => {
 
@@ -50,6 +51,7 @@ module.exports = (env) => {
     optimization: {
       minimize: true,
       minimizer: [
+        new TerserPlugin(),
         new CssMinimizerPlugin({
           minimizerOptions: {
             preset: [
@@ -72,6 +74,12 @@ module.exports = (env) => {
           test: /\.css$/i,
           
           //use: ["style-loader", "css-loader"],
+          /*
+          use: [
+            { loader: "style-loader", options: { injectType: 'lazyStyleTag' } },
+            { loader: "css-loader", options: { url: false } }
+          ],
+          */
           use: [MiniCssExtractPlugin.loader, "css-loader"],
         },
 /*

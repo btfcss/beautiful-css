@@ -2,7 +2,7 @@
 @import url(colors/colors.css);
 
 @import url(horizontal-rule.css);
-
+@import url(forms/forms.css);
 @import url(headings.css);
 @import url(colors/gradient.css);
 @import url(colors/text-colors.css);
@@ -16,7 +16,6 @@
 @import url(colors/greyscale.css);
 @import url(cursor.css);
 @import url(navbar.css);
-
 @import url(text/text.css);
 
 

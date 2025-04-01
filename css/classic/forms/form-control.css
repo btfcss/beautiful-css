@@ -1,0 +1,67 @@
+label {
+  display: inline-block;
+}
+.form-label {
+  margin-bottom: var(--spacing-1);
+}
+
+.form-control {
+  font-family: var(--font-family);
+  display: block;
+  width: 100%;
+  padding: var(--spacing-2) var(--spacing-3);
+  box-sizing: border-box;
+  border-radius: var(--spacing-2);
+  border: 1px solid var(--negative-grey);
+  background-color: var(--grey);
+  font-size: 1rem;
+  outline: 0;
+}
+
+.form-control::placeholder {
+  color: light-dark(var(--dark-grey-lighter-20), var(--light-grey-darker-20));
+}
+
+select.form-control {
+  padding-right: 1.5rem;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 10 6'%3e %3cpath stroke='%236B7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m1 1 4 4 4-4'/%3e %3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 0.75rem 0.75rem;
+}
+
+.form-control:disabled {
+  border-color:  light-dark(var(--light-grey-darker-10), var(--dark-grey-lighter-10));
+}
+
+.form-control:disabled::placeholder {
+  color: light-dark(var(--light-grey-darker-10), var(--dark-grey-lighter-10));
+}
+text-area.form-control  {
+  font-family: var(--inter);
+}
+
+.form-control.valid {
+  border: 1px solid var(--green-lighter-20);
+}
+
+.form-control.invalid {
+  border: 1px solid var(--red-lighter-20);
+}
+
+
+.form-control:focus,
+.form-control:focus-visible {
+  box-shadow: 0 0 0 var(--spacing-1) var(--blue-lighter-20);
+}
+
+.form-control.valid:focus,
+.form-control.valid:focus-visible {
+  box-shadow: 0 0 0 var(--spacing-1) var(--green-lighter-20);
+}
+
+.form-control.invalid:focus,
+.form-control.invalid:focus-visible {
+  box-shadow: 0 0 0 var(--spacing-1) var(--red-lighter-20);
+}

@@ -25,7 +25,7 @@
     <div class="grid">
       <div class="h-flex-start">
         <img src="/images/logo.png" class="h-32">
-        <span class="h-32 ml-2 text-lg v-flex-center text-no-wrap">Beautiful CSS</span>
+        <span class="h-32 ml-2 text-lg v-flex-center logo-font text-no-wrap">Beautiful CSS</span>
       </div>
       <div class="text-center">
         <div class="h-32 v-flex-center inline-block">
@@ -64,117 +64,113 @@
     <div class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
 
 
+      <!--<script>
+        /*-->
+              <%- include cards/headers.ejs %>
+              <%- include cards/typography.ejs %>
+              <%- include cards/text-colors.ejs %>
+              <%- include cards/background-colors.ejs %>
+              <%- include cards/text-alignment.ejs %>
+              <%- include cards/margins.ejs %>
+              <%- include cards/paddings.ejs %>
+              <%- include cards/buttons.ejs %>
+              <%- include cards/outline-buttons.ejs %>
+              <%- include cards/button-size.ejs %>
+              <%- include cards/disabled-buttons.ejs %>
+              <%- include cards/button-style.ejs %>
+              */
+      <!-- </script> -->
 
 
-      <%- include cards/headers.ejs %>
-      <%- include cards/typography.ejs %>
-      <%- include cards/text-colors.ejs %>
-      <%- include cards/background-colors.ejs %>
-      <%- include cards/text-alignment.ejs %>
-      <%- include cards/margins.ejs %>
-      <%- include cards/paddings.ejs %>
-      <%- include cards/buttons.ejs %>
-      <%- include cards/outline-buttons.ejs %>
-      <%- include cards/button-size.ejs %>
-      <%- include cards/disabled-buttons.ejs %>
-      <%- include cards/button-style.ejs %>
-      <%- include cards/button-style.ejs %>
+      <!-- Form -->
+      <div class="card">
+        <div class="header">
+          <h2>Form</h2>
+        </div>
+        <div class="body">
+          <div class="mb-4">
+            <label for="exampleFormControlInputText" class="form-label">Text input</label>
+            <input type="text" class="form-control" id="exampleFormControlInputText" placeholder="Default Input">
+          </div>
+
+          <div class="mb-4">
+            <label for="exampleFormControlInputText" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInputText" placeholder="••••••••">
+          </div>
+
+          <div class="mb-4">
+            <label for="exampleFormControlTextarea" class="form-label">Textarea</label>
+            <textarea type="password" class="form-control" id="exampleFormControlTextarea" rows="5"
+              placeholder="Comments"></textarea>
+          </div>
+          <div class="mb-4">
+            <label for="exampleFormControlTextarea" class="form-label">Select</label>
+            <select class="form-control" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+
+        </div>
+        <div class="footer align-right">
+          <button class="btn-green">&lt;code&gt;</button>
+        </div>
+      </div>
+
+
+      <!-- Form -->
+      <div class="card">
+        <div class="header">
+          <h2>Form Styling</h2>
+        </div>
+        <div class="body">
+
+
+          <div class="mb-4">
+            <label for="exampleFormControlRoundedPill" class="form-label">Disabled</label>
+            <input type="text" class="form-control cursor-not-allowed" id="exampleFormControlRoundedPill" disabled
+              placeholder="Disabled">
+          </div>
+
+          <div class="mb-4">
+            <label for="exampleFormControlRoundedPill" class="form-label">Rounded pill</label>
+            <input type="text" class="form-control rounded-pill" id="exampleFormControlRoundedPill"
+              placeholder="Rounded pill">
+          </div>
+
+          <div class="mb-4">
+            <label for="exampleFormControlRoundedPill" class="form-label">No border</label>
+            <input type="text" class="form-control border-0" id="exampleFormControlRoundedPill" placeholder="No border">
+          </div>
+          <div class="mb-4">
+            <label for="exampleFormControlValid" class="form-label">Valid input</label>
+            <input type="email" class="form-control valid" id="exampleFormControlValid" placeholder="Valid input">
+          </div>
+
+          <div class="mb-4">
+            <label for="exampleFormControlinvalid" class="form-label">Invalid input</label>
+            <input type="text" class="form-control invalid" id="exampleFormControlinvalid" rows="3"
+              placeholder="Invalid input">
+          </div>
+
+
+        </div>
+        <div class="footer align-right">
+          <button class="btn-green">&lt;code&gt;</button>
+        </div>
+      </div>
+
       <%- include cards/border-size.ejs %>
       <%- include cards/border-style.ejs %>
+      <%- include cards/border-additive.ejs %>
+      <%- include cards/radius.ejs %>
+      <%- include cards/card-with-header.ejs %>
 
 
 
 
-
-
-
-
-      <!-- Border additive -->
-      <div class="card">
-        <div class="header">
-          <h2>Borders Additive</h2>
-        </div>
-        <div class="body text-center">
-
-          <div class="border-top p-4 m-3 hover:scale-105  border-negative-grey bg-grey">
-            Top Border
-          </div>
-          <div class="border-right p-4 m-3 hover:scale-105  border-negative-grey bg-grey">
-            Right Border
-          </div>
-          <div class="border-left p-4 m-3 hover:scale-105  border-negative-grey bg-grey">
-            Left Border
-          </div>
-          <div class="border-bottom p-4 m-3 hover:scale-105  border-negative-grey bg-grey">
-            Bottom Border
-          </div>
-
-        </div>
-        <div class="footer align-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-      <!-- Radius -->
-      <div class="card">
-        <div class="header">
-          <h2>Radius</h2>
-        </div>
-        <div class="body text-center">
-
-          <div class="p-3 m-3 bg-grey hover:scale-105 ">
-            Rounded 0
-          </div>
-          <div class="p-3 m-3 bg-grey hover:scale-105  rounded-1">
-            Rounded 1
-          </div>
-          <div class="p-3 m-3 bg-grey hover:scale-105  rounded-2">
-            Rounded 2
-          </div>
-          <div class="p-4 m-3 bg-grey hover:scale-105  rounded-2">
-            Rounded 2
-          </div>
-          <div class="p-4 m-3 bg-grey hover:scale-105  rounded-3">
-            Rounded 3
-          </div>
-          <div class="p-4 m-3 bg-grey hover:scale-105  rounded-4">
-            Rounded 4
-          </div>
-          <div class="p-5 m-3 bg-grey hover:scale-105  rounded-5">
-            Rounded 5
-          </div>
-          <div class="p-6 m-3 bg-grey hover:scale-105  rounded-6">
-            Rounded 6
-          </div>
-          <div class="p-7 m-3 bg-grey hover:scale-105  rounded-7">
-            Rounded 7
-          </div>
-          <div class="p-7 m-3 bg-grey hover:scale-105  rounded-pill">
-            Rounded pill
-          </div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-
-      <!-- Card with Headers -->
-      <div class="card">
-        <div class="header">
-          <h2>Card with Headers</h2>
-        </div>
-        <div class="body">Example of card with several <b>headers</b>.</div>
-        <div class="header">
-          <h2>Another Headers</h2>
-        </div>
-        <div class="body">You can insert multiple <b>headers</b> in a single card.</div>
-        <div class="footer align-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
 
 
       <!-- Card with Image -->
