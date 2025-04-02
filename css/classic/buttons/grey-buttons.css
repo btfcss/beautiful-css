@@ -3,9 +3,9 @@
 @import url(../text/fonts.css);
 
 .btn-grey {
-  border: 1px solid var(--grey-lighter-5);
+  border: 1px solid var(--grey);
   color: var(--black-white);
-  background-color: var(--grey-lighter-5);
+  background-color: var(--grey);
 }
 
 .btn-grey:disabled {
@@ -31,7 +31,8 @@
   background-color: light-dark(var(--light-grey-darker-5), var(--grey));
 }
 
-.btn-grey:focus:not(:disabled),
-.btn-grey:focus-visible:not(:disabled) {
+
+:not(.input-group) > .btn-grey:focus:not(:disabled),
+:not(.input-group) > .btn-grey:focus-visible:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--grey-lighter-20);
 }

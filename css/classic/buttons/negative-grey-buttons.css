@@ -35,7 +35,7 @@
   background-color: light-dark(var(--negative-grey), var(--light-grey-darker-5));
 }
 
-.btn-negative-grey:focus:not(:disabled),
-.btn-negative-grey:focus-visible:not(:disabled) {
+:not(.input-group) > .btn-negative-grey:focus:not(:disabled),
+:not(.input-group) > .btn-negative-grey:focus-visible:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--negative-grey-lighter-20);
 }

@@ -1,0 +1,62 @@
+.input-group > * {
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+}
+
+.input-group:not(.rounded-pill) > *:first-child {  
+  border-top-left-radius: var(--spacing-2);
+  border-bottom-left-radius: var(--spacing-2);
+}
+.input-group:not(.rounded-pill) > *:last-child {  
+  border-top-right-radius: var(--spacing-2);
+  border-bottom-right-radius: var(--spacing-2);
+}
+
+.input-group.rounded-pill > *:first-child {  
+  border-top-left-radius:  50vh !important;
+  border-bottom-left-radius:  50vh !important;
+}
+.input-group.rounded-pill > *:last-child {  
+  border-top-right-radius: 50vh !important;
+  border-bottom-right-radius:  50vh !important;
+}
+
+
+.input-group {
+  display: flex;  
+  align-items: stretch;
+  justify-content: center;
+  background-color: blue;
+  border-radius: var(--spacing-2);
+  border: 1px solid var(--negative-grey);
+  background-color: var(--grey);
+  width: 100%;
+}
+
+.input-group > span {
+  padding: 0 var(--spacing-3);
+  white-space: nowrap;
+  align-content: center;
+}
+
+
+.input-group > span
+
+.input-group:has(*:focus),
+.input-group:has(*:focus-within),
+.input-group:has(*:focus-visible) {
+  box-shadow: 0 0 0 var(--spacing-1) var(--blue-lighter-20);
+}
+
+.input-group:has(*.valid:focus),
+.input-group:has(*.valid:focus-within),
+.input-group:has(*.valid:focus-visible) {
+  box-shadow: 0 0 0 var(--spacing-1) var(--green-lighter-20);
+}
+
+.input-group:has(*.invalid:focus),
+.input-group:has(*.invalid:focus-within),
+.input-group:has(*.invalid:focus-visible) {
+  box-shadow: 0 0 0 var(--spacing-1) var(--red-lighter-20);
+}

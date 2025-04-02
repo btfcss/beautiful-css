@@ -31,7 +31,7 @@
   background-color: var(--purple);
 }
 
-.btn-purple:focus:not(:disabled),
-.btn-purple:focus-visible:not(:disabled) {
+:not(.input-group) > .btn-purple:focus:not(:disabled),
+:not(.input-group) > .btn-purple:focus-visible:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--purple-lighter-20);
 }

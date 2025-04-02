@@ -1,7 +1,6 @@
 import "/css/classic/classic.css";
 import hljs from "highlight.js";
-
-
+import '@fortawesome/fontawesome-free/js/all.js';
 
 hljs.highlightAll({ showLanguageLabel: true });
 //hljs.highlightBlock(block, {showLanguageLabel: true});

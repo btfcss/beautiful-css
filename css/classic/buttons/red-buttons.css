@@ -32,7 +32,7 @@
   background-color: var(--red-lighter-5);
 }
 
-.btn-red:focus:hover:not(:disabled),
-.btn-red:focus-visible:hover:not(:disabled) {
+:not(.input-group) > .btn-red:focus:hover:not(:disabled),
+:not(.input-group) > .btn-red:focus-visible:hover:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--red-lighter-20);
 }

@@ -34,7 +34,7 @@
   background-color: var(--orange);
 }
 
-.btn-orange:focus:not(:disabled),
-.btn-orange:focus-visible:not(:disabled) {
+:not(.input-group) > .btn-orange:focus:not(:disabled),
+:not(.input-group) > .btn-orange:focus-visible:not(:disabled) {
   box-shadow: 0 0 0 0.25rem var(--orange-lighter-20);
 }
