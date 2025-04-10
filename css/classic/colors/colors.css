@@ -12,10 +12,11 @@
   --yellow: #DED140;
   --green: #1F8F49;
   --blue: #1b34cd;
-  --purple: #B834C7;  
+  --purple: #020202;  
   --light-grey: #dcdee6;
   --dark-grey: #3B4154;
   --grey: light-dark(var(--light-grey), var(--dark-grey));
   --negative-grey: light-dark(var(--dark-grey), var(--light-grey));
 
 }
+
