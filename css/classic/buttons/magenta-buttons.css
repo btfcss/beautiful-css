@@ -1,0 +1,36 @@
+@import url(button.css);
+@import url(../text/fonts.css);
+
+.btn-magenta {
+  font-family: var(--font-family);
+  border: 1px solid var(--magenta-600);
+  color: var(--white);
+  background-color: var(--magenta-600);
+}
+
+.btn-magenta:disabled {
+  border-color: var(--magenta-disabled);
+  background-color: var(--magenta-disabled);
+  color: var(--white-disabled)
+}
+
+.btn-magenta.outline {
+  background-color: transparent;
+  color: var(--magenta-600);
+}
+
+.btn-magenta.outline:disabled {
+  color: var(--magenta-disabled);
+}
+
+.btn-magenta.outline:hover:not(:disabled),
+.btn-magenta:hover:not(:disabled) {
+  color: #fff;
+  border-color: var(--magenta-500);
+  background-color: var(--magenta-500);
+}
+
+:not(.input-group) > .btn-magenta:focus:not(:disabled),
+:not(.input-group) > .btn-magenta:focus-visible:not(:disabled) {
+  box-shadow: 0 0 0 0.25rem var(--magenta-300);
+}

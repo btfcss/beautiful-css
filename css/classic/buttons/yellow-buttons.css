@@ -3,9 +3,9 @@
 @import url(../text/fonts.css);
 
 .btn-yellow {
-  border: 1px solid var(--yellow-lighter-5);
-  color: var(--black);
-  background-color: var(--yellow-lighter-5);
+  border: 1px solid var(--yellow-600);
+  color: var(--white);
+  background-color: var(--yellow-600);
 }
 
 
@@ -18,7 +18,7 @@
 
 .btn-yellow.outline {
   background-color: transparent;
-  color: var(--yellow-lighter-5);
+  color: var(--yellow-600);
 }
 
 .btn-yellow.outline:disabled {
@@ -27,12 +27,12 @@
 
 .btn-yellow.outline:hover:not(:disabled),
 .btn-yellow:hover:not(:disabled) {
-  color: #000;
-  border-color: var(--yellow);
-  background-color: var(--yellow);
+  color: #fff;
+  border-color: var(--yellow-500);
+  background-color: var(--yellow-500);
 }
 
 :not(.input-group) > .btn-yellow:focus:not(:disabled),
 :not(.input-group) > .btn-yellow:focus-visible:not(:disabled) {
-  box-shadow: 0 0 0 0.25rem var(--yellow-lighter-20);
+  box-shadow: 0 0 0 0.25rem var(--yellow-300);
 }

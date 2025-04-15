@@ -29,54 +29,45 @@
   border-style: double;
 }
 
-
-
-.border-red {
-  border-color: var(--red);
+.border-yellow {
+  border-color: var(--yellow-400);
 }
 
 .border-orange {
-  border-color: var(--orange);
+  border-color: var(--orange-400);
 }
 
-.border-yellow {
-  border-color: var(--yellow);
+.border-red {
+  border-color: var(--red-400);
 }
 
-.border-green {
-  border-color: var(--green);
+.border-magenta {
+  border-color: var(--magenta-400);
+}
+
+.border-violet {
+  border-color: var(--magenta-400);
 }
 
 .border-blue {
-  border-color: var(--blue);
+  border-color: var(--blue-400);
 }
 
-.border-purple {
-  border-color: var(--purple);
+
+.border-cyan {
+  border-color: var(--cyan-400);
 }
 
-.border-dark-grey {
-  border-color: var(--dark-grey);
-}
-
-.border-light-grey {
-  border-color: var(--light-grey);
+.border-green {
+  border-color: var(--green-400);
 }
 
 .border-grey {
-  border-color: var(--grey);
-}
-
-.border-negative-grey {
-  border-color: var(--negative-grey);
-}
-
-.border-white {
-  border-color: var(--white);
+  border-color: var(--grey-400);
 }
 
 .border-black {
-  border-color: var(--black);
+  border-color: var(--black-200);
 }
 
 

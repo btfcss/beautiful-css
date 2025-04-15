@@ -1,0 +1,36 @@
+@import url(button.css);
+@import url(../text/fonts.css);
+
+.btn-cyan {
+  font-family: var(--font-family);
+  border: 1px solid var(--cyan-600);
+  color: var(--white);
+  background-color: var(--cyan-600);
+}
+
+.btn-cyan:disabled {
+  border-color: var(--cyan-disabled);
+  background-color: var(--cyan-disabled);
+  color: var(--white-disabled)
+}
+
+.btn-cyan.outline {
+  background-color: transparent;
+  color: var(--cyan-600);
+}
+
+.btn-cyan.outline:disabled {
+  color: var(--cyan-disabled);
+}
+
+.btn-cyan.outline:hover:not(:disabled),
+.btn-cyan:hover:not(:disabled) {
+  color: #fff;
+  border-color: var(--cyan-500);
+  background-color: var(--cyan-500);
+}
+
+:not(.input-group) > .btn-cyan:focus:not(:disabled),
+:not(.input-group) > .btn-cyan:focus-visible:not(:disabled) {
+  box-shadow: 0 0 0 0.25rem var(--cyan-300);
+}
