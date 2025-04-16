@@ -1,62 +1,42 @@
 @import url(../colors/colors.css);
 
-.bg-black {
-  background-color: var(--black) !important;
-  color: white;
-}
-
-.bg-white {
-  background-color: var(--white) !important;
-  color: black;
-}
-
-.bg-red {
-  background-color: var(--red) !important;
-  color: white;
+.bg-yellow {
+  background-color: light-dark(var(--yellow-200), var(--yellow-800))!important;
 }
 
 .bg-orange {
-  background-color: var(--orange) !important;
-  color: black;
+  background-color: light-dark(var(--orange-200), var(--orange-800))!important;
 }
 
-.bg-yellow {
-  background-color: var(--yellow) !important;
-  color: black;
+.bg-red {
+  background-color: light-dark(var(--red-200), var(--red-800))!important;
+}
+
+.bg-magenta {
+  background-color: light-dark(var(--magenta-200), var(--magenta-800))!important;
+}
+
+.bg-violet {
+  background-color: light-dark(var(--violet-200), var(--violet-800))!important;
 }
 
 .bg-blue {
-  background-color: var(--blue) !important;
-  color: white;
+  background-color: light-dark(var(--blue-200), var(--blue-800))!important;
 }
 
-.bg-purple {
-  background-color: var(--purple) !important;
-  color: white;
+.bg-cyan {
+  background-color: light-dark(var(--cyan-200), var(--cyan-800))!important;
 }
 
 .bg-green {
-  background-color: var(--green) !important;
-  color: white;
-}
-
-.bg-light-grey {
-  background-color: var(--light-grey) !important;
-  color: black;
-}
-
-.bg-dark-grey {
-  background-color: var(--dark-grey) !important;
-  color: white;
+  background-color: light-dark(var(--green-200), var(--green-800))!important;
 }
 
 .bg-grey {
-  background-color: var(--grey) !important;
-  color: var(--black-white);
+  background-color: light-dark(var(--grey-200), var(--grey-800))!important;
 }
 
-.bg-negative-grey {
-  background-color: var(--negative-grey) !important;
-  color: var(--white-black);
+.bg-black {
+  background-color: light-dark(var(--black-200), var(--black-800))!important;
 }
 

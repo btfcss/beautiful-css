@@ -1,15 +1,13 @@
-.btn-red,
-.btn-orange,
 .btn-yellow,
-.btn-green,
-.btn-blue,
-.btn-cyan,
+.btn-orange,
+.btn-red,
 .btn-magenta,
 .btn-violet,
-.btn-dark-grey,
-.btn-light-grey,
+.btn-blue,
+.btn-cyan,
+.btn-green,
 .btn-grey,
-.btn-negative-grey {
+.btn-black {
   font-family: var(--font-family);
   font-size: 1rem;
   padding: var(--spacing-2) var(--spacing-3);
@@ -21,19 +19,16 @@
 }
 
 
-
-.btn-red:disabled,
-.btn-orange:disabled,
 .btn-yellow:disabled,
-.btn-green:disabled,
-.btn-blue:disabled,
-.btn-cyan:disabled,
+.btn-orange:disabled,
+.btn-red:disabled,
 .btn-magenta:disabled,
 .btn-violet:disabled,
-.btn-dark-grey:disabled,
-.btn-light-grey:disabled,
+.btn-blue:disabled,
+.btn-cyan:disabled,
+.btn-green:disabled,
 .btn-grey:disabled,
-.btn-negative-grey:disabled {  
+.btn-black:disabled {  
   cursor: auto;
 }
 

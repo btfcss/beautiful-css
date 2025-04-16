@@ -5,6 +5,7 @@
 
 .card {
   background-color: light-dark(#f3f4f7,#292d39);
+  background-color: light-dark(var(--grey-100),var(--black-400));
   border-radius: var(--border-radius);
   /* box-shadow: light-dark(#0000000d, #ffffff0d) 0px 6px 24px 0px, light-dark(#00000014, #ffffff14) 0px 0px 0px 1px; */
   box-shadow: light-dark(#0000000d, #ffffff0d) 0px 6px 24px 0px;
@@ -32,6 +33,7 @@
 
 .card>.header {
   background-color: var(--grey);
+  background-color: light-dark(var(--grey-200), var(--black-200));
   padding: var(--border-radius);
 }
 
@@ -52,6 +54,7 @@
 
 .card>.footer {
   background-color: var(--grey);
+  background-color: light-dark(var(--grey-200), var(--black-200));
   padding: var(--border-radius);
 }
 

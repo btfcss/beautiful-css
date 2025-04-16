@@ -23,8 +23,8 @@
 
 :root {
   color-scheme: light dark;
-  --background-color: light-dark(var(--white), var(--black));
-  --text-color: light-dark(#333, #ddd);  
+  --background-color: light-dark(var(--grey-100), var(--black-800));
+  --text-color: light-dark(var(--black-300), var(--grey-300));  
 }
 
 

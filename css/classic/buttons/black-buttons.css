@@ -1,0 +1,36 @@
+@import url(button.css);
+@import url(../text/fonts.css);
+
+.btn-black {
+  font-family: var(--font-family);
+  border: 1px solid var(--black-600);
+  color: var(--white);
+  background-color: var(--black-600);
+}
+
+.btn-black:disabled {
+  border-color: var(--black-disabled);
+  background-color: var(--black-disabled);
+  color: var(--white-disabled)
+}
+
+.btn-black.outline {
+  background-color: transparent;
+  color: var(--black-600);
+}
+
+.btn-black.outline:disabled {
+  color: var(--black-disabled);
+}
+
+.btn-black.outline:hover:not(:disabled),
+.btn-black:hover:not(:disabled) {
+  color: #fff;
+  border-color: var(--black-500);
+  background-color: var(--black-500);
+}
+
+:not(.input-group) > .btn-black:focus:not(:disabled),
+:not(.input-group) > .btn-black:focus-visible:not(:disabled) {
+  box-shadow: 0 0 0 0.25rem var(--black-300);
+}
