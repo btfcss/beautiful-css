@@ -23,6 +23,15 @@
   --h4-color: light-dark(#181818, #e7e7e7);
   --h5-color: light-dark(#202020, #dfdfdf);
   --h6-color: light-dark(#282828, #d7d7d7);
+
+
+  
+  --h1-color: light-dark(var(--black-950), var(--grey-50));
+  --h2-color: light-dark(var(--black-900), var(--grey-100));
+  --h3-color: light-dark(var(--black-800), var(--grey-200));
+  --h4-color: light-dark(var(--black-700), var(--grey-200));
+  --h5-color: light-dark(var(--black-600), var(--grey-300));
+  --h6-color: light-dark(var(--black-500), var(--grey-300));
 }
 
 

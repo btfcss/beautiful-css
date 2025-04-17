@@ -1,4 +1,4 @@
-/* https://huetone.ardov.me/?palette=N4IgdghgtgpiBcIAOAbCBPA5gJwPYFcwATEAGhAAt8YBnBAbVElgRAGNcVdsz3Pu68eiADEMABwAzAOySAnLxFsYMIpIBMiiAFY1MaYvEAWIgGY1i7dLbnTigIxEIMGw4BGciBDYOAbNIkSchF7U185aV9FAAYYI0ltcRi5U21TNxAAXQBfUiZoOEQAcWwMXg4ubEFhEUloyXEVRT1JJ0U2bRh1NwzgiFbpCE1guXU2cXFoxV8iN19tbWnoiGijXtF48VNzRSN7Ge3FU3ttdXUo4PVQ6XsILOzM8gAXXDBaBhBtKfJ7aO%2BQdR-XimIHkIygz4Q3wQ6QQyb-OQQuRfe5AA */
+/* https://huetone.ardov.me/?palette=N4IgdghgtgpiBcIAOAbCBPA5gJwPYFcwATEAGhAAt8YBnBAbVElgRACEVqyQBjXFXNjrx6IAMQwAHADMA7NICc3MTxgwi0gEzKIAVg0xZyyQBYiAZg3LdsnpfPKAjEQgw7TgEYKIEHk4BsslIk5GKO5v4Ksv7KAAwwJtK6knEK5rrmHiAAugC%2BpEzQcIgA4thqYNx8AkIM4tKx0pJqygbSLso8ujCaHlmhEO2yENqhCpo8kpKxyv5EHv66urOxELEm-eKJkuaWyiaOc7vK5o66mpoxoZrhso4QOfmFLKXYGFX8gsKiEuYwfw5QpNgSkBjBXK5lAoTNDocpZB4EQjZhFUfseCYMX5Qqj-BFlBdCaNxI1SdI4ppYpTtHkCuAiqwOL4ANYfGrfLZEMxmfbmEx8wHicx2EUnfnigk8CYTAkmTRykxOaSOZXk0KODwajVOSSOXWg8SOA7GuLmWJmhy057FEBld7kapfOpiIjqN2tDzzebKDwQX2%2Bn1IxE%2BrWanT%2Bv06e7RqG6BRx5ahSQg7HiST%2BdPp%2BEQYbDR7ZcgAF1wYFodV0M3IjlilZAlNrZtrJhr3Artf8LfIsk7IGmtYUPfjMzyQA */
 
 
 :root {
@@ -102,6 +102,19 @@
   --green-800: oklch(0.49 0.0999 138.6);
   --green-900: oklch(0.4 0.0797 138.35);
   --green-950: oklch(0.31 0.0568 138.49);
+
+
+  --white-50: oklch(0.9 0 0);
+  --white-100: oklch(0.81 0 0);
+  --white-200: oklch(0.91 0 0);
+  --white-300: oklch(0.88 0 0);
+  --white-400: oklch(0.83 0 0);
+  --white-500: oklch(0.78 0 0);
+  --white-600: oklch(0.71 0 0);
+  --white-700: oklch(0.61 0 0);
+  --white-800: oklch(0.53 0 0);
+  --white-900: oklch(0.44 0 0);
+  --white-950: oklch(0.34 0 0);
 
 
   --grey-50: oklch(0.98 0 0);

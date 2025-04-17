@@ -22,11 +22,16 @@
 
 
 :root {
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
+  color-scheme: var(--color-scheme, light);
   --background-color: light-dark(var(--grey-100), var(--black-800));
-  --text-color: light-dark(var(--black-300), var(--grey-300));  
+  --text-color: light-dark(var(--black-400), var(--grey-300));  
 }
-
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-scheme: dark;
+  }
+}
 
 
 body {

@@ -1,8 +1,13 @@
 @import url(../colors/colors.css);
 
 .bg-yellow {
-  background-color: light-dark(var(--yellow-200), var(--yellow-800))!important;
+  background-color: light-dark(var(--bg-light, var(--yellow-200)), var(--bg-dark, var(--yellow-800)))!important;
 }
+
+.light\:bg-red {
+  --bg-light:var(--red-200);
+}
+
 
 .bg-orange {
   background-color: light-dark(var(--orange-200), var(--orange-800))!important;
@@ -40,3 +45,21 @@
   background-color: light-dark(var(--black-200), var(--black-800))!important;
 }
 
+
+
+
+
+/* Default (light) styles */
+.light-bg-red {
+  background-color: red;
+}
+
+
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+
+  .dark-bg-blue {
+    background-color: blue;
+  }
+}

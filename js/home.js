@@ -17,9 +17,11 @@ let currentTheme = getSystemTheme();
 
 async function updateColorScheme(theme) {
   if (theme == 'dark')
-    await import('highlight.js/styles/tokyo-night-dark.min.css');
+    //await import('highlight.js/styles/base16/humanoid-dark.min.css');
+    //await import('highlight.js/styles/agate.min.css');
+    await import('highlight.js/styles/androidstudio.min.css');
   else
-    await import('highlight.js/styles/1c-light.min.css');
+    await import('highlight.js/styles/arta.min.css');
 }
 
 // Triggered when the theme changed
@@ -46,7 +48,7 @@ document.addEventListener('color-scheme-changed', (event) => {
 
 // The light theme button is clicked
 document.getElementById('btn-theme-light').addEventListener('click', () => {
-  document.querySelector(':root').style.setProperty('color-scheme', 'light');
+  document.querySelector(':root').style.setProperty('color-scheme', 'light');  
   const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "light" } });
   document.dispatchEvent(colorSchemeChangedEvent);
 })
