@@ -1,3 +1,5 @@
+@import url(../../colors/palette.css);
+
 .bg-purple { --bg-light:var(--purple-200);--bg-dark:var(--purple-800);}
 .bg-purple-50  { --bg-light:var(--purple-50 );--bg-dark:var(--purple-50 );}
 .bg-purple-100 { --bg-light:var(--purple-100);--bg-dark:var(--purple-100);}

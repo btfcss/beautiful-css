@@ -1,38 +1,40 @@
-.bg-purple { --bg-light:var(--purple-200);--bg-dark:var(--purple-800);}
-.bg-purple-50  { --bg-light:var(--purple-50 );--bg-dark:var(--purple-50 );}
-.bg-purple-100 { --bg-light:var(--purple-100);--bg-dark:var(--purple-100);}
-.bg-purple-200 { --bg-light:var(--purple-200);--bg-dark:var(--purple-200);}
-.bg-purple-300 { --bg-light:var(--purple-300);--bg-dark:var(--purple-300);}
-.bg-purple-400 { --bg-light:var(--purple-400);--bg-dark:var(--purple-400);}
-.bg-purple-500 { --bg-light:var(--purple-500);--bg-dark:var(--purple-500);}
-.bg-purple-600 { --bg-light:var(--purple-600);--bg-dark:var(--purple-600);}
-.bg-purple-700 { --bg-light:var(--purple-700);--bg-dark:var(--purple-700);}
-.bg-purple-800 { --bg-light:var(--purple-800);--bg-dark:var(--purple-800);}
-.bg-purple-900 { --bg-light:var(--purple-900);--bg-dark:var(--purple-900);}
-.bg-purple-950 { --bg-light:var(--purple-950);--bg-dark:var(--purple-950);}
+@import url(../palette.css);
 
-.light\:bg-purple { --bg-light:var(--purple-200 ); }
-.light\:bg-purple-50  { --bg-light:var(--purple-50 ); }
-.light\:bg-purple-100 { --bg-light:var(--purple-100); }
-.light\:bg-purple-200 { --bg-light:var(--purple-200); }
-.light\:bg-purple-300 { --bg-light:var(--purple-300); }
-.light\:bg-purple-400 { --bg-light:var(--purple-400); }
-.light\:bg-purple-500 { --bg-light:var(--purple-500); }
-.light\:bg-purple-600 { --bg-light:var(--purple-600); }
-.light\:bg-purple-700 { --bg-light:var(--purple-700); }
-.light\:bg-purple-800 { --bg-light:var(--purple-800); }
-.light\:bg-purple-900 { --bg-light:var(--purple-900); }
-.light\:bg-purple-950 { --bg-light:var(--purple-950); }
+.text-purple { --text-light:var(--purple-500);--text-dark:var(--purple-500);}
+.text-purple-50  { --text-light:var(--purple-50 );--text-dark:var(--purple-50 );}
+.text-purple-100 { --text-light:var(--purple-100);--text-dark:var(--purple-100);}
+.text-purple-200 { --text-light:var(--purple-200);--text-dark:var(--purple-200);}
+.text-purple-300 { --text-light:var(--purple-300);--text-dark:var(--purple-300);}
+.text-purple-400 { --text-light:var(--purple-400);--text-dark:var(--purple-400);}
+.text-purple-500 { --text-light:var(--purple-500);--text-dark:var(--purple-500);}
+.text-purple-600 { --text-light:var(--purple-600);--text-dark:var(--purple-600);}
+.text-purple-700 { --text-light:var(--purple-700);--text-dark:var(--purple-700);}
+.text-purple-800 { --text-light:var(--purple-800);--text-dark:var(--purple-800);}
+.text-purple-900 { --text-light:var(--purple-900);--text-dark:var(--purple-900);}
+.text-purple-950 { --text-light:var(--purple-950);--text-dark:var(--purple-950);}
 
-.dark\:bg-purple  { --bg-dark:var(--purple-800 ); }
-.dark\:bg-purple-50  { --bg-dark:var(--purple-50 ); }
-.dark\:bg-purple-100 { --bg-dark:var(--purple-100); }
-.dark\:bg-purple-200 { --bg-dark:var(--purple-200); }
-.dark\:bg-purple-300 { --bg-dark:var(--purple-300); }
-.dark\:bg-purple-400 { --bg-dark:var(--purple-400); }
-.dark\:bg-purple-500 { --bg-dark:var(--purple-500); }
-.dark\:bg-purple-600 { --bg-dark:var(--purple-600); }
-.dark\:bg-purple-700 { --bg-dark:var(--purple-700); }
-.dark\:bg-purple-800 { --bg-dark:var(--purple-800); }
-.dark\:bg-purple-900 { --bg-dark:var(--purple-900); }
-.dark\:bg-purple-950 { --bg-dark:var(--purple-950); }
+.light\:text-purple { --text-light:var(--purple-500 ); }
+.light\:text-purple-50  { --text-light:var(--purple-50 ); }
+.light\:text-purple-100 { --text-light:var(--purple-100); }
+.light\:text-purple-200 { --text-light:var(--purple-200); }
+.light\:text-purple-300 { --text-light:var(--purple-300); }
+.light\:text-purple-400 { --text-light:var(--purple-400); }
+.light\:text-purple-500 { --text-light:var(--purple-500); }
+.light\:text-purple-600 { --text-light:var(--purple-600); }
+.light\:text-purple-700 { --text-light:var(--purple-700); }
+.light\:text-purple-800 { --text-light:var(--purple-800); }
+.light\:text-purple-900 { --text-light:var(--purple-900); }
+.light\:text-purple-950 { --text-light:var(--purple-950); }
+
+.dark\:text-purple  { --text-dark:var(--purple-500 ); }
+.dark\:text-purple-50  { --text-dark:var(--purple-50 ); }
+.dark\:text-purple-100 { --text-dark:var(--purple-100); }
+.dark\:text-purple-200 { --text-dark:var(--purple-200); }
+.dark\:text-purple-300 { --text-dark:var(--purple-300); }
+.dark\:text-purple-400 { --text-dark:var(--purple-400); }
+.dark\:text-purple-500 { --text-dark:var(--purple-500); }
+.dark\:text-purple-600 { --text-dark:var(--purple-600); }
+.dark\:text-purple-700 { --text-dark:var(--purple-700); }
+.dark\:text-purple-800 { --text-dark:var(--purple-800); }
+.dark\:text-purple-900 { --text-dark:var(--purple-900); }
+.dark\:text-purple-950 { --text-dark:var(--purple-950); }

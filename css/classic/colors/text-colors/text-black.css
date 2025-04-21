@@ -1,38 +1,38 @@
-.bg-black { --bg-light:var(--black-200);--bg-dark:var(--black-800);}
-.bg-black-50  { --bg-light:var(--black-50 );--bg-dark:var(--black-50 );}
-.bg-black-100 { --bg-light:var(--black-100);--bg-dark:var(--black-100);}
-.bg-black-200 { --bg-light:var(--black-200);--bg-dark:var(--black-200);}
-.bg-black-300 { --bg-light:var(--black-300);--bg-dark:var(--black-300);}
-.bg-black-400 { --bg-light:var(--black-400);--bg-dark:var(--black-400);}
-.bg-black-500 { --bg-light:var(--black-500);--bg-dark:var(--black-500);}
-.bg-black-600 { --bg-light:var(--black-600);--bg-dark:var(--black-600);}
-.bg-black-700 { --bg-light:var(--black-700);--bg-dark:var(--black-700);}
-.bg-black-800 { --bg-light:var(--black-800);--bg-dark:var(--black-800);}
-.bg-black-900 { --bg-light:var(--black-900);--bg-dark:var(--black-900);}
-.bg-black-950 { --bg-light:var(--black-950);--bg-dark:var(--black-950);}
+.text-black { --text-light:var(--black-500);--text-dark:var(--black-500);}
+.text-black-50  { --text-light:var(--black-50 );--text-dark:var(--black-50 );}
+.text-black-100 { --text-light:var(--black-100);--text-dark:var(--black-100);}
+.text-black-200 { --text-light:var(--black-200);--text-dark:var(--black-200);}
+.text-black-300 { --text-light:var(--black-300);--text-dark:var(--black-300);}
+.text-black-400 { --text-light:var(--black-400);--text-dark:var(--black-400);}
+.text-black-500 { --text-light:var(--black-500);--text-dark:var(--black-500);}
+.text-black-600 { --text-light:var(--black-600);--text-dark:var(--black-600);}
+.text-black-700 { --text-light:var(--black-700);--text-dark:var(--black-700);}
+.text-black-800 { --text-light:var(--black-800);--text-dark:var(--black-800);}
+.text-black-900 { --text-light:var(--black-900);--text-dark:var(--black-900);}
+.text-black-950 { --text-light:var(--black-950);--text-dark:var(--black-950);}
 
-.light\:bg-black { --bg-light:var(--black-200 ); }
-.light\:bg-black-50  { --bg-light:var(--black-50 ); }
-.light\:bg-black-100 { --bg-light:var(--black-100); }
-.light\:bg-black-200 { --bg-light:var(--black-200); }
-.light\:bg-black-300 { --bg-light:var(--black-300); }
-.light\:bg-black-400 { --bg-light:var(--black-400); }
-.light\:bg-black-500 { --bg-light:var(--black-500); }
-.light\:bg-black-600 { --bg-light:var(--black-600); }
-.light\:bg-black-700 { --bg-light:var(--black-700); }
-.light\:bg-black-800 { --bg-light:var(--black-800); }
-.light\:bg-black-900 { --bg-light:var(--black-900); }
-.light\:bg-black-950 { --bg-light:var(--black-950); }
+.light\:text-black { --text-light:var(--black-500 ); }
+.light\:text-black-50  { --text-light:var(--black-50 ); }
+.light\:text-black-100 { --text-light:var(--black-100); }
+.light\:text-black-200 { --text-light:var(--black-200); }
+.light\:text-black-300 { --text-light:var(--black-300); }
+.light\:text-black-400 { --text-light:var(--black-400); }
+.light\:text-black-500 { --text-light:var(--black-500); }
+.light\:text-black-600 { --text-light:var(--black-600); }
+.light\:text-black-700 { --text-light:var(--black-700); }
+.light\:text-black-800 { --text-light:var(--black-800); }
+.light\:text-black-900 { --text-light:var(--black-900); }
+.light\:text-black-950 { --text-light:var(--black-950); }
 
-.dark\:bg-black  { --bg-dark:var(--black-800 ); }
-.dark\:bg-black-50  { --bg-dark:var(--black-50 ); }
-.dark\:bg-black-100 { --bg-dark:var(--black-100); }
-.dark\:bg-black-200 { --bg-dark:var(--black-200); }
-.dark\:bg-black-300 { --bg-dark:var(--black-300); }
-.dark\:bg-black-400 { --bg-dark:var(--black-400); }
-.dark\:bg-black-500 { --bg-dark:var(--black-500); }
-.dark\:bg-black-600 { --bg-dark:var(--black-600); }
-.dark\:bg-black-700 { --bg-dark:var(--black-700); }
-.dark\:bg-black-800 { --bg-dark:var(--black-800); }
-.dark\:bg-black-900 { --bg-dark:var(--black-900); }
-.dark\:bg-black-950 { --bg-dark:var(--black-950); }
+.dark\:text-black  { --text-dark:var(--black-500 ); }
+.dark\:text-black-50  { --text-dark:var(--black-50 ); }
+.dark\:text-black-100 { --text-dark:var(--black-100); }
+.dark\:text-black-200 { --text-dark:var(--black-200); }
+.dark\:text-black-300 { --text-dark:var(--black-300); }
+.dark\:text-black-400 { --text-dark:var(--black-400); }
+.dark\:text-black-500 { --text-dark:var(--black-500); }
+.dark\:text-black-600 { --text-dark:var(--black-600); }
+.dark\:text-black-700 { --text-dark:var(--black-700); }
+.dark\:text-black-800 { --text-dark:var(--black-800); }
+.dark\:text-black-900 { --text-dark:var(--black-900); }
+.dark\:text-black-950 { --text-dark:var(--black-950); }

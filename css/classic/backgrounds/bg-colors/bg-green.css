@@ -1,4 +1,6 @@
 
+@import url(../../colors/palette.css);
+
 .bg-green { --bg-light:var(--green-200);--bg-dark:var(--green-800);}
 .bg-green-50  { --bg-light:var(--green-50 );--bg-dark:var(--green-50 );}
 .bg-green-100 { --bg-light:var(--green-100);--bg-dark:var(--green-100);}

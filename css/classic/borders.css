@@ -29,6 +29,8 @@
   border-style: double;
 }
 
+
+
 .border-yellow {
   border-color: var(--yellow-400);
 }

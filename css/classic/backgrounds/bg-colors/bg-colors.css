@@ -1,4 +1,4 @@
-@import url(../../colors/colors.css);
+@import url(../../colors/palette.css);
 @import url(bg-yellow.css);
 @import url(bg-orange.css);
 @import url(bg-red.css);
@@ -12,20 +12,19 @@
 @import url(bg-black.css);
 
 
+[class*="light\:bg-"]:not([class*="dark\:bg-"]) {
+  background-color: light-dark(var(--bg-light, var(--white-200)), transparent);
+}
 
-[class*="light\:bg-"],
-[class*="dark\:bg-"],
-[class*="bg-"] {
-  background-position: 0 0;
-  background-size: 10px 10px;
-  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark, var(--black-200)))!important;
+[class*="dark\:bg-"]:not([class*="light\:bg-"]) {
+  background-color: light-dark(transparent, var(--bg-dark, var(--black-200)));
 }
 
 
-
-
-
-
+[class*="light\:bg-"][class*="dark\:bg-"],
+[class*="bg-"] {
+  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark, var(--black-200)));
+}
 
 
 

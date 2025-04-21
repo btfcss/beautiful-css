@@ -1,3 +1,5 @@
+@import url(../../colors/palette.css);
+
 .bg-pink { --bg-light:var(--pink-200);--bg-dark:var(--pink-800);}
 .bg-pink-50  { --bg-light:var(--pink-50 );--bg-dark:var(--pink-50 );}
 .bg-pink-100 { --bg-light:var(--pink-100);--bg-dark:var(--pink-100);}

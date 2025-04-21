@@ -1,3 +1,5 @@
+@import url(../../colors/palette.css);
+
 .bg-yellow { --bg-light:var(--yellow-200);--bg-dark:var(--yellow-800);}
 .bg-yellow-50  { --bg-light:var(--yellow-50 );--bg-dark:var(--yellow-50 );}
 .bg-yellow-100 { --bg-light:var(--yellow-100);--bg-dark:var(--yellow-100);}

@@ -1,38 +1,40 @@
-.bg-yellow { --bg-light:var(--yellow-200);--bg-dark:var(--yellow-800);}
-.bg-yellow-50  { --bg-light:var(--yellow-50 );--bg-dark:var(--yellow-50 );}
-.bg-yellow-100 { --bg-light:var(--yellow-100);--bg-dark:var(--yellow-100);}
-.bg-yellow-200 { --bg-light:var(--yellow-200);--bg-dark:var(--yellow-200);}
-.bg-yellow-300 { --bg-light:var(--yellow-300);--bg-dark:var(--yellow-300);}
-.bg-yellow-400 { --bg-light:var(--yellow-400);--bg-dark:var(--yellow-400);}
-.bg-yellow-500 { --bg-light:var(--yellow-500);--bg-dark:var(--yellow-500);}
-.bg-yellow-600 { --bg-light:var(--yellow-600);--bg-dark:var(--yellow-600);}
-.bg-yellow-700 { --bg-light:var(--yellow-700);--bg-dark:var(--yellow-700);}
-.bg-yellow-800 { --bg-light:var(--yellow-800);--bg-dark:var(--yellow-800);}
-.bg-yellow-900 { --bg-light:var(--yellow-900);--bg-dark:var(--yellow-900);}
-.bg-yellow-950 { --bg-light:var(--yellow-950);--bg-dark:var(--yellow-950);}
+@import url(../palette.css);
 
-.light\:bg-yellow  { --bg-light:var(--yellow-200 ); }
-.light\:bg-yellow-50  { --bg-light:var(--yellow-50 ); }
-.light\:bg-yellow-100 { --bg-light:var(--yellow-100); }
-.light\:bg-yellow-200 { --bg-light:var(--yellow-200); }
-.light\:bg-yellow-300 { --bg-light:var(--yellow-300); }
-.light\:bg-yellow-400 { --bg-light:var(--yellow-400); }
-.light\:bg-yellow-500 { --bg-light:var(--yellow-500); }
-.light\:bg-yellow-600 { --bg-light:var(--yellow-600); }
-.light\:bg-yellow-700 { --bg-light:var(--yellow-700); }
-.light\:bg-yellow-800 { --bg-light:var(--yellow-800); }
-.light\:bg-yellow-900 { --bg-light:var(--yellow-900); }
-.light\:bg-yellow-950 { --bg-light:var(--yellow-950); }
+.text-yellow { --text-light:var(--yellow-600);--text-dark:var(--yellow-500);}
+.text-yellow-50  { --text-light:var(--yellow-50 );--text-dark:var(--yellow-50 );}
+.text-yellow-100 { --text-light:var(--yellow-100);--text-dark:var(--yellow-100);}
+.text-yellow-200 { --text-light:var(--yellow-200);--text-dark:var(--yellow-200);}
+.text-yellow-300 { --text-light:var(--yellow-300);--text-dark:var(--yellow-300);}
+.text-yellow-400 { --text-light:var(--yellow-400);--text-dark:var(--yellow-400);}
+.text-yellow-500 { --text-light:var(--yellow-500);--text-dark:var(--yellow-500);}
+.text-yellow-600 { --text-light:var(--yellow-600);--text-dark:var(--yellow-600);}
+.text-yellow-700 { --text-light:var(--yellow-700);--text-dark:var(--yellow-700);}
+.text-yellow-800 { --text-light:var(--yellow-800);--text-dark:var(--yellow-800);}
+.text-yellow-900 { --text-light:var(--yellow-900);--text-dark:var(--yellow-900);}
+.text-yellow-950 { --text-light:var(--yellow-950);--text-dark:var(--yellow-950);}
 
-.dark\:bg-yellow  { --bg-dark:var(--yellow-800 ); }
-.dark\:bg-yellow-50  { --bg-dark:var(--yellow-50 ); }
-.dark\:bg-yellow-100 { --bg-dark:var(--yellow-100); }
-.dark\:bg-yellow-200 { --bg-dark:var(--yellow-200); }
-.dark\:bg-yellow-300 { --bg-dark:var(--yellow-300); }
-.dark\:bg-yellow-400 { --bg-dark:var(--yellow-400); }
-.dark\:bg-yellow-500 { --bg-dark:var(--yellow-500); }
-.dark\:bg-yellow-600 { --bg-dark:var(--yellow-600); }
-.dark\:bg-yellow-700 { --bg-dark:var(--yellow-700); }
-.dark\:bg-yellow-800 { --bg-dark:var(--yellow-800); }
-.dark\:bg-yellow-900 { --bg-dark:var(--yellow-900); }
-.dark\:bg-yellow-950 { --bg-dark:var(--yellow-950); }
+.light\:text-yellow  { --text-light:var(--yellow-600 ); }
+.light\:text-yellow-50  { --text-light:var(--yellow-50 ); }
+.light\:text-yellow-100 { --text-light:var(--yellow-100); }
+.light\:text-yellow-200 { --text-light:var(--yellow-200); }
+.light\:text-yellow-300 { --text-light:var(--yellow-300); }
+.light\:text-yellow-400 { --text-light:var(--yellow-400); }
+.light\:text-yellow-500 { --text-light:var(--yellow-500); }
+.light\:text-yellow-600 { --text-light:var(--yellow-600); }
+.light\:text-yellow-700 { --text-light:var(--yellow-700); }
+.light\:text-yellow-800 { --text-light:var(--yellow-800); }
+.light\:text-yellow-900 { --text-light:var(--yellow-900); }
+.light\:text-yellow-950 { --text-light:var(--yellow-950); }
+
+.dark\:text-yellow  { --text-dark:var(--yellow-500 ); }
+.dark\:text-yellow-50  { --text-dark:var(--yellow-50 ); }
+.dark\:text-yellow-100 { --text-dark:var(--yellow-100); }
+.dark\:text-yellow-200 { --text-dark:var(--yellow-200); }
+.dark\:text-yellow-300 { --text-dark:var(--yellow-300); }
+.dark\:text-yellow-400 { --text-dark:var(--yellow-400); }
+.dark\:text-yellow-500 { --text-dark:var(--yellow-500); }
+.dark\:text-yellow-600 { --text-dark:var(--yellow-600); }
+.dark\:text-yellow-700 { --text-dark:var(--yellow-700); }
+.dark\:text-yellow-800 { --text-dark:var(--yellow-800); }
+.dark\:text-yellow-900 { --text-dark:var(--yellow-900); }
+.dark\:text-yellow-950 { --text-dark:var(--yellow-950); }

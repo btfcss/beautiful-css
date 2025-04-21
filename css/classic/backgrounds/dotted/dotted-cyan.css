@@ -1,0 +1,40 @@
+@import url(../../colors/palette.css);
+
+.dotted-cyan { --dotted-light:var(--cyan-300);--dotted-dark:var(--cyan-800);}
+.dotted-cyan-50  { --dotted-light:var(--cyan-50 );--dotted-dark:var(--cyan-50 );}
+.dotted-cyan-100 { --dotted-light:var(--cyan-100);--dotted-dark:var(--cyan-100);}
+.dotted-cyan-200 { --dotted-light:var(--cyan-200);--dotted-dark:var(--cyan-200);}
+.dotted-cyan-300 { --dotted-light:var(--cyan-300);--dotted-dark:var(--cyan-300);}
+.dotted-cyan-400 { --dotted-light:var(--cyan-400);--dotted-dark:var(--cyan-400);}
+.dotted-cyan-500 { --dotted-light:var(--cyan-500);--dotted-dark:var(--cyan-500);}
+.dotted-cyan-600 { --dotted-light:var(--cyan-600);--dotted-dark:var(--cyan-600);}
+.dotted-cyan-700 { --dotted-light:var(--cyan-700);--dotted-dark:var(--cyan-700);}
+.dotted-cyan-800 { --dotted-light:var(--cyan-800);--dotted-dark:var(--cyan-800);}
+.dotted-cyan-900 { --dotted-light:var(--cyan-900);--dotted-dark:var(--cyan-900);}
+.dotted-cyan-950 { --dotted-light:var(--cyan-950);--dotted-dark:var(--cyan-950);}
+
+.light\:dotted-cyan { --dotted-light:var(--cyan-300 ); }
+.light\:dotted-cyan-50  { --dotted-light:var(--cyan-50 ); }
+.light\:dotted-cyan-100 { --dotted-light:var(--cyan-100); }
+.light\:dotted-cyan-200 { --dotted-light:var(--cyan-200); }
+.light\:dotted-cyan-300 { --dotted-light:var(--cyan-300); }
+.light\:dotted-cyan-400 { --dotted-light:var(--cyan-400); }
+.light\:dotted-cyan-500 { --dotted-light:var(--cyan-500); }
+.light\:dotted-cyan-600 { --dotted-light:var(--cyan-600); }
+.light\:dotted-cyan-700 { --dotted-light:var(--cyan-700); }
+.light\:dotted-cyan-800 { --dotted-light:var(--cyan-800); }
+.light\:dotted-cyan-900 { --dotted-light:var(--cyan-900); }
+.light\:dotted-cyan-950 { --dotted-light:var(--cyan-950); }
+
+.dark\:dotted-cyan  { --dotted-dark:var(--cyan-800 ); }
+.dark\:dotted-cyan-50  { --dotted-dark:var(--cyan-50 ); }
+.dark\:dotted-cyan-100 { --dotted-dark:var(--cyan-100); }
+.dark\:dotted-cyan-200 { --dotted-dark:var(--cyan-200); }
+.dark\:dotted-cyan-300 { --dotted-dark:var(--cyan-300); }
+.dark\:dotted-cyan-400 { --dotted-dark:var(--cyan-400); }
+.dark\:dotted-cyan-500 { --dotted-dark:var(--cyan-500); }
+.dark\:dotted-cyan-600 { --dotted-dark:var(--cyan-600); }
+.dark\:dotted-cyan-700 { --dotted-dark:var(--cyan-700); }
+.dark\:dotted-cyan-800 { --dotted-dark:var(--cyan-800); }
+.dark\:dotted-cyan-900 { --dotted-dark:var(--cyan-900); }
+.dark\:dotted-cyan-950 { --dotted-dark:var(--cyan-950); }

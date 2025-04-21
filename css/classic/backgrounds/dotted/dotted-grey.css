@@ -1,0 +1,40 @@
+@import url(../../colors/palette.css);
+
+.dotted-grey { --dotted-light:var(--grey-300);--dotted-dark:var(--grey-800);}
+.dotted-grey-50  { --dotted-light:var(--grey-50 );--dotted-dark:var(--grey-50 );}
+.dotted-grey-100 { --dotted-light:var(--grey-100);--dotted-dark:var(--grey-100);}
+.dotted-grey-200 { --dotted-light:var(--grey-200);--dotted-dark:var(--grey-200);}
+.dotted-grey-300 { --dotted-light:var(--grey-300);--dotted-dark:var(--grey-300);}
+.dotted-grey-400 { --dotted-light:var(--grey-400);--dotted-dark:var(--grey-400);}
+.dotted-grey-500 { --dotted-light:var(--grey-500);--dotted-dark:var(--grey-500);}
+.dotted-grey-600 { --dotted-light:var(--grey-600);--dotted-dark:var(--grey-600);}
+.dotted-grey-700 { --dotted-light:var(--grey-700);--dotted-dark:var(--grey-700);}
+.dotted-grey-800 { --dotted-light:var(--grey-800);--dotted-dark:var(--grey-800);}
+.dotted-grey-900 { --dotted-light:var(--grey-900);--dotted-dark:var(--grey-900);}
+.dotted-grey-950 { --dotted-light:var(--grey-950);--dotted-dark:var(--grey-950);}
+
+.light\:dotted-grey { --dotted-light:var(--grey-300 ); }
+.light\:dotted-grey-50  { --dotted-light:var(--grey-50 ); }
+.light\:dotted-grey-100 { --dotted-light:var(--grey-100); }
+.light\:dotted-grey-200 { --dotted-light:var(--grey-200); }
+.light\:dotted-grey-300 { --dotted-light:var(--grey-300); }
+.light\:dotted-grey-400 { --dotted-light:var(--grey-400); }
+.light\:dotted-grey-500 { --dotted-light:var(--grey-500); }
+.light\:dotted-grey-600 { --dotted-light:var(--grey-600); }
+.light\:dotted-grey-700 { --dotted-light:var(--grey-700); }
+.light\:dotted-grey-800 { --dotted-light:var(--grey-800); }
+.light\:dotted-grey-900 { --dotted-light:var(--grey-900); }
+.light\:dotted-grey-950 { --dotted-light:var(--grey-950); }
+
+.dark\:dotted-grey  { --dotted-dark:var(--grey-500 ); }
+.dark\:dotted-grey-50  { --dotted-dark:var(--grey-50 ); }
+.dark\:dotted-grey-100 { --dotted-dark:var(--grey-100); }
+.dark\:dotted-grey-200 { --dotted-dark:var(--grey-200); }
+.dark\:dotted-grey-300 { --dotted-dark:var(--grey-300); }
+.dark\:dotted-grey-400 { --dotted-dark:var(--grey-400); }
+.dark\:dotted-grey-500 { --dotted-dark:var(--grey-500); }
+.dark\:dotted-grey-600 { --dotted-dark:var(--grey-600); }
+.dark\:dotted-grey-700 { --dotted-dark:var(--grey-700); }
+.dark\:dotted-grey-800 { --dotted-dark:var(--grey-800); }
+.dark\:dotted-grey-900 { --dotted-dark:var(--grey-900); }
+.dark\:dotted-grey-950 { --dotted-dark:var(--grey-950); }

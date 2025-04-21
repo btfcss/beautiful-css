@@ -1,38 +1,40 @@
-.bg-pink { --bg-light:var(--pink-200);--bg-dark:var(--pink-800);}
-.bg-pink-50  { --bg-light:var(--pink-50 );--bg-dark:var(--pink-50 );}
-.bg-pink-100 { --bg-light:var(--pink-100);--bg-dark:var(--pink-100);}
-.bg-pink-200 { --bg-light:var(--pink-200);--bg-dark:var(--pink-200);}
-.bg-pink-300 { --bg-light:var(--pink-300);--bg-dark:var(--pink-300);}
-.bg-pink-400 { --bg-light:var(--pink-400);--bg-dark:var(--pink-400);}
-.bg-pink-500 { --bg-light:var(--pink-500);--bg-dark:var(--pink-500);}
-.bg-pink-600 { --bg-light:var(--pink-600);--bg-dark:var(--pink-600);}
-.bg-pink-700 { --bg-light:var(--pink-700);--bg-dark:var(--pink-700);}
-.bg-pink-800 { --bg-light:var(--pink-800);--bg-dark:var(--pink-800);}
-.bg-pink-900 { --bg-light:var(--pink-900);--bg-dark:var(--pink-900);}
-.bg-pink-950 { --bg-light:var(--pink-950);--bg-dark:var(--pink-950);}
+@import url(../palette.css);
 
-.light\:bg-pink { --bg-light:var(--pink-200 ); }
-.light\:bg-pink-50  { --bg-light:var(--pink-50 ); }
-.light\:bg-pink-100 { --bg-light:var(--pink-100); }
-.light\:bg-pink-200 { --bg-light:var(--pink-200); }
-.light\:bg-pink-300 { --bg-light:var(--pink-300); }
-.light\:bg-pink-400 { --bg-light:var(--pink-400); }
-.light\:bg-pink-500 { --bg-light:var(--pink-500); }
-.light\:bg-pink-600 { --bg-light:var(--pink-600); }
-.light\:bg-pink-700 { --bg-light:var(--pink-700); }
-.light\:bg-pink-800 { --bg-light:var(--pink-800); }
-.light\:bg-pink-900 { --bg-light:var(--pink-900); }
-.light\:bg-pink-950 { --bg-light:var(--pink-950); }
+.text-pink { --text-light:var(--pink-500);--text-dark:var(--pink-500);}
+.text-pink-50  { --text-light:var(--pink-50 );--text-dark:var(--pink-50 );}
+.text-pink-100 { --text-light:var(--pink-100);--text-dark:var(--pink-100);}
+.text-pink-200 { --text-light:var(--pink-200);--text-dark:var(--pink-200);}
+.text-pink-300 { --text-light:var(--pink-300);--text-dark:var(--pink-300);}
+.text-pink-400 { --text-light:var(--pink-400);--text-dark:var(--pink-400);}
+.text-pink-500 { --text-light:var(--pink-500);--text-dark:var(--pink-500);}
+.text-pink-600 { --text-light:var(--pink-600);--text-dark:var(--pink-600);}
+.text-pink-700 { --text-light:var(--pink-700);--text-dark:var(--pink-700);}
+.text-pink-800 { --text-light:var(--pink-800);--text-dark:var(--pink-800);}
+.text-pink-900 { --text-light:var(--pink-900);--text-dark:var(--pink-900);}
+.text-pink-950 { --text-light:var(--pink-950);--text-dark:var(--pink-950);}
 
-.dark\:bg-pink  { --bg-dark:var(--pink-800 ); }
-.dark\:bg-pink-50  { --bg-dark:var(--pink-50 ); }
-.dark\:bg-pink-100 { --bg-dark:var(--pink-100); }
-.dark\:bg-pink-200 { --bg-dark:var(--pink-200); }
-.dark\:bg-pink-300 { --bg-dark:var(--pink-300); }
-.dark\:bg-pink-400 { --bg-dark:var(--pink-400); }
-.dark\:bg-pink-500 { --bg-dark:var(--pink-500); }
-.dark\:bg-pink-600 { --bg-dark:var(--pink-600); }
-.dark\:bg-pink-700 { --bg-dark:var(--pink-700); }
-.dark\:bg-pink-800 { --bg-dark:var(--pink-800); }
-.dark\:bg-pink-900 { --bg-dark:var(--pink-900); }
-.dark\:bg-pink-950 { --bg-dark:var(--pink-950); }
+.light\:text-pink { --text-light:var(--pink-500 ); }
+.light\:text-pink-50  { --text-light:var(--pink-50 ); }
+.light\:text-pink-100 { --text-light:var(--pink-100); }
+.light\:text-pink-200 { --text-light:var(--pink-200); }
+.light\:text-pink-300 { --text-light:var(--pink-300); }
+.light\:text-pink-400 { --text-light:var(--pink-400); }
+.light\:text-pink-500 { --text-light:var(--pink-500); }
+.light\:text-pink-600 { --text-light:var(--pink-600); }
+.light\:text-pink-700 { --text-light:var(--pink-700); }
+.light\:text-pink-800 { --text-light:var(--pink-800); }
+.light\:text-pink-900 { --text-light:var(--pink-900); }
+.light\:text-pink-950 { --text-light:var(--pink-950); }
+
+.dark\:text-pink  { --text-dark:var(--pink-500 ); }
+.dark\:text-pink-50  { --text-dark:var(--pink-50 ); }
+.dark\:text-pink-100 { --text-dark:var(--pink-100); }
+.dark\:text-pink-200 { --text-dark:var(--pink-200); }
+.dark\:text-pink-300 { --text-dark:var(--pink-300); }
+.dark\:text-pink-400 { --text-dark:var(--pink-400); }
+.dark\:text-pink-500 { --text-dark:var(--pink-500); }
+.dark\:text-pink-600 { --text-dark:var(--pink-600); }
+.dark\:text-pink-700 { --text-dark:var(--pink-700); }
+.dark\:text-pink-800 { --text-dark:var(--pink-800); }
+.dark\:text-pink-900 { --text-dark:var(--pink-900); }
+.dark\:text-pink-950 { --text-dark:var(--pink-950); }

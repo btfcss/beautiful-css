@@ -1,3 +1,5 @@
+@import url(../../colors/palette.css);
+
 .bg-red { --bg-light:var(--red-200);--bg-dark:var(--red-800);}
 .bg-red-50  { --bg-light:var(--red-50 );--bg-dark:var(--red-50 );}
 .bg-red-100 { --bg-light:var(--red-100);--bg-dark:var(--red-100);}
