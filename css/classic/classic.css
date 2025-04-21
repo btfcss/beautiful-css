@@ -7,7 +7,7 @@
 @import url(colors/colors.css);
 @import url(buttons/buttons.css);
 @import url(cards.css);
-@import url(borders.css);
+@import url(borders/borders.css);
 @import url(overflow.css);
 @import url(transform/transform.css);
 @import url(layout/layout.css);

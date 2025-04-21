@@ -1,0 +1,40 @@
+@import url(../colors/palette.css);
+
+.border-orange { --border-light:var(--orange-400);--border-dark:var(--orange-400);}
+.border-orange-50  { --border-light:var(--orange-50 );--border-dark:var(--orange-50 );}
+.border-orange-100 { --border-light:var(--orange-100);--border-dark:var(--orange-100);}
+.border-orange-200 { --border-light:var(--orange-200);--border-dark:var(--orange-200);}
+.border-orange-300 { --border-light:var(--orange-300);--border-dark:var(--orange-300);}
+.border-orange-400 { --border-light:var(--orange-400);--border-dark:var(--orange-400);}
+.border-orange-500 { --border-light:var(--orange-500);--border-dark:var(--orange-500);}
+.border-orange-600 { --border-light:var(--orange-600);--border-dark:var(--orange-600);}
+.border-orange-700 { --border-light:var(--orange-700);--border-dark:var(--orange-700);}
+.border-orange-800 { --border-light:var(--orange-800);--border-dark:var(--orange-800);}
+.border-orange-900 { --border-light:var(--orange-900);--border-dark:var(--orange-900);}
+.border-orange-950 { --border-light:var(--orange-950);--border-dark:var(--orange-950);}
+
+.light\:border-orange  { --border-light:var(--orange-400 ); }
+.light\:border-orange-50  { --border-light:var(--orange-50 ); }
+.light\:border-orange-100 { --border-light:var(--orange-100); }
+.light\:border-orange-200 { --border-light:var(--orange-200); }
+.light\:border-orange-300 { --border-light:var(--orange-300); }
+.light\:border-orange-400 { --border-light:var(--orange-400); }
+.light\:border-orange-500 { --border-light:var(--orange-500); }
+.light\:border-orange-600 { --border-light:var(--orange-600); }
+.light\:border-orange-700 { --border-light:var(--orange-700); }
+.light\:border-orange-800 { --border-light:var(--orange-800); }
+.light\:border-orange-900 { --border-light:var(--orange-900); }
+.light\:border-orange-950 { --border-light:var(--orange-950); }
+
+.dark\:border-orange  { --border-dark:var(--orange-400 ); }
+.dark\:border-orange-50  { --border-dark:var(--orange-50 ); }
+.dark\:border-orange-100 { --border-dark:var(--orange-100); }
+.dark\:border-orange-200 { --border-dark:var(--orange-200); }
+.dark\:border-orange-300 { --border-dark:var(--orange-300); }
+.dark\:border-orange-400 { --border-dark:var(--orange-400); }
+.dark\:border-orange-500 { --border-dark:var(--orange-500); }
+.dark\:border-orange-600 { --border-dark:var(--orange-600); }
+.dark\:border-orange-700 { --border-dark:var(--orange-700); }
+.dark\:border-orange-800 { --border-dark:var(--orange-800); }
+.dark\:border-orange-900 { --border-dark:var(--orange-900); }
+.dark\:border-orange-950 { --border-dark:var(--orange-950); }

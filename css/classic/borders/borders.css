@@ -1,0 +1,159 @@
+@import url(../colors/palette.css);
+@import url(../layout/spacing.css);
+@import url(border-yellow.css);
+@import url(border-orange.css);
+@import url(border-red.css);
+@import url(border-pink.css);
+@import url(border-purple.css);
+@import url(border-blue.css);
+@import url(border-cyan.css);
+@import url(border-green.css);
+@import url(border-white.css);
+@import url(border-grey.css);
+@import url(border-black.css);
+
+
+:root {
+  --border-radius: var(--spacing-4);
+}
+
+[class*="dark\:border-"],
+[class*="light\:border-"],
+[class*="border-"] {
+  border-width: 1px;
+  border-style: solid;
+  border-color: light-dark(var(--border-light, transparent), var(--border-dark, transparent))  
+}
+
+
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-double {
+  border-style: double;
+}
+
+
+
+
+.rounded-0 {
+  border-radius: 0 !important;
+}
+
+.rounded,
+.rounded-1 {
+  border-radius: var(--spacing-1) !important;
+}
+
+.rounded-2 {
+  border-radius: var(--spacing-2) !important;
+}
+
+.rounded-3 {
+  border-radius: var(--spacing-3) !important;
+}
+
+.rounded-4 {
+  border-radius: var(--spacing-4) !important;
+}
+
+.rounded-5 {
+  border-radius: var(--spacing-5) !important;
+}
+
+.rounded-6 {
+  border-radius: var(--spacing-6) !important;
+}
+
+.rounded-7 {
+  border-radius: var(--spacing-7) !important;
+}
+
+
+.rounded-pill {
+  border-radius: 50vh!important;
+}
+
+
+
+.border-top {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: var(--border-color);
+}
+
+
+.border-right {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: var(--border-color);
+}
+
+
+.border-bottom {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color);
+}
+
+.border-left {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: var(--border-color);
+}
+
+
+
+
+
+
+.border-0 {
+  border-width: 0;
+}
+
+.border-1 {
+  border-width: 1px; 
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-3 {
+  border-width: 3px!important;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-5 {
+  border-width: 5px;
+}
+
+[class*="light\:bg-"]:not([class*="dark\:bg-"]) {
+  background-color: light-dark(var(--bg-light, var(--white-200)), transparent);
+}
+
+[class*="dark\:bg-"]:not([class*="light\:bg-"]) {
+  background-color: light-dark(transparent, var(--bg-dark, var(--black-200)));
+}
+
+
+[class*="light\:bg-"][class*="dark\:bg-"],
+[class*="bg-"] {
+  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark, var(--black-200)));
+}
+
+
+

@@ -12,7 +12,8 @@
 @import url(dotted-black.css);
 
 
-
+[class*="dark\:dotted-"],
+[class*="light\:dotted-"],
 [class*="dotted-"] {
   background-position: 0 0;
   background-size: 10px 10px;

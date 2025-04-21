@@ -19,7 +19,9 @@ async function updateColorScheme(theme) {
   if (theme == 'dark')
     //await import('highlight.js/styles/base16/humanoid-dark.min.css');
     //await import('highlight.js/styles/agate.min.css');
-    await import('highlight.js/styles/androidstudio.min.css');
+    //await import('highlight.js/styles/arta.min.css');
+    //await import('highlight.js/styles/androidstudio.min.css');
+    await import('highlight.js/styles/tokyo-night-dark.min.css');
   else
     await import('highlight.js/styles/arta.min.css');
 }

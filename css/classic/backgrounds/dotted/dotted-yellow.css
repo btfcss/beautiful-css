@@ -1,6 +1,6 @@
 @import url(../../colors/palette.css);
 
-.dotted-yellow { --dotted-light:var(--yellow-300);--dotted-dark:var(--yellow-800);}
+.dotted-yellow { --dotted-light:var(--yellow-400);--dotted-dark:var(--yellow-400);}
 .dotted-yellow-50  { --dotted-light:var(--yellow-50 );--dotted-dark:var(--yellow-50 );}
 .dotted-yellow-100 { --dotted-light:var(--yellow-100);--dotted-dark:var(--yellow-100);}
 .dotted-yellow-200 { --dotted-light:var(--yellow-200);--dotted-dark:var(--yellow-200);}
@@ -13,7 +13,7 @@
 .dotted-yellow-900 { --dotted-light:var(--yellow-900);--dotted-dark:var(--yellow-900);}
 .dotted-yellow-950 { --dotted-light:var(--yellow-950);--dotted-dark:var(--yellow-950);}
 
-.light\:dotted-yellow  { --dotted-light:var(--yellow-300 ); }
+.light\:dotted-yellow  { --dotted-light:var(--yellow-400 ); }
 .light\:dotted-yellow-50  { --dotted-light:var(--yellow-50 ); }
 .light\:dotted-yellow-100 { --dotted-light:var(--yellow-100); }
 .light\:dotted-yellow-200 { --dotted-light:var(--yellow-200); }
@@ -26,7 +26,7 @@
 .light\:dotted-yellow-900 { --dotted-light:var(--yellow-900); }
 .light\:dotted-yellow-950 { --dotted-light:var(--yellow-950); }
 
-.dark\:dotted-yellow  { --dotted-dark:var(--yellow-800 ); }
+.dark\:dotted-yellow  { --dotted-dark:var(--yellow-400 ); }
 .dark\:dotted-yellow-50  { --dotted-dark:var(--yellow-50 ); }
 .dark\:dotted-yellow-100 { --dotted-dark:var(--yellow-100); }
 .dark\:dotted-yellow-200 { --dotted-dark:var(--yellow-200); }

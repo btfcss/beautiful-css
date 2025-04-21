@@ -1,6 +1,6 @@
 @import url(../../colors/palette.css);
 
-.dotted-orange { --dotted-light:var(--orange-300);--dotted-dark:var(--orange-700);}
+.dotted-orange { --dotted-light:var(--orange-400);--dotted-dark:var(--orange-400);}
 .dotted-orange-50  { --dotted-light:var(--orange-50 );--dotted-dark:var(--orange-50 );}
 .dotted-orange-100 { --dotted-light:var(--orange-100);--dotted-dark:var(--orange-100);}
 .dotted-orange-200 { --dotted-light:var(--orange-200);--dotted-dark:var(--orange-200);}
@@ -13,7 +13,7 @@
 .dotted-orange-900 { --dotted-light:var(--orange-900);--dotted-dark:var(--orange-900);}
 .dotted-orange-950 { --dotted-light:var(--orange-950);--dotted-dark:var(--orange-950);}
 
-.light\:dotted-orange  { --dotted-light:var(--orange-300 ); }
+.light\:dotted-orange  { --dotted-light:var(--orange-400 ); }
 .light\:dotted-orange-50  { --dotted-light:var(--orange-50 ); }
 .light\:dotted-orange-100 { --dotted-light:var(--orange-100); }
 .light\:dotted-orange-200 { --dotted-light:var(--orange-200); }
@@ -26,7 +26,7 @@
 .light\:dotted-orange-900 { --dotted-light:var(--orange-900); }
 .light\:dotted-orange-950 { --dotted-light:var(--orange-950); }
 
-.dark\:dotted-orange  { --dotted-dark:var(--orange-700 ); }
+.dark\:dotted-orange  { --dotted-dark:var(--orange-400 ); }
 .dark\:dotted-orange-50  { --dotted-dark:var(--orange-50 ); }
 .dark\:dotted-orange-100 { --dotted-dark:var(--orange-100); }
 .dark\:dotted-orange-200 { --dotted-dark:var(--orange-200); }

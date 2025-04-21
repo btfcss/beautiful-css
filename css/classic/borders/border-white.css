@@ -1,0 +1,40 @@
+@import url(../colors/palette.css);
+
+.border-white { --border-light:var(--white-400);--border-dark:var(--white-400);}
+.border-white-50  { --border-light:var(--white-50 );--border-dark:var(--white-50 );}
+.border-white-100 { --border-light:var(--white-100);--border-dark:var(--white-100);}
+.border-white-200 { --border-light:var(--white-200);--border-dark:var(--white-200);}
+.border-white-300 { --border-light:var(--white-300);--border-dark:var(--white-300);}
+.border-white-400 { --border-light:var(--white-400);--border-dark:var(--white-400);}
+.border-white-500 { --border-light:var(--white-500);--border-dark:var(--white-500);}
+.border-white-600 { --border-light:var(--white-600);--border-dark:var(--white-600);}
+.border-white-700 { --border-light:var(--white-700);--border-dark:var(--white-700);}
+.border-white-800 { --border-light:var(--white-800);--border-dark:var(--white-800);}
+.border-white-900 { --border-light:var(--white-900);--border-dark:var(--white-900);}
+.border-white-950 { --border-light:var(--white-950);--border-dark:var(--white-950);}
+
+.light\:border-white { --border-light:var(--white-400 ); }
+.light\:border-white-50  { --border-light:var(--white-50 ); }
+.light\:border-white-100 { --border-light:var(--white-100); }
+.light\:border-white-200 { --border-light:var(--white-200); }
+.light\:border-white-300 { --border-light:var(--white-300); }
+.light\:border-white-400 { --border-light:var(--white-400); }
+.light\:border-white-500 { --border-light:var(--white-500); }
+.light\:border-white-600 { --border-light:var(--white-600); }
+.light\:border-white-700 { --border-light:var(--white-700); }
+.light\:border-white-800 { --border-light:var(--white-800); }
+.light\:border-white-900 { --border-light:var(--white-900); }
+.light\:border-white-950 { --border-light:var(--white-950); }
+
+.dark\:border-white  { --border-dark:var(--white-400 ); }
+.dark\:border-white-50  { --border-dark:var(--white-50 ); }
+.dark\:border-white-100 { --border-dark:var(--white-100); }
+.dark\:border-white-200 { --border-dark:var(--white-200); }
+.dark\:border-white-300 { --border-dark:var(--white-300); }
+.dark\:border-white-400 { --border-dark:var(--white-400); }
+.dark\:border-white-500 { --border-dark:var(--white-500); }
+.dark\:border-white-600 { --border-dark:var(--white-600); }
+.dark\:border-white-700 { --border-dark:var(--white-700); }
+.dark\:border-white-800 { --border-dark:var(--white-800); }
+.dark\:border-white-900 { --border-dark:var(--white-900); }
+.dark\:border-white-950 { --border-dark:var(--white-950); }

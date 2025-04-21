@@ -1,6 +1,6 @@
 @import url(../../colors/palette.css);
 
-.dotted-red { --dotted-light:var(--red-300);--dotted-dark:var(--red-700);}
+.dotted-red { --dotted-light:var(--red-400);--dotted-dark:var(--red-400);}
 .dotted-red-50  { --dotted-light:var(--red-50 );--dotted-dark:var(--red-50 );}
 .dotted-red-100 { --dotted-light:var(--red-100);--dotted-dark:var(--red-100);}
 .dotted-red-200 { --dotted-light:var(--red-200);--dotted-dark:var(--red-200);}
@@ -13,7 +13,7 @@
 .dotted-red-900 { --dotted-light:var(--red-900);--dotted-dark:var(--red-900);}
 .dotted-red-950 { --dotted-light:var(--red-950);--dotted-dark:var(--red-950);}
 
-.light\:dotted-red { --dotted-light:var(--red-300 ); }
+.light\:dotted-red { --dotted-light:var(--red-400 ); }
 .light\:dotted-red-50  { --dotted-light:var(--red-50 ); }
 .light\:dotted-red-100 { --dotted-light:var(--red-100); }
 .light\:dotted-red-200 { --dotted-light:var(--red-200); }
@@ -26,7 +26,7 @@
 .light\:dotted-red-900 { --dotted-light:var(--red-900); }
 .light\:dotted-red-950 { --dotted-light:var(--red-950); }
 
-.dark\:dotted-red  { --dotted-dark:var(--red-700 ); }
+.dark\:dotted-red  { --dotted-dark:var(--red-400 ); }
 .dark\:dotted-red-50  { --dotted-dark:var(--red-50 ); }
 .dark\:dotted-red-100 { --dotted-dark:var(--red-100); }
 .dark\:dotted-red-200 { --dotted-dark:var(--red-200); }
