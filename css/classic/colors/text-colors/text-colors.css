@@ -1,0 +1,31 @@
+@import url(../palette.css);
+@import url(text-yellow.css);
+@import url(text-orange.css);
+@import url(text-red.css);
+@import url(text-pink.css);
+@import url(text-purple.css);
+@import url(text-blue.css);
+@import url(text-cyan.css);
+@import url(text-green.css);
+@import url(text-white.css);
+@import url(text-grey.css);
+@import url(text-black.css);
+
+
+
+[class*="light\:text-"],
+[class*="dark\:text-"],
+[class*="text-"] {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  color: light-dark(var(--text-light, var(--black-500)), var(--text-dark, var(--white-500)))!important;
+}
+
+
+
+
+
+
+
+
+

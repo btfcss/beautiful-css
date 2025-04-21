@@ -1,0 +1,38 @@
+.bg-grey { --bg-light:var(--grey-200);--bg-dark:var(--grey-800);}
+.bg-grey-50  { --bg-light:var(--grey-50 );--bg-dark:var(--grey-50 );}
+.bg-grey-100 { --bg-light:var(--grey-100);--bg-dark:var(--grey-100);}
+.bg-grey-200 { --bg-light:var(--grey-200);--bg-dark:var(--grey-200);}
+.bg-grey-300 { --bg-light:var(--grey-300);--bg-dark:var(--grey-300);}
+.bg-grey-400 { --bg-light:var(--grey-400);--bg-dark:var(--grey-400);}
+.bg-grey-500 { --bg-light:var(--grey-500);--bg-dark:var(--grey-500);}
+.bg-grey-600 { --bg-light:var(--grey-600);--bg-dark:var(--grey-600);}
+.bg-grey-700 { --bg-light:var(--grey-700);--bg-dark:var(--grey-700);}
+.bg-grey-800 { --bg-light:var(--grey-800);--bg-dark:var(--grey-800);}
+.bg-grey-900 { --bg-light:var(--grey-900);--bg-dark:var(--grey-900);}
+.bg-grey-950 { --bg-light:var(--grey-950);--bg-dark:var(--grey-950);}
+
+.light\:bg-grey { --bg-light:var(--grey-200 ); }
+.light\:bg-grey-50  { --bg-light:var(--grey-50 ); }
+.light\:bg-grey-100 { --bg-light:var(--grey-100); }
+.light\:bg-grey-200 { --bg-light:var(--grey-200); }
+.light\:bg-grey-300 { --bg-light:var(--grey-300); }
+.light\:bg-grey-400 { --bg-light:var(--grey-400); }
+.light\:bg-grey-500 { --bg-light:var(--grey-500); }
+.light\:bg-grey-600 { --bg-light:var(--grey-600); }
+.light\:bg-grey-700 { --bg-light:var(--grey-700); }
+.light\:bg-grey-800 { --bg-light:var(--grey-800); }
+.light\:bg-grey-900 { --bg-light:var(--grey-900); }
+.light\:bg-grey-950 { --bg-light:var(--grey-950); }
+
+.dark\:bg-grey  { --bg-dark:var(--grey-800 ); }
+.dark\:bg-grey-50  { --bg-dark:var(--grey-50 ); }
+.dark\:bg-grey-100 { --bg-dark:var(--grey-100); }
+.dark\:bg-grey-200 { --bg-dark:var(--grey-200); }
+.dark\:bg-grey-300 { --bg-dark:var(--grey-300); }
+.dark\:bg-grey-400 { --bg-dark:var(--grey-400); }
+.dark\:bg-grey-500 { --bg-dark:var(--grey-500); }
+.dark\:bg-grey-600 { --bg-dark:var(--grey-600); }
+.dark\:bg-grey-700 { --bg-dark:var(--grey-700); }
+.dark\:bg-grey-800 { --bg-dark:var(--grey-800); }
+.dark\:bg-grey-900 { --bg-dark:var(--grey-900); }
+.dark\:bg-grey-950 { --bg-dark:var(--grey-950); }

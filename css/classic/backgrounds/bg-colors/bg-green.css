@@ -1,0 +1,39 @@
+
+.bg-green { --bg-light:var(--green-200);--bg-dark:var(--green-800);}
+.bg-green-50  { --bg-light:var(--green-50 );--bg-dark:var(--green-50 );}
+.bg-green-100 { --bg-light:var(--green-100);--bg-dark:var(--green-100);}
+.bg-green-200 { --bg-light:var(--green-200);--bg-dark:var(--green-200);}
+.bg-green-300 { --bg-light:var(--green-300);--bg-dark:var(--green-300);}
+.bg-green-400 { --bg-light:var(--green-400);--bg-dark:var(--green-400);}
+.bg-green-500 { --bg-light:var(--green-500);--bg-dark:var(--green-500);}
+.bg-green-600 { --bg-light:var(--green-600);--bg-dark:var(--green-600);}
+.bg-green-700 { --bg-light:var(--green-700);--bg-dark:var(--green-700);}
+.bg-green-800 { --bg-light:var(--green-800);--bg-dark:var(--green-800);}
+.bg-green-900 { --bg-light:var(--green-900);--bg-dark:var(--green-900);}
+.bg-green-950 { --bg-light:var(--green-950);--bg-dark:var(--green-950);}
+
+.light\:bg-green { --bg-light:var(--green-200 ); }
+.light\:bg-green-50  { --bg-light:var(--green-50 ); }
+.light\:bg-green-100 { --bg-light:var(--green-100); }
+.light\:bg-green-200 { --bg-light:var(--green-200); }
+.light\:bg-green-300 { --bg-light:var(--green-300); }
+.light\:bg-green-400 { --bg-light:var(--green-400); }
+.light\:bg-green-500 { --bg-light:var(--green-500); }
+.light\:bg-green-600 { --bg-light:var(--green-600); }
+.light\:bg-green-700 { --bg-light:var(--green-700); }
+.light\:bg-green-800 { --bg-light:var(--green-800); }
+.light\:bg-green-900 { --bg-light:var(--green-900); }
+.light\:bg-green-950 { --bg-light:var(--green-950); }
+
+.dark\:bg-green  { --bg-dark:var(--green-800 ); }
+.dark\:bg-green-50  { --bg-dark:var(--green-50 ); }
+.dark\:bg-green-100 { --bg-dark:var(--green-100); }
+.dark\:bg-green-200 { --bg-dark:var(--green-200); }
+.dark\:bg-green-300 { --bg-dark:var(--green-300); }
+.dark\:bg-green-400 { --bg-dark:var(--green-400); }
+.dark\:bg-green-500 { --bg-dark:var(--green-500); }
+.dark\:bg-green-600 { --bg-dark:var(--green-600); }
+.dark\:bg-green-700 { --bg-dark:var(--green-700); }
+.dark\:bg-green-800 { --bg-dark:var(--green-800); }
+.dark\:bg-green-900 { --bg-dark:var(--green-900); }
+.dark\:bg-green-950 { --bg-dark:var(--green-950); }

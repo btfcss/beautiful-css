@@ -1,0 +1,38 @@
+.bg-black { --bg-light:var(--black-200);--bg-dark:var(--black-800);}
+.bg-black-50  { --bg-light:var(--black-50 );--bg-dark:var(--black-50 );}
+.bg-black-100 { --bg-light:var(--black-100);--bg-dark:var(--black-100);}
+.bg-black-200 { --bg-light:var(--black-200);--bg-dark:var(--black-200);}
+.bg-black-300 { --bg-light:var(--black-300);--bg-dark:var(--black-300);}
+.bg-black-400 { --bg-light:var(--black-400);--bg-dark:var(--black-400);}
+.bg-black-500 { --bg-light:var(--black-500);--bg-dark:var(--black-500);}
+.bg-black-600 { --bg-light:var(--black-600);--bg-dark:var(--black-600);}
+.bg-black-700 { --bg-light:var(--black-700);--bg-dark:var(--black-700);}
+.bg-black-800 { --bg-light:var(--black-800);--bg-dark:var(--black-800);}
+.bg-black-900 { --bg-light:var(--black-900);--bg-dark:var(--black-900);}
+.bg-black-950 { --bg-light:var(--black-950);--bg-dark:var(--black-950);}
+
+.light\:bg-black { --bg-light:var(--black-200 ); }
+.light\:bg-black-50  { --bg-light:var(--black-50 ); }
+.light\:bg-black-100 { --bg-light:var(--black-100); }
+.light\:bg-black-200 { --bg-light:var(--black-200); }
+.light\:bg-black-300 { --bg-light:var(--black-300); }
+.light\:bg-black-400 { --bg-light:var(--black-400); }
+.light\:bg-black-500 { --bg-light:var(--black-500); }
+.light\:bg-black-600 { --bg-light:var(--black-600); }
+.light\:bg-black-700 { --bg-light:var(--black-700); }
+.light\:bg-black-800 { --bg-light:var(--black-800); }
+.light\:bg-black-900 { --bg-light:var(--black-900); }
+.light\:bg-black-950 { --bg-light:var(--black-950); }
+
+.dark\:bg-black  { --bg-dark:var(--black-800 ); }
+.dark\:bg-black-50  { --bg-dark:var(--black-50 ); }
+.dark\:bg-black-100 { --bg-dark:var(--black-100); }
+.dark\:bg-black-200 { --bg-dark:var(--black-200); }
+.dark\:bg-black-300 { --bg-dark:var(--black-300); }
+.dark\:bg-black-400 { --bg-dark:var(--black-400); }
+.dark\:bg-black-500 { --bg-dark:var(--black-500); }
+.dark\:bg-black-600 { --bg-dark:var(--black-600); }
+.dark\:bg-black-700 { --bg-dark:var(--black-700); }
+.dark\:bg-black-800 { --bg-dark:var(--black-800); }
+.dark\:bg-black-900 { --bg-dark:var(--black-900); }
+.dark\:bg-black-950 { --bg-dark:var(--black-950); }

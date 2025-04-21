@@ -1,0 +1,31 @@
+@import url(../../colors/colors.css);
+@import url(bg-yellow.css);
+@import url(bg-orange.css);
+@import url(bg-red.css);
+@import url(bg-pink.css);
+@import url(bg-purple.css);
+@import url(bg-blue.css);
+@import url(bg-cyan.css);
+@import url(bg-green.css);
+@import url(bg-white.css);
+@import url(bg-grey.css);
+@import url(bg-black.css);
+
+
+
+[class*="light\:bg-"],
+[class*="dark\:bg-"],
+[class*="bg-"] {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark, var(--black-200)))!important;
+}
+
+
+
+
+
+
+
+
+

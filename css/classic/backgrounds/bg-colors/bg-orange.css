@@ -1,0 +1,38 @@
+.bg-orange { --bg-light:var(--orange-200);--bg-dark:var(--orange-800);}
+.bg-orange-50  { --bg-light:var(--orange-50 );--bg-dark:var(--orange-50 );}
+.bg-orange-100 { --bg-light:var(--orange-100);--bg-dark:var(--orange-100);}
+.bg-orange-200 { --bg-light:var(--orange-200);--bg-dark:var(--orange-200);}
+.bg-orange-300 { --bg-light:var(--orange-300);--bg-dark:var(--orange-300);}
+.bg-orange-400 { --bg-light:var(--orange-400);--bg-dark:var(--orange-400);}
+.bg-orange-500 { --bg-light:var(--orange-500);--bg-dark:var(--orange-500);}
+.bg-orange-600 { --bg-light:var(--orange-600);--bg-dark:var(--orange-600);}
+.bg-orange-700 { --bg-light:var(--orange-700);--bg-dark:var(--orange-700);}
+.bg-orange-800 { --bg-light:var(--orange-800);--bg-dark:var(--orange-800);}
+.bg-orange-900 { --bg-light:var(--orange-900);--bg-dark:var(--orange-900);}
+.bg-orange-950 { --bg-light:var(--orange-950);--bg-dark:var(--orange-950);}
+
+.light\:bg-orange  { --bg-light:var(--orange-200 ); }
+.light\:bg-orange-50  { --bg-light:var(--orange-50 ); }
+.light\:bg-orange-100 { --bg-light:var(--orange-100); }
+.light\:bg-orange-200 { --bg-light:var(--orange-200); }
+.light\:bg-orange-300 { --bg-light:var(--orange-300); }
+.light\:bg-orange-400 { --bg-light:var(--orange-400); }
+.light\:bg-orange-500 { --bg-light:var(--orange-500); }
+.light\:bg-orange-600 { --bg-light:var(--orange-600); }
+.light\:bg-orange-700 { --bg-light:var(--orange-700); }
+.light\:bg-orange-800 { --bg-light:var(--orange-800); }
+.light\:bg-orange-900 { --bg-light:var(--orange-900); }
+.light\:bg-orange-950 { --bg-light:var(--orange-950); }
+
+.dark\:bg-orange  { --bg-dark:var(--orange-800 ); }
+.dark\:bg-orange-50  { --bg-dark:var(--orange-50 ); }
+.dark\:bg-orange-100 { --bg-dark:var(--orange-100); }
+.dark\:bg-orange-200 { --bg-dark:var(--orange-200); }
+.dark\:bg-orange-300 { --bg-dark:var(--orange-300); }
+.dark\:bg-orange-400 { --bg-dark:var(--orange-400); }
+.dark\:bg-orange-500 { --bg-dark:var(--orange-500); }
+.dark\:bg-orange-600 { --bg-dark:var(--orange-600); }
+.dark\:bg-orange-700 { --bg-dark:var(--orange-700); }
+.dark\:bg-orange-800 { --bg-dark:var(--orange-800); }
+.dark\:bg-orange-900 { --bg-dark:var(--orange-900); }
+.dark\:bg-orange-950 { --bg-dark:var(--orange-950); }

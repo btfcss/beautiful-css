@@ -1,22 +1,2 @@
-:root {
-
-  --white: #f3f4f7;
-  --black: #1e212a;
-
-  --white-black: light-dark(var(--white), var(--black));
-  --black-white: light-dark(var(--black), var(--white));
-
-
-  --red: #DE3023;
-  --orange: #FFAA40;
-  --yellow: #DED140;
-  --green: #1F8F49;
-  --blue: #1b34cd;
-  --purple: #020202;  
-  --light-grey: #dcdee6;
-  --dark-grey: #3B4154;
-  --grey: light-dark(var(--light-grey), var(--dark-grey));
-  --negative-grey: light-dark(var(--dark-grey), var(--light-grey));
-
-}
+@import url(text-colors/text-colors.css);
 
