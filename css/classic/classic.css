@@ -1,9 +1,7 @@
 @import url(colors/colors.css);
-
 @import url(horizontal-rule.css);
 @import url(forms/forms.css);
 @import url(headings.css);
-@import url(colors/gradient.css);
 @import url(colors/colors.css);
 @import url(buttons/buttons.css);
 @import url(cards.css);
@@ -22,7 +20,7 @@
 :root {
   /* color-scheme: light dark; */
   color-scheme: var(--color-scheme, light);
-  --background-color: light-dark(var(--grey-100), var(--black-800));
+  --background-color: light-dark(var(--white-100), var(--black-800));
   --text-color: light-dark(var(--black-500), var(--white-500));
 }
 

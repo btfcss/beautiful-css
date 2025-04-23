@@ -18,7 +18,7 @@
   <meta name="description" content="Beautifull CSS Home page">
 </head>
 
-<body class="dotted-grey-400 dark:dotted-grey-950" style="display: none">
+<body class="dotted-white-950 dark:dotted-black-400" style="display: none">
 
 
 
@@ -269,51 +269,11 @@ for x in adj:
         </div>
       </div>
 
-      <!-- Hatches -->
-      <div class="card">
-        <div class="header">
-          <h2>Hatches</h2>
-        </div>
-        <div class="body text-center text-black-white">
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-red ">Red hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-orange">Orange hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-yellow">Yellow hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-green">Green hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-blue">Blue hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-purple">Purple hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-dark-grey">Dark Grey hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-light-grey">Light Grey hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-grey">Grey hatching</div>
-          <div class="rounded hover:scale-105 p-4 m-3 hatching-negative-grey">Negative Grey hatching</div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
+      <%- include cards/hatching.ejs %>
+      <%- include cards/dotted.ejs %>
 
 
-      <!-- Dotted Grid -->
-      <div class="card">
-        <div class="header">
-          <h2>Dotted Grid</h2>
-        </div>
-        <div class="body text-center text-black-white">
-          <div class="rounded hover:scale-105 p-4 m-3 border border-yellow dotted-yellow">Yellow dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-orange dotted-orange">Orange dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-red dotted-red ">Red dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-purple dotted-purple">Purple dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-pink dotted-pink">Pink dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-blue dotted-blue">Blue dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-cyan dotted-cyan">Cyan dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-green dotted-green">Green dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border light:bg-black border-white dotted-white text-white-50">White dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border border-grey dotted-grey">Grey dots</div>
-          <div class="rounded hover:scale-105 p-4 m-3 border dark:bg-white border-black dotted-black text-black-950">Black dots</div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-green">&lt;code&gt;</button>
-        </div>
-      </div>
+      
 
 
       <!-- Aspect Ratio -->

@@ -22,6 +22,11 @@ abbr {
   cursor: help;
 }
 
+b, 
+.bold {
+  font-weight: bold; 
+}
+
 del {
   color: var(--red-500);
 }

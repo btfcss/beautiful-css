@@ -19,7 +19,9 @@
   color: light-dark(var(--text-light, var(--black-500)), var(--text-dark, var(--white-500)))!important;
 }
 
-
+.text-transparent { --text-light:transparent;--text-dark:transparent; }
+.light\:text-transparent { --text-light:transparent; }
+.dark\:text-transparent  { --text-dark:transparent; }
 
 
 

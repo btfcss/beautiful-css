@@ -1,0 +1,22 @@
+@import url(../../colors/palette.css);
+@import url(hatching-yellow.css);
+@import url(hatching-orange.css);
+@import url(hatching-red.css);
+@import url(hatching-pink.css);
+@import url(hatching-purple.css);
+@import url(hatching-blue.css);
+@import url(hatching-cyan.css);
+@import url(hatching-green.css);
+@import url(hatching-white.css);
+@import url(hatching-grey.css);
+@import url(hatching-black.css);
+
+
+[class*="dark\:hatching-"],
+[class*="light\:hatching-"],
+[class*="hatching-"] {
+  background-position: 0 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(135deg,light-dark(var(--hatching-light, transparent), var(--hatching-dark, transparent)) 0 1px,transparent  0 50%);
+}
+
