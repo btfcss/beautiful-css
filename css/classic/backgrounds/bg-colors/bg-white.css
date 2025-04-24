@@ -38,3 +38,43 @@
 .dark\:bg-white-800 { --bg-dark:var(--white-800); }
 .dark\:bg-white-900 { --bg-dark:var(--white-900); }
 .dark\:bg-white-950 { --bg-dark:var(--white-950); }
+
+
+.hover\:bg-white:hover { --bg-light:var(--white-200);--bg-dark:var(--white-800);}
+.hover\:bg-white-50:hover  { --bg-light:var(--white-50 );--bg-dark:var(--white-50 );}
+.hover\:bg-white-100:hover { --bg-light:var(--white-100);--bg-dark:var(--white-100);}
+.hover\:bg-white-200:hover { --bg-light:var(--white-200);--bg-dark:var(--white-200);}
+.hover\:bg-white-300:hover { --bg-light:var(--white-300);--bg-dark:var(--white-300);}
+.hover\:bg-white-400:hover { --bg-light:var(--white-400);--bg-dark:var(--white-400);}
+.hover\:bg-white-500:hover { --bg-light:var(--white-500);--bg-dark:var(--white-500);}
+.hover\:bg-white-600:hover { --bg-light:var(--white-600);--bg-dark:var(--white-600);}
+.hover\:bg-white-700:hover { --bg-light:var(--white-700);--bg-dark:var(--white-700);}
+.hover\:bg-white-800:hover { --bg-light:var(--white-800);--bg-dark:var(--white-800);}
+.hover\:bg-white-900:hover { --bg-light:var(--white-900);--bg-dark:var(--white-900);}
+.hover\:bg-white-950:hover { --bg-light:var(--white-950);--bg-dark:var(--white-950);}
+
+.light\:hover\:bg-white:hover { --bg-light:var(--white-200 ); }
+.light\:hover\:bg-white-50:hover  { --bg-light:var(--white-50 ); }
+.light\:hover\:bg-white-100:hover { --bg-light:var(--white-100); }
+.light\:hover\:bg-white-200:hover { --bg-light:var(--white-200); }
+.light\:hover\:bg-white-300:hover { --bg-light:var(--white-300); }
+.light\:hover\:bg-white-400:hover { --bg-light:var(--white-400); }
+.light\:hover\:bg-white-500:hover { --bg-light:var(--white-500); }
+.light\:hover\:bg-white-600:hover { --bg-light:var(--white-600); }
+.light\:hover\:bg-white-700:hover { --bg-light:var(--white-700); }
+.light\:hover\:bg-white-800:hover { --bg-light:var(--white-800); }
+.light\:hover\:bg-white-900:hover { --bg-light:var(--white-900); }
+.light\:hover\:bg-white-950:hover { --bg-light:var(--white-950); }
+
+.dark\:hover\:bg-white:hover  { --bg-dark:var(--white-800 ); }
+.dark\:hover\:bg-white-50:hover  { --bg-dark:var(--white-50 ); }
+.dark\:hover\:bg-white-100:hover { --bg-dark:var(--white-100); }
+.dark\:hover\:bg-white-200:hover { --bg-dark:var(--white-200); }
+.dark\:hover\:bg-white-300:hover { --bg-dark:var(--white-300); }
+.dark\:hover\:bg-white-400:hover { --bg-dark:var(--white-400); }
+.dark\:hover\:bg-white-500:hover { --bg-dark:var(--white-500); }
+.dark\:hover\:bg-white-600:hover { --bg-dark:var(--white-600); }
+.dark\:hover\:bg-white-700:hover { --bg-dark:var(--white-700); }
+.dark\:hover\:bg-white-800:hover { --bg-dark:var(--white-800); }
+.dark\:hover\:bg-white-900:hover { --bg-dark:var(--white-900); }
+.dark\:hover\:bg-white-950:hover { --bg-dark:var(--white-950); }

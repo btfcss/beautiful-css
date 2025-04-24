@@ -3,9 +3,9 @@
 
 .btn-cyan {
   font-family: var(--font-family);
-  border: 1px solid var(--cyan-600);
-  color: var(--white);
-  background-color: var(--cyan-600);
+  border: 1px solid var(--cyan-500);
+  color: var(--white-200);
+  background-color: var(--cyan-500);
 }
 
 .btn-cyan:disabled {
@@ -16,7 +16,7 @@
 
 .btn-cyan.outline {
   background-color: transparent;
-  color: var(--cyan-600);
+  color: var(--cyan-500);
 }
 
 .btn-cyan.outline:disabled {
@@ -26,8 +26,8 @@
 .btn-cyan.outline:hover:not(:disabled),
 .btn-cyan:hover:not(:disabled) {
   color: #fff;
-  border-color: var(--cyan-500);
-  background-color: var(--cyan-500);
+  border-color: var(--cyan-600);
+  background-color: var(--cyan-600);
 }
 
 :not(.input-group) > .btn-cyan:focus:not(:disabled),

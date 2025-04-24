@@ -3,9 +3,9 @@
 
 .btn-black {
   font-family: var(--font-family);
-  border: 1px solid var(--black-600);
-  color: var(--white);
-  background-color: var(--black-600);
+  border: 1px solid var(--black-300);
+  color: var(--white-200);
+  background-color: var(--black-300);
 }
 
 .btn-black:disabled {
@@ -16,7 +16,7 @@
 
 .btn-black.outline {
   background-color: transparent;
-  color: var(--black-600);
+  color: var(--black-500);
 }
 
 .btn-black.outline:disabled {
@@ -26,11 +26,11 @@
 .btn-black.outline:hover:not(:disabled),
 .btn-black:hover:not(:disabled) {
   color: #fff;
-  border-color: var(--black-500);
-  background-color: var(--black-500);
+  border-color: var(--black-100);
+  background-color: var(--black-100);
 }
 
 :not(.input-group) > .btn-black:focus:not(:disabled),
 :not(.input-group) > .btn-black:focus-visible:not(:disabled) {
-  box-shadow: 0 0 0 0.25rem var(--black-300);
+  box-shadow: 0 0 0 0.25rem var(--grey-800);
 }

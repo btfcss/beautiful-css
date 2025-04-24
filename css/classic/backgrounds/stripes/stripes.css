@@ -1,0 +1,24 @@
+@import url(../../colors/palette.css);
+@import url(stripes-yellow.css);
+@import url(stripes-orange.css);
+@import url(stripes-red.css);
+@import url(stripes-pink.css);
+@import url(stripes-purple.css);
+@import url(stripes-blue.css);
+@import url(stripes-cyan.css);
+@import url(stripes-green.css);
+@import url(stripes-white.css);
+@import url(stripes-grey.css);
+@import url(stripes-black.css);
+
+
+[class*="dark\:stripes-"],
+[class*="light\:stripes-"],
+[class*="stripes-"] {
+  background: repeating-linear-gradient(135deg,
+      light-dark(var(--stripes-bg-light, transparent),var(--stripes-bg-dark, transparent)),
+      light-dark(var(--stripes-bg-light, transparent),var(--stripes-bg-dark, transparent)) 10px,
+      light-dark(var(--stripes-fg-light, transparent),var(--stripes-fg-dark, transparent)) 10px,
+      light-dark(var(--stripes-fg-light, transparent),var(--stripes-fg-dark, transparent)) 20px);
+}
+

@@ -5,7 +5,7 @@
 .card {
   --card-border-radius: var(--spacing-4);
   background-color: light-dark(#f3f4f7,#292d39);
-  background-color: light-dark(var(--white-500),var(--black-500));
+  background-color: light-dark(var(--white-100),var(--black-800));
   border-radius: var(--card-border-radius);
   /* box-shadow: light-dark(#0000000d, #ffffff0d) 0px 6px 24px 0px, light-dark(#00000014, #ffffff14) 0px 0px 0px 1px; */
   box-shadow: light-dark(#0000000d, #ffffff0d) 0px 6px 24px 0px;

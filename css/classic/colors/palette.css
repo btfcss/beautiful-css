@@ -98,17 +98,19 @@
   --green-900: oklch(0.4 0.0797 138.35);
   --green-950: oklch(0.31 0.0568 138.49);
 
-  --white-50:  oklch(1 0 0);
-  --white-100: oklch(0.9940 0 0);
-  --white-200: oklch(0.9851 0 0);
-  --white-300: oklch(0.9821 0 0);
-  --white-400: oklch(0.9791 0 0);
-  --white-500: oklch(0.9761 0 0);
-  --white-600: oklch(0.9731 0 0);
-  --white-700: oklch(0.9672 0 0);
-  --white-800: oklch(0.9612 0 0);
-  --white-900: oklch(0.9581 0 0);
-  --white-950: oklch(0.9521 0 0);
+  --shift: 3;
+
+  --white-50:  oklch(calc(((1-1)*var(--shift))+1) 0 0);
+  --white-100: oklch(calc(((0.9940-1)*var(--shift))+1) 0 0);
+  --white-200: oklch(calc(((0.9851-1)*var(--shift))+1) 0 0);
+  --white-300: oklch(calc(((0.9821-1)*var(--shift))+1) 0 0);
+  --white-400: oklch(calc(((0.9791-1)*var(--shift))+1) 0 0);
+  --white-500: oklch(calc(((0.9761-1)*var(--shift))+1) 0 0);
+  --white-600: oklch(calc(((0.9731-1)*var(--shift))+1) 0 0);
+  --white-700: oklch(calc(((0.9672-1)*var(--shift))+1) 0 0);
+  --white-800: oklch(calc(((0.9612-1)*var(--shift))+1) 0 0);
+  --white-900: oklch(calc(((0.9581-1)*var(--shift))+1) 0 0);
+  --white-950: oklch(calc(((0.9521-1)*var(--shift))+1) 0 0);
   
   --grey-50: oklch(0.95 0 0);
   --grey-100: oklch(0.92 0 0);

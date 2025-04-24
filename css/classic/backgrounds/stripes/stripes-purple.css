@@ -1,0 +1,84 @@
+@import url(../../colors/palette.css);
+
+.stripes-purple { 
+  --stripes-bg-light:var(--purple-100);
+  --stripes-fg-light:var(--purple-200);
+  --stripes-bg-dark:var(--purple-900);
+  --stripes-fg-dark:var(--purple-950);
+}
+
+.stripes-bg-purple-50  { --stripes-bg-light:var(--purple-50 );--stripes-bg-dark:var(--purple-50 );}
+.stripes-bg-purple-100 { --stripes-bg-light:var(--purple-100);--stripes-bg-dark:var(--purple-100);}
+.stripes-bg-purple-200 { --stripes-bg-light:var(--purple-200);--stripes-bg-dark:var(--purple-200);}
+.stripes-bg-purple-300 { --stripes-bg-light:var(--purple-300);--stripes-bg-dark:var(--purple-300);}
+.stripes-bg-purple-400 { --stripes-bg-light:var(--purple-400);--stripes-bg-dark:var(--purple-400);}
+.stripes-bg-purple-500 { --stripes-bg-light:var(--purple-500);--stripes-bg-dark:var(--purple-500);}
+.stripes-bg-purple-600 { --stripes-bg-light:var(--purple-600);--stripes-bg-dark:var(--purple-600);}
+.stripes-bg-purple-700 { --stripes-bg-light:var(--purple-700);--stripes-bg-dark:var(--purple-700);}
+.stripes-bg-purple-800 { --stripes-bg-light:var(--purple-800);--stripes-bg-dark:var(--purple-800);}
+.stripes-bg-purple-900 { --stripes-bg-light:var(--purple-900);--stripes-bg-dark:var(--purple-900);}
+.stripes-bg-purple-950 { --stripes-bg-light:var(--purple-950);--stripes-bg-dark:var(--purple-950);}
+
+.stripes-fg-purple-50  { --stripes-fg-light:var(--purple-50 );--stripes-fg-dark:var(--purple-50 );}
+.stripes-fg-purple-100 { --stripes-fg-light:var(--purple-100);--stripes-fg-dark:var(--purple-100);}
+.stripes-fg-purple-200 { --stripes-fg-light:var(--purple-200);--stripes-fg-dark:var(--purple-200);}
+.stripes-fg-purple-300 { --stripes-fg-light:var(--purple-300);--stripes-fg-dark:var(--purple-300);}
+.stripes-fg-purple-400 { --stripes-fg-light:var(--purple-400);--stripes-fg-dark:var(--purple-400);}
+.stripes-fg-purple-500 { --stripes-fg-light:var(--purple-500);--stripes-fg-dark:var(--purple-500);}
+.stripes-fg-purple-600 { --stripes-fg-light:var(--purple-600);--stripes-fg-dark:var(--purple-600);}
+.stripes-fg-purple-700 { --stripes-fg-light:var(--purple-700);--stripes-fg-dark:var(--purple-700);}
+.stripes-fg-purple-800 { --stripes-fg-light:var(--purple-800);--stripes-fg-dark:var(--purple-800);}
+.stripes-fg-purple-900 { --stripes-fg-light:var(--purple-900);--stripes-fg-dark:var(--purple-900);}
+.stripes-fg-purple-950 { --stripes-fg-light:var(--purple-950);--stripes-fg-dark:var(--purple-950);}
+
+.light\:stripes-bg-purple     { --stripes-bg-light:var(--purple-100); }
+.light\:stripes-bg-purple-50  { --stripes-bg-light:var(--purple-50 ); }
+.light\:stripes-bg-purple-100 { --stripes-bg-light:var(--purple-100); }
+.light\:stripes-bg-purple-200 { --stripes-bg-light:var(--purple-200); }
+.light\:stripes-bg-purple-300 { --stripes-bg-light:var(--purple-300); }
+.light\:stripes-bg-purple-400 { --stripes-bg-light:var(--purple-400); }
+.light\:stripes-bg-purple-500 { --stripes-bg-light:var(--purple-500); }
+.light\:stripes-bg-purple-600 { --stripes-bg-light:var(--purple-600); }
+.light\:stripes-bg-purple-700 { --stripes-bg-light:var(--purple-700); }
+.light\:stripes-bg-purple-800 { --stripes-bg-light:var(--purple-800); }
+.light\:stripes-bg-purple-900 { --stripes-bg-light:var(--purple-900); }
+.light\:stripes-bg-purple-950 { --stripes-bg-light:var(--purple-950); }
+
+.light\:stripes-fg-purple     { --stripes-fg-light:var(--purple-200); }
+.light\:stripes-fg-purple-50  { --stripes-fg-light:var(--purple-50 ); }
+.light\:stripes-fg-purple-100 { --stripes-fg-light:var(--purple-100); }
+.light\:stripes-fg-purple-200 { --stripes-fg-light:var(--purple-200); }
+.light\:stripes-fg-purple-300 { --stripes-fg-light:var(--purple-300); }
+.light\:stripes-fg-purple-400 { --stripes-fg-light:var(--purple-400); }
+.light\:stripes-fg-purple-500 { --stripes-fg-light:var(--purple-500); }
+.light\:stripes-fg-purple-600 { --stripes-fg-light:var(--purple-600); }
+.light\:stripes-fg-purple-700 { --stripes-fg-light:var(--purple-700); }
+.light\:stripes-fg-purple-800 { --stripes-fg-light:var(--purple-800); }
+.light\:stripes-fg-purple-900 { --stripes-fg-light:var(--purple-900); }
+.light\:stripes-fg-purple-950 { --stripes-fg-light:var(--purple-950); }
+
+.dark\:stripes-bg-purple     { --stripes-bg-dark:var(--purple-900); }
+.dark\:stripes-bg-purple-50  { --stripes-bg-dark:var(--purple-50 ); }
+.dark\:stripes-bg-purple-100 { --stripes-bg-dark:var(--purple-100); }
+.dark\:stripes-bg-purple-200 { --stripes-bg-dark:var(--purple-200); }
+.dark\:stripes-bg-purple-300 { --stripes-bg-dark:var(--purple-300); }
+.dark\:stripes-bg-purple-400 { --stripes-bg-dark:var(--purple-400); }
+.dark\:stripes-bg-purple-500 { --stripes-bg-dark:var(--purple-500); }
+.dark\:stripes-bg-purple-600 { --stripes-bg-dark:var(--purple-600); }
+.dark\:stripes-bg-purple-700 { --stripes-bg-dark:var(--purple-700); }
+.dark\:stripes-bg-purple-800 { --stripes-bg-dark:var(--purple-800); }
+.dark\:stripes-bg-purple-900 { --stripes-bg-dark:var(--purple-900); }
+.dark\:stripes-bg-purple-950 { --stripes-bg-dark:var(--purple-950); }
+
+.dark\:stripes-fg-purple     { --stripes-fg-dark:var(--purple-950); }
+.dark\:stripes-fg-purple-50  { --stripes-fg-dark:var(--purple-50 ); }
+.dark\:stripes-fg-purple-100 { --stripes-fg-dark:var(--purple-100); }
+.dark\:stripes-fg-purple-200 { --stripes-fg-dark:var(--purple-200); }
+.dark\:stripes-fg-purple-300 { --stripes-fg-dark:var(--purple-300); }
+.dark\:stripes-fg-purple-400 { --stripes-fg-dark:var(--purple-400); }
+.dark\:stripes-fg-purple-500 { --stripes-fg-dark:var(--purple-500); }
+.dark\:stripes-fg-purple-600 { --stripes-fg-dark:var(--purple-600); }
+.dark\:stripes-fg-purple-700 { --stripes-fg-dark:var(--purple-700); }
+.dark\:stripes-fg-purple-800 { --stripes-fg-dark:var(--purple-800); }
+.dark\:stripes-fg-purple-900 { --stripes-fg-dark:var(--purple-900); }
+.dark\:stripes-fg-purple-950 { --stripes-fg-dark:var(--purple-950); }

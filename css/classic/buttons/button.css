@@ -1,11 +1,12 @@
 .btn-yellow,
 .btn-orange,
 .btn-red,
-.btn-magenta,
-.btn-violet,
+.btn-pink,
+.btn-purple,
 .btn-blue,
 .btn-cyan,
 .btn-green,
+.btn-white,
 .btn-grey,
 .btn-black {
   font-family: var(--font-family);
@@ -22,11 +23,12 @@
 .btn-yellow:disabled,
 .btn-orange:disabled,
 .btn-red:disabled,
-.btn-magenta:disabled,
-.btn-violet:disabled,
+.btn-pink:disabled,
+.btn-purple:disabled,
 .btn-blue:disabled,
 .btn-cyan:disabled,
 .btn-green:disabled,
+.btn-white:disabled,
 .btn-grey:disabled,
 .btn-black:disabled {  
   cursor: auto;

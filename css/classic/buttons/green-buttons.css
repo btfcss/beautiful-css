@@ -2,9 +2,9 @@
 @import url(../text/fonts.css);
 
 .btn-green {
-  border: 1px solid var(--green-600);
-  color: var(--white);
-  background-color: var(--green-600);
+  border: 1px solid var(--green-500);
+  color: var(--white-200);
+  background-color: var(--green-500);
 }
 
 .btn-green:disabled {
@@ -16,7 +16,7 @@
 
 .btn-green.outline {
   background-color: transparent;
-  color: var(--green-600);
+  color: var(--green-500);
 }
 
 .btn-green.outline:disabled {
@@ -26,8 +26,8 @@
 .btn-green.outline:hover:not(:disabled),
 .btn-green:hover:not(:disabled) {
   color: #fff;
-  border-color: var(--green-500);
-  background-color: var(--green-500);
+  border-color: var(--green-600);
+  background-color: var(--green-600);
 }
 
 :not(.input-group) > .btn-green:focus:not(:disabled),

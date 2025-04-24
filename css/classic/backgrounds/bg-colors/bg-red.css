@@ -38,3 +38,43 @@
 .dark\:bg-red-800 { --bg-dark:var(--red-800); }
 .dark\:bg-red-900 { --bg-dark:var(--red-900); }
 .dark\:bg-red-950 { --bg-dark:var(--red-950); }
+
+
+.hover\:bg-red:hover { --bg-light:var(--red-200);--bg-dark:var(--red-800);}
+.hover\:bg-red-50:hover  { --bg-light:var(--red-50 );--bg-dark:var(--red-50 );}
+.hover\:bg-red-100:hover { --bg-light:var(--red-100);--bg-dark:var(--red-100);}
+.hover\:bg-red-200:hover { --bg-light:var(--red-200);--bg-dark:var(--red-200);}
+.hover\:bg-red-300:hover { --bg-light:var(--red-300);--bg-dark:var(--red-300);}
+.hover\:bg-red-400:hover { --bg-light:var(--red-400);--bg-dark:var(--red-400);}
+.hover\:bg-red-500:hover { --bg-light:var(--red-500);--bg-dark:var(--red-500);}
+.hover\:bg-red-600:hover { --bg-light:var(--red-600);--bg-dark:var(--red-600);}
+.hover\:bg-red-700:hover { --bg-light:var(--red-700);--bg-dark:var(--red-700);}
+.hover\:bg-red-800:hover { --bg-light:var(--red-800);--bg-dark:var(--red-800);}
+.hover\:bg-red-900:hover { --bg-light:var(--red-900);--bg-dark:var(--red-900);}
+.hover\:bg-red-950:hover { --bg-light:var(--red-950);--bg-dark:var(--red-950);}
+
+.light\:hover\:bg-red:hover { --bg-light:var(--red-200 ); }
+.light\:hover\:bg-red-50:hover  { --bg-light:var(--red-50 ); }
+.light\:hover\:bg-red-100:hover { --bg-light:var(--red-100); }
+.light\:hover\:bg-red-200:hover { --bg-light:var(--red-200); }
+.light\:hover\:bg-red-300:hover { --bg-light:var(--red-300); }
+.light\:hover\:bg-red-400:hover { --bg-light:var(--red-400); }
+.light\:hover\:bg-red-500:hover { --bg-light:var(--red-500); }
+.light\:hover\:bg-red-600:hover { --bg-light:var(--red-600); }
+.light\:hover\:bg-red-700:hover { --bg-light:var(--red-700); }
+.light\:hover\:bg-red-800:hover { --bg-light:var(--red-800); }
+.light\:hover\:bg-red-900:hover { --bg-light:var(--red-900); }
+.light\:hover\:bg-red-950:hover { --bg-light:var(--red-950); }
+
+.dark\:hover\:bg-red:hover  { --bg-dark:var(--red-800 ); }
+.dark\:hover\:bg-red-50:hover  { --bg-dark:var(--red-50 ); }
+.dark\:hover\:bg-red-100:hover { --bg-dark:var(--red-100); }
+.dark\:hover\:bg-red-200:hover { --bg-dark:var(--red-200); }
+.dark\:hover\:bg-red-300:hover { --bg-dark:var(--red-300); }
+.dark\:hover\:bg-red-400:hover { --bg-dark:var(--red-400); }
+.dark\:hover\:bg-red-500:hover { --bg-dark:var(--red-500); }
+.dark\:hover\:bg-red-600:hover { --bg-dark:var(--red-600); }
+.dark\:hover\:bg-red-700:hover { --bg-dark:var(--red-700); }
+.dark\:hover\:bg-red-800:hover { --bg-dark:var(--red-800); }
+.dark\:hover\:bg-red-900:hover { --bg-dark:var(--red-900); }
+.dark\:hover\:bg-red-950:hover { --bg-dark:var(--red-950); }

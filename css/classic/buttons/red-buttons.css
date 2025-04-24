@@ -4,9 +4,9 @@
 
 .btn-red {
   font-family: var(--font-family);
-  border: 1px solid var(--red-600);
-  color: var(--white);
-  background-color: var(--red-600);
+  border: 1px solid var(--red-500);
+  color: var(--white-200);
+  background-color: var(--red-500);
 }
 
 .btn-red:disabled {
@@ -17,7 +17,7 @@
 
 .btn-red.outline {
   background-color: transparent;
-  color: var(--red-600);
+  color: var(--red-500);
 }
 
 .btn-red.outline:disabled {
@@ -27,8 +27,8 @@
 .btn-red.outline:hover:not(:disabled),
 .btn-red:hover:hover:not(:disabled) {
   color: #fff;
-  border-color: var(--red-500);
-  background-color: var(--red-500);
+  border-color: var(--red-600);
+  background-color: var(--red-600);
 }
 
 :not(.input-group) > .btn-red:focus:hover:not(:disabled),

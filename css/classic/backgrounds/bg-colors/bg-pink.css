@@ -38,3 +38,43 @@
 .dark\:bg-pink-800 { --bg-dark:var(--pink-800); }
 .dark\:bg-pink-900 { --bg-dark:var(--pink-900); }
 .dark\:bg-pink-950 { --bg-dark:var(--pink-950); }
+
+
+.hover\:bg-pink:hover { --bg-light:var(--pink-200);--bg-dark:var(--pink-800);}
+.hover\:bg-pink-50:hover  { --bg-light:var(--pink-50 );--bg-dark:var(--pink-50 );}
+.hover\:bg-pink-100:hover { --bg-light:var(--pink-100);--bg-dark:var(--pink-100);}
+.hover\:bg-pink-200:hover { --bg-light:var(--pink-200);--bg-dark:var(--pink-200);}
+.hover\:bg-pink-300:hover { --bg-light:var(--pink-300);--bg-dark:var(--pink-300);}
+.hover\:bg-pink-400:hover { --bg-light:var(--pink-400);--bg-dark:var(--pink-400);}
+.hover\:bg-pink-500:hover { --bg-light:var(--pink-500);--bg-dark:var(--pink-500);}
+.hover\:bg-pink-600:hover { --bg-light:var(--pink-600);--bg-dark:var(--pink-600);}
+.hover\:bg-pink-700:hover { --bg-light:var(--pink-700);--bg-dark:var(--pink-700);}
+.hover\:bg-pink-800:hover { --bg-light:var(--pink-800);--bg-dark:var(--pink-800);}
+.hover\:bg-pink-900:hover { --bg-light:var(--pink-900);--bg-dark:var(--pink-900);}
+.hover\:bg-pink-950:hover { --bg-light:var(--pink-950);--bg-dark:var(--pink-950);}
+
+.light\:hover\:bg-pink:hover { --bg-light:var(--pink-200 ); }
+.light\:hover\:bg-pink-50:hover  { --bg-light:var(--pink-50 ); }
+.light\:hover\:bg-pink-100:hover { --bg-light:var(--pink-100); }
+.light\:hover\:bg-pink-200:hover { --bg-light:var(--pink-200); }
+.light\:hover\:bg-pink-300:hover { --bg-light:var(--pink-300); }
+.light\:hover\:bg-pink-400:hover { --bg-light:var(--pink-400); }
+.light\:hover\:bg-pink-500:hover { --bg-light:var(--pink-500); }
+.light\:hover\:bg-pink-600:hover { --bg-light:var(--pink-600); }
+.light\:hover\:bg-pink-700:hover { --bg-light:var(--pink-700); }
+.light\:hover\:bg-pink-800:hover { --bg-light:var(--pink-800); }
+.light\:hover\:bg-pink-900:hover { --bg-light:var(--pink-900); }
+.light\:hover\:bg-pink-950:hover { --bg-light:var(--pink-950); }
+
+.dark\:hover\:bg-pink:hover  { --bg-dark:var(--pink-800 ); }
+.dark\:hover\:bg-pink-50:hover  { --bg-dark:var(--pink-50 ); }
+.dark\:hover\:bg-pink-100:hover { --bg-dark:var(--pink-100); }
+.dark\:hover\:bg-pink-200:hover { --bg-dark:var(--pink-200); }
+.dark\:hover\:bg-pink-300:hover { --bg-dark:var(--pink-300); }
+.dark\:hover\:bg-pink-400:hover { --bg-dark:var(--pink-400); }
+.dark\:hover\:bg-pink-500:hover { --bg-dark:var(--pink-500); }
+.dark\:hover\:bg-pink-600:hover { --bg-dark:var(--pink-600); }
+.dark\:hover\:bg-pink-700:hover { --bg-dark:var(--pink-700); }
+.dark\:hover\:bg-pink-800:hover { --bg-dark:var(--pink-800); }
+.dark\:hover\:bg-pink-900:hover { --bg-dark:var(--pink-900); }
+.dark\:hover\:bg-pink-950:hover { --bg-dark:var(--pink-950); }

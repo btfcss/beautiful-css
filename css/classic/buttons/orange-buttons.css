@@ -2,9 +2,9 @@
 @import url(../text/fonts.css);
 
 .btn-orange {
-  border: 1px solid var(--orange-600);
-  color: var(--white);
-  background-color: var(--orange-600);
+  border: 1px solid var(--orange-500);
+  color: var(--white-200);
+  background-color: var(--orange-500);
 
 }
 
@@ -28,9 +28,9 @@
 
 .btn-orange.outline:hover:not(:disabled) ,
 .btn-orange:hover:not(:disabled) {
-  color: #fff;  
-  border-color: var(--orange-500);
-  background-color: var(--orange-500);
+  color: #fff;
+  border-color: var(--orange-600);
+  background-color: var(--orange-600);
 }
 
 :not(.input-group) > .btn-orange:focus:not(:disabled),

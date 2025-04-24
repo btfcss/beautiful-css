@@ -1,0 +1,84 @@
+@import url(../../colors/palette.css);
+
+.stripes-green { 
+  --stripes-bg-light:var(--green-100);
+  --stripes-fg-light:var(--green-200);
+  --stripes-bg-dark:var(--green-900);
+  --stripes-fg-dark:var(--green-950);
+}
+
+.stripes-bg-green-50  { --stripes-bg-light:var(--green-50 );--stripes-bg-dark:var(--green-50 );}
+.stripes-bg-green-100 { --stripes-bg-light:var(--green-100);--stripes-bg-dark:var(--green-100);}
+.stripes-bg-green-200 { --stripes-bg-light:var(--green-200);--stripes-bg-dark:var(--green-200);}
+.stripes-bg-green-300 { --stripes-bg-light:var(--green-300);--stripes-bg-dark:var(--green-300);}
+.stripes-bg-green-400 { --stripes-bg-light:var(--green-400);--stripes-bg-dark:var(--green-400);}
+.stripes-bg-green-500 { --stripes-bg-light:var(--green-500);--stripes-bg-dark:var(--green-500);}
+.stripes-bg-green-600 { --stripes-bg-light:var(--green-600);--stripes-bg-dark:var(--green-600);}
+.stripes-bg-green-700 { --stripes-bg-light:var(--green-700);--stripes-bg-dark:var(--green-700);}
+.stripes-bg-green-800 { --stripes-bg-light:var(--green-800);--stripes-bg-dark:var(--green-800);}
+.stripes-bg-green-900 { --stripes-bg-light:var(--green-900);--stripes-bg-dark:var(--green-900);}
+.stripes-bg-green-950 { --stripes-bg-light:var(--green-950);--stripes-bg-dark:var(--green-950);}
+
+.stripes-fg-green-50  { --stripes-fg-light:var(--green-50 );--stripes-fg-dark:var(--green-50 );}
+.stripes-fg-green-100 { --stripes-fg-light:var(--green-100);--stripes-fg-dark:var(--green-100);}
+.stripes-fg-green-200 { --stripes-fg-light:var(--green-200);--stripes-fg-dark:var(--green-200);}
+.stripes-fg-green-300 { --stripes-fg-light:var(--green-300);--stripes-fg-dark:var(--green-300);}
+.stripes-fg-green-400 { --stripes-fg-light:var(--green-400);--stripes-fg-dark:var(--green-400);}
+.stripes-fg-green-500 { --stripes-fg-light:var(--green-500);--stripes-fg-dark:var(--green-500);}
+.stripes-fg-green-600 { --stripes-fg-light:var(--green-600);--stripes-fg-dark:var(--green-600);}
+.stripes-fg-green-700 { --stripes-fg-light:var(--green-700);--stripes-fg-dark:var(--green-700);}
+.stripes-fg-green-800 { --stripes-fg-light:var(--green-800);--stripes-fg-dark:var(--green-800);}
+.stripes-fg-green-900 { --stripes-fg-light:var(--green-900);--stripes-fg-dark:var(--green-900);}
+.stripes-fg-green-950 { --stripes-fg-light:var(--green-950);--stripes-fg-dark:var(--green-950);}
+
+.light\:stripes-bg-green     { --stripes-bg-light:var(--green-100); }
+.light\:stripes-bg-green-50  { --stripes-bg-light:var(--green-50 ); }
+.light\:stripes-bg-green-100 { --stripes-bg-light:var(--green-100); }
+.light\:stripes-bg-green-200 { --stripes-bg-light:var(--green-200); }
+.light\:stripes-bg-green-300 { --stripes-bg-light:var(--green-300); }
+.light\:stripes-bg-green-400 { --stripes-bg-light:var(--green-400); }
+.light\:stripes-bg-green-500 { --stripes-bg-light:var(--green-500); }
+.light\:stripes-bg-green-600 { --stripes-bg-light:var(--green-600); }
+.light\:stripes-bg-green-700 { --stripes-bg-light:var(--green-700); }
+.light\:stripes-bg-green-800 { --stripes-bg-light:var(--green-800); }
+.light\:stripes-bg-green-900 { --stripes-bg-light:var(--green-900); }
+.light\:stripes-bg-green-950 { --stripes-bg-light:var(--green-950); }
+
+.light\:stripes-fg-green     { --stripes-fg-light:var(--green-200); }
+.light\:stripes-fg-green-50  { --stripes-fg-light:var(--green-50 ); }
+.light\:stripes-fg-green-100 { --stripes-fg-light:var(--green-100); }
+.light\:stripes-fg-green-200 { --stripes-fg-light:var(--green-200); }
+.light\:stripes-fg-green-300 { --stripes-fg-light:var(--green-300); }
+.light\:stripes-fg-green-400 { --stripes-fg-light:var(--green-400); }
+.light\:stripes-fg-green-500 { --stripes-fg-light:var(--green-500); }
+.light\:stripes-fg-green-600 { --stripes-fg-light:var(--green-600); }
+.light\:stripes-fg-green-700 { --stripes-fg-light:var(--green-700); }
+.light\:stripes-fg-green-800 { --stripes-fg-light:var(--green-800); }
+.light\:stripes-fg-green-900 { --stripes-fg-light:var(--green-900); }
+.light\:stripes-fg-green-950 { --stripes-fg-light:var(--green-950); }
+
+.dark\:stripes-bg-green     { --stripes-bg-dark:var(--green-900); }
+.dark\:stripes-bg-green-50  { --stripes-bg-dark:var(--green-50 ); }
+.dark\:stripes-bg-green-100 { --stripes-bg-dark:var(--green-100); }
+.dark\:stripes-bg-green-200 { --stripes-bg-dark:var(--green-200); }
+.dark\:stripes-bg-green-300 { --stripes-bg-dark:var(--green-300); }
+.dark\:stripes-bg-green-400 { --stripes-bg-dark:var(--green-400); }
+.dark\:stripes-bg-green-500 { --stripes-bg-dark:var(--green-500); }
+.dark\:stripes-bg-green-600 { --stripes-bg-dark:var(--green-600); }
+.dark\:stripes-bg-green-700 { --stripes-bg-dark:var(--green-700); }
+.dark\:stripes-bg-green-800 { --stripes-bg-dark:var(--green-800); }
+.dark\:stripes-bg-green-900 { --stripes-bg-dark:var(--green-900); }
+.dark\:stripes-bg-green-950 { --stripes-bg-dark:var(--green-950); }
+
+.dark\:stripes-fg-green     { --stripes-fg-dark:var(--green-950); }
+.dark\:stripes-fg-green-50  { --stripes-fg-dark:var(--green-50 ); }
+.dark\:stripes-fg-green-100 { --stripes-fg-dark:var(--green-100); }
+.dark\:stripes-fg-green-200 { --stripes-fg-dark:var(--green-200); }
+.dark\:stripes-fg-green-300 { --stripes-fg-dark:var(--green-300); }
+.dark\:stripes-fg-green-400 { --stripes-fg-dark:var(--green-400); }
+.dark\:stripes-fg-green-500 { --stripes-fg-dark:var(--green-500); }
+.dark\:stripes-fg-green-600 { --stripes-fg-dark:var(--green-600); }
+.dark\:stripes-fg-green-700 { --stripes-fg-dark:var(--green-700); }
+.dark\:stripes-fg-green-800 { --stripes-fg-dark:var(--green-800); }
+.dark\:stripes-fg-green-900 { --stripes-fg-dark:var(--green-900); }
+.dark\:stripes-fg-green-950 { --stripes-fg-dark:var(--green-950); }

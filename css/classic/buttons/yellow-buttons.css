@@ -2,9 +2,9 @@
 @import url(../text/fonts.css);
 
 .btn-yellow {
-  border: 1px solid var(--yellow-600);
-  color: var(--white);
-  background-color: var(--yellow-600);
+  border: 1px solid var(--yellow-500);
+  color: var(--black-800);
+  background-color: var(--yellow-500);
 }
 
 
@@ -26,9 +26,9 @@
 
 .btn-yellow.outline:hover:not(:disabled),
 .btn-yellow:hover:not(:disabled) {
-  color: #fff;
-  border-color: var(--yellow-500);
-  background-color: var(--yellow-500);
+  color: #000;
+  border-color: var(--yellow-600);
+  background-color: var(--yellow-600);
 }
 
 :not(.input-group) > .btn-yellow:focus:not(:disabled),
