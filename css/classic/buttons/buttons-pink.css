@@ -9,9 +9,9 @@
 }
 
 .btn-pink:disabled {
-  border-color: var(--pink-disabled);
-  background-color: var(--pink-disabled);
-  color: var(--white-disabled)
+  border-color: var(--pink-700);
+  background-color: var(--pink-700);
+  color: var(--grey-500)
 }
 
 .btn-pink.outline {
@@ -20,7 +20,7 @@
 }
 
 .btn-pink.outline:disabled {
-  color: var(--pink-disabled);
+  color: var(--pink-700);
 }
 
 .btn-pink.outline:hover:not(:disabled),

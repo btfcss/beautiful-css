@@ -10,9 +10,9 @@
 
 
 .btn-orange:disabled {
-  border-color: var(--orange-disabled);
-  background-color: var(--orange-disabled);
-  color: var(--black-disabled)
+  border-color: var(--orange-700);
+  background-color: var(--orange-700);
+  color: var(--grey-500)
 }
 
 
@@ -22,7 +22,7 @@
 }
 
 .btn-orange.outline:disabled {
-  color: var(--orange-disabled);
+  color: var(--orange-700);
 }
 
 

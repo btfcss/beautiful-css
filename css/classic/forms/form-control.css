@@ -12,14 +12,14 @@ label {
   padding: var(--spacing-2) var(--spacing-3);
   box-sizing: border-box;
   border-radius: var(--spacing-2);
-  border: 1px solid var(--negative-grey);
-  background-color: var(--grey);
+  border: 1px solid light-dark(var(--grey-300), var(--grey-800));
+  background-color: light-dark(var(--white-200),var(--black-300));
   font-size: 1rem;
   outline: 0;
 }
 
 .form-control::placeholder {
-  color: light-dark(var(--dark-grey-lighter-20), var(--light-grey-darker-20));
+  color: light-dark(var(--grey-700), var(--grey-600));
 }
 
 select.form-control {
@@ -32,36 +32,39 @@ select.form-control {
 }
 
 .form-control:disabled {
-  border-color:  light-dark(var(--light-grey-darker-10), var(--dark-grey-lighter-10));
+  border-color:  light-dark(var(--grey-300), var(--black-100));
 }
 
 .form-control:disabled::placeholder {
-  color: light-dark(var(--light-grey-darker-10), var(--dark-grey-lighter-10));
+  color: light-dark(var(--grey-300), var(--grey-900));
 }
 text-area.form-control  {
   font-family: var(--inter);
 }
 
 .form-control.valid {
-  border: 1px solid var(--green-lighter-20);
+  border: 1px solid var(--green-500);
 }
 
 .form-control.invalid {
-  border: 1px solid var(--red-lighter-20);
+  border: 1px solid var(--red-500);
 }
 
 
 :not(.input-group) > .form-control:focus,
 :not(.input-group) > .form-control:focus-visible {
-  box-shadow: 0 0 0 var(--spacing-1) var(--blue-lighter-20);
+  border-color: var(--blue-400);
+  box-shadow: 0 0 0 2px var(--blue-400);
 }
 
 :not(.input-group) > .form-control.valid:focus,
 :not(.input-group) > .form-control.valid:focus-visible {
-  box-shadow: 0 0 0 var(--spacing-1) var(--green-lighter-20);
+  border-color: var(--green-400);
+  box-shadow: 0 0 0 2px var(--green-400);
 }
 
 :not(.input-group) > .form-control.invalid:focus,
 :not(.input-group) > .form-control.invalid:focus-visible {
-  box-shadow: 0 0 0 var(--spacing-1) var(--red-lighter-20);
+  border-color: var(--red-400);
+  box-shadow: 0 0 0 2px var(--red-400);
 }

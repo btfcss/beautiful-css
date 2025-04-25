@@ -9,9 +9,9 @@
 }
 
 .btn-black:disabled {
-  border-color: var(--black-disabled);
-  background-color: var(--black-disabled);
-  color: var(--white-disabled)
+  border-color: var(--black-100);
+  background-color: var(--black-100);
+  color: var(--grey-700)
 }
 
 .btn-black.outline {
@@ -20,7 +20,7 @@
 }
 
 .btn-black.outline:disabled {
-  color: var(--black-disabled);
+  color: var(--black-100);
 }
 
 .btn-black.outline:hover:not(:disabled),

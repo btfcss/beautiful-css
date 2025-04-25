@@ -10,9 +10,9 @@
 }
 
 .btn-red:disabled {
-  border-color: var(--red-disabled);
-  background-color: var(--red-disabled);
-  color: var(--white-disabled)
+  border-color: var(--red-700);
+  background-color: var(--red-700);
+  color: var(--grey-500)
 }
 
 .btn-red.outline {
@@ -21,7 +21,7 @@
 }
 
 .btn-red.outline:disabled {
-  color: var(--red-disabled);
+  color: var(--red-700);
 }
 
 .btn-red.outline:hover:not(:disabled),

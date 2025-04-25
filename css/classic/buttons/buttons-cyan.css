@@ -9,9 +9,9 @@
 }
 
 .btn-cyan:disabled {
-  border-color: var(--cyan-disabled);
-  background-color: var(--cyan-disabled);
-  color: var(--white-disabled)
+  border-color: var(--cyan-700);
+  background-color: var(--cyan-700);
+  color: var(--grey-500)
 }
 
 .btn-cyan.outline {
@@ -20,7 +20,7 @@
 }
 
 .btn-cyan.outline:disabled {
-  color: var(--cyan-disabled);
+  color: var(--cyan-700);
 }
 
 .btn-cyan.outline:hover:not(:disabled),

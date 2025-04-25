@@ -8,9 +8,9 @@
 }
 
 .btn-green:disabled {
-  border-color: var(--green-disabled);
-  background-color: var(--green-disabled);
-  color: var(--white-disabled)
+  border-color: var(--green-700);
+  background-color: var(--green-700);
+  color: var(--grey-500)
 }
 
 
@@ -20,7 +20,7 @@
 }
 
 .btn-green.outline:disabled {
-  color: var(--green-disabled);
+  color: var(--green-700);
 }
 
 .btn-green.outline:hover:not(:disabled),

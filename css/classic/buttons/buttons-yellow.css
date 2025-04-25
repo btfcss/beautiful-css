@@ -9,9 +9,9 @@
 
 
 .btn-yellow:disabled {
-  border-color: var(--yellow-disabled);
-  background-color: var(--yellow-disabled);
-  color: var(--black-disabled)
+  border-color: var(--yellow-700);
+  background-color: var(--yellow-700);
+  color: var(--grey-500);
 }
 
 
@@ -21,7 +21,7 @@
 }
 
 .btn-yellow.outline:disabled {
-  color: var(--yellow-disabled);
+  color: var(--yellow-700);
 }
 
 .btn-yellow.outline:hover:not(:disabled),

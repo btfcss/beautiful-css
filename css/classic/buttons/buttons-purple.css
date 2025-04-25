@@ -9,9 +9,9 @@
 }
 
 .btn-purple:disabled {
-  border-color: var(--purple-disabled);
-  background-color: var(--purple-disabled);
-  color: var(--white-disabled)
+  border-color: var(--purple-700);
+  background-color: var(--purple-700);
+  color: var(--grey-500)
 }
 
 .btn-purple.outline {
@@ -20,7 +20,7 @@
 }
 
 .btn-purple.outline:disabled {
-  color: var(--purple-disabled);
+  color: var(--purple-700);
 }
 
 .btn-purple.outline:hover:not(:disabled),

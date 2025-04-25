@@ -8,9 +8,9 @@
 }
 
 .btn-blue:disabled {
-  border-color: var(--blue-disabled);
-  background-color: var(--blue-disabled);
-  color: var(--white-disabled)
+  border-color: var(--blue-700);
+  background-color: var(--blue-700);
+  color: var(--grey-500)
 }
 
 .btn-blue.outline {
@@ -19,7 +19,7 @@
 }
 
 .btn-blue.outline:disabled {
-  color: var(--blue-disabled);
+  color: var(--blue-700);
 }
 
 

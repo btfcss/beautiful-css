@@ -31,7 +31,7 @@
 .btn-white:disabled,
 .btn-grey:disabled,
 .btn-black:disabled {  
-  cursor: auto;
+  cursor: not-allowed;
 }
 
 .btn-circular {

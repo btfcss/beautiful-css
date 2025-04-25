@@ -1,14 +1,14 @@
 
-@import url(yellow-buttons.css);
-@import url(orange-buttons.css);
-@import url(red-buttons.css);
-@import url(pink-buttons.css);
-@import url(purple-buttons.css);
-@import url(blue-buttons.css);
-@import url(cyan-buttons.css);
-@import url(green-buttons.css);
-@import url(white-buttons.css);
-@import url(grey-buttons.css);
-@import url(black-buttons.css);
+@import url(buttons-yellow.css);
+@import url(buttons-orange.css);
+@import url(buttons-red.css);
+@import url(buttons-pink.css);
+@import url(buttons-purple.css);
+@import url(buttons-blue.css);
+@import url(buttons-cyan.css);
+@import url(buttons-green.css);
+@import url(buttons-white.css);
+@import url(buttons-grey.css);
+@import url(buttons-black.css);
 
 @import url(button-size.css);
