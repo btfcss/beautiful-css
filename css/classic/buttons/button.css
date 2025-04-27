@@ -1,36 +1,32 @@
-.btn-yellow,
-.btn-orange,
-.btn-red,
-.btn-pink,
-.btn-purple,
-.btn-blue,
-.btn-cyan,
-.btn-green,
-.btn-white,
-.btn-grey,
-.btn-black {
-  font-family: var(--font-family);
-  font-size: 1rem;
-  padding: var(--spacing-2) var(--spacing-3);
-  border-radius : var(--spacing-2);
-  cursor: pointer;
-  outline: 0; 
-  transition: background-color,border-color,color,fill,stroke, 0.15s;
-
+.btn,
+.dark\:btn,
+.light\:btn {
+  color: inherit;
 }
 
 
-.btn-yellow:disabled,
-.btn-orange:disabled,
-.btn-red:disabled,
-.btn-pink:disabled,
-.btn-purple:disabled,
-.btn-blue:disabled,
-.btn-cyan:disabled,
-.btn-green:disabled,
-.btn-white:disabled,
-.btn-grey:disabled,
-.btn-black:disabled {  
+
+.btn,
+.dark\:btn,
+.light\:btn,
+[class*="dark\:btn-"],
+[class*="light\:btn-"],
+[class*="btn-"] {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius : var(--spacing-2);  
+  cursor: pointer;
+  outline: 0; 
+  transition: background-color,border-color,color,fill,stroke, 0.15s;  
+}
+
+
+
+.btn:disabled,
+[class*="dark\:btn-"]:disabled,
+[class*="light\:btn-"]:disabled,
+[class*="btn-"]:disabled {  
   cursor: not-allowed;
 }
 

@@ -1,5 +1,5 @@
 .input-group > * {
-  border: 0;
+  border: 0!important;
   border-radius: 0;
   margin: 0;
 }
@@ -29,8 +29,8 @@
   justify-content: center;
   background-color: blue;
   border-radius: var(--spacing-2);
-  border: 1px solid var(--negative-grey);
-  background-color: var(--grey);
+  border: 1px solid light-dark(var(--grey-300), var(--grey-800));
+  background-color: light-dark(var(--white-200),var(--black-300));
   width: 100%;
 }
 
@@ -46,17 +46,20 @@
 .input-group:has(*:focus),
 .input-group:has(*:focus-within),
 .input-group:has(*:focus-visible) {
-  box-shadow: 0 0 0 var(--spacing-1) var(--blue-lighter-20);
+  border-color: var(--blue-400);
+  box-shadow: 0 0 0 var(--spacing-1) var(--blue-400);
 }
 
 .input-group:has(*.valid:focus),
 .input-group:has(*.valid:focus-within),
 .input-group:has(*.valid:focus-visible) {
-  box-shadow: 0 0 0 var(--spacing-1) var(--green-lighter-20);
+  border-color: var(--green-400);
+  box-shadow: 0 0 0 var(--spacing-1) var(--green-400);
 }
 
 .input-group:has(*.invalid:focus),
 .input-group:has(*.invalid:focus-within),
 .input-group:has(*.invalid:focus-visible) {
-  box-shadow: 0 0 0 var(--spacing-1) var(--red-lighter-20);
+  border-color: var(--red-400);
+  box-shadow: 0 0 0 var(--spacing-1) var(--red-400);
 }
