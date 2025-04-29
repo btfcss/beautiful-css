@@ -1,5 +1,6 @@
 @import url(../colors/palette.css);
 @import url(../layout/spacing.css);
+
 @import url(border-yellow.css);
 @import url(border-orange.css);
 @import url(border-red.css);
@@ -11,37 +12,55 @@
 @import url(border-white.css);
 @import url(border-grey.css);
 @import url(border-black.css);
+@import url(border-additive.css);
 
 
 :root {
   --border-radius: var(--spacing-4);
 }
 
-[class*="dark\:border-"],
-[class*="light\:border-"],
-[class*="border-"] {
-  border-width: 1px;
-  border-style: solid;
-  border-color: light-dark(var(--border-light, transparent), var(--border-dark, transparent))  
+.dark\:border-yellow,
+.dark\:border-orange,
+.dark\:border-red,
+.dark\:border-pink,
+.dark\:border-purple,
+.dark\:border-blue,
+.dark\:border-cyan,
+.dark\:border-green,
+.dark\:border-white,
+.dark\:border-grey,
+.dark\:border-black,
+.light\:border-yellow,
+.light\:border-orange,
+.light\:border-red,
+.light\:border-pink,
+.light\:border-purple,
+.light\:border-blue,
+.light\:border-cyan,
+.light\:border-green,
+.light\:border-white,
+.light\:border-grey,
+.light\:border-black,
+.border-yellow,
+.border-orange,
+.border-red,
+.border-pink,
+.border-purple,
+.border-blue,
+.border-cyan,
+.border-green,
+.border-white,
+.border-grey,
+.border-black {
+  border-top-width: var(var(--border-top-width, --border-width), 1px);
+  border-right-width: var(var(--border-right-width, --border-width), 1px);
+  border-bottom-width: var(var(--border-bottom-width, --border-width), 1px);
+  border-left-width: var(var(--border-left-width, --border-width), 1px);
+  border-style: var(--border-style, solid);
+  border-color: light-dark(var(--border-light, transparent), var(--border-dark, transparent));  
 }
 
 
-
-.border-solid {
-  border-style: solid;
-}
-
-.border-dashed {
-  border-style: dashed;
-}
-
-.border-dotted {
-  border-style: dotted;
-}
-
-.border-double {
-  border-style: double;
-}
 
 
 
@@ -86,74 +105,32 @@
 
 
 
-.border-top {
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: var(--border-color);
-}
-
-
-.border-right {
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: var(--border-color);
-}
-
-
-.border-bottom {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: var(--border-color);
-}
-
-.border-left {
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: var(--border-color);
-}
-
 
 
 
 
 
 .border-0 {
-  border-width: 0;
+  --border-width: 0;
 }
 
 .border-1 {
-  border-width: 1px; 
+  --border-width: 1px; 
 }
 
 .border-2 {
-  border-width: 2px;
+  --border-width: 2px;
 }
 
 .border-3 {
-  border-width: 3px!important;
+  --border-width: 3px;
 }
 
 .border-4 {
-  border-width: 4px;
+  --border-width: 4px;
 }
 
 .border-5 {
-  border-width: 5px;
+  --border-width: 5px;
 }
-
-[class*="light\:bg-"]:not([class*="dark\:bg-"]) {
-  background-color: light-dark(var(--bg-light, var(--white-200)), transparent);
-}
-
-[class*="dark\:bg-"]:not([class*="light\:bg-"]) {
-  background-color: light-dark(transparent, var(--bg-dark, var(--black-200)));
-}
-
-
-[class*="light\:bg-"][class*="dark\:bg-"],
-[class*="bg-"] {
-  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark, var(--black-200)));
-}
-
-
 
