@@ -118,29 +118,8 @@
       <%- include cards/border-size.ejs %>
       <%- include cards/border-style.ejs %>
       <%- include cards/border-additive.ejs %>
-
-
-      <div class="card">
-        <div class="header">
-          <h2>Borders Subtractive</h2>
-        </div>
-        <div class="body text-center py-5">
-      
-          <div class="p-4 mb-5 hover:scale-105 border-4 border-blue light:bg-white-500 dark:bg-black-500 border-top-0">Top border</div>
-          <div class="p-4 mb-5 hover:scale-105 border-4 border-blue light:bg-white-500 dark:bg-black-500 border-right-0">Right border</div>
-          <div class="p-4 mb-5 hover:scale-105 border-4 border-blue light:bg-white-500 dark:bg-black-500 border-left-0 border-right-0">Left & right border</div>
-          <div class="p-4 mb-5 hover:scale-105 border-4 border-blue light:bg-white-500 dark:bg-black-500 border-left-0">Left border</div>    
-          <div class="p-4 hover:scale-105 border-4 border-blue light:bg-white-500 dark:bg-black-500 border-bottom-0">Bottom border</div>
-          
-      
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-      <%- include cards/radius.ejs %>
+      <%- include cards/border-subtractive.ejs %>
+      <%- include cards/rounded.ejs %>
       <%- include cards/card-with-header.ejs %>
       <%- include cards/card-with-image.ejs %>
 
@@ -156,13 +135,13 @@
           <h2>Grid</h2>
         </div>
         <div class="body grid">
-          <div class="card text-center hover:scale-105">1</div>
-          <div class="card text-center hover:scale-105">2</div>
-          <div class="card text-center hover:scale-105">3</div>
-          <div class="card text-center hover:scale-105">4</div>
+          <div class="rounded-3 border p-4 text-center hover:scale-105">1</div>
+          <div class="rounded-3 border p-4 text-center hover:scale-105">2</div>
+          <div class="rounded-3 border p-4 text-center hover:scale-105">3</div>
+          <div class="rounded-3 border p-4 text-center hover:scale-105">4</div>
         </div>
         <div class="footer align-right">
-          <button class="btn-green-600">&lt;code&gt;</button>
+          <button class="btn-blue">&lt;code&gt;</button>
         </div>
       </div>
 
@@ -171,31 +150,9 @@
       <%- include cards/vertical-flex.ejs %>
       <%- include cards/scale.ejs %>
       <%- include cards/rotation.ejs %>
+      <%- include cards/cursor.ejs %>
 
 
-
-      <!-- Cursor -->
-      <div class="card">
-        <div class="header">
-          <h2>Cursor</h2>
-        </div>
-        <div class="body">
-          <div class="card mb-3 text-center cursor-pointer">Pointer</div>
-          <div class="card mb-3 text-center cursor-wait">Wait</div>
-          <div class="card mb-3 text-center cursor-text">text</div>
-          <div class="card mb-3 text-center cursor-help">Help</div>
-          <div class="card mb-3 text-center cursor-crosshair">Crosshair</div>
-          <div class="card mb-3 text-center cursor-not-allowed">Not allowed</div>
-          <div class="card mb-3 text-center cursor-zoom-in">Zoom in</div>
-          <div class="card mb-3 text-center cursor-zoom-out">Zoom out</div>
-          <div class="card mb-3 text-center cursor-grab">Grab</div>
-          <div class="card mb-3 text-center cursor-default">Default</div>
-          <div class="card mb-3 text-center cursor-auto">Auto</div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-green-600">&lt;code&gt;</button>
-        </div>
-      </div>
 
 
       <!-- Masonry -->
@@ -223,7 +180,7 @@
           </div>
         </div>
         <div class="footer align-right">
-          <button class="btn-green-600">&lt;code&gt;</button>
+          <button class="btn-blue">&lt;code&gt;</button>
         </div>
       </div>
 
@@ -261,7 +218,7 @@ for x in adj:
     print(x, y)</code></pre>
         </div>
         <div class="footer align-right">
-          <button class="btn-green-600">&lt;code&gt;</button>
+          <button class="btn-blue">&lt;code&gt;</button>
         </div>
 
 
@@ -278,18 +235,12 @@ for x in adj:
           <h2>Aspect Ratio</h2>
         </div>
         <div class="body grid grid-gap-3 text-center">
-          <div class="border-negative-grey bg-grey rounded hover:scale-105 ratio-16x9">
-            16/9
-          </div>
-          <div class="border-negative-grey bg-grey rounded hover:scale-105 ratio-1x1">
-            1/1
-          </div>
-          <div class="border-negative-grey bg-grey rounded hover:scale-105 ratio-9x16">
-            9/16
-          </div>
+          <div class="border-negative-grey bg-blue v-flex-center rounded hover:scale-105 ratio-16x9">16/9</div>
+          <div class="border-negative-grey bg-blue v-flex-center rounded hover:scale-105 ratio-1x1">1/1</div>
+          <div class="border-negative-grey bg-blue v-flex-center rounded hover:scale-105 ratio-9x16">9/16</div>
         </div>
         <div class="footer align-right">
-          <button class="btn-green-600">&lt;code&gt;</button>
+          <button class="btn-blue">&lt;code&gt;</button>
         </div>
       </div>
 
@@ -307,7 +258,7 @@ for x in adj:
           <img class="w-100 mb-3 rounded hover:scale-105 greyscale-0 hover:greyscale-0" src="/images/color-image.jpg">
         </div>
         <div class="footer align-right">
-          <button class="btn-green-600">&lt;code&gt;</button>
+          <button class="btn-blue">&lt;code&gt;</button>
         </div>
       </div>
 
