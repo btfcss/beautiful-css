@@ -13,17 +13,17 @@
 
 
 [class*="light\:bg-"]:not([class*="dark\:bg-"]) {
-  background-color: light-dark(var(--bg-light, var(--white-200)), transparent);
+  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark,inherit));
 }
 
 [class*="dark\:bg-"]:not([class*="light\:bg-"]) {
-  background-color: light-dark(transparent, var(--bg-dark, var(--black-200)));
+  background-color: light-dark(var(--bg-light,inherit), var(--bg-dark, var(--black-200)));
 }
 
 
 [class*="light\:bg-"][class*="dark\:bg-"],
 [class*="bg-"] {
-  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark, var(--black-200)));
+  background-color: light-dark(var(--bg-light, inherit), var(--bg-dark, inherit));
 }
 
 
