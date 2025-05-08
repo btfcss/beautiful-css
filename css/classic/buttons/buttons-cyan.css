@@ -40,8 +40,17 @@
   --text-dark: var(--cyan-700);
 }
 
-.btn-cyan.outline:hover:not(:disabled),
-.btn-cyan:hover:not(:disabled) {
+.btn-cyan.active:not(:disabled) {
+  --bg-light: var(--cyan-700);
+  --bg-dark: var(--cyan-700);
+  --border-light: var(--cyan-700);
+  --border-dark: var(--cyan-700);  
+  --text-light: #fff;
+  --text-dark: #fff;
+}
+
+.btn-cyan.outline:hover:not(:disabled):not(.active),
+.btn-cyan:hover:not(:disabled):not(.active) {
   --bg-light: var(--cyan-600);
   --bg-dark: var(--cyan-600);
   --border-light: var(--cyan-600);

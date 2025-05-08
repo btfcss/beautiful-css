@@ -40,8 +40,17 @@
   --text-dark: var(--orange-700);
 }
 
-.btn-orange.outline:hover:not(:disabled),
-.btn-orange:hover:not(:disabled) {
+.btn-orange.active:not(:disabled) {
+  --bg-light: var(--orange-700);
+  --bg-dark: var(--orange-700);
+  --border-light: var(--orange-700);
+  --border-dark: var(--orange-700);  
+  --text-light: #fff;
+  --text-dark: #fff;
+}
+
+.btn-orange.outline:hover:not(:disabled):not(.active),
+.btn-orange:hover:not(:disabled):not(.active) {
   --bg-light: var(--orange-600);
   --bg-dark: var(--orange-600);
   --border-light: var(--orange-600);

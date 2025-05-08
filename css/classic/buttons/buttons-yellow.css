@@ -40,8 +40,17 @@
   --text-dark: var(--yellow-700);
 }
 
-.btn-yellow.outline:hover:not(:disabled),
-.btn-yellow:hover:not(:disabled) {
+.btn-yellow.active:not(:disabled) {
+  --bg-light: var(--yellow-700);
+  --bg-dark: var(--yellow-700);
+  --border-light: var(--yellow-700);
+  --border-dark: var(--yellow-700);  
+  --text-light: #fff;
+  --text-dark: #fff;
+}
+
+.btn-yellow.outline:hover:not(:disabled):not(.active),
+.btn-yellow:hover:not(:disabled):not(.active) {
   --bg-light: var(--yellow-600);
   --bg-dark: var(--yellow-600);
   --border-light: var(--yellow-600);

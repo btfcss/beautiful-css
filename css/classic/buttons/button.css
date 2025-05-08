@@ -4,8 +4,25 @@
   color: inherit;
   background-color: inherit;  
   --border-width: 1px;
+  --border-bottom-width: 1px;
 }
 
+.btn,
+.dark\:btn,
+.light\:btn {
+  color: inherit;
+  background-color: inherit;  
+  --border-width: 1px;
+}
+
+:not(.input-group) > .btn:focus:not(:disabled),
+:not(.input-group) > .btn:focus-visible:not(:disabled),
+:not(.input-group) > .dark\:btn:focus:not(:disabled),
+:not(.input-group) > .dark\:btn:focus-visible:not(:disabled),
+:not(.input-group) > .light\:btn:focus:not(:disabled),
+:not(.input-group) > .light\:btn:focus-visible:not(:disabled) {
+  --btn-box-shadow: var(--grey-500);
+}
 
 
 .btn,

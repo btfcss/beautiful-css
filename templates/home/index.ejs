@@ -22,17 +22,19 @@
 
 
 
-  <div class="sticky-top p-2 w-100 light:bg-grey-200 dark:bg-black-200 border-2 block border-bottom box-border" style="align-content: baseline;">
+  <div class="sticky-top p-2 w-100 light:bg-grey-200 dark:bg-black-400 border-1 block border-bottom  light:border-grey-600 dark:border-grey-800 box-border" style="align-content: baseline;">
     <div class="grid">
-      <div class="h-flex-start">
+      <div class="v-flex-center">
+        <div class="h-flex-start">
         <img src="/images/logo.png" class="h-32">
         <b class="h-32 ml-2 text-lg v-flex-center logo-font text-no-wrap">Beautiful CSS</b>
       </div>
+      </div>
       <div class="h-flex-center">
-          <div class="light:bg-white-300 dark:bg-black-400 w-fit p-2 rounded-pill">
-            <button class="btn-blue btn-xs rounded-pill px-3" id="btn-theme-light"><i class="fa-solid fa-sun"></i> light</button>
-            <button class="btn-grey btn-xs rounded-pill px-2" id="btn-theme-system"><i class="fa-solid fa-display"></i></button>
-            <button class="btn-grey btn-xs rounded-pill px-2" id="btn-theme-dark"><i class="fa-solid fa-moon "></i></button>
+          <div class="light:bg-white-300 dark:bg-black-100 w-fit p-2 rounded-pill">
+            <button class="btn-blue active btn-xs rounded-pill px-3" id="btn-theme-light"><i class="fa-solid fa-sun"></i><span> light</span></button>
+            <button class="btn-blue btn-xs rounded-pill px-3" id="btn-theme-system"><i class="fa-solid fa-display"></i><span> system</span></button>
+            <button class="btn-blue btn-xs rounded-pill px-3" id="btn-theme-dark"><i class="fa-solid fa-moon "></i><span> dark</span></button>
           </div>
       </div>
       <div class="text-end h-32 v-flex-center">end</div>
@@ -73,34 +75,9 @@
       <%- include cards/font-size.ejs %>
       <%- include cards/margins.ejs %>
       <%- include cards/paddings.ejs %>
-      <%- include cards/buttons.ejs %>     
-      
-      
-      <div class="card">
-        <div class="header">
-          <h2>Custom Button</h2>
-        </div>
-        <div class="body text-center">
-          <button class="m-2 btn">button</button><br>
-          <button class="m-2 btn-red">button</button><br>
-          <button class="m-2 btn bg-yellow hover:bg-blue">button</button><br>
-          <button class="m-2 btn-red">button</button><br>
-          <button class="m-2 btn-red outline border-top-5">button</button><br>
-          <button class="m-2 btn-red outline">button</button><br>
-          <button class="m-2 btn-red outline border-5">button</button><br>
-          <button class="m-2 btn-red outline border-yellow">button</button><br>
-          <button class="m-2 btn light:bg-green-800 dark:bg-orange-300 light:hover:bg-green-900 dark:hover:bg-orange-400 light:text-red-400 dark:text-blue-600 ">button</button><br>
-
-
-          
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
+      <%- include cards/buttons.ejs %>           
       <%- include cards/button-disabled.ejs %>
+      <%- include cards/buttons-active.ejs %>     
       <%- include cards/button-size.ejs %>      
       <%- include cards/button-style.ejs %>
       <%- include cards/form.ejs %>

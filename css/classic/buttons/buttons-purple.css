@@ -40,8 +40,17 @@
   --text-dark: var(--purple-700);
 }
 
-.btn-purple.outline:hover:not(:disabled),
-.btn-purple:hover:not(:disabled) {
+.btn-purple.active:not(:disabled) {
+  --bg-light: var(--purple-700);
+  --bg-dark: var(--purple-700);
+  --border-light: var(--purple-700);
+  --border-dark: var(--purple-700);  
+  --text-light: #fff;
+  --text-dark: #fff;
+}
+
+.btn-purple.outline:hover:not(:disabled):not(.active),
+.btn-purple:hover:not(:disabled):not(.active) {
   --bg-light: var(--purple-600);
   --bg-dark: var(--purple-600);
   --border-light: var(--purple-600);

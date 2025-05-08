@@ -40,18 +40,18 @@
 .dark\:text-red-950 { --text-dark:var(--red-950); }
 
 
-hover\:.text-red:hover { --text-light:var(--red-500);--text-dark:var(--red-500);}
-hover\:.text-red-50:hover  { --text-light:var(--red-50 );--text-dark:var(--red-50 );}
-hover\:.text-red-100:hover { --text-light:var(--red-100);--text-dark:var(--red-100);}
-hover\:.text-red-200:hover { --text-light:var(--red-200);--text-dark:var(--red-200);}
-hover\:.text-red-300:hover { --text-light:var(--red-300);--text-dark:var(--red-300);}
-hover\:.text-red-400:hover { --text-light:var(--red-400);--text-dark:var(--red-400);}
-hover\:.text-red-500:hover { --text-light:var(--red-500);--text-dark:var(--red-500);}
-hover\:.text-red-600:hover { --text-light:var(--red-600);--text-dark:var(--red-600);}
-hover\:.text-red-700:hover { --text-light:var(--red-700);--text-dark:var(--red-700);}
-hover\:.text-red-800:hover { --text-light:var(--red-800);--text-dark:var(--red-800);}
-hover\:.text-red-900:hover { --text-light:var(--red-900);--text-dark:var(--red-900);}
-hover\:.text-red-950:hover { --text-light:var(--red-950);--text-dark:var(--red-950);}
+.hover\:text-red:hover { --text-light:var(--red-500);--text-dark:var(--red-500);}
+.hover\:text-red-50:hover  { --text-light:var(--red-50 );--text-dark:var(--red-50 );}
+.hover\:text-red-100:hover { --text-light:var(--red-100);--text-dark:var(--red-100);}
+.hover\:text-red-200:hover { --text-light:var(--red-200);--text-dark:var(--red-200);}
+.hover\:text-red-300:hover { --text-light:var(--red-300);--text-dark:var(--red-300);}
+.hover\:text-red-400:hover { --text-light:var(--red-400);--text-dark:var(--red-400);}
+.hover\:text-red-500:hover { --text-light:var(--red-500);--text-dark:var(--red-500);}
+.hover\:text-red-600:hover { --text-light:var(--red-600);--text-dark:var(--red-600);}
+.hover\:text-red-700:hover { --text-light:var(--red-700);--text-dark:var(--red-700);}
+.hover\:text-red-800:hover { --text-light:var(--red-800);--text-dark:var(--red-800);}
+.hover\:text-red-900:hover { --text-light:var(--red-900);--text-dark:var(--red-900);}
+.hover\:text-red-950:hover { --text-light:var(--red-950);--text-dark:var(--red-950);}
 
 .light\:hover\:text-red:hover { --text-light:var(--red-500 ); }
 .light\:hover\:text-red-50:hover  { --text-light:var(--red-50 ); }

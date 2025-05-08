@@ -13,10 +13,10 @@
 }
 
 .btn-black:disabled {
-  --bg-light: var(--black-100);
-  --bg-dark: var(--black-100);
-  --border-light: var(--black-100);
-  --border-dark: var(--black-100);
+  --bg-light: var(--black-200);
+  --bg-dark: var(--black-200);
+  --border-light: var(--black-200);
+  --border-dark: var(--black-200);
   --text-light: var(--grey-700);
   --text-dark: var(--grey-700);
 }
@@ -33,14 +33,23 @@
 .btn-black.outline:disabled {
   --bg-light: transparent;
   --bg-dark: transparent;
-  --border-light: var(--black-100);
-  --border-dark: var(--black-100);
-  --text-light: var(--black-100);
-  --text-dark: var(--black-100);
+  --border-light: var(--black-200);
+  --border-dark: var(--black-200);
+  --text-light: var(--black-200);
+  --text-dark: var(--black-200);
 }
 
-.btn-black.outline:hover:not(:disabled),
-.btn-black:hover:not(:disabled) {
+.btn-black.active:not(:disabled) {
+  --bg-light: var(--black-400);
+  --bg-dark: var(--black-400);
+  --border-light: var(--black-400);
+  --border-dark: var(--black-400);  
+  --text-light: #fff;
+  --text-dark: #fff;
+}
+
+.btn-black.outline:hover:not(:disabled):not(.active),
+.btn-black:hover:not(:disabled):not(.active) {
   --bg-light: var(--black-100);
   --bg-dark: var(--black-100);
   --border-light: var(--black-100);

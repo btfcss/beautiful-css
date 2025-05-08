@@ -39,8 +39,18 @@
   --text-dark: var(--green-700);
 }
 
-.btn-green.outline:hover:not(:disabled),
-.btn-green:hover:not(:disabled) {
+.btn-green.active:not(:disabled) {
+  --bg-light: var(--green-700);
+  --bg-dark: var(--green-700);
+  --border-light: var(--green-700);
+  --border-dark: var(--green-700);  
+  --text-light: #fff;
+  --text-dark: #fff;
+}
+
+
+.btn-green.outline:hover:not(:disabled):not(.active),
+.btn-green:hover:not(:disabled):not(.active) {
   --bg-light: var(--green-600);
   --bg-dark: var(--green-600);
   --border-light: var(--green-600);

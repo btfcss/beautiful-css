@@ -23,6 +23,9 @@
   --text-dark: var(--grey-500);
 }
 
+
+
+
 .btn-blue.outline {
   --bg-light: transparent;
   --bg-dark: transparent;
@@ -41,8 +44,17 @@
   --text-dark: var(--blue-700);
 }
 
-.btn-blue.outline:hover:not(:disabled),
-.btn-blue:hover:not(:disabled) {
+.btn-blue.active:not(:disabled) {
+  --bg-light: var(--blue-700);
+  --bg-dark: var(--blue-700);
+  --border-light: var(--blue-700);
+  --border-dark: var(--blue-700);  
+  --text-light: #fff;
+  --text-dark: #fff;
+}
+
+.btn-blue.outline:hover:not(:disabled):not(.active),
+.btn-blue:hover:not(:disabled):not(.active) {
   --bg-light: var(--blue-600);
   --bg-dark: var(--blue-600);
   --border-light: var(--blue-600);

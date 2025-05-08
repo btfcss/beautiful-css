@@ -40,8 +40,17 @@
   --text-dark: var(--pink-700);
 }
 
-.btn-pink.outline:hover:not(:disabled),
-.btn-pink:hover:not(:disabled) {
+.btn-pink.active:not(:disabled) {
+  --bg-light: var(--pink-700);
+  --bg-dark: var(--pink-700);
+  --border-light: var(--pink-700);
+  --border-dark: var(--pink-700);  
+  --text-light: #fff;
+  --text-dark: #fff;
+}
+
+.btn-pink.outline:hover:not(:disabled):not(.active),
+.btn-pink:hover:not(:disabled):not(.active) {
   --bg-light: var(--pink-600);
   --bg-dark: var(--pink-600);
   --border-light: var(--pink-600);

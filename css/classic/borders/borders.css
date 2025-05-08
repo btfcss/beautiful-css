@@ -62,10 +62,10 @@
 [class*="border-white"],
 [class*="border-grey"],
 [class*="border-black "]{
-  border-top-width: var(--border-top-width, var(--border-width, 1px));
-  border-right-width: var(--border-right-width, var(--border-width, 1px));
-  border-bottom-width: var(--border-bottom-width, var(--border-width, 1px));
-  border-left-width: var(--border-left-width, var(--border-width, 1px));
+  border-top-width: var(--border-top-width, var(--border-width, 1px))!important;
+  border-right-width: var(--border-right-width, var(--border-width, 1px))!important;
+  border-bottom-width: var(--border-bottom-width, var(--border-width, 1px))!important;
+  border-left-width: var(--border-left-width, var(--border-width, 1px))!important;
   border-style: var(--border-style, solid);
   border-color: light-dark(var(--border-light, transparent), var(--border-dark, transparent));  
 }
