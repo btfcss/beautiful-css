@@ -2,37 +2,56 @@
 @import url(../text/fonts.css);
 
 .btn-grey {
-  font-family: var(--font-family);
-  border: 1px solid var(--grey-500);
-  color: var(--black-800);
   --bg-light: var(--grey-500);
   --bg-dark: var(--grey-500);
-  background-color: var(--grey-500);  
+  --border-light: var(--grey-500);
+  --border-dark: var(--grey-500);
+  --text-light: var(--black-800);
+  --text-dark: var(--black-800);
+  --border-width: 1px;
+  --btn-box-shadow: transparent;  
 }
 
 .btn-grey:disabled {
-  border-color: var(--grey-800);
-  background-color: var(--grey-800);
-  color: var(--grey-500)
+  --bg-light: var(--grey-800);
+  --bg-dark: var(--grey-800);
+  --border-light: var(--grey-800);
+  --border-dark: var(--grey-800);
+  --text-light: var(--grey-500);
+  --text-dark: var(--grey-500);
 }
 
 .btn-grey.outline {
-  background-color: transparent;
-  color: var(--grey-500);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--grey-600);
+  --border-dark: var(--grey-500);  
+  --text-light: var(--grey-600);
+  --text-dark: var(--grey-500);
 }
 
 .btn-grey.outline:disabled {
-  color: var(--grey-800);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--grey-800);
+  --border-dark: var(--grey-800);
+  --text-light: var(--grey-800);
+  --text-dark: var(--grey-800);
 }
 
 .btn-grey.outline:hover:not(:disabled),
 .btn-grey:hover:not(:disabled) {
-  color: #000;
-  border-color: var(--grey-600);
-  background-color: var(--grey-600);
+  --bg-light: var(--grey-600);
+  --bg-dark: var(--grey-600);
+  --border-light: var(--grey-600);
+  --border-dark: var(--grey-600);  
+  --text-light: #fff;
+  --text-dark: #fff;
 }
 
 :not(.input-group) > .btn-grey:focus:not(:disabled),
 :not(.input-group) > .btn-grey:focus-visible:not(:disabled) {
-  box-shadow: 0 0 0 0.25rem var(--grey-300);
+  --btn-box-shadow: var(--grey-300);
 }
+
+

@@ -1,36 +1,59 @@
 @import url(button.css);
 @import url(../text/fonts.css);
 
+
+
 .btn-blue {
-  border: 1px solid var(--blue-500);
-  color: var(--white-200);
-  background-color: var(--blue-500);
+  --bg-light: var(--blue-500);
+  --bg-dark: var(--blue-500);
+  --border-light: var(--blue-500);
+  --border-dark: var(--blue-500);
+  --text-light: var(--white-200);
+  --text-dark: var(--white-200);
+  --border-width: 1px;
+  --btn-box-shadow: transparent;  
 }
 
 .btn-blue:disabled {
-  border-color: var(--blue-700);
-  background-color: var(--blue-700);
-  color: var(--grey-500)
+  --bg-light: var(--blue-700);
+  --bg-dark: var(--blue-700);
+  --border-light: var(--blue-700);
+  --border-dark: var(--blue-700);
+  --text-light: var(--grey-500);
+  --text-dark: var(--grey-500);
 }
 
 .btn-blue.outline {
-  background-color: transparent;
-  color: var(--blue-500);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--blue-500);
+  --border-dark: var(--blue-500);  
+  --text-light: var(--blue-500);
+  --text-dark: var(--blue-500);
 }
 
 .btn-blue.outline:disabled {
-  color: var(--blue-700);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--blue-700);
+  --border-dark: var(--blue-700);
+  --text-light: var(--blue-700);
+  --text-dark: var(--blue-700);
 }
-
 
 .btn-blue.outline:hover:not(:disabled),
 .btn-blue:hover:not(:disabled) {
-  color: #fff; 
-  border-color: var(--blue-600);
-  background-color: var(--blue-600);
+  --bg-light: var(--blue-600);
+  --bg-dark: var(--blue-600);
+  --border-light: var(--blue-600);
+  --border-dark: var(--blue-600);  
+  --text-light: #fff;
+  --text-dark: #fff;
 }
 
 :not(.input-group) > .btn-blue:focus:not(:disabled),
 :not(.input-group) > .btn-blue:focus-visible:not(:disabled) {
-  box-shadow: 0 0 0 0.25rem var(--blue-300);
+  --btn-box-shadow: var(--blue-300);
 }
+
+

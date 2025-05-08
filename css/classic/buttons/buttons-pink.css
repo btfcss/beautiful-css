@@ -1,36 +1,56 @@
 @import url(button.css);
 @import url(../text/fonts.css);
 
+
 .btn-pink {
-  font-family: var(--font-family);
-  border: 1px solid var(--pink-500);
-  color: var(--white-200);
-  background-color: var(--pink-500);
+  --bg-light: var(--pink-500);
+  --bg-dark: var(--pink-500);
+  --border-light: var(--pink-500);
+  --border-dark: var(--pink-500);
+  --text-light: var(--white-200);
+  --text-dark: var(--white-200);
+  --border-width: 1px;
+  --btn-box-shadow: transparent;  
 }
 
 .btn-pink:disabled {
-  border-color: var(--pink-700);
-  background-color: var(--pink-700);
-  color: var(--grey-500)
+  --bg-light: var(--pink-700);
+  --bg-dark: var(--pink-700);
+  --border-light: var(--pink-700);
+  --border-dark: var(--pink-700);
+  --text-light: var(--grey-500);
+  --text-dark: var(--grey-500);
 }
 
 .btn-pink.outline {
-  background-color: transparent;
-  color: var(--pink-500);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--pink-500);
+  --border-dark: var(--pink-500);  
+  --text-light: var(--pink-500);
+  --text-dark: var(--pink-500);
 }
 
 .btn-pink.outline:disabled {
-  color: var(--pink-700);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--pink-700);
+  --border-dark: var(--pink-700);
+  --text-light: var(--pink-700);
+  --text-dark: var(--pink-700);
 }
 
 .btn-pink.outline:hover:not(:disabled),
 .btn-pink:hover:not(:disabled) {
-  color: #fff; 
-  border-color: var(--pink-600);
-  background-color: var(--pink-600);
+  --bg-light: var(--pink-600);
+  --bg-dark: var(--pink-600);
+  --border-light: var(--pink-600);
+  --border-dark: var(--pink-600);  
+  --text-light: #fff;
+  --text-dark: #fff;
 }
 
 :not(.input-group) > .btn-pink:focus:not(:disabled),
 :not(.input-group) > .btn-pink:focus-visible:not(:disabled) {
-  box-shadow: 0 0 0 0.25rem var(--pink-300);
+  --btn-box-shadow: var(--pink-300);
 }

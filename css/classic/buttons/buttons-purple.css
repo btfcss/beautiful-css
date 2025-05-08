@@ -1,36 +1,56 @@
 @import url(button.css);
 @import url(../text/fonts.css);
 
+
 .btn-purple {
-  font-family: var(--font-family);
-  border: 1px solid var(--purple-500);
-  color: var(--white-200);
-  background-color: var(--purple-500);
+  --bg-light: var(--purple-500);
+  --bg-dark: var(--purple-500);
+  --border-light: var(--purple-500);
+  --border-dark: var(--purple-500);
+  --text-light: var(--white-200);
+  --text-dark: var(--white-200);
+  --border-width: 1px;
+  --btn-box-shadow: transparent;  
 }
 
 .btn-purple:disabled {
-  border-color: var(--purple-700);
-  background-color: var(--purple-700);
-  color: var(--grey-500)
+  --bg-light: var(--purple-700);
+  --bg-dark: var(--purple-700);
+  --border-light: var(--purple-700);
+  --border-dark: var(--purple-700);
+  --text-light: var(--grey-500);
+  --text-dark: var(--grey-500);
 }
 
 .btn-purple.outline {
-  background-color: transparent;
-  color: var(--purple-500);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--purple-500);
+  --border-dark: var(--purple-500);  
+  --text-light: var(--purple-500);
+  --text-dark: var(--purple-500);
 }
 
 .btn-purple.outline:disabled {
-  color: var(--purple-700);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--purple-700);
+  --border-dark: var(--purple-700);
+  --text-light: var(--purple-700);
+  --text-dark: var(--purple-700);
 }
 
 .btn-purple.outline:hover:not(:disabled),
 .btn-purple:hover:not(:disabled) {
-  color: #fff;
-  border-color: var(--purple-600);
-  background-color: var(--purple-600);
+  --bg-light: var(--purple-600);
+  --bg-dark: var(--purple-600);
+  --border-light: var(--purple-600);
+  --border-dark: var(--purple-600);  
+  --text-light: #fff;
+  --text-dark: #fff;
 }
 
 :not(.input-group) > .btn-purple:focus:not(:disabled),
 :not(.input-group) > .btn-purple:focus-visible:not(:disabled) {
-  box-shadow: 0 0 0 0.25rem var(--purple-300);
+  --btn-box-shadow: var(--purple-300);
 }

@@ -1,37 +1,56 @@
 @import url(button.css);
 @import url(../text/fonts.css);
 
-.btn-yellow {
-  border: 1px solid var(--yellow-500);
-  color: var(--black-800);
-  background-color: var(--yellow-500);
-}
 
+.btn-yellow {
+  --bg-light: var(--yellow-500);
+  --bg-dark: var(--yellow-500);
+  --border-light: var(--yellow-500);
+  --border-dark: var(--yellow-500);
+  --text-light: var(--black-800);
+  --text-dark: var(--black-800);
+  --border-width: 1px;
+  --btn-box-shadow: transparent;  
+}
 
 .btn-yellow:disabled {
-  border-color: var(--yellow-700);
-  background-color: var(--yellow-700);
-  color: var(--grey-500);
+  --bg-light: var(--yellow-700);
+  --bg-dark: var(--yellow-700);
+  --border-light: var(--yellow-700);
+  --border-dark: var(--yellow-700);
+  --text-light: var(--grey-500);
+  --text-dark: var(--grey-500);
 }
 
-
 .btn-yellow.outline {
-  background-color: transparent;
-  color: var(--yellow-600);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--yellow-600);
+  --border-dark: var(--yellow-500);  
+  --text-light: var(--yellow-600);
+  --text-dark: var(--yellow-500);
 }
 
 .btn-yellow.outline:disabled {
-  color: var(--yellow-700);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--yellow-700);
+  --border-dark: var(--yellow-700);
+  --text-light: var(--yellow-700);
+  --text-dark: var(--yellow-700);
 }
 
 .btn-yellow.outline:hover:not(:disabled),
 .btn-yellow:hover:not(:disabled) {
-  color: #000;
-  border-color: var(--yellow-600);
-  background-color: var(--yellow-600);
+  --bg-light: var(--yellow-600);
+  --bg-dark: var(--yellow-600);
+  --border-light: var(--yellow-600);
+  --border-dark: var(--yellow-600);  
+  --text-light: #fff;
+  --text-dark: #fff;
 }
 
 :not(.input-group) > .btn-yellow:focus:not(:disabled),
 :not(.input-group) > .btn-yellow:focus-visible:not(:disabled) {
-  box-shadow: 0 0 0 0.25rem var(--yellow-300);
+  --btn-box-shadow: var(--yellow-300);
 }

@@ -3,35 +3,54 @@
 @import url(../text/fonts.css);
 
 .btn-red {
-  font-family: var(--font-family);
-  border: 1px solid var(--red-500);
-  color: var(--white-200);
-  background-color: var(--red-500);
+  --bg-light: var(--red-500);
+  --bg-dark: var(--red-500);
+  --border-light: var(--red-500);
+  --border-dark: var(--red-500);
+  --text-light: var(--white-200);
+  --text-dark: var(--white-200);
+  --border-width: 1px;
+  --btn-box-shadow: transparent;  
 }
 
 .btn-red:disabled {
-  border-color: var(--red-700);
-  background-color: var(--red-700);
-  color: var(--grey-500)
+  --bg-light: var(--red-700);
+  --bg-dark: var(--red-700);
+  --border-light: var(--red-700);
+  --border-dark: var(--red-700);
+  --text-light: var(--grey-500);
+  --text-dark: var(--grey-500);
 }
 
 .btn-red.outline {
-  background-color: transparent;
-  color: var(--red-500);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--red-500);
+  --border-dark: var(--red-500);  
+  --text-light: var(--red-500);
+  --text-dark: var(--red-500);
 }
 
 .btn-red.outline:disabled {
-  color: var(--red-700);
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--red-700);
+  --border-dark: var(--red-700);
+  --text-light: var(--red-700);
+  --text-dark: var(--red-700);
 }
 
 .btn-red.outline:hover:not(:disabled),
-.btn-red:hover:hover:not(:disabled) {
-  color: #fff;
-  border-color: var(--red-600);
-  background-color: var(--red-600);
+.btn-red:hover:not(:disabled) {
+  --bg-light: var(--red-600);
+  --bg-dark: var(--red-600);
+  --border-light: var(--red-600);
+  --border-dark: var(--red-600);  
+  --text-light: #fff;
+  --text-dark: #fff;
 }
 
-:not(.input-group) > .btn-red:focus:hover:not(:disabled),
-:not(.input-group) > .btn-red:focus-visible:hover:not(:disabled) {
-  box-shadow: 0 0 0 0.25rem var(--red-300);
+:not(.input-group) > .btn-red:focus:not(:disabled),
+:not(.input-group) > .btn-red:focus-visible:not(:disabled) {
+  --btn-box-shadow: var(--red-300);
 }
