@@ -39,3 +39,43 @@
 .dark\:border-green-800 { --border-dark:var(--green-800)!important; }
 .dark\:border-green-900 { --border-dark:var(--green-900)!important; }
 .dark\:border-green-950 { --border-dark:var(--green-950)!important; }
+
+
+.hover\:border-green:hover { --border-light:var(--green-400)!important;--border-dark:var(--green-400)!important;}
+.hover\:border-green-50:hover  { --border-light:var(--green-50 )!important;--border-dark:var(--green-50 )!important;}
+.hover\:border-green-100:hover { --border-light:var(--green-100)!important;--border-dark:var(--green-100)!important;}
+.hover\:border-green-200:hover { --border-light:var(--green-200)!important;--border-dark:var(--green-200)!important;}
+.hover\:border-green-300:hover { --border-light:var(--green-300)!important;--border-dark:var(--green-300)!important;}
+.hover\:border-green-400:hover { --border-light:var(--green-400)!important;--border-dark:var(--green-400)!important;}
+.hover\:border-green-500:hover { --border-light:var(--green-500)!important;--border-dark:var(--green-500)!important;}
+.hover\:border-green-600:hover { --border-light:var(--green-600)!important;--border-dark:var(--green-600)!important;}
+.hover\:border-green-700:hover { --border-light:var(--green-700)!important;--border-dark:var(--green-700)!important;}
+.hover\:border-green-800:hover { --border-light:var(--green-800)!important;--border-dark:var(--green-800)!important;}
+.hover\:border-green-900:hover { --border-light:var(--green-900)!important;--border-dark:var(--green-900)!important;}
+.hover\:border-green-950:hover { --border-light:var(--green-950)!important;--border-dark:var(--green-950)!important;}
+
+.light\:hover\:border-green:hover { --border-light:var(--green-400 )!important; }
+.light\:hover\:border-green-50:hover  { --border-light:var(--green-50 )!important; }
+.light\:hover\:border-green-100:hover { --border-light:var(--green-100)!important; }
+.light\:hover\:border-green-200:hover { --border-light:var(--green-200)!important; }
+.light\:hover\:border-green-300:hover { --border-light:var(--green-300)!important; }
+.light\:hover\:border-green-400:hover { --border-light:var(--green-400)!important; }
+.light\:hover\:border-green-500:hover { --border-light:var(--green-500)!important; }
+.light\:hover\:border-green-600:hover { --border-light:var(--green-600)!important; }
+.light\:hover\:border-green-700:hover { --border-light:var(--green-700)!important; }
+.light\:hover\:border-green-800:hover { --border-light:var(--green-800)!important; }
+.light\:hover\:border-green-900:hover { --border-light:var(--green-900)!important; }
+.light\:hover\:border-green-950:hover { --border-light:var(--green-950)!important; }
+
+.dark\:hover\:border-green:hover  { --border-dark:var(--green-400 )!important; }
+.dark\:hover\:border-green-50:hover  { --border-dark:var(--green-50 )!important; }
+.dark\:hover\:border-green-100:hover { --border-dark:var(--green-100)!important; }
+.dark\:hover\:border-green-200:hover { --border-dark:var(--green-200)!important; }
+.dark\:hover\:border-green-300:hover { --border-dark:var(--green-300)!important; }
+.dark\:hover\:border-green-400:hover { --border-dark:var(--green-400)!important; }
+.dark\:hover\:border-green-500:hover { --border-dark:var(--green-500)!important; }
+.dark\:hover\:border-green-600:hover { --border-dark:var(--green-600)!important; }
+.dark\:hover\:border-green-700:hover { --border-dark:var(--green-700)!important; }
+.dark\:hover\:border-green-800:hover { --border-dark:var(--green-800)!important; }
+.dark\:hover\:border-green-900:hover { --border-dark:var(--green-900)!important; }
+.dark\:hover\:border-green-950:hover { --border-dark:var(--green-950)!important; }

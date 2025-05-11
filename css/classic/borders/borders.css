@@ -13,7 +13,6 @@
 @import url(border-grey.css);
 @import url(border-black.css);
 @import url(border-style.css);
-@import url(border-additive.css);
 @import url(border-width.css);
 @import url(rounded.css);
 
@@ -25,47 +24,16 @@
   --border-dark:var(--black-400);
 }
 
-.dark\:border,
-[class*="dark\:border-yellow"],
-[class*="dark\:border-yellow"],
-[class*="dark\:border-orange"],
-[class*="dark\:border-red"],
-[class*="dark\:border-pink"],
-[class*="dark\:border-purple"],
-[class*="dark\:border-blue"],
-[class*="dark\:border-cyan"],
-[class*="dark\:border-green"],
-[class*="dark\:border-white"],
-[class*="dark\:border-grey"],
-[class*="dark\:border-black"],
-.light\:border,
-[class*="light\:border-yellow"],
-[class*="light\:border-orange"],
-[class*="light\:border-red"],
-[class*="light\:border-pink"],
-[class*="light\:border-purple"],
-[class*="light\:border-blue"],
-[class*="light\:border-cyan"],
-[class*="light\:border-green"],
-[class*="light\:border-white"],
-[class*="light\:border-grey"],
-[class*="light\:border-black"],
-.border,
-[class*="border-yellow"],
-[class*="border-orange"],
-[class*="border-red"],
-[class*="border-pink"],
-[class*="border-purple"],
-[class*="border-blue"],
-[class*="border-cyan"],
-[class*="border-green"],
-[class*="border-white"],
-[class*="border-grey"],
-[class*="border-black "]{
-  border-top-width: var(--border-top-width, var(--border-width, 1px))!important;
-  border-right-width: var(--border-right-width, var(--border-width, 1px))!important;
-  border-bottom-width: var(--border-bottom-width, var(--border-width, 1px))!important;
-  border-left-width: var(--border-left-width, var(--border-width, 1px))!important;
+
+[class*="dark\:border-"],
+[class*="light\:border-"],
+[class*="border-"],
+[class*="dark\:hover\:border-"],
+[class*="light\:hover\:border-"],
+[class*="hover\:border-"] {
   border-style: var(--border-style, solid);
   border-color: light-dark(var(--border-light, transparent), var(--border-dark, transparent));  
 }
+
+
+
