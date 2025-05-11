@@ -23,7 +23,10 @@ async function updateColorScheme(theme) {
     //await import('highlight.js/styles/androidstudio.min.css');
     await import('highlight.js/styles/tokyo-night-dark.min.css');
   else
-    await import('highlight.js/styles/arta.min.css');
+    //await import('highlight.js/styles/arta.min.css');
+    //await import('highlight.js/styles/a11y-light.min.css');
+    //await import('highlight.js/styles/atom-one-light.min.css');
+    await import('highlight.js/styles/base16/atelier-estuary-light.min.css');
 }
 
 // Triggered when the theme changed
