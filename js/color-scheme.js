@@ -1,9 +1,10 @@
 import systemColorScheme from "@btfcss/system-color-scheme";
 
 
+
 // User color scheme choice [ "light" | "system" | "dark"]
-// Default is system 
-let userChoice = "system";
+// Check in local storage first, then set "system" as default
+let userChoice = localStorage.getItem('btfcss-color-scheme') || "system";
 
 
 /**
@@ -24,7 +25,8 @@ const updateRootCSS = (cssColorScheme) => {
 const set = (newColorScheme, updateRootCss = true) => {
     // Update user choice
     userChoice = newColorScheme;
-
+    // Store user choice in local storage to get persistant value
+    localStorage.setItem('btfcss-color-scheme', userChoice);
 
     // If requested, update root css light-dark style
     if (updateRootCss) {
@@ -34,7 +36,6 @@ const set = (newColorScheme, updateRootCss = true) => {
             default: updateRootCSS('light dark');
         }
     }
-
 }
 
 
@@ -58,7 +59,6 @@ const get = () => {
 const getUserChoice = () => {
     return userChoice;
 }
-
 
 
 // Export the module
