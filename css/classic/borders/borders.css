@@ -32,8 +32,5 @@
 [class*="light\:hover\:border-"],
 [class*="hover\:border-"] {
   border-style: var(--border-style, solid);
-  border-color: light-dark(var(--border-light, transparent), var(--border-dark, transparent));  
+  border-color: light-dark(var(--border-light, transparent), var(--border-dark, transparent));
 }
-
-
-
