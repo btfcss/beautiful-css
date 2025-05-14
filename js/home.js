@@ -2,17 +2,25 @@ import "/css/classic/classic.css";
 import hljs from "highlight.js";
 import '@fortawesome/fontawesome-free/js/all.js';
 
+//import "./color-scheme-switcher.js";
+//import "./color-scheme.js";
+import colorSchemeSwitcher from "./color-scheme-switcher";
+
+
 hljs.highlightAll({ showLanguageLabel: true });
 //hljs.highlightBlock(block, {showLanguageLabel: true});
 
+
+/*
 // Get system color scheme (return light ot dark)
 function getSystemTheme() {
   return (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? "dark" : "light";
 }
+  */
 
 
-let userChoice = 'system';
-let currentTheme = getSystemTheme();
+//let userChoice = 'system';
+//let currentTheme = systemColorScheme.isSystemDark;
 
 
 async function updateColorScheme(theme) {
@@ -50,7 +58,7 @@ document.addEventListener('color-scheme-changed', (event) => {
   }
 });
 
-
+/*
 // The light theme button is clicked
 document.getElementById('btn-theme-light').addEventListener('click', () => {
   document.querySelector(':root').style.setProperty('color-scheme', 'light');  
@@ -72,30 +80,37 @@ document.getElementById('btn-theme-dark').addEventListener('click', () => {
   const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'user', theme: "dark" } });
   document.dispatchEvent(colorSchemeChangedEvent);
 })
+  */
 
-
+/*
 // Create a media query listener for the color sheme
 const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
 // Listen for changes on system color theme
 darkModeMediaQuery.addEventListener('change', (event) => {
+  console.log ("darkModeMediaQuery changed");
   const newTheme = (event.matches) ? "dark" : "light";
   const colorSchemeChangedEvent = new CustomEvent("color-scheme-changed", { detail: { origin: 'system', theme: newTheme } });
   document.dispatchEvent(colorSchemeChangedEvent);
 });
 
-
+*/
 
 
 // Specify theme at startup
-updateColorScheme(currentTheme);
+//updateColorScheme(currentTheme);
+
+
+
+
+
 
 //window.addEventListener('DOMContentLoaded', function () {
 window.addEventListener('onload', function () {
-  console.log('Loaded');
+  //console.log('Loaded');
 });
 
-window.onload = function() { 
-  console.log('Loaded onload');
+window.onload = function () {
+  //console.log('Loaded onload');
   document.querySelector('body').style.removeProperty('display');
- };
+};

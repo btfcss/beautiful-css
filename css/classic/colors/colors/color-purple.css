@@ -1,0 +1,80 @@
+@import url(../palette.css);
+
+.color-purple { --color-light:var(--purple-500);--color-dark:var(--purple-500);}
+.color-purple-50  { --color-light:var(--purple-50 );--color-dark:var(--purple-50 );}
+.color-purple-100 { --color-light:var(--purple-100);--color-dark:var(--purple-100);}
+.color-purple-200 { --color-light:var(--purple-200);--color-dark:var(--purple-200);}
+.color-purple-300 { --color-light:var(--purple-300);--color-dark:var(--purple-300);}
+.color-purple-400 { --color-light:var(--purple-400);--color-dark:var(--purple-400);}
+.color-purple-500 { --color-light:var(--purple-500);--color-dark:var(--purple-500);}
+.color-purple-600 { --color-light:var(--purple-600);--color-dark:var(--purple-600);}
+.color-purple-700 { --color-light:var(--purple-700);--color-dark:var(--purple-700);}
+.color-purple-800 { --color-light:var(--purple-800);--color-dark:var(--purple-800);}
+.color-purple-900 { --color-light:var(--purple-900);--color-dark:var(--purple-900);}
+.color-purple-950 { --color-light:var(--purple-950);--color-dark:var(--purple-950);}
+
+.light\:color-purple { --color-light:var(--purple-500 ); }
+.light\:color-purple-50  { --color-light:var(--purple-50 ); }
+.light\:color-purple-100 { --color-light:var(--purple-100); }
+.light\:color-purple-200 { --color-light:var(--purple-200); }
+.light\:color-purple-300 { --color-light:var(--purple-300); }
+.light\:color-purple-400 { --color-light:var(--purple-400); }
+.light\:color-purple-500 { --color-light:var(--purple-500); }
+.light\:color-purple-600 { --color-light:var(--purple-600); }
+.light\:color-purple-700 { --color-light:var(--purple-700); }
+.light\:color-purple-800 { --color-light:var(--purple-800); }
+.light\:color-purple-900 { --color-light:var(--purple-900); }
+.light\:color-purple-950 { --color-light:var(--purple-950); }
+
+.dark\:color-purple  { --color-dark:var(--purple-500 ); }
+.dark\:color-purple-50  { --color-dark:var(--purple-50 ); }
+.dark\:color-purple-100 { --color-dark:var(--purple-100); }
+.dark\:color-purple-200 { --color-dark:var(--purple-200); }
+.dark\:color-purple-300 { --color-dark:var(--purple-300); }
+.dark\:color-purple-400 { --color-dark:var(--purple-400); }
+.dark\:color-purple-500 { --color-dark:var(--purple-500); }
+.dark\:color-purple-600 { --color-dark:var(--purple-600); }
+.dark\:color-purple-700 { --color-dark:var(--purple-700); }
+.dark\:color-purple-800 { --color-dark:var(--purple-800); }
+.dark\:color-purple-900 { --color-dark:var(--purple-900); }
+.dark\:color-purple-950 { --color-dark:var(--purple-950); }
+
+
+.hover\:color-purple:hover { --color-light:var(--purple-500);--color-dark:var(--purple-500);}
+.hover\:color-purple-50:hover  { --color-light:var(--purple-50 );--color-dark:var(--purple-50 );}
+.hover\:color-purple-100:hover { --color-light:var(--purple-100);--color-dark:var(--purple-100);}
+.hover\:color-purple-200:hover { --color-light:var(--purple-200);--color-dark:var(--purple-200);}
+.hover\:color-purple-300:hover { --color-light:var(--purple-300);--color-dark:var(--purple-300);}
+.hover\:color-purple-400:hover { --color-light:var(--purple-400);--color-dark:var(--purple-400);}
+.hover\:color-purple-500:hover { --color-light:var(--purple-500);--color-dark:var(--purple-500);}
+.hover\:color-purple-600:hover { --color-light:var(--purple-600);--color-dark:var(--purple-600);}
+.hover\:color-purple-700:hover { --color-light:var(--purple-700);--color-dark:var(--purple-700);}
+.hover\:color-purple-800:hover { --color-light:var(--purple-800);--color-dark:var(--purple-800);}
+.hover\:color-purple-900:hover { --color-light:var(--purple-900);--color-dark:var(--purple-900);}
+.hover\:color-purple-950:hover { --color-light:var(--purple-950);--color-dark:var(--purple-950);}
+
+.light\:hover\:color-purple:hover { --color-light:var(--purple-500 ); }
+.light\:hover\:color-purple-50:hover  { --color-light:var(--purple-50 ); }
+.light\:hover\:color-purple-100:hover { --color-light:var(--purple-100); }
+.light\:hover\:color-purple-200:hover { --color-light:var(--purple-200); }
+.light\:hover\:color-purple-300:hover { --color-light:var(--purple-300); }
+.light\:hover\:color-purple-400:hover { --color-light:var(--purple-400); }
+.light\:hover\:color-purple-500:hover { --color-light:var(--purple-500); }
+.light\:hover\:color-purple-600:hover { --color-light:var(--purple-600); }
+.light\:hover\:color-purple-700:hover { --color-light:var(--purple-700); }
+.light\:hover\:color-purple-800:hover { --color-light:var(--purple-800); }
+.light\:hover\:color-purple-900:hover { --color-light:var(--purple-900); }
+.light\:hover\:color-purple-950:hover { --color-light:var(--purple-950); }
+
+.dark\:hover\:color-purple:hover  { --color-dark:var(--purple-500 ); }
+.dark\:hover\:color-purple-50:hover  { --color-dark:var(--purple-50 ); }
+.dark\:hover\:color-purple-100:hover { --color-dark:var(--purple-100); }
+.dark\:hover\:color-purple-200:hover { --color-dark:var(--purple-200); }
+.dark\:hover\:color-purple-300:hover { --color-dark:var(--purple-300); }
+.dark\:hover\:color-purple-400:hover { --color-dark:var(--purple-400); }
+.dark\:hover\:color-purple-500:hover { --color-dark:var(--purple-500); }
+.dark\:hover\:color-purple-600:hover { --color-dark:var(--purple-600); }
+.dark\:hover\:color-purple-700:hover { --color-dark:var(--purple-700); }
+.dark\:hover\:color-purple-800:hover { --color-dark:var(--purple-800); }
+.dark\:hover\:color-purple-900:hover { --color-dark:var(--purple-900); }
+.dark\:hover\:color-purple-950:hover { --color-dark:var(--purple-950); }

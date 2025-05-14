@@ -1,0 +1,34 @@
+@import url(../palette.css);
+@import url(color-yellow.css);
+@import url(color-orange.css);
+@import url(color-red.css);
+@import url(color-pink.css);
+@import url(color-purple.css);
+@import url(color-blue.css);
+@import url(color-cyan.css);
+@import url(color-green.css);
+@import url(color-white.css);
+@import url(color-grey.css);
+@import url(color-black.css);
+
+
+
+[class*="light\:color-"],
+[class*="dark\:color-"],
+[class*="color-"],
+[class*="light\:hover\:color-"],
+[class*="dark\:hover\:color-"],
+[class*="hover\:color-"] {
+  color: light-dark(var(--color-light, var(--black-500)), var(--color-dark, var(--white-500)))!important;
+}
+
+.color-transparent { --color-light:transparent;--color-dark:transparent; }
+.light\:color-transparent { --color-light:transparent; }
+.dark\:color-transparent  { --color-dark:transparent; }
+
+
+
+
+
+
+
