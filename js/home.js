@@ -1,14 +1,16 @@
 import "/css/classic/classic.css";
 import hljs from "highlight.js";
 import '@fortawesome/fontawesome-free/js/all.js';
-
-//import "./color-scheme-switcher.js";
-//import "./color-scheme.js";
-import colorSchemeSwitcher from "./color-scheme-switcher";
+import "./color-scheme-switcher";
 
 
 hljs.highlightAll({ showLanguageLabel: true });
 //hljs.highlightBlock(block, {showLanguageLabel: true});
+
+
+
+
+
 
 
 /*
@@ -38,6 +40,7 @@ async function updateColorScheme(theme) {
 }
 
 // Triggered when the theme changed
+/*
 document.addEventListener('color-scheme-changed', (event) => {
   let newTheme = currentTheme;
 
@@ -57,7 +60,7 @@ document.addEventListener('color-scheme-changed', (event) => {
     updateColorScheme(currentTheme);
   }
 });
-
+*/
 /*
 // The light theme button is clicked
 document.getElementById('btn-theme-light').addEventListener('click', () => {
