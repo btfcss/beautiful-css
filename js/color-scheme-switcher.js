@@ -1,4 +1,4 @@
-import colorScheme from "./color-scheme";
+import colorScheme from "@btfcss/color-scheme";
 
 // Get buttons elements
 const btnColorSchemeLight = document.getElementById('btn-color-scheme-light');
