@@ -1,20 +1,9 @@
 pre code.hljs {
   display: block;
   overflow-x: auto;
-  padding: 1em
-}
-code.hljs {
-  padding: 3px 5px
+  padding: 1em;
 }
 
-pre code.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 1em
-}
-code.hljs {
-  padding: 3px 5px
-}
 
 .hljs {
   color: var(--white-700);
@@ -25,32 +14,36 @@ code.hljs {
 .hljs::selection,
 .hljs ::selection {
   background-color: var(--blue-700);
-  
+
 }
+
 /* purposely do not highlight these things */
 .hljs-formula,
 .hljs-params,
-.hljs-property {
-  
-}
+.hljs-property {}
+
 /* Comments, Invisibles, Line Highlighting */
 .hljs-comment {
   color: var(--green-500);
   font-style: italic;
 }
+
 /* Dark Foreground (Used for status bars) */
 .hljs-tag {
   color: var(--blue-400);
 }
+
 /* Default Foreground, Caret, Delimiters, Operators */
 .hljs-subst,
 .hljs-punctuation,
 .hljs-operator {
   color: var(--black-100);
 }
+
 .hljs-operator {
   opacity: 0.7
 }
+
 /* Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted */
 .hljs-bullet,
 .hljs-variable,
@@ -60,6 +53,7 @@ code.hljs {
 .hljs-deletion {
   color: var(--grey-100);
 }
+
 /* Integers, Boolean, Constants, XML Attributes, Markup Link Url */
 .hljs-symbol,
 .hljs-number,
@@ -69,16 +63,19 @@ code.hljs {
 .hljs-literal {
   color: var(--red-500);
 }
+
 /* Classes, Markup Bold, Search Text Background */
 .hljs-title,
 .hljs-class .hljs-title,
 .hljs-title.class_ {
   color: var(--pink-500);
 }
+
 .hljs-strong {
   font-weight: bold;
   color: var(--pink-500);
 }
+
 /* base0B - Strings, Inherited Class, Markup Code, Diff Inserted */
 .hljs-code,
 .hljs-addition,
@@ -86,6 +83,7 @@ code.hljs {
 .hljs-string {
   color: var(--purple-400);
 }
+
 /* Support, Regular Expressions, Escape Characters, Markup Quotes */
 .hljs-built_in,
 .hljs-doctag,
@@ -94,6 +92,7 @@ code.hljs {
 .hljs-regexp {
   color: var(--orange-500);
 }
+
 /* Functions, Methods, Attribute IDs, Headings */
 .hljs-function .hljs-title,
 .hljs-attribute,
@@ -102,6 +101,7 @@ code.hljs {
 .hljs-section {
   color: var(--orange-500);
 }
+
 /* Keywords, Storage, Selector, Markup Italic, Diff Changed */
 /* .hljs-selector-id, */
 /* .hljs-selector-class, */
@@ -113,10 +113,12 @@ code.hljs {
 .hljs-keyword {
   color: var(--blue-400);
 }
+
 .hljs-emphasis {
   color: var(--blue-400);
   font-style: italic
 }
+
 /* Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?> */
 /*
   prevent top level .keyword and .string scopes
@@ -127,6 +129,7 @@ code.hljs {
 .hljs-meta .hljs-string {
   color: var(--blue-400);
 }
+
 /* for v10 compatible themes */
 .hljs-meta .hljs-keyword,
 .hljs-meta-keyword {

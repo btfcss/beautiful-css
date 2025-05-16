@@ -15,7 +15,7 @@
 @import url(navbar.css);
 @import url(text/text.css);
 @import url(code/code.css);
-
+@import url(selection.css);
 
 *, :after, :before, ::backdrop {
   box-sizing: border-box;

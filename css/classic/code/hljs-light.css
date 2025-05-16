@@ -1,20 +1,9 @@
 pre code.hljs {
   display: block;
   overflow-x: auto;
-  padding: 1em
-}
-code.hljs {
-  padding: 3px 5px
+  padding: 1em;
 }
 
-pre code.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 1em
-}
-code.hljs {
-  padding: 3px 5px
-}
 .hljs {
   color: var(--black-100);
   background: var(--white-500);
@@ -37,7 +26,7 @@ code.hljs {
 }
 /* Dark Foreground (Used for status bars) */
 .hljs-tag {
-  color: var(--blue-500);
+  color: var(--blue-600);
 }
 /* Default Foreground, Caret, Delimiters, Operators */
 .hljs-subst,
@@ -109,10 +98,10 @@ code.hljs {
 .hljs-template-tag,
 .diff .hljs-meta,
 .hljs-keyword {
-  color: var(--blue-500);
+  color: var(--blue-600);
 }
 .hljs-emphasis {
-  color: var(--blue-500);
+  color: var(--blue-600);
   font-style: italic
 }
 /* base0F - Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?> */
