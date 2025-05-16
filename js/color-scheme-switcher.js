@@ -1,4 +1,7 @@
 import colorScheme from "@btfcss/color-scheme";
+import hljsLight from "/css/classic/code/hljs-light.css";
+import hljsDark from "/css/classic/code/hljs-dark.css";
+
 
 // Get buttons elements
 const btnColorSchemeLight = document.getElementById('btn-color-scheme-light');
@@ -6,16 +9,34 @@ const btnColorSchemeSystem = document.getElementById('btn-color-scheme-system');
 const btnColorSchemeDark = document.getElementById('btn-color-scheme-dark');
 
 // Add event listener on each button
-btnColorSchemeLight.addEventListener('click', () => colorScheme.setUserChoice('light') );
-btnColorSchemeSystem.addEventListener('click', () =>  colorScheme.setUserChoice('light dark') );
-btnColorSchemeDark.addEventListener('click', () =>  colorScheme.setUserChoice('dark') );
+btnColorSchemeLight.addEventListener('click', () => colorScheme.setUserChoice('light'));
+btnColorSchemeSystem.addEventListener('click', () => colorScheme.setUserChoice('light dark'));
+btnColorSchemeDark.addEventListener('click', () => colorScheme.setUserChoice('dark'));
 
+
+let codeStyleSheet = undefined;
 
 // Callback function invoked when the color scheme status has changed
-const onChange = (status) => {
-  
+const onChange = async (status) => {
+
   // Apply changes on CSS
   document.querySelector(':root').style.setProperty('color-scheme', status.user);
+
+
+  if (codeStyleSheet != undefined) codeStyleSheet.unuse();
+  if (status.current == "light") {
+    hljsDark.unuse();
+    hljsLight.use();
+    //import('highlight.js/styles/base16/atelier-estuary-light.min.css');
+    //codeStyleSheet = await import ("/css/classic/code/hljs-light.css");
+  }
+  else {
+    hljsDark.use();
+    hljsLight.unuse();
+    //codeStyleSheet = await import ("/css/classic/code/hljs-dark.css");
+  }
+
+
 
   // Update active button
   switch (status.user) {

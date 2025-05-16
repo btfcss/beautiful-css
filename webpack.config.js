@@ -72,23 +72,32 @@ module.exports = (env) => {
 
         {
           test: /\.css$/i,
-          
+
           //use: ["style-loader", "css-loader"],
-          /*
+          
           use: [
             { loader: "style-loader", options: { injectType: 'lazyStyleTag' } },
             { loader: "css-loader", options: { url: false } }
           ],
+          
+          /*
+          use: [
+            {
+              loader: MiniCssExtractPlugin.loader,
+            },
+            {
+              loader: "css-loader"
+            },            
+          ],
           */
-          use: [MiniCssExtractPlugin.loader, "css-loader"],
         },
-/*
-        // CSS loader
-        {
-          test: /\.css$/i,
-          use: ["style-loader", "css-loader"],
-        },
-*/
+        /*
+                // CSS loader
+                {
+                  test: /\.css$/i,
+                  use: ["style-loader", "css-loader"],
+                },
+        */
         {
           test: /\.ejs$/,
           loader: 'compile-ejs-loader',
