@@ -28,4 +28,7 @@ async function updateColorScheme(theme) {
 // Display the page once loaded
 window.onload = function () {
   document.querySelector('body').style.removeProperty('display');
+  setTimeout(() => {
+    document.getElementById('modal').classList.add('show');
+  }, 500);
 };

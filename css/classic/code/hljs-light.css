@@ -1,3 +1,14 @@
+
+/*!
+  Theme: Beautiful CSS Classic Light
+  Description: Classic Light Theme for the beautiful CSS framework
+  Author: (c) Merlin Chatou <merlin.chatou@gmail.com>
+  Maintainer: Merlin Chatou <merlin.chatou@gmail.com>
+  Website: https://beautiful-css.com/
+  License: see project LICENSE
+  Touched: 2025
+*/
+
 pre code.hljs {
   display: block;
   overflow-x: auto;
@@ -10,9 +21,9 @@ pre code.hljs {
 }
 .hljs::selection,
 .hljs ::selection {
-  background-color: var(--blue-300);
-  
+  background-color: var(--blue-300);  
 }
+
 /* purposely do not highlight these things */
 .hljs-formula,
 .hljs-params,
@@ -37,7 +48,7 @@ pre code.hljs {
 .hljs-operator {
   opacity: 0.7
 }
-/* base08 - Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted */
+/* Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted */
 .hljs-bullet,
 .hljs-variable,
 .hljs-template-variable,

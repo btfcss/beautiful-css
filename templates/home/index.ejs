@@ -38,14 +38,17 @@
               class="fa-solid fa-sun"></i><span> light</span></button>
           <button class="btn-blue btn-xs rounded-pill px-3 active" id="btn-color-scheme-system"><i
               class="fa-solid fa-display"></i><span> system</span></button>
-          <button class="btn-blue btn-xs rounded-pill px-3" id="btn-color-scheme-dark"><i class="fa-solid fa-moon "></i><span>
+          <button class="btn-blue btn-xs rounded-pill px-3" id="btn-color-scheme-dark"><i
+              class="fa-solid fa-moon "></i><span>
               dark</span></button>
         </div>
       </div>
       <div class="text-end h-32 v-flex-center">end</div>
     </div>
-
   </div>
+
+
+
 
 
   <div id="main" class=" mx-4 mb-7 pt-7">
@@ -70,69 +73,42 @@
     <div class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
 
 
-      <!--<script>
-        /*-->
+      <div id="modal" class="modal">
+        <div class="modal-dialog">
+          <div class="header text-lg bold">Modal</div>
+          <div class="body">
+            Coucou
+          </div>
+          <div class="footer align-right">
+            <button class="btn-red">Save</button>
+            <button class="btn-blue">Cancel</button>
+          </div>
+        </div>
+      </div>
 
       <%- include cards/headers.ejs %>
-      <%- include cards/typography.ejs %>
-      <%- include cards/text-colors.ejs %>
-      <%- include cards/background-colors.ejs %>
-      <%- include cards/text-alignment.ejs %>
-      <%- include cards/font-size.ejs %>
-      <%- include cards/margins.ejs %>
-      <%- include cards/paddings.ejs %>
-      <%- include cards/buttons.ejs %>
-      <%- include cards/button-disabled.ejs %>
-      <%- include cards/buttons-active.ejs %>
-      <%- include cards/button-size.ejs %>
-      <%- include cards/button-style.ejs %>
-      <%- include cards/form.ejs %>
-      <%- include cards/form-styling.ejs %>
-
-      <div class="card">
-        <div class="header">
-          <h2>Input Groups</h2>
-        </div>
-        <div class="body">
-          <div class="input-group mb-4 mt-2">
-            <span class="input-group-text" id="basic-addon1">@</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-              aria-describedby="basic-addon1">
-          </div>
-
-          <div class="input-group mb-4 rounded-pill">
-            <button class="btn-grey px-3"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></button>
-            <input type="text" class="form-control" placeholder="Search" aria-label="Search"
-              aria-describedby="basic-addon1">
-            <button class="btn-grey px-3"><i class="fa-solid fa-xmark"></i></button>
-          </div>
-
-          <div
-            class="input-group mb-4 rounded-pill light:border-purple-700 dark:border-green-300 light:color-white-900 dark:color-black-100">
-            <button
-              class="btn light:bg-purple-700 light:hover:bg-purple-500 dark:bg-green-300 dark:hover:bg-green-500 px-3"><i
-                class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></button>
-            <input type="text" class="form-control bg-cyan-lighter-5" placeholder="Custom" aria-label="Search"
-              aria-describedby="basic-addon1">
-            <button
-              class="btn light:bg-purple-700 light:hover:bg-purple-500 dark:bg-green-300 dark:hover:bg-green-500 px-3"><i
-                class="fa-solid fa-xmark"></i></button>
-          </div>
-
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-      <%- include cards/border-colors.ejs %>
-      <%- include cards/border-size.ejs %>      
-      <%- include cards/border-side.ejs %>
-      <%- include cards/border-style.ejs %>
-      <%- include cards/rounded.ejs %>
-      <%- include cards/card-with-header.ejs %>
-      <%- include cards/card-with-image.ejs %>
+        <%- include cards/typography.ejs %>
+          <%- include cards/text-colors.ejs %>
+            <%- include cards/background-colors.ejs %>
+              <%- include cards/text-alignment.ejs %>
+                <%- include cards/font-size.ejs %>
+                  <%- include cards/margins.ejs %>
+                    <%- include cards/paddings.ejs %>
+                      <%- include cards/buttons.ejs %>
+                        <%- include cards/button-disabled.ejs %>
+                          <%- include cards/buttons-active.ejs %>
+                            <%- include cards/button-size.ejs %>
+                              <%- include cards/button-style.ejs %>
+                                <%- include cards/form.ejs %>
+                                  <%- include cards/form-styling.ejs %>
+                                    <%- include cards/input-groups.ejs %>
+                                      <%- include cards/border-colors.ejs %>
+                                        <%- include cards/border-size.ejs %>
+                                          <%- include cards/border-side.ejs %>
+                                            <%- include cards/border-style.ejs %>
+                                              <%- include cards/rounded.ejs %>
+                                                <%- include cards/card-with-header.ejs %>
+                                                  <%- include cards/card-with-image.ejs %>
 
 
 
@@ -140,170 +116,103 @@
 
 
 
-<!-- Grid -->
-<div class="card">
-<div class="header">
-<h2>Grid</h2>
-</div>
-<div class="body grid">
-<div class="rounded-3 border p-4 text-center hover:scale-105">1
-</div>
-<div class="rounded-3 border p-4 text-center hover:scale-105">2
-</div>
-<div class="rounded-3 border p-4 text-center hover:scale-105">3
-</div>
-<div class="rounded-3 border p-4 text-center hover:scale-105">4
-</div>
-</div>
-<div class="footer align-right">
-<button class="btn-blue">&lt;code&gt;</button>
-</div>
-</div>
+                                                    <!-- Grid -->
+                                                    <div class="card">
+                                                      <div class="header">
+                                                        <h2>Grid</h2>
+                                                      </div>
+                                                      <div class="body grid">
+                                                        <div class="rounded-3 border p-4 text-center hover:scale-105">1
+                                                        </div>
+                                                        <div class="rounded-3 border p-4 text-center hover:scale-105">2
+                                                        </div>
+                                                        <div class="rounded-3 border p-4 text-center hover:scale-105">3
+                                                        </div>
+                                                        <div class="rounded-3 border p-4 text-center hover:scale-105">4
+                                                        </div>
+                                                      </div>
+                                                      <div class="footer align-right">
+                                                        <button class="btn-blue">&lt;code&gt;</button>
+                                                      </div>
+                                                    </div>
 
 
-<%- include cards/horizontal-flex.ejs %>
-<%- include cards/vertical-flex.ejs %>
-<%- include cards/scale.ejs %>
-<%- include cards/rotation.ejs %>
-<%- include cards/cursor.ejs %>
-
-
-
-
-<!-- Masonry -->
-<div class="card">
-  <div class="header">
-    <h2>Masonry</h2>
-  </div>
-  <div class="body">
-
-    <div class="masonry-4 masonry-gap-3">
-      <div class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
-        1</div>
-      <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-        2</div>
-      <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-        3</div>
-      <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-        4</div>
-      <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-        5</div>
-      <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-        6</div>
-      <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-        7</div>
-      <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-        8</div>
-      <div class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
-        9</div>
-      <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-        10</div>
-      <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-        11</div>
-      <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-        12</div>
-      <div class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
-        13</div>
-      <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-        14</div>
-    </div>
-  </div>
-  <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
-  </div>
-</div>
+                                                    <%- include cards/horizontal-flex.ejs %>
+                                                      <%- include cards/vertical-flex.ejs %>
+                                                        <%- include cards/scale.ejs %>
+                                                          <%- include cards/rotation.ejs %>
+                                                            <%- include cards/cursor.ejs %>
 
 
 
 
-<!-- Code -->
-<div class="card">
-  <div class="header">
-    <h2>Code</h2>
-  </div>
-  <div class="body">
+                                                              <!-- Masonry -->
+                                                              <div class="card">
+                                                                <div class="header">
+                                                                  <h2>Masonry</h2>
+                                                                </div>
+                                                                <div class="body">
 
-    <pre><code class="rounded-2 language-js">// JavaScript
-
-function add(a, b) {
-return a + b;
-}
-
-console.log(add(2, 3));
-</code></pre>
-
-<pre><code class="language-css rounded">/* CSS */
-
-p { color: green }</code></pre>
-
-
-    <pre><code class="language-python rounded"># Python
-
-adj = ["green", "big", "tasty"]
-fruits = ["apple", "banana"]
-
-for x in adj:
-for y in fruits:
-print(x, y)</code></pre>
-  </div>
-  <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
-  </div>
-
-
-</div>
-
-<%- include cards/stripes.ejs %>
-  <%- include cards/hatching.ejs %>
-    <%- include cards/dotted.ejs %>
-
-
-      <!-- Aspect Ratio -->
-      <div class="card">
-        <div class="header">
-          <h2>Aspect Ratio</h2>
-        </div>
-        <div class="body grid grid-gap-3 text-center">
-          <div
-            class="border-negative-grey bg-blue v-flex-center rounded hover:scale-105 ratio-16x9">
-            16/9</div>
-          <div
-            class="border-negative-grey bg-blue v-flex-center rounded hover:scale-105 ratio-1x1">
-            1/1</div>
-          <div
-            class="border-negative-grey bg-blue v-flex-center rounded hover:scale-105 ratio-9x16">
-            9/16</div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
+                                                                  <div class="masonry-4 masonry-gap-3">
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
+                                                                      1</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
+                                                                      2</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
+                                                                      3</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
+                                                                      4</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
+                                                                      5</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
+                                                                      6</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
+                                                                      7</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
+                                                                      8</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
+                                                                      9</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
+                                                                      10</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
+                                                                      11</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
+                                                                      12</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
+                                                                      13</div>
+                                                                    <div
+                                                                      class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
+                                                                      14</div>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="footer align-right">
+                                                                  <button class="btn-blue">&lt;code&gt;</button>
+                                                                </div>
+                                                              </div>
 
 
-      <!-- Aspect Ratio -->
-      <div class="card">
-        <div class="header">
-          <h2>Greyscale</h2>
-        </div>
-        <div class="body text-center">
-          <img
-            class="w-100 mb-3 rounded hover:scale-105 greyscale-100 hover:greyscale-0"
-            src="/images/color-image.jpg">
-          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-75 hover:greyscale-0"
-            src="/images/color-image.jpg">
-          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-50 hover:greyscale-0"
-            src="/images/color-image.jpg">
-          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-25 hover:greyscale-0"
-            src="/images/color-image.jpg">
-          <img class="w-100 mb-3 rounded hover:scale-105 greyscale-0 hover:greyscale-0"
-            src="/images/color-image.jpg">
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
 
-      <%- include cards/palette.ejs %>
+
+                                                              <%- include cards/code.ejs %>
+                                                                <%- include cards/stripes.ejs %>
+                                                                  <%- include cards/hatching.ejs %>
+                                                                    <%- include cards/dotted.ejs %>
+                                                                      <%- include cards/aspect-ratio.ejs %>
+                                                                        <%- include cards/greyscale.ejs %>
+                                                                          <%- include cards/palette.ejs %>
 
 
     </div> <!-- end of masonry -->

@@ -14,7 +14,6 @@ btnColorSchemeSystem.addEventListener('click', () => colorScheme.setUserChoice('
 btnColorSchemeDark.addEventListener('click', () => colorScheme.setUserChoice('dark'));
 
 
-let codeStyleSheet = undefined;
 
 // Callback function invoked when the color scheme status has changed
 const onChange = async (status) => {
@@ -23,17 +22,16 @@ const onChange = async (status) => {
   document.querySelector(':root').style.setProperty('color-scheme', status.user);
 
 
-  if (codeStyleSheet != undefined) codeStyleSheet.unuse();
+  
   if (status.current == "light") {
-    hljsDark.unuse();
+    // Set the light code style    
     hljsLight.use();
-    //import('highlight.js/styles/base16/atelier-estuary-light.min.css');
-    //codeStyleSheet = await import ("/css/classic/code/hljs-light.css");
+    hljsDark.unuse();
   }
   else {
-    hljsDark.use();
+    // Set the dark code style    
     hljsLight.unuse();
-    //codeStyleSheet = await import ("/css/classic/code/hljs-dark.css");
+    hljsDark.use();
   }
 
 
