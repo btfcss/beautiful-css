@@ -2,6 +2,7 @@ import classic from "/css/classic/classic.css";
 import hljs from "highlight.js";
 import '@fortawesome/fontawesome-free/js/all.js';
 import "./color-scheme-switcher";
+import "./modal";
 
 await classic.use();
 
@@ -27,8 +28,24 @@ async function updateColorScheme(theme) {
 // The page is hidden at startup
 // Display the page once loaded
 window.onload = function () {
+  
   document.querySelector('body').style.removeProperty('display');
-  setTimeout(() => {
+  /*setTimeout(() => {
     document.getElementById('modal').classList.add('show');
-  }, 500);
+  }, 1500);
+
+  setTimeout(() => {
+    document.getElementById('modal').classList.remove('show');
+  }, 5000);
+  */
 };
+
+/*
+document.getElementById('show-modal').addEventListener('click', () => {
+  document.getElementById('modal').classList.add('show');
+})
+
+document.getElementById('cancel-modal').addEventListener('click', () => {
+  document.getElementById('modal').classList.remove('show');
+})
+  */

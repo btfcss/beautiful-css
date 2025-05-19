@@ -3,7 +3,7 @@
 
 
 .card {
-  --card-border-radius: var(--spacing-4);
+  --card-border-radius: var(--spacing-3);
   background-color: light-dark(#f3f4f7,#292d39);
   background-color: light-dark(var(--white-100),var(--black-800));
   border-radius: var(--card-border-radius);
