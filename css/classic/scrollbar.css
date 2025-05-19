@@ -1,0 +1,25 @@
+:root {
+  --scrollbar-width: var(--spacing-2);
+  scrollbar-width: var(--scrollbar-width);
+}
+::-webkit-scrollbar-button {
+  height: var(--spacing-2);
+}
+
+
+::-webkit-scrollbar-track {
+  border-radius: var(--spacing-3);
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  border-radius: var(--spacing-3);
+  background-color: transparent;
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: var(--spacing-3);
+  background-color: light-dark(var(--grey-500), var(--grey-800));
+  background-clip: content-box;
+}

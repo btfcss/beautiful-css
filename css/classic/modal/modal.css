@@ -5,18 +5,17 @@ dialog[open=false] {
 }
 */
 
-body:has(.modal:popover-open) {
+
+body:has(.modal[open]) {
+  overflow-x: hidden;  
   overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 
-.modal[popover] {}
 
 .modal {
+  overscroll-behavior: contain;
   z-index: 1055;
-  position: absolute;
-  left: 0;
   max-height: 90vh;
   margin-top: 5vh;
   margin-left: auto;
@@ -29,28 +28,7 @@ body:has(.modal:popover-open) {
   overflow-y: auto;
   --opening-duration: 300ms;
   --closing-duration: 200ms;
-
-
 }
-
-
-
-.modal::-webkit-scrollbar-track {
-  border-radius: var(--spacing-3);
-  background-color: transparent;
-}
-
-.modal::-webkit-scrollbar {
-  border-radius: var(--spacing-3);
-  background-color: transparent;
-  width: var(--spacing-3);
-}
-
-.modal::-webkit-scrollbar-thumb {
-  border-radius: var(--spacing-3);  
-  background-color: var(--grey-500);
-}
-
 
 
 
@@ -59,7 +37,6 @@ body:has(.modal:popover-open) {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  pointer-events: none;
 }
 
 
@@ -86,7 +63,6 @@ body:has(.modal:popover-open) {
   opacity: 1;
   backdrop-filter: blur(0.375rem);
   height: 100%;
-  overflow: hidden;
 }
 
 

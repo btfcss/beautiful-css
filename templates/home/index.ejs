@@ -19,6 +19,7 @@
 </head>
 
 
+<body class="dotted-white-800 dark:dotted-black-400" style="display: none">
 
 
 
@@ -85,7 +86,7 @@
         <button class="btn-purple btn-lg" btfcss-modal-target="simple-modal">Launch demo modal</button>
         <button class="btn-purple btn-lg" btfcss-modal-target="no-animation-modal">No animation</button>
         <button class="btn-purple btn-lg" btfcss-modal-target="blurred-modal">No blur</button>
-        <button class="btn-purple btn-lg" popovertarget="long-content-modal">Long content</button>
+        <button class="btn-purple btn-lg" btfcss-modal-target="long-content-modal">Long content</button>
       </div>
       <div class="footer align-right">
         <button class="btn-blue">&lt;code&gt;</button>
@@ -95,13 +96,14 @@
 
 
 
-    <dialog id="simple-modal" class="modal">
+    <dialog id="simple-modal" class="modal" popover>
       <div class="modal-content">
         <header>
           <h2 class="mt-0">Modal Example</h2>
         </header>
         <div>
           Whoa There, Cowboy!
+          <button class="btn-purple btn-lg" btfcss-modal-target="long-content-modal">Long content</button>
         </div>
         <footer class="align-right">
           <button class="btn-blue" btfcss-modal-close="simple-modal">Close</button>
@@ -110,13 +112,13 @@
     </dialog>
 
 
-    <dialog id="no-animation-modal" class="modal no-animation">
+    <dialog id="no-animation-modal" aria-modal="true" class="modal no-animation" popover>
       <div class="modal-content">
         <header>
           <h2 class="mt-0">Without animation</h2>
         </header>
         <div>
-          This overlay should be displayed without animation
+          This overlay should be displayed without animation.
         </div>
         <footer class="align-right">
           <button class="btn-blue" btfcss-modal-close="no-animation-modal">Close</button>
@@ -125,13 +127,13 @@
     </dialog>
 
 
-    <dialog id="blurred-modal" class="modal no-blur">
+    <dialog id="blurred-modal" class="modal no-blur" popover>
       <div class="modal-content">
         <header>
           <h2 class="mt-0">Blurred Overlay</h2>
         </header>
         <div>
-          Overlay should be blurred
+          Overlay should be displayed without blur.
         </div>
         <footer class="align-right">
           <button class="btn-blue" btfcss-modal-close="blurred-modal">Close</button>
@@ -139,7 +141,7 @@
       </div>
     </dialog>
 
-    <dialog id="long-content-modal" class="modal" popover>
+    <dialog id="long-content-modal" aria-modal="true" class="modal" popover>
       <div class="modal-content">
         <header>
           <h2 class="mt-0">Long content</h2>
@@ -151,9 +153,11 @@
           It has survived not only five centuries, but also the leap into electronic typesetting, 
           remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
           and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+          
         </div>
         <footer class="align-right">
-          <!-- <button class="btn-blue" popovertarget="long-content-modal">Close</button> -->
+          <button class="btn-blue" btfcss-modal-close="long-content-modal">Close</button>
         </footer>
       </div>
     </dialog>

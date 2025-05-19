@@ -17,7 +17,7 @@
 @import url(code/code.css);
 @import url(selection.css);
 @import url(modal/modal.css);
-
+@import url(scrollbar.css);
 
 
 *, :after, :before, ::backdrop {
