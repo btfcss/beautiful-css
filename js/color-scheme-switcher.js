@@ -1,6 +1,4 @@
 import colorScheme from "@btfcss/color-scheme";
-import hljsLight from "/css/classic/code/hljs-light.css";
-import hljsDark from "/css/classic/code/hljs-dark.css";
 
 
 // Get buttons elements
@@ -20,20 +18,6 @@ const onChange = async (status) => {
 
   // Apply changes on CSS
   document.querySelector(':root').style.setProperty('color-scheme', status.user);
-
-
-  
-  if (status.current == "light") {
-    // Set the light code style    
-    hljsLight.use();
-    hljsDark.unuse();
-  }
-  else {
-    // Set the dark code style    
-    hljsLight.unuse();
-    hljsDark.use();
-  }
-
 
 
   // Update active button

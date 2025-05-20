@@ -19,15 +19,12 @@
 @import url(modal/modal.css);
 @import url(scrollbar.css);
 
-
 *, :after, :before, ::backdrop {
   box-sizing: border-box;
   border: 0 solid;
   margin: 0;
   padding: 0;
 }
-
-
 
 :root {
   /* color-scheme: light dark; */
@@ -36,17 +33,8 @@
   --text-color: light-dark(var(--black-500), var(--white-500));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-scheme: dark;
-  }
-}
-
-
 body {
   font-optical-sizing: auto;
-  margin: 0;
-  padding: 0;
   background-color: var(--background-color);
-  color: var(--text-color);
+  color: var(--text-color);  
 }

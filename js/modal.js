@@ -43,7 +43,7 @@ const openModal = (id) => {
     modalEl.classList.remove('modal-is-opening')
   }, { once: true });  
   modalEl.showModal();
-  modalEl.querySelector(':first-child').scrollIntoView();
+  modalEl.querySelector('.modal-content:first-child').scrollIntoView();
   currentModal = id;
 }
 

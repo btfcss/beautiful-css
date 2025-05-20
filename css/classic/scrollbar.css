@@ -1,20 +1,22 @@
+/*
 :root {
   --scrollbar-width: var(--spacing-2);
   scrollbar-width: var(--scrollbar-width);
 }
 ::-webkit-scrollbar-button {
   height: var(--spacing-2);
+  background: transparent;
 }
 
 
 ::-webkit-scrollbar-track {
   border-radius: var(--spacing-3);
-  background-color: transparent;
+  background: transparent;
 }
 
 ::-webkit-scrollbar {
   border-radius: var(--spacing-3);
-  background-color: transparent;
+  background: transparent;
   width: var(--scrollbar-width);
 }
 
@@ -23,3 +25,5 @@
   background-color: light-dark(var(--grey-500), var(--grey-800));
   background-clip: content-box;
 }
+
+*/

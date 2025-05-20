@@ -36,6 +36,11 @@ ins {
   text-decoration: none;
 }
 
+.handwritten {
+  font-family: var(--font-family-handwritten);
+  font-weight: 600;
+  font-style: normal;  
+}
 
 kbd {
   font-family: var(--font-family-monospace);

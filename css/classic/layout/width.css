@@ -1,16 +1,59 @@
 /* Width Utilities */
 .w-auto { width: auto; }
+.w-fit { width: fit-content; }
+.w-min { width: min-content; }
+.w-max { width: max-content; }
+
+.w-8px { width: 8px; }
+.w-16px { width: 16px; }
+.w-32px { width: 32px; }
+.w-64px { width: 64px; }
+.w-128px { width: 128px; }
+.w-256px { width: 256px; }
+
+.w-sm { width: var(--sm); }
+.w-md { width: var(--md); }
+.w-lg { width: var(--lg); }
+.w-xl { width: var(--xl); }
+.w-xxl { width: var(--xxl); }
+
+.w-min-sm { min-width: var(--sm); }
+.w-min-md { min-width: var(--md); }
+.w-min-lg { min-width: var(--lg); }
+.w-min-xl { min-width: var(--xl); }
+.w-min-xxl { min-width: var(--xxl); }
+
+.w-max-sm { max-width: var(--sm); }
+.w-max-md { max-width: var(--md); }
+.w-max-lg { max-width: var(--lg); }
+.w-max-xl { max-width: var(--xl); }
+.w-max-xxl { max-width: var(--xxl); }
+
+
 .w-25 { width: 25%; }
 .w-50 { width: 50%; }
 .w-75 { width: 75%; }
 .w-100 { width: 100%; }
-.w-screen { width: 100vw; }
-.w-dvw { width: 100dvw; }
-.w-dvh { width: 100dvh; }
-.w-lvw { width: 100lvw; }
-.w-lvh { width: 100lvh; }
-.w-svw { width: 100svw; }
-.w-svh { width: 100svh; }
+
+.w-25vw { width: 25vw; }
+.w-50vw { width: 50vw; }
+.w-75vw { width: 75vw; }
+.w-100vw { width: 100vw; }
+
+.w-25vh { width: 25vh; }
+.w-50vh { width: 50vh; }
+.w-75vh { width: 75vh; }
+.w-100vh { width: 100vh; }
+
+.w-100dvw { width: 100dvw; }
+.w-100dvh { width: 100dvh; }
+
+.w-100lvw { width: 100lvw; }
+.w-100lvh { width: 100lvh; }
+
+.w-100svw { width: 100svw; }
+.w-100svh { width: 100svh; }
+
 .w-min { width: min-content; }
 .w-max { width: max-content; }
 .w-fit { width: fit-content; }

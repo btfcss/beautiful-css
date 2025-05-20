@@ -1,23 +1,59 @@
-
 /* height Utilities */
 .h-auto { height: auto; }
-.h-8 { height: 8px; }
-.h-16 { height: 16px; }
-.h-32 { height: 32px; }
-.h-64 { height: 64px; }
-.h-128 { height: 128px; }
-.h-256 { height: 256px; }
-.h-1\/4 { height: 25%; }
-.h-1\/3 { height: 33%; }
-.h-1\/2 { height: 50%; }
-.h-1\/1 { height: 100%; }
-.h-screen { height: 100vw; }
-.h-dvw { height: 100dvw; }
-.h-dvh { height: 100dvh; }
-.h-lvw { height: 100lvw; }
-.h-lvh { height: 100lvh; }
-.h-svw { height: 100svw; }
-.h-svh { height: 100svh; }
+.h-fit { height: fit-content; }
+.h-min { height: min-content; }
+.h-max { height: max-content; }
+
+.h-8px { height: 8px; }
+.h-16px { height: 16px; }
+.h-32px { height: 32px; }
+.h-64px { height: 64px; }
+.h-128px { height: 128px; }
+.h-256px { height: 256px; }
+
+.h-sm { height: var(--sm); }
+.h-md { height: var(--md); }
+.h-lg { height: var(--lg); }
+.h-xl { height: var(--xl); }
+.h-xxl { height: var(--xxl); }
+
+.h-min-sm { min-height: var(--sm); }
+.h-min-md { min-height: var(--md); }
+.h-min-lg { min-height: var(--lg); }
+.h-min-xl { min-height: var(--xl); }
+.h-min-xxl { min-height: var(--xxl); }
+
+.h-max-sm { max-height: var(--sm); }
+.h-max-md { max-height: var(--md); }
+.h-max-lg { max-height: var(--lg); }
+.h-max-xl { max-height: var(--xl); }
+.h-max-xxl { max-height: var(--xxl); }
+
+
+.h-25 { height: 25%; }
+.h-50 { height: 50%; }
+.h-75 { height: 75%; }
+.h-100 { height: 100%; }
+
+.h-25vw { height: 25vw; }
+.h-50vw { height: 50vw; }
+.h-75vw { height: 75vw; }
+.h-100vw { height: 100vw; }
+
+.h-25vh { height: 25vh; }
+.h-50vh { height: 50vh; }
+.h-75vh { height: 75vh; }
+.h-100vh { height: 100vh; }
+
+.h-100dvw { height: 100dvw; }
+.h-100dvh { height: 100dvh; }
+
+.h-100lvw { height: 100lvw; }
+.h-100lvh { height: 100lvh; }
+
+.h-100svw { height: 100svw; }
+.h-100svh { height: 100svh; }
+
 .h-min { height: min-content; }
 .h-max { height: max-content; }
 .h-fit { height: fit-content; }

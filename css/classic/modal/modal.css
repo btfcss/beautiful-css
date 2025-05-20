@@ -1,20 +1,16 @@
-/*
-dialog:not([open]),
-dialog[open=false] {
-  display: none;
-}
-*/
 
 
 body:has(.modal[open]) {
-  overflow-x: hidden;  
-  overflow-y: hidden;
+  overflow-x: hidden;    
 }
 
 
+.modal::-webkit-scrollbar-thumb {  
+  background-color: red;
+  color: blue;
+}
 
-.modal {
-  overscroll-behavior: contain;
+.modal {  
   z-index: 1055;
   max-height: 90vh;
   margin-top: 5vh;
@@ -24,19 +20,22 @@ body:has(.modal[open]) {
   border-radius: var(--spacing-3);
   background-color: light-dark(var(--white-500), var(--black-500));
   height: fit-content;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow-x: hidden;  
+  overflow-y: auto;  
+  color: inherit;
   --opening-duration: 300ms;
   --closing-duration: 200ms;
 }
 
-
+.modal>*:first-child {
+  max-height: 90vh;
+}
 
 .modal-content {
-  width: auto;
+  overscroll-behavior: contain;  
+  height: fit-content;
   max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  overflow-y: hidden;
 }
 
 

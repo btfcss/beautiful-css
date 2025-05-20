@@ -75,12 +75,13 @@ module.exports = (env) => {
 
           //use: ["style-loader", "css-loader"],
           
+          /*
           use: [
             { loader: "style-loader", options: { injectType: 'lazyStyleTag' } },
             { loader: "css-loader", options: { url: false } }
           ],
+          */
           
-          /*
           use: [
             {
               loader: MiniCssExtractPlugin.loader,
@@ -89,7 +90,7 @@ module.exports = (env) => {
               loader: "css-loader"
             },            
           ],
-          */
+          
         },
         /*
                 // CSS loader

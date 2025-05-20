@@ -1,4 +1,5 @@
 
+
 document.body.addEventListener('click', (event) => {
 
   // Check if modal target attribute exists

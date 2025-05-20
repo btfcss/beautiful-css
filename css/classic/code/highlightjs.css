@@ -1,0 +1,132 @@
+
+/*!
+  Theme: Beautiful CSS Classic Light
+  Description: Classic Light Theme for the beautiful CSS framework
+  Author: (c) Merlin Chatou <merlin.chatou@gmail.com>
+  Maintainer: Merlin Chatou <merlin.chatou@gmail.com>
+  Website: https://beautiful-css.com/
+  License: see project LICENSE
+  Touched: 2025
+*/
+
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+.hljs {
+  color: light-dark(var(--black-100), var(--white-700));
+  background: light-dark(var(--white-500), var(--black-400));
+}
+.hljs::selection,
+.hljs ::selection {
+  background-color: light-dark(var(--blue-300), var(--blue-700));
+}
+
+/* purposely do not highlight these things */
+.hljs-formula,
+.hljs-params,
+.hljs-property {
+  
+}
+/* Comments, Invisibles, Line Highlighting */
+.hljs-comment {
+  color: light-dark(var(--green-600), var(--green-500));
+  font-style: italic;
+}
+/* Dark Foreground (Used for status bars) */
+.hljs-tag {
+  color: light-dark(var(--blue-600),var(--blue-400));
+}
+/* Default Foreground, Caret, Delimiters, Operators */
+.hljs-subst,
+.hljs-punctuation,
+.hljs-operator {
+  color: light-dark(var(--black-100), var(--black-100));
+}
+.hljs-operator {
+  opacity: 0.7
+}
+/* Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted */
+.hljs-bullet,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-deletion {
+  color: light-dark(var(--grey-900),var(--grey-100));
+}
+/* base09 - Integers, Boolean, Constants, XML Attributes, Markup Link Url */
+.hljs-symbol,
+.hljs-number,
+.hljs-link,
+.hljs-attr,
+.hljs-variable.constant_,
+.hljs-literal {
+  color: var(--red-500);
+}
+/* base0A - Classes, Markup Bold, Search Text Background */
+.hljs-title,
+.hljs-class .hljs-title,
+.hljs-title.class_ {
+  color: var(--pink-500);
+}
+.hljs-strong {
+  font-weight: bold;
+  color: var(--pink-500);
+}
+/* base0B - Strings, Inherited Class, Markup Code, Diff Inserted */
+.hljs-code,
+.hljs-addition,
+.hljs-title.class_.inherited__,
+.hljs-string {
+  color: light-dark(var(--purple-500), var(--purple-400));
+}
+/* base0C - Support, Regular Expressions, Escape Characters, Markup Quotes */
+/* guessing */
+.hljs-built_in,
+.hljs-doctag,
+.hljs-quote,
+.hljs-keyword.hljs-atrule,
+.hljs-regexp {
+  color: var(--orange-500);
+}
+/* base0D - Functions, Methods, Attribute IDs, Headings */
+.hljs-function .hljs-title,
+.hljs-attribute,
+.ruby .hljs-property,
+.hljs-title.function_,
+.hljs-section {
+  color: var(--orange-500);
+}
+/* base0E - Keywords, Storage, Selector, Markup Italic, Diff Changed */
+/* .hljs-selector-id, */
+/* .hljs-selector-class, */
+/* .hljs-selector-attr, */
+/* .hljs-selector-pseudo, */
+.hljs-type,
+.hljs-template-tag,
+.diff .hljs-meta,
+.hljs-keyword {
+  color: light-dark(var(--blue-600),  var(--blue-400));
+}
+.hljs-emphasis {
+  color: light-dark(var(--blue-600), var(--blue-400));
+  font-style: italic
+}
+/* base0F - Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?> */
+/*
+  prevent top level .keyword and .string scopes
+  from leaking into meta by accident
+*/
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-meta .hljs-string {
+  color: var(--blue-400);
+}
+/* for v10 compatible themes */
+.hljs-meta .hljs-keyword,
+.hljs-meta-keyword {
+  font-weight: bold
+}

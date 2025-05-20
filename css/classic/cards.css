@@ -12,7 +12,7 @@
   border: 1px solid var(--border-color);
   
   font-family: var(--font-family);
-  padding: var(--card-border-radius);
+  padding: var(--spacing--4);
 }
 
 .card:has(>.footer),
@@ -33,7 +33,7 @@
 
 .card>.header {
   background-color: light-dark(var(--grey-100), var(--black-200));
-  padding: var(--card-border-radius);
+  padding: var(--spacing-4);
 }
 
 .card>img.header {
@@ -48,13 +48,13 @@
 }
 
 .card>.body {
-  padding: var(--card-border-radius);
+  padding: var(--spacing-4);
 }
 
 .card>.footer {
   background-color: var(--grey);
   background-color: light-dark(var(--grey-100), var(--black-200));
-  padding: var(--card-border-radius);
+  padding: var(--spacing-4);
 }
 
 
