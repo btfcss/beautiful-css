@@ -1,21 +1,16 @@
-let currentModal = null;
+let currentModalId = null;
 
 document.body.addEventListener('click', (event) => {
 
   // Check if modal target attribute exists
-  const modalTargetId = event.target.getAttribute('btfcss-modal-target');
-  console.log('modalTargetId', modalTargetId, currentModal)
-  if (modalTargetId)
-    if (currentModal) closeModal(currentModal, modalTargetId); else openModal(modalTargetId);
+  if (event.target.matches('[data-open-modal]')) {
+    const targetModalId = event.target.dataset.openModal;  
+    if (currentModalId) closeModal(currentModalId, targetModalId); else openModal(targetModalId);
+  }
 
   // Check if modal close attribute exists
-  const modalCloseId = event.target.getAttribute('btfcss-modal-close');
-  if (modalCloseId) closeModal(modalCloseId);
+  if (event.target.matches('[data-close-modal]')) closeModal(currentModalId);
 
-  // If the user click in the overlay, close the modal
-  if (event.target.tagName == "DIALOG") {
-    closeModal(event.target.id);
-  }
 });
 
 
@@ -24,8 +19,7 @@ document.body.addEventListener('click', (event) => {
  * @param {string} id ID of the modal
  */
 const toggleModal = (id) => {
-  const modal = document.getElementById(id);
-  console.log(modal);
+  const modal = document.getElementById(id);  
   if (modal.open) closeModal(id);
   else openModal(id);
 };
@@ -44,7 +38,7 @@ const openModal = (id) => {
   }, { once: true });  
   modalEl.showModal();
   modalEl.querySelector('.modal-content:first-child').scrollIntoView();
-  currentModal = id;
+  currentModalId = id;
 }
 
 /**
@@ -52,13 +46,12 @@ const openModal = (id) => {
  * @param {string} id ID of the modal
  */
 const closeModal = (id, next) => {
-  console.log('closeModal', id, next)
   const modalEl = document.getElementById(id);
   modalEl.classList.add("modal-is-closing");
   modalEl.addEventListener('animationend', () => {
     modalEl.classList.remove('modal-is-closing')
     modalEl.close();
-    currentModal = null;
+    currentModalId = null;
     if (next) openModal(next);
   }, { once: true });
 

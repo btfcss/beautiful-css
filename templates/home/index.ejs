@@ -65,200 +65,6 @@
     <div class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
 
 
-
-      <!-- Modal -->
-      <div class="card">
-        <div class="header">
-          <h2>Modal</h2>
-        </div>
-        <div class="body v-flex-center gap-4">
-          <!-- <button class="btn-purple w-100 mb-3" btfcss-modal-target="simple-modal">Open modal</button>           -->
-          <button class="btn-purple btn-lg" btfcss-modal-target="simple-modal">Launch demo modal</button>
-          <button class="btn-purple btn-lg" btfcss-modal-target="no-animation-modal">No animation</button>
-          <button class="btn-purple btn-lg" btfcss-modal-target="blurred-modal">No blur</button>
-          <button class="btn-purple btn-lg" btfcss-modal-target="centered-modal">Centered modal</button>          
-          <button class="btn-purple btn-lg" btfcss-modal-target="long-content-modal">Long content</button>
-          <button class="btn-purple btn-lg" btfcss-modal-target="toggle-modal-1">Toggle between modals</button>
-          <button class="btn-purple btn-lg" btfcss-modal-target="full-width-modal">Full width</button>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-
-
-      <dialog id="simple-modal" class="modal">
-        <div class="modal-content">
-          <header>
-            <h2 class="mt-0">Modal Example</h2>
-          </header>
-          <div>
-            Whoa There, Cowboy!
-          </div>
-          <footer class="align-right">
-            <button class="btn-blue" btfcss-modal-close="simple-modal">Close</button>
-          </footer>
-        </div>
-      </dialog>
-
-      <dialog id="centered-modal" class="modal my-auto">
-        <div class="modal-content">
-          <header>
-            <h2 class="mt-0">Centered Modal</h2>
-          </header>
-          <div>
-            This modal is centered in the viewport
-          </div>
-          <footer class="align-right">
-            <button class="btn-blue" btfcss-modal-close="centered-modal">Close</button>
-          </footer>
-        </div>
-      </dialog>
-
-
-      <dialog id="no-animation-modal" aria-modal="true" class="modal no-animation">
-        <div class="modal-content">
-          <header>
-            <h2 class="mt-0">Without animation</h2>
-          </header>
-          <div>
-            This overlay should be displayed without animation.
-          </div>
-          <footer class="align-right">
-            <button class="btn-blue" btfcss-modal-close="no-animation-modal">Close</button>
-          </footer>
-        </div>
-      </dialog>
-
-
-      <dialog id="blurred-modal" class="modal no-blur">
-        <div class="modal-content">
-          <header>
-            <h2 class="mt-0">Blurred Overlay</h2>
-          </header>
-          <div>
-            Overlay should be displayed without blur.
-          </div>
-          <footer class="align-right">
-            <button class="btn-blue" btfcss-modal-close="blurred-modal">Close</button>
-          </footer>
-        </div>
-      </dialog>
-
-      <dialog id="long-content-modal" aria-modal="true" class="modal overflow-y-hidden">
-        <div class="overflow-y-auto">
-          <div class="modal-content">
-            <header>
-              <h2 class="mt-0">Long content</h2>
-            </header>
-            <div>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-              <p class="handwritten text-lg">I will not talk in class I will not talk in class</p>
-
-
-            </div>
-            <footer class="align-right">
-              <button class="btn-blue" btfcss-modal-close="long-content-modal">Close</button>
-            </footer>
-          </div>
-        </div>
-      </dialog>
-
-
-
-      <dialog id="toggle-modal-1" aria-modal="true" class="modal">
-        <div class="modal-content">
-          <header>
-            <h2 class="mt-0">Modal 1</h2>
-          </header>
-          <div>
-            Click the button to open the second modal.
-          </div>
-          <footer class="align-right">
-            <button class="btn-blue" btfcss-modal-target="toggle-modal-2">Open second modal</button>
-            <button class="btn-grey" btfcss-modal-close="toggle-modal-1">Close</button>
-          </footer>
-        </div>
-      </dialog>
-
-      <dialog id="toggle-modal-2" aria-modal="true" class="modal">
-        <div class="modal-content">
-          <header>
-            <h2 class="mt-0">Modal 2</h2>
-          </header>
-          <div>
-            Click the button to go back to the first modal.
-          </div>
-          <footer class="align-right">
-            <button class="btn-blue" btfcss-modal-target="toggle-modal-1">Back to first modal</button>
-            <button class="btn-grey" btfcss-modal-close="toggle-modal-2">Close</button>
-          </footer>
-        </div>
-      </dialog>
-
-      <dialog id="full-width-modal" aria-modal="true" class="modal">
-        <div class="modal-content w-100vw w-max-100">
-          <header>
-            <h2 class="mt-0">Full Width Modal</h2>
-          </header>
-          <div>
-            This is a full width modal
-          </div>
-          <footer class="align-right">            
-            <button class="btn-blue" btfcss-modal-close="full-width-modal">Close</button>
-          </footer>
-        </div>
-      </dialog>
-
-
-
-
-
-
-      <!-- Grid -->
-      <div class="card">
-        <div class="header">
-          <h2>Grid</h2>
-        </div>
-        <div class="body grid">
-          <div class="rounded-3 border p-4 text-center hover:scale-105">1
-          </div>
-          <div class="rounded-3 border p-4 text-center hover:scale-105">2
-          </div>
-          <div class="rounded-3 border p-4 text-center hover:scale-105">3
-          </div>
-          <div class="rounded-3 border p-4 text-center hover:scale-105">4
-          </div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
-
       <%- include cards/headers.ejs %>
       <%- include cards/typography.ejs %>
       <%- include cards/text-colors.ejs %>
@@ -282,6 +88,7 @@
       <%- include cards/rounded.ejs %>
       <%- include cards/card-with-header.ejs %>
       <%- include cards/card-with-image.ejs %>
+      <%- include cards/modal.ejs %>
 
 
 
@@ -305,62 +112,12 @@
         </div>
       </div>
 
-      <% /* %>
       <%- include cards/horizontal-flex.ejs %>
       <%- include cards/vertical-flex.ejs %>
       <%- include cards/scale.ejs %>
       <%- include cards/rotation.ejs %>
       <%- include cards/cursor.ejs %>
-
-      <% */ %>
-
-
-      <!-- Masonry -->
-      <div class="card">
-        <div class="header">
-          <h2>Masonry</h2>
-        </div>
-        <div class="body">
-
-          <div class="masonry-4 masonry-gap-3">
-            <div class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
-              1</div>
-            <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-              2</div>
-            <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-              3</div>
-            <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-              4</div>
-            <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-              5</div>
-            <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-              6</div>
-            <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-              7</div>
-            <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-              8</div>
-            <div class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
-              9</div>
-            <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-              10</div>
-            <div class="text-center rounded hover:scale-105 ratio-1x1 bg-cyan">
-              11</div>
-            <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-              12</div>
-            <div class="text-center rounded hover:scale-105 ratio-9x16 bg-blue">
-              13</div>
-            <div class="text-center rounded hover:scale-105 ratio-16x9 bg-green">
-              14</div>
-          </div>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-
-
+      <%- include cards/masonry.ejs %>
       <%- include cards/code.ejs %>
       <%- include cards/stripes.ejs %>
       <%- include cards/hatching.ejs %>
@@ -370,6 +127,16 @@
       <%- include cards/palette.ejs %>
 
 
+      <%- include modals/simple-modal.ejs %>
+      <%- include modals/no-animation.ejs %>
+      <%- include modals/no-blur.ejs %>      
+      <%- include modals/centered.ejs %>
+      <%- include modals/long-content.ejs %>
+      <%- include modals/toggle-1.ejs %>
+      <%- include modals/toggle-2.ejs %>
+      <%- include modals/full-width.ejs %>
+      
+      
     </div> <!-- end of masonry -->
 
   </div> <!-- end of main -->

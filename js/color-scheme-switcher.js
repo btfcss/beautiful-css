@@ -26,6 +26,7 @@ const onChange = async (status) => {
       btnColorSchemeLight.classList.add('active');
       btnColorSchemeSystem.classList.remove('active');
       btnColorSchemeDark.classList.remove('active');
+      document.querySelector('h1').innerText = "Classic Light";
       break;
     case "dark":
       btnColorSchemeLight.classList.remove('active');
@@ -36,7 +37,11 @@ const onChange = async (status) => {
       btnColorSchemeLight.classList.remove('active');
       btnColorSchemeSystem.classList.add('active');
       btnColorSchemeDark.classList.remove('active');
+      document.querySelector('h1').innerText = "Classic Dark";
   }
+
+  // Update page title
+  document.querySelector('h1').innerText = (status.current == "light") ? "Classic Light" : "Classic Dark";
 }
 
 
