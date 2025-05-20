@@ -51,7 +51,7 @@
   
   color: light-dark(var(--text-light, var(--black-500)), var(--text-dark, var(--white-500)));
   
-  box-shadow: 0 0 0 0.25rem var(--btn-box-shadow);
+  box-shadow: 0 0 0 0.12rem var(--btn-box-shadow);
 }
 
 .btn:disabled,
