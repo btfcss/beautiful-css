@@ -40,9 +40,6 @@
   align-content: center;
 }
 
-
-.input-group > span
-
 .input-group:has(*:focus),
 .input-group:has(*:focus-within),
 .input-group:has(*:focus-visible) {

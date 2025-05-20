@@ -54,6 +54,5 @@ const closeModal = (id, next) => {
     currentModalId = null;
     if (next) openModal(next);
   }, { once: true });
-
 }
 
