@@ -54,8 +54,8 @@
   --bg-dark: var(--grey-600);
   --border-light: var(--grey-600);
   --border-dark: var(--grey-600);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: #000;
+  --text-dark: #000;
 }
 
 :not(.input-group) > .btn-grey:focus:not(:disabled),

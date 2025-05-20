@@ -71,12 +71,15 @@
         <div class="header">
           <h2>Modal</h2>
         </div>
-        <div class="body v-flex-center gap-3">
+        <div class="body v-flex-center gap-4">
           <!-- <button class="btn-purple w-100 mb-3" btfcss-modal-target="simple-modal">Open modal</button>           -->
           <button class="btn-purple btn-lg" btfcss-modal-target="simple-modal">Launch demo modal</button>
           <button class="btn-purple btn-lg" btfcss-modal-target="no-animation-modal">No animation</button>
           <button class="btn-purple btn-lg" btfcss-modal-target="blurred-modal">No blur</button>
+          <button class="btn-purple btn-lg" btfcss-modal-target="centered-modal">Centered modal</button>          
           <button class="btn-purple btn-lg" btfcss-modal-target="long-content-modal">Long content</button>
+          <button class="btn-purple btn-lg" btfcss-modal-target="toggle-modal-1">Toggle between modals</button>
+          <button class="btn-purple btn-lg" btfcss-modal-target="full-width-modal">Full width</button>
         </div>
         <div class="footer align-right">
           <button class="btn-blue">&lt;code&gt;</button>
@@ -93,10 +96,23 @@
           </header>
           <div>
             Whoa There, Cowboy!
-            <button class="btn-purple btn-lg" btfcss-modal-target="long-content-modal">Long content</button>
           </div>
           <footer class="align-right">
             <button class="btn-blue" btfcss-modal-close="simple-modal">Close</button>
+          </footer>
+        </div>
+      </dialog>
+
+      <dialog id="centered-modal" class="modal my-auto" popover>
+        <div class="modal-content">
+          <header>
+            <h2 class="mt-0">Centered Modal</h2>
+          </header>
+          <div>
+            This modal is centered in the viewport
+          </div>
+          <footer class="align-right">
+            <button class="btn-blue" btfcss-modal-close="centered-modal">Close</button>
           </footer>
         </div>
       </dialog>
@@ -172,6 +188,57 @@
         </div>
       </dialog>
 
+
+
+      <dialog id="toggle-modal-1" aria-modal="true" class="modal" popover>
+        <div class="modal-content">
+          <header>
+            <h2 class="mt-0">Modal 1</h2>
+          </header>
+          <div>
+            Click the button to open the second modal.
+          </div>
+          <footer class="align-right">
+            <button class="btn-blue" btfcss-modal-target="toggle-modal-2">Open second modal</button>
+            <button class="btn-grey" btfcss-modal-close="toggle-modal-1">Close</button>
+          </footer>
+        </div>
+      </dialog>
+
+      <dialog id="toggle-modal-2" aria-modal="true" class="modal" popover>
+        <div class="modal-content">
+          <header>
+            <h2 class="mt-0">Modal 2</h2>
+          </header>
+          <div>
+            Click the button to go back to the first modal.
+          </div>
+          <footer class="align-right">
+            <button class="btn-blue" btfcss-modal-target="toggle-modal-1">Back to first modal</button>
+            <button class="btn-grey" btfcss-modal-close="toggle-modal-2">Close</button>
+          </footer>
+        </div>
+      </dialog>
+
+      <dialog id="full-width-modal" aria-modal="true" class="modal" popover>
+        <div class="modal-content w-100vw w-max-100">
+          <header>
+            <h2 class="mt-0">Full Width Modal</h2>
+          </header>
+          <div>
+            This is a full width moldal
+          </div>
+          <footer class="align-right">            
+            <button class="btn-blue" btfcss-modal-close="full-width-modal">Close</button>
+          </footer>
+        </div>
+      </dialog>
+
+
+
+
+
+
       <!-- Grid -->
       <div class="card">
         <div class="header">
@@ -194,8 +261,6 @@
 
       <%- include cards/headers.ejs %>
       <%- include cards/typography.ejs %>
-
-      <% /* %>
       <%- include cards/text-colors.ejs %>
       <%- include cards/background-colors.ejs %>
       <%- include cards/text-alignment.ejs %>
@@ -217,14 +282,10 @@
       <%- include cards/rounded.ejs %>
       <%- include cards/card-with-header.ejs %>
       <%- include cards/card-with-image.ejs %>
-      <% */ %>
 
 
 
-
-
-
-      <!-- Modals -->
+      <!-- Grid -->
       <div class="card">
         <div class="header">
           <h2>Grid</h2>

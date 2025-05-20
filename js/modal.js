@@ -4,7 +4,7 @@ document.body.addEventListener('click', (event) => {
 
   // Check if modal target attribute exists
   const modalTargetId = event.target.getAttribute('btfcss-modal-target');
-  console.log(modalTargetId, currentModal)
+  console.log('modalTargetId', modalTargetId, currentModal)
   if (modalTargetId)
     if (currentModal) closeModal(currentModal, modalTargetId); else openModal(modalTargetId);
 
