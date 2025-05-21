@@ -11,23 +11,23 @@
 .w-128px { width: 128px; }
 .w-256px { width: 256px; }
 
-.w-sm { width: var(--sm); }
-.w-md { width: var(--md); }
-.w-lg { width: var(--lg); }
-.w-xl { width: var(--xl); }
-.w-xxl { width: var(--xxl); }
+.w-sm { width: var(--breakpoint-sm); }
+.w-md { width: var(--breakpoint-md); }
+.w-lg { width: var(--breakpoint-lg); }
+.w-xl { width: var(--breakpoint-xl); }
+.w-xxl { width: var(--breakpoint-xxl); }
 
-.w-min-sm { min-width: var(--sm); }
-.w-min-md { min-width: var(--md); }
-.w-min-lg { min-width: var(--lg); }
-.w-min-xl { min-width: var(--xl); }
-.w-min-xxl { min-width: var(--xxl); }
+.w-min-sm { min-width: var(--breakpoint-sm); }
+.w-min-md { min-width: var(--breakpoint-md); }
+.w-min-lg { min-width: var(--breakpoint-lg); }
+.w-min-xl { min-width: var(--breakpoint-xl); }
+.w-min-xxl { min-width: var(--breakpoint-xxl); }
 
-.w-max-sm { max-width: var(--sm); }
-.w-max-md { max-width: var(--md); }
-.w-max-lg { max-width: var(--lg); }
-.w-max-xl { max-width: var(--xl); }
-.w-max-xxl { max-width: var(--xxl); }
+.w-max-sm { max-width: var(--breakpoint-sm); }
+.w-max-md { max-width: var(--breakpoint-md); }
+.w-max-lg { max-width: var(--breakpoint-lg); }
+.w-max-xl { max-width: var(--breakpoint-xl); }
+.w-max-xxl { max-width: var(--breakpoint-xxl); }
 
 
 .w-25 { width: 25%; }
@@ -57,7 +57,6 @@
 .w-min-75vw { min-width: 75vw; }
 .w-min-96vw { min-width: 96vw; }
 .w-min-100vw { min-width: 100vw; }
-
 
 .w-max-25vw { max-width: 25vw; }
 .w-max-50vw { max-width: 50vw; }

@@ -11,23 +11,23 @@
 .h-128px { height: 128px; }
 .h-256px { height: 256px; }
 
-.h-sm { height: var(--sm); }
-.h-md { height: var(--md); }
-.h-lg { height: var(--lg); }
-.h-xl { height: var(--xl); }
-.h-xxl { height: var(--xxl); }
+.h-sm { height: var(--breakpoint-sm); }
+.h-md { height: var(--breakpoint-md); }
+.h-lg { height: var(--breakpoint-lg); }
+.h-xl { height: var(--breakpoint-xl); }
+.h-xxl { height: var(--breakpoint-xxl); }
 
-.h-min-sm { min-height: var(--sm); }
-.h-min-md { min-height: var(--md); }
-.h-min-lg { min-height: var(--lg); }
-.h-min-xl { min-height: var(--xl); }
-.h-min-xxl { min-height: var(--xxl); }
+.h-min-sm { min-height: var(--breakpoint-sm); }
+.h-min-md { min-height: var(--breakpoint-md); }
+.h-min-lg { min-height: var(--breakpoint-lg); }
+.h-min-xl { min-height: var(--breakpoint-xl); }
+.h-min-xxl { min-height: var(--breakpoint-xxl); }
 
-.h-max-sm { max-height: var(--sm); }
-.h-max-md { max-height: var(--md); }
-.h-max-lg { max-height: var(--lg); }
-.h-max-xl { max-height: var(--xl); }
-.h-max-xxl { max-height: var(--xxl); }
+.h-max-sm { max-height: var(--sbreakpoint-m); }
+.h-max-md { max-height: var(--breakpoint-md); }
+.h-max-lg { max-height: var(--breakpoint-lg); }
+.h-max-xl { max-height: var(--breakpoint-xl); }
+.h-max-xxl { max-height: var(--breakpoint-xxl); }
 
 
 .h-25 { height: 25%; }

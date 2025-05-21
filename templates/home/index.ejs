@@ -17,7 +17,7 @@
 </head>
 
 
-<body class="dotted-white-800 dark:dotted-black-400 h-100vh overflow-hidden v-flex-start" style="display: none">
+<body class="dotted-white-500 dark:dotted-black-400 h-100vh overflow-hidden v-flex-start" style="display: none">
 
 
   <div class="p-2 light:bg-grey-200 dark:bg-black-400 border-bottom-1 light:border-grey-600 dark:border-grey-800">
@@ -25,7 +25,7 @@
       <div class="v-flex-center">
         <div class="h-flex-start">
           <img src="/images/logo.png" class="h-32px">
-          <b class="h-32px ml-2 text-lg logo-font text-no-wrap d-none d-md-block">Beautiful CSS</b>
+          <b class="h-32px ml-2 fs-lg logo-font text-no-wrap d-none d-md-block">Beautiful CSS</b>
         </div>
       </div>
       <div class="grow-1 h-flex-center">
@@ -47,20 +47,14 @@
 
 
   <div id="main" class="p-3 grow-1 overflow-y-auto">
+    <div class="text-center">
+      <h1>Classic Dark</h1>
 
-    <h1>Classic Dark</h1>
+      <p class="w-max-lg mx-auto fs-lg">Beautiful CSS is a lightweight, pure CSS framework designed for rapid website development.
+        It offers a clean, modern foundation and comes with built-in support for both light and dark color schemes</p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend nisl metus, nec venenatis sapien
-      efficitur vitae. Fusce vel lobortis sapien, a aliquet risus. Integer at porttitor dolor, viverra maximus mauris.
-      Vivamus egestas erat auctor aliquam congue. Praesent vel ultricies nibh. Integer lorem diam, mollis venenatis
-      pulvinar non, egestas id leo. Duis sed lectus sollicitudin, commodo sem vitae, iaculis dui. Orci varius natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec pharetra arcu diam, sit amet accumsan
-      dolor finibus in. Donec euismod, elit cursus lobortis laoreet, erat diam laoreet neque, at fringilla tortor ante
-      sit amet justo. Proin ac risus vestibulum, laoreet leo ut, faucibus dui. Maecenas a risus turpis. Donec id dapibus
-      lectus, eu commodo augue. Suspendisse tristique ligula ac nibh mattis venenatis. Nunc elementum augue sit amet
-      porta feugiat. Integer commodo, odio sit amet sodales porttitor, turpis sem blandit purus, non imperdiet felis
-      felis a purus.</p>
-
+      <p class="w-max-lg mx-auto fs-lg color-red">Beautiful CSS is currently in beta—not recommended for production use.</p>
+    </div>
 
     <div class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
 
@@ -129,14 +123,14 @@
 
       <%- include modals/simple-modal.ejs %>
       <%- include modals/no-animation.ejs %>
-      <%- include modals/no-blur.ejs %>      
+      <%- include modals/no-blur.ejs %>
       <%- include modals/centered.ejs %>
       <%- include modals/long-content.ejs %>
       <%- include modals/toggle-1.ejs %>
       <%- include modals/toggle-2.ejs %>
       <%- include modals/full-width.ejs %>
-      
-      
+
+
     </div> <!-- end of masonry -->
 
   </div> <!-- end of main -->

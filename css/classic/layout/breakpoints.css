@@ -1,7 +1,7 @@
 :root {
-  --sm: 40rem;
-  --md: 48rem;
-  --lg: 64rem;
-  --xl: 80rem;
-  --xxl: 96rem;
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-xxl: 96rem;
 }
