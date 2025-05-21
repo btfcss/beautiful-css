@@ -1,7 +1,9 @@
 import hljs from "highlight.js";
 import '@fortawesome/fontawesome-free/js/all.js';
 import "./color-scheme-switcher";
-import "./modal";
+import { toggleModal } from "@btfcss/modal";
+
+
 
 
 // Highlight codes
@@ -14,3 +16,4 @@ hljs.highlightAll({ showLanguageLabel: true });
 window.onload = function () {  
   document.querySelector('body').style.removeProperty('display');
 };
+
