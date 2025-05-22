@@ -1,17 +1,40 @@
-      <!-- Headings -->
-      <div class="card">
-        <div class="header">
-          <h2>Headings</h2>
-        </div>
-        <div class="body">
-          <h1>h1. Heading 1</h1>
-          <h2>h2. Heading 2</h2>
-          <h3>h3. Heading 3</h3>
-          <h4>h4. Heading 4</h4>
-          <h5>h5. Heading 5</h5>
-          <h6>h6. Heading 6</h6>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
+<div class="card">
+  <div class="header">
+    <h2>Headings</h2>
+  </div>
+  <div class="body">
+    <h1>h1. Heading 1</h1>
+    <h2>h2. Heading 2</h2>
+    <h3>h3. Heading 3</h3>
+    <h4>h4. Heading 4</h4>
+    <h5>h5. Heading 5</h5>
+    <h6>h6. Heading 6</h6>
+  </div>
+  <div class="footer align-right">
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="headings">&lt;code&gt;</button>
+  </div>
+</div>
+
+
+
+<div id="doc-headings" hidden>
+  <h2>Headings</h2>
+  <content>
+    <p>Ceci est un texte de présentation</p>
+    <pre><code class="language-html">&lt;dialog id=&quot;documentation-modal&quot; class=&quot;modal&quot; data-close-modal&gt;
+&lt;div class=&quot;modal-content w-100vw w-max-100&quot;&gt;
+  &lt;header&gt;
+    &lt;h2 class=&quot;mt-0&quot;&gt;&lt;/h2&gt;
+  &lt;/header&gt;
+  &lt;div&gt;
+    
+  &lt;/div&gt;
+&lt;footer class=&quot;align-right&quot;&gt;
+    &lt;button class=&quot;btn-blue&quot; data-close-modal&gt;Close&lt;/button&gt;
+&lt;/footer&gt;
+&lt;/div&gt;
+&lt;/dialog&gt;
+</code></pre>
+
+  </content>
+</div>

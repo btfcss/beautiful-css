@@ -50,12 +50,14 @@
     <div class="text-center">
       <h1>Classic Dark</h1>
 
-      <p class="w-max-lg mx-auto fs-lg color-red">Beautiful CSS is currently in beta—not recommended for production use.</p>
-      
-      <p class="w-max-lg mx-auto fs-lg">Beautiful CSS is a lightweight, pure CSS framework designed for rapid website development.
+      <p class="w-max-lg mx-auto fs-lg color-red">Beautiful CSS is currently in beta—not recommended for production use.
+      </p>
+
+      <p class="w-max-lg mx-auto fs-lg">Beautiful CSS is a lightweight, pure CSS framework designed for rapid website
+        development.
         It offers a clean, modern foundation and comes with built-in support for both light and dark color schemes</p>
 
-      
+
     </div>
 
     <div class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
@@ -132,6 +134,20 @@
       <%- include modals/toggle-2.ejs %>
       <%- include modals/full-width.ejs %>
 
+
+      <dialog id="documentation-modal" class="modal" data-close-modal>
+        <div class="modal-content w-100vw w-max-100">
+          <header>
+            <h2 class="mt-0"></h2>
+          </header>
+          <div>
+            
+          </div>
+        <footer class="align-right">
+            <button class="btn-blue" data-close-modal>Close</button>
+        </footer>
+        </div>
+      </dialog>
 
     </div> <!-- end of masonry -->
 
