@@ -1,8 +1,8 @@
 import hljs from "highlight.js";
 import '@fortawesome/fontawesome-free/js/all.js';
 import "./color-scheme-switcher";
-//import "@btfcss/modal";
-import "./modal";
+import "@btfcss/modal";
+//import "./modal";
 
 
 
@@ -27,7 +27,7 @@ const documentationModalContent = documentationModal.querySelector('.modal-conte
 
 
 // When the modal documentation is opened
-documentationModal.addEventListener('onModalShow', (event) => {
+documentationModal.addEventListener('onModalOpen', (event) => {
     
   // Populate them modal
     const documentationId = 'doc-' + event.triggerElement.dataset.documentation;

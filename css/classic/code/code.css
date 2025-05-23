@@ -1,8 +1,12 @@
 @import url(highlightjs.css);
 
-
-pre>code {
-    margin: 1rem 0em;
-    width: fit-content;
+code  {
+    font-size: 1rem;
+    color: light-dark(var(--red-500), var(--red-500));
+    padding-left: var(--spacing-2);
+    padding-right: var(--spacing-2);
+    margin-left: var(--spacing-2);
+    margin-right: var(--spacing-2);
+    background-color: light-dark(var(--white-500), var(--black-400));
     border-radius: var(--spacing-2);
 }
