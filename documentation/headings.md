@@ -24,7 +24,7 @@ The **Headings** module provides consistent, responsive typography styles for HT
 <h6>Smallest Heading</h6>
 ```
 
-### Utility Classes
+#### Utility Classes
 
 ```html
 <div class="h1">Main Heading</div>
