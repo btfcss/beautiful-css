@@ -35,7 +35,7 @@ body:has(.modal[open]) {
 .modal-content {
   overscroll-behavior: contain;  
   height: fit-content;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 

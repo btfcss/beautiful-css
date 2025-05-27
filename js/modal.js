@@ -1,10 +1,10 @@
 let currentModalId = null;
 
 // Events
-const eventShow = new Event("onModalShow");
-const eventShown = new Event("onModalShown");
-const eventHide = new Event("onModalHide");
-const eventHidden = new Event("onModalHidden");
+const eventOpen = new Event("onModalOpen");
+const eventOpened = new Event("onModalOpened");
+const eventClose = new Event("onModalClose");
+const eventClosed = new Event("onModalClosed");
 
 
 document.body.addEventListener('click', (event) => {
@@ -46,8 +46,8 @@ export const openModal = (id, triggerElement) => {
 
   // Dispatch the show event
   const modalEl = document.getElementById(id);
-  eventShow.triggerElement = triggerElement;
-  modalEl.dispatchEvent(eventShow);
+  eventOpen.triggerElement = triggerElement;
+  modalEl.dispatchEvent(eventOpen);
 
   // Add the animation class
   modalEl.classList.add('modal-is-opening');
@@ -59,16 +59,17 @@ export const openModal = (id, triggerElement) => {
     modalEl.classList.remove('modal-is-opening');
 
     // Dispatch the shown event
-    eventShown.triggerElement = triggerElement;
-    modalEl.dispatchEvent(eventShown);
+    eventOpened.triggerElement = triggerElement;
+    modalEl.dispatchEvent(eventOpened);
   
   }, { once: true });
   
   // Show the modal (and trigger the  animation)
   modalEl.showModal();
 
-  // Scroll to top of modal
-  modalEl.querySelector('.modal-content:first-child').scrollIntoView();
+  // Scroll to top of modal if requested
+  if (modalEl.dataset.scrollTo === 'top')
+    modalEl.querySelector('.modal-content').scrollTo(top);
 
   // Set the modal as current modal
   currentModalId = id;
@@ -85,7 +86,7 @@ export const closeModal = (id, next) => {
 
   // Trigger the hide event
   const modalEl = document.getElementById(id);
-  modalEl.dispatchEvent(eventHide);
+  modalEl.dispatchEvent(eventClose);
 
   // Add the animation class
   modalEl.classList.add("modal-is-closing");
@@ -100,7 +101,7 @@ export const closeModal = (id, next) => {
     modalEl.close();
 
     // Dispatch the hidden event
-    modalEl.dispatchEvent(eventHidden);
+    modalEl.dispatchEvent(eventClosed);
 
     // No modal opened
     currentModalId = null;

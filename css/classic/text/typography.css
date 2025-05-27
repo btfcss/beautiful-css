@@ -9,6 +9,7 @@ body {
 p {
   margin-top: 0.618rem;
   margin-bottom: 0.618rem;
+  line-height: var(--spacing-5);
 }
 
 
