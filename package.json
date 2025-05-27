@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "webpack --env=mode=development",
     "prod": "webpack --env=mode=production",
+    "doc": "sh -c 'for file in ./documentation/*.md; do fname=$(basename \"$file\" .md); pandoc --no-highlight \"$file\" -t html -o \"./templates/home/documentation/$fname.ejs\"; done'",
     "deploy": "npm run prod && . private/create-env.sh && ./deploy.sh"
   },
   "repository": {
