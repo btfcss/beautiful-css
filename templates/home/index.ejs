@@ -62,9 +62,9 @@
 
     <div class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
 
+      
 
-
-
+      
 
       <%- include cards/headers.ejs %>
       <%- include cards/typography.ejs %>
@@ -72,43 +72,8 @@
       <%- include cards/background-colors.ejs %>
       <%- include cards/text-alignment.ejs %>
       <%- include cards/font-size.ejs %>
-
-            <!-- Lists -->
-      <div class="card">
-        <div class="header">
-          <h2>Lists</h2>
-        </div>
-        <div class="body">
-          <p>Here is an unordered list example:</p>
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-          </ul>
-          <hr>
-          <p>Here is an ordered list example:</p>
-          <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-          </ol>
-          <hr>
-          <p>Custom list style:</p>
-          <ul>
-            <li class="list-disc">Disc</li>            
-            <li class="list-circle">Circle</li>
-            <li class="list-square">Square</li>
-            <li class="list-decimal">Decimal</li>
-            <li class="list-none">None</li>
-          </ul>
-        </div>
-        <div class="footer align-right">
-          <button class="btn-blue">&lt;code&gt;</button>
-        </div>
-      </div>
-
-
-      
+      <%- include cards/list.ejs %>
+      <%- include cards/table.ejs %>
       <%- include cards/margins.ejs %>
       <%- include cards/paddings.ejs %>
       <%- include cards/buttons.ejs %>
@@ -181,11 +146,11 @@
             <h2 class="mt-0"></h2>
           </header>
           <div>
-            
+
           </div>
-        <footer class="align-right">
+          <footer class="align-right">
             <button class="btn-blue" data-close-modal>Close</button>
-        </footer>
+          </footer>
         </div>
       </dialog>
 

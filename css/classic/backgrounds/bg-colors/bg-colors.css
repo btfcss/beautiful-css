@@ -12,18 +12,22 @@
 @import url(bg-black.css);
 
 
+.bg-transparent { --bg-light:transparent;--bg-dark:transparent;}
+.light\:bg-transparent { --bg-light:transparent;}
+.dark\:bg-transparent { --bg-dark:transparent;}
+
 [class*="light\:bg-"]:not([class*="dark\:bg-"]) {
-  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark,inherit));
+  background-color: light-dark(var(--bg-light, var(--white-200)), var(--bg-dark,transparent))!important;
 }
 
 [class*="dark\:bg-"]:not([class*="light\:bg-"]) {
-  background-color: light-dark(var(--bg-light,inherit), var(--bg-dark, var(--black-200)));
+  background-color: light-dark(var(--bg-light,transparent), var(--bg-dark, var(--black-200)))!important;
 }
 
 
 [class*="light\:bg-"][class*="dark\:bg-"],
 [class*="bg-"] {
-  background-color: light-dark(var(--bg-light, inherit), var(--bg-dark, inherit));
+  background-color: light-dark(var(--bg-light, transparent), var(--bg-dark, transparent))!important;
 }
 
 

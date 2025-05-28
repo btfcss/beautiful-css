@@ -2,7 +2,7 @@
   white-space: normal;
 }
 
-
+.no-wrap,
 .text-nowrap {
   white-space: nowrap;
 }

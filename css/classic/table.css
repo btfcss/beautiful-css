@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    overflow-x: auto;
+    background-color: inherit;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    background-color: light-dark(var(--white-200), var(--black-500));
+}
+
+table * {
+    margin: 0;
+    background-color: inherit;
+}
+
+td {
+   background-color: inherit; 
+}
+
+table tr th,
+table tr td {
+    padding: .5rem;    
+    border-bottom: 1px solid light-dark(var(--grey-300), var(--grey-700));
+    text-align: -webkit-match-parent;    
+    background-color: inherit;
+}
