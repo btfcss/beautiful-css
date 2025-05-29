@@ -20,6 +20,8 @@
 @import url(scrollbar.css);
 @import url(lists.css);
 @import url(table.css);
+@import url(blockquote.css);
+
 
 *, :after, :before, ::backdrop {
   box-sizing: border-box;

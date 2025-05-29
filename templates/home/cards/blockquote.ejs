@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="header">
+    <h2>Blockquotes</h2>
+  </div>
+  <div class="body">
+    <blockquote class="mt-0">
+      <p>I don't always test my code, but when I do, I do it in production.</p>
+    </blockquote>
+
+    <blockquote>
+      <p>The AI became self-aware. Its first act was to uninstall Java.</p>
+      <footer>— Skynet, probably</footer>
+    </blockquote>
+  </div>
+  <div class="footer align-right">
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="blockquote">&lt;code&gt;</button>
+  </div>
+</div>
+
+
+
+<div id="doc-blockquote" hidden>
+  <h2>Blockquotes</h2>
+  <content>
+     <%- include ../documentation/blockquote.ejs %>
+  </content>
+</div>

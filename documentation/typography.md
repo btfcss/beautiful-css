@@ -1,5 +1,3 @@
-Beautiful CSS proposes several typography styles:
-
 Beautiful CSS provides a variety of typographic utilities for styling text semantically or with utility classes. Below is a reference of supported styles.
 
 <div class="overflow-x-auto">
@@ -8,7 +6,7 @@ Beautiful CSS provides a variety of typographic utilities for styling text seman
 | **Abbreviation** | <abbr title="Abbreviation">Abbr.</abbr> |`<abbr>` | - |  
 | **Bold** | <b>Bold text</b> |`<b>` | `.bold` | 
 | **Italic** | <i>Italic text</i> |`<i>` | `.italic` | 
-| **Strikethrough** | <s>Strikethrough</s> |`<s>` | `.strikethrough` | 
+| **Strikethrough** | <s>Strikethrough</s> | `<s>` | `.strikethrough` | 
 | **Underline** | <u>Underline</u> |`<u>` | `.underline` | 
 | **Small** | <small>Small</small> |`<small>` | `.small` | 
 | **Deleted** | <del>Deleted</del> |`<del>` | `.deleted` | 

@@ -1,0 +1,26 @@
+.blockquote, 
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  letter-spacing: 0.02ch;
+  margin: 0;
+  padding: var(--spacing-1);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-2);
+  color: light-dark(var(--black-500), var(--white-500));
+  border-left: 4px solid light-dark(var(--grey-200), var(--grey-800));
+  background: light-dark(var(--grey-50), var(--grey-950));
+  margin-top: var(--spacing-3);
+}
+
+.blockquote .footer, 
+.blockquote footer,
+blockquote .footer,
+blockquote footer {
+  padding-bottom: var(--spacing-3);
+  font-weight: bold;
+  font-size: 0.98rem;
+  font-style:normal;
+  color: light-dark(var(--black-950), var(--white-50));
+}
