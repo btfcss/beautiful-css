@@ -47,16 +47,16 @@ body:has(.modal[open]) {
 
 .modal-content>header {
   border-bottom: 1px solid light-dark(var(--grey-500), var(--grey-950));
-  padding: var(--spacing-4);
+  padding: clamp(var(--spacing-1), 1vw, var(--spacing-4));
 }
 
 .modal-content>div {
-  padding: var(--spacing-4);
+  padding: clamp(var(--spacing-1), 1vw, var(--spacing-4));
 }
 
 .modal-content>footer {
   border-top: 1px solid light-dark(var(--grey-500), var(--grey-950));
-  padding: var(--spacing-4);
+  padding: clamp(var(--spacing-1), 1vw, var(--spacing-4));
 }
 
 

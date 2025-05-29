@@ -24,3 +24,7 @@ table tr td {
     text-align: -webkit-match-parent;    
     background-color: inherit;
 }
+
+th {
+    color: light-dark(var(--black-900), var(--white-100));
+}

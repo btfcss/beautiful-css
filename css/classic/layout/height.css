@@ -23,7 +23,7 @@
 .h-min-xl { min-height: var(--breakpoint-xl)!important; }
 .h-min-xxl { min-height: var(--breakpoint-xxl)!important; }
 
-.h-max-sm { max-height: var(--sbreakpoint-m)!important; }
+.h-max-sm { max-height: var(--breakpoint-sm)!important; }
 .h-max-md { max-height: var(--breakpoint-md)!important; }
 .h-max-lg { max-height: var(--breakpoint-lg)!important; }
 .h-max-xl { max-height: var(--breakpoint-xl)!important; }
