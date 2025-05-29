@@ -8,6 +8,10 @@
   Touched: 2025
 */
 
+pre:has(code.hljs) {
+  overflow-x: auto;
+}
+
 pre code.hljs {
   display: block;
   overflow-x: auto;
@@ -16,7 +20,7 @@ pre code.hljs {
   line-height: 1.4rem;
   margin: 1rem 0em;
   width: fit-content;
-  border-radius: var(--spacing-2);
+  border-radius: var(--spacing-2);  
 }
 
 .hljs {

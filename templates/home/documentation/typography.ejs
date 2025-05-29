@@ -43,10 +43,36 @@ supported styles.</p>
 <td><code>.strikethrough</code></td>
 </tr>
 <tr class="odd">
+<td><strong>Strikethrough on hover</strong></td>
+<td><span class="hover:strikethrough">Strikethrough on hover</span></td>
+<td>-</td>
+<td><code>.hover:strikethrough</code></td>
+</tr>
+<tr class="even">
 <td><strong>Underline</strong></td>
 <td><u>Underline</u></td>
 <td><code>&lt;u&gt;</code></td>
 <td><code>.underline</code></td>
+</tr>
+<tr class="odd">
+<td><strong>Underline on hover</strong></td>
+<td><span class="hover:underline">Underline on hover</span></td>
+<td>-</td>
+<td><code>.hover:underline</code></td>
+</tr>
+<tr class="even">
+<td><strong>No decoration</strong></td>
+<td><a class="no-decoration" href="#typography">Not underlined
+link</a></td>
+<td>-</td>
+<td><code>.no-decoration</code></td>
+</tr>
+<tr class="odd">
+<td><strong>No decoration on hover</strong></td>
+<td><a class="hover:no-decoration" href="#typography">Not decoration on
+hover</a></td>
+<td>-</td>
+<td><code>.hover:no-decoration</code></td>
 </tr>
 <tr class="even">
 <td><strong>Small</strong></td>
@@ -137,11 +163,27 @@ readers and provides a tooltip on hover:</p>
 <code>&lt;s&gt;</code> tag or the <code>.strikethrough</code> class:</p>
 <pre class="html"><code>&lt;s&gt;Strikethrough text&lt;/s&gt;
 &lt;p class=&quot;strikethrough&quot;&gt;Strikethrough paragraph&lt;/p&gt;</code></pre>
+<h3 id="strikethrough-on-hover">Strikethrough on Hover</h3>
+<p>Apply a strikethrough only when the user hovers over the element
+using <code>.hover:strikethrough</code>:</p>
+<pre class="html"><code>&lt;span class=&quot;hover:strikethrough&quot;&gt;Strikethrough on hover&lt;/span&gt;</code></pre>
 <h3 id="underline">Underline</h3>
 <p>Underline text using the <code>&lt;u&gt;</code> tag or the
 <code>.underline</code> class:</p>
 <pre class="html"><code>&lt;u&gt;Underlined text&lt;/u&gt;
 &lt;p class=&quot;underline&quot;&gt;Underlined paragraph&lt;/p&gt;</code></pre>
+<h3 id="underline-on-hover">Underline on Hover</h3>
+<p>Underline text only when the user hovers over the element using
+<code>.hover:underline</code>:</p>
+<pre class="html"><code>&lt;p class=&quot;hover:underline&quot;&gt;Underlined text on hover&lt;/p&gt;</code></pre>
+<h3 id="no-decoration">No Decoration</h3>
+<p>Use <code>.no-decoration</code> to remove underline or any other text
+decoration:</p>
+<pre class="html"><code>&lt;a class=&quot;no-decoration&quot; href=&quot;#&quot;&gt;Not underlined link&lt;/a&gt;</code></pre>
+<h3 id="remove-decoration-on-hover">Remove Decoration on Hover</h3>
+<p>Use <code>.hover:no-decoration</code> to remove underline on
+hover:</p>
+<pre class="html"><code>&lt;a class=&quot;hover:no-decoration&quot; href=&quot;#&quot;&gt;Underline removed on hover&lt;/a&gt;</code></pre>
 <h3 id="small">Small</h3>
 <p>To render text in a smaller font size, use the
 <code>&lt;small&gt;</code> tag or the <code>.small</code> class:</p>

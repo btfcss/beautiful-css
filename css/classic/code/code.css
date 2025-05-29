@@ -8,5 +8,5 @@ code  {
     margin-left: var(--spacing-2);
     margin-right: var(--spacing-2);
     background-color: light-dark(var(--white-500), var(--black-400))!important;
-    border-radius: var(--spacing-2);
+    border-radius: var(--spacing-2);    
 }

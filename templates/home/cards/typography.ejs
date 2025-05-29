@@ -1,5 +1,5 @@
 <!-- Typography -->
-<div class="card">
+<div id="typography" class="card">
   <div class="header">
     <h2>Typography</h2>
   </div>
@@ -11,8 +11,16 @@
     <i>Italic</i>    
     <hr>
     <s>Strikethrough</s>
+    <hr>    
+    <span class="hover:strikethrough">Strikethrough on hover</span>
     <hr>
     <u>Underline</u>
+    <hr>
+    <span class="hover:underline">Underline on hover</span>
+    <hr>
+    <a class="no-decoration" href="#typography">Link with no underline</a>
+    <hr>
+    <a class="hover:no-decoration" href="#">Underline removed on hover</a>
     <hr>
     <small>Small</small>
     <hr>
@@ -44,7 +52,7 @@
 
 
 <div id="doc-typography" hidden>
-  <h2>Typography</h2>
+  <h2>Typography  <a href="#typography" class="no-decoration hover:underline">#</a></h2>
   <content>
      <%- include ../documentation/typography.ejs %>
   </content>

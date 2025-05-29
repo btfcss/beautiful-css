@@ -7,7 +7,11 @@ Beautiful CSS provides a variety of typographic utilities for styling text seman
 | **Bold** | <b>Bold text</b> |`<b>` | `.bold` | 
 | **Italic** | <i>Italic text</i> |`<i>` | `.italic` | 
 | **Strikethrough** | <s>Strikethrough</s> | `<s>` | `.strikethrough` | 
+| **Strikethrough on hover** | <span class="hover:strikethrough">Strikethrough on hover</span> | - | `.hover:strikethrough` | 
 | **Underline** | <u>Underline</u> |`<u>` | `.underline` | 
+| **Underline on hover** | <span class="hover:underline">Underline on hover</span> | - | `.hover:underline` | 
+| **No decoration** | <a class="no-decoration" href="#typography">Not underlined link</a> | - | `.no-decoration` | 
+| **No decoration on hover** | <a class="hover:no-decoration" href="#typography">Not decoration on hover</a> | - | `.hover:no-decoration` | 
 | **Small** | <small>Small</small> |`<small>` | `.small` | 
 | **Deleted** | <del>Deleted</del> |`<del>` | `.deleted` | 
 | **Inserted** | <ins>Deleted</ins> |`<ins>` | `.inserted` | 
@@ -61,15 +65,50 @@ To display text with a line through it, use the `<s>` tag or the `.strikethrough
 ```
 
 
+### Strikethrough on Hover
+
+Apply a strikethrough only when the user hovers over the element using `.hover:strikethrough`:
+
+``` html
+<span class="hover:strikethrough">Strikethrough on hover</span>
+```
+
+
 ### Underline 
 
 Underline text using the `<u>` tag or the `.underline` class:
-
 
 ``` html
 <u>Underlined text</u>
 <p class="underline">Underlined paragraph</p>
 ```
+
+### Underline on Hover 
+
+
+Underline text only when the user hovers over the element using  `.hover:underline`:
+
+``` html
+<p class="hover:underline">Underlined text on hover</p>
+```
+
+### No Decoration 
+
+Use `.no-decoration`  to remove underline or any other text decoration:
+
+``` html
+<a class="no-decoration" href="#">Not underlined link</a>
+```
+
+### Remove Decoration on Hover
+
+Use  `.hover:no-decoration` to remove underline on hover:
+
+
+``` html
+<a class="hover:no-decoration" href="#">Underline removed on hover</a>
+```
+
 
 ### Small 
 To render text in a smaller font size, use the `<small>` tag or the `.small` class:

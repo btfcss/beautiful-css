@@ -3,6 +3,7 @@ The **Headings** module provides consistent, responsive typography styles for HT
 
 ### Semantic Elements
 
+
 ```html
 <h1>Main Heading</h1>
 <h2>Section Title</h2>
@@ -24,4 +25,3 @@ The **Headings** module provides consistent, responsive typography styles for HT
 ```
 
 Use `.h1`–`.h6` when you want the heading styles without semantic HTML.
-

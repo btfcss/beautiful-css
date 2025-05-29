@@ -28,6 +28,40 @@ b,
   font-weight: bold;
 }
 
+i,
+.italic {
+  font-style: italic;
+}
+
+s,
+.strikethrough {
+  text-decoration: line-through;
+}
+
+
+.hover\:strikethrough:hover {
+  text-decoration: line-through;
+}
+
+u,
+.underline {
+  text-decoration: underline;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+.no-decoration,
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.hover\:no-decoration:hover {
+  text-decoration: none;
+}
+
+
 .deleted,
 del {
   color: var(--red-500);
@@ -71,14 +105,14 @@ small {
 
 .subscript,
 sub {
-  vertical-align: sub!important;
-  font-size: smaller!important;
+  vertical-align: sub !important;
+  font-size: smaller !important;
 }
 
 .superscript,
 sup {
-  vertical-align: sup!important;
-  font-size: smaller!important;
+  vertical-align: sup !important;
+  font-size: smaller !important;
 }
 
 .monospace {

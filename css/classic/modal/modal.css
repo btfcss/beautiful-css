@@ -1,31 +1,36 @@
-
-
 body:has(.modal[open]) {
-  overflow-x: hidden;    
+  overflow-x: hidden;
 }
 
 
-.modal::-webkit-scrollbar-thumb {  
+.modal::-webkit-scrollbar-thumb {
   background-color: red;
   color: blue;
 }
 
-.modal {  
+.modal {
   z-index: 1055;
   max-height: 100vh;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: var(--spacing-1);
+  margin-bottom: var(--spacing-1);
   margin-left: auto;
   margin-right: auto;
   border: 1px solid light-dark(var(--grey-500), var(--black-200));
   border-radius: var(--spacing-3);
   background-color: light-dark(var(--white-200), var(--black-800));
   height: fit-content;
-  overflow-x: hidden;  
-  overflow-y: auto;  
+  overflow-x: hidden;
+  overflow-y: auto;
   color: inherit;
   --opening-duration: 300ms;
   --closing-duration: 200ms;
+}
+
+@media (min-width: 48rem) {
+  .modal {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
 }
 
 .modal>*:first-child {
@@ -33,7 +38,7 @@ body:has(.modal[open]) {
 }
 
 .modal-content {
-  overscroll-behavior: contain;  
+  overscroll-behavior: contain;
   height: fit-content;
   overflow-y: auto;
 }

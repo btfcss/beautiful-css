@@ -12,6 +12,7 @@ blockquote {
   border-left: 4px solid light-dark(var(--grey-200), var(--grey-800));
   background: light-dark(var(--grey-50), var(--grey-950));
   margin-top: var(--spacing-3);
+  margin-bottom: var(--spacing-3);
 }
 
 .blockquote .footer, 
