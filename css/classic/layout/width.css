@@ -78,6 +78,9 @@
 .w-100svw { width: 100svw!important; }
 .w-100svh { width: 100svh!important; }
 
+.w-100vmin { width: 100vmin!important}
+.w-100vmax { width: 100vmax!important}
+
 .w-min { width: min-content!important; }
 .w-max { width: max-content!important; }
 .w-fit { width: fit-content!important; }

@@ -1,8 +1,2 @@
 @import url("./colors/colors.css");
 
-.sticky-top {
-  display: block;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-}

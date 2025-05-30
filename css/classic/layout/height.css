@@ -79,6 +79,9 @@
 .h-100svw { height: 100svw!important; }
 .h-100svh { height: 100svh!important; }
 
+.h-100vmin { height: 100vmin!important}
+.h-100vmax { height: 100vmax!important}
+
 .h-min { height: min-content!important; }
 .h-max { height: max-content!important; }
 .h-fit { height: fit-content!important; }

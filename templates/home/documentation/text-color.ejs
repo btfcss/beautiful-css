@@ -1,0 +1,228 @@
+<h3 id="text-colors-utilities">Text Colors utilities</h3>
+<p>Use text color utility classes to control the color of text elements.
+These classes follow a clear pattern and support responsive and
+state-based variants.</p>
+<h4 id="syntax">Syntax</h4>
+<pre class="css"><code>[color-scheme]:[state]:color-[name]-[shade]</code></pre>
+<ul>
+<li><code>color-[name]</code> – Applies a base color (e.g.,
+<code>color-red</code>, <code>color-blue</code>)</li>
+<li><code>color-[name]-[shade]</code> – Uses a specific shade of the
+color (e.g., <code>color-blue-200</code>)</li>
+<li><code>[color-scheme]</code> – Applies the color in light or dark
+mode (e.g., <code>dark:color-green</code>)</li>
+<li><code>[state]</code>– Applies the color on specific states (e.g.,
+<code>hover:color-purple-600</code>)</li>
+</ul>
+<h4 id="example">Example</h4>
+<pre class="html"><code>&lt;p class=&quot;color-red&quot;&gt;This is red.&lt;/p&gt;
+&lt;p class=&quot;color-blue-200&quot;&gt;This is light blue.&lt;/p&gt;
+&lt;p class=&quot;light:color-green&quot;&gt;Green in light mode.&lt;/p&gt;
+&lt;p class=&quot;dark:hover:color-purple-300&quot;&gt;Purple on hover in dark mode.&lt;/p&gt;</code></pre>
+<h4 id="output">Output</h4>
+<p class="color-red">
+This is red.
+</p>
+<p class="color-blue-200">
+This is light blue.
+</p>
+<p class="light:color-green">
+Green in light mode.
+</p>
+<p class="dark:hover:color-purple-300">
+Purple on hover in dark mode.
+</p>
+<h4 id="notes">Notes</h4>
+<ul>
+<li>Use color shades like <code>-100</code>, <code>-200</code>,
+<code>-300</code>, etc., for finer control.</li>
+<li>Variants like <code>light:</code> and <code>dark:</code> enable
+theme-specific styling.</li>
+<li>State variants (<code>hover:</code>, <code>focus:</code>, etc.) can
+be combined with theme variants for precise interactivity.</li>
+</ul>
+<hr />
+<h3 id="color-list">Color list</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Color</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Yellow</strong></td>
+<td><code>color-yellow</code></td>
+<td><span class="color-yellow">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Orange</strong></td>
+<td><code>color-orange</code></td>
+<td><span class="color-orange">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Red</strong></td>
+<td><code>color-red</code></td>
+<td><span class="color-red">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Pink</strong></td>
+<td><code>color-pink</code></td>
+<td><span class="color-pink">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Purple</strong></td>
+<td><code>color-purple</code></td>
+<td><span class="color-purple">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Blue</strong></td>
+<td><code>color-blue</code></td>
+<td><span class="color-blue">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Cyan</strong></td>
+<td><code>color-cyan</code></td>
+<td><span class="color-cyan">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Green</strong></td>
+<td><code>color-green</code></td>
+<td><span class="color-green">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>White</strong></td>
+<td><code>color-white</code></td>
+<td><span class="color-white">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Black</strong></td>
+<td><code>color-black</code></td>
+<td><span class="color-black">Color Example</span></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="variation">Variation</h3>
+<p>Each color includes 11 shade levels, ranging from the lightest
+<code>(-50)</code> to the darkest <code>(-950)</code>. Use these to
+fine-tune the text color of elements.</p>
+<h4 id="blue-shade-examples">Blue Shade Examples</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Variation</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>50</strong></td>
+<td><code>color-blue-50</code></td>
+<td><span class="color-blue-50">50</span></td>
+</tr>
+<tr class="even">
+<td><strong>100</strong></td>
+<td><code>color-blue-100</code></td>
+<td><span class="color-blue-100">100</span></td>
+</tr>
+<tr class="odd">
+<td><strong>200</strong></td>
+<td><code>color-blue-200</code></td>
+<td><span class="color-blue-200">200</span></td>
+</tr>
+<tr class="even">
+<td><strong>300</strong></td>
+<td><code>color-blue-300</code></td>
+<td><span class="color-blue-300">300</span></td>
+</tr>
+<tr class="odd">
+<td><strong>400</strong></td>
+<td><code>color-blue-400</code></td>
+<td><span class="color-blue-400">400</span></td>
+</tr>
+<tr class="even">
+<td><strong>500</strong></td>
+<td><code>color-blue-500</code></td>
+<td><span class="color-blue-500">500</span></td>
+</tr>
+<tr class="odd">
+<td><strong>600</strong></td>
+<td><code>color-blue-600</code></td>
+<td><span class="color-blue-600">600</span></td>
+</tr>
+<tr class="even">
+<td><strong>700</strong></td>
+<td><code>color-blue-700</code></td>
+<td><span class="color-blue-700">700</span></td>
+</tr>
+<tr class="odd">
+<td><strong>800</strong></td>
+<td><code>color-blue-800</code></td>
+<td><span class="color-blue-800">800</span></td>
+</tr>
+<tr class="even">
+<td><strong>900</strong></td>
+<td><code>color-blue-900</code></td>
+<td><span class="color-blue-900">900</span></td>
+</tr>
+<tr class="odd">
+<td><strong>950</strong></td>
+<td><code>color-blue-950</code></td>
+<td><span class="color-blue-950">950</span></td>
+</tr>
+</tbody>
+</table>
+<h4 id="notes-1">Notes</h4>
+<ul>
+<li>Use lower numbers (e.g., <code>-50</code>, <code>-100</code>) for
+<strong>light text colors</strong>.</li>
+<li>Use higher numbers (e.g., <code>-800</code>, <code>-950</code>) for
+<strong>dark text colors</strong>.</li>
+<li>Combine with mode or state variants for dynamic styles (e.g.,
+<code>dark:hover:color-blue-300</code>).</li>
+</ul>
+<hr />
+<h3 id="color-scheme">Color Scheme</h3>
+<p>You can use theme-based prefixes to apply different text colors based
+on the active color mode (<code>dark:</code> or
+<code>light:</code>).</p>
+<h4 id="example-1">Example</h4>
+<pre class="html"><code>&lt;p class=&quot;light:color-red dark:color-blue&quot;&gt;Red in light mode and blue in dark mode.&lt;/p&gt;</code></pre>
+<h4 id="output-1">Output</h4>
+<p class="light:color-red dark:color-blue">
+Red in light mode and blue in dark mode.
+</p>
+<h4 id="notes-2">Notes</h4>
+<ul>
+<li>These prefixes can be combined with hover and focus states, like
+<code>dark:hover:color-green-300</code>.</li>
+<li>Omitting the prefix applies the color in all modes.</li>
+</ul>
+<hr />
+<h3 id="hover">Hover</h3>
+<p>Use the <code>hover:</code> prefix to apply a text color when the
+user hovers over an element.</p>
+<h4 id="syntax-1">Syntax</h4>
+<pre class="css"><code>hover:color-[name]-[shade]</code></pre>
+<ul>
+<li>Triggers the text color change <strong>on hover</strong></li>
+<li>Can be combined with other variants like <code>dark:</code> or
+<code>light:</code></li>
+</ul>
+<h4 id="example-2">Example</h4>
+<pre class="html"><code>&lt;p class=&quot;hover:color-blue-500&quot;&gt;
+  Hover over this text to turn it blue.
+&lt;/p&gt;</code></pre>
+<h4 id="output-2">Output</h4>
+<p class="hover:color-blue-500">
+Hover over this text to turn it blue.
+</p>

@@ -1,0 +1,49 @@
+/*
+.sticky-top {
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+*/
+
+.position-relative,
+.relative {
+  position: relative;
+}
+
+.position-absolute,
+.absolute {
+  position: absolute;
+}
+
+.position-static,
+.static {
+  position: static;
+}
+
+.position-fixed,
+.fixed {
+  position: fixed;
+}
+
+.position-sticky,
+.sticky {
+  position: sticky;
+}
+
+.top-0 {
+  top:0;
+}
+
+.left-0 {
+  left:0;
+}
+
+.top-50 {
+  top:50%;
+}
+
+.left-50 {
+  left:50%;
+}

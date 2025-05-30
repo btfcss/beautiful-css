@@ -1,22 +1,32 @@
-<div class="card">
+<div id="text-colors" class="card">
   <div class="header">
     <h2>Text Colors</h2>
   </div>
   <div class="body text-center">
     <div class="rounded m-2 color-yellow">Yellow</div>
     <div class="rounded m-2 color-orange">Orange</div>
-    <div class="rounded m-2 color-red">Red</div>    
+    <div class="rounded m-2 color-red">Red</div>
     <div class="rounded m-2 color-pink">Pink</div>
-    <div class="rounded m-2 color-purple">Purple</div>        
+    <div class="rounded m-2 color-purple">Purple</div>
     <div class="rounded m-2 color-blue">Blue</div>
     <div class="rounded m-2 color-cyan">Cyan</div>
-    <div class="rounded m-2 color-green">Green</div>       
+    <div class="rounded m-2 color-green">Green</div>
     <div class="rounded m-2 light:bg-grey-950 color-white">White</div>
     <div class="rounded m-2 color-grey">Grey</div>
     <div class="rounded m-2 dark:bg-grey-200 color-black">Black</div>
-    <div class="rounded m-2 dark:color-yellow-700 dark:hover:color-purple-700 light:color-red-500 light:hover:color-green-500">Custom (hover me)</div>
+    <div
+      class="rounded m-2 dark:color-yellow-700 dark:hover:color-purple-700 light:color-red-500 light:hover:color-green-500">
+      Custom (hover me)</div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="text-colors">&lt;code&gt;</button>
   </div>
+</div>
+
+
+<div id="doc-text-colors" hidden>
+  <h2>Text Colors <a href="#text-color" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/text-color.ejs %>
+  </content>
 </div>
