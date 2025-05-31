@@ -1,0 +1,39 @@
+.stroke-green { --stroke-light:var(--green-500);--stroke-dark:var(--green-500);}
+.stroke-green-50  { --stroke-light:var(--green-50 );--stroke-dark:var(--green-50 );}
+.stroke-green-100 { --stroke-light:var(--green-100);--stroke-dark:var(--green-100);}
+.stroke-green-200 { --stroke-light:var(--green-200);--stroke-dark:var(--green-200);}
+.stroke-green-300 { --stroke-light:var(--green-300);--stroke-dark:var(--green-300);}
+.stroke-green-400 { --stroke-light:var(--green-400);--stroke-dark:var(--green-400);}
+.stroke-green-500 { --stroke-light:var(--green-500);--stroke-dark:var(--green-500);}
+.stroke-green-600 { --stroke-light:var(--green-600);--stroke-dark:var(--green-600);}
+.stroke-green-700 { --stroke-light:var(--green-700);--stroke-dark:var(--green-700);}
+.stroke-green-800 { --stroke-light:var(--green-800);--stroke-dark:var(--green-800);}
+.stroke-green-900 { --stroke-light:var(--green-900);--stroke-dark:var(--green-900);}
+.stroke-green-950 { --stroke-light:var(--green-950);--stroke-dark:var(--green-950);}
+
+.light\:stroke-green { --stroke-light:var(--green-500 ); }
+.light\:stroke-green-50  { --stroke-light:var(--green-50 ); }
+.light\:stroke-green-100 { --stroke-light:var(--green-100); }
+.light\:stroke-green-200 { --stroke-light:var(--green-200); }
+.light\:stroke-green-300 { --stroke-light:var(--green-300); }
+.light\:stroke-green-400 { --stroke-light:var(--green-400); }
+.light\:stroke-green-500 { --stroke-light:var(--green-500); }
+.light\:stroke-green-600 { --stroke-light:var(--green-600); }
+.light\:stroke-green-700 { --stroke-light:var(--green-700); }
+.light\:stroke-green-800 { --stroke-light:var(--green-800); }
+.light\:stroke-green-900 { --stroke-light:var(--green-900); }
+.light\:stroke-green-950 { --stroke-light:var(--green-950); }
+
+.dark\:stroke-green  { --stroke-dark:var(--green-500 ); }
+.dark\:stroke-green-50  { --stroke-dark:var(--green-50 ); }
+.dark\:stroke-green-100 { --stroke-dark:var(--green-100); }
+.dark\:stroke-green-200 { --stroke-dark:var(--green-200); }
+.dark\:stroke-green-300 { --stroke-dark:var(--green-300); }
+.dark\:stroke-green-400 { --stroke-dark:var(--green-400); }
+.dark\:stroke-green-500 { --stroke-dark:var(--green-500); }
+.dark\:stroke-green-600 { --stroke-dark:var(--green-600); }
+.dark\:stroke-green-700 { --stroke-dark:var(--green-700); }
+.dark\:stroke-green-800 { --stroke-dark:var(--green-800); }
+.dark\:stroke-green-900 { --stroke-dark:var(--green-900); }
+.dark\:stroke-green-950 { --stroke-dark:var(--green-950); }
+

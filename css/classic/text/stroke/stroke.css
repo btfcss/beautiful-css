@@ -1,0 +1,41 @@
+@import url(stroke-yellow.css);
+@import url(stroke-orange.css);
+@import url(stroke-red.css);
+@import url(stroke-pink.css);
+@import url(stroke-purple.css);
+@import url(stroke-blue.css);
+@import url(stroke-cyan.css);
+@import url(stroke-green.css);
+@import url(stroke-white.css);
+@import url(stroke-grey.css);
+@import url(stroke-black.css); 
+
+
+.light\:stroke,
+.dark\:stroke,
+.stroke,
+[class*="light\:stroke-"],
+[class*="dark\:stroke-"],
+[class*="stroke-"] {
+  -webkit-text-stroke-color: light-dark(var(--stroke-light, var(--black-950)), var(--stroke-dark, var(--white-50))) !important;
+  -webkit-text-stroke-width: var(--stroke-width, 1px);
+  paint-order: stroke fill;
+}
+
+
+.stroke-width-0 { --stroke-width: 0; }
+.stroke-width-1 { --stroke-width: var(--spacing-1); }
+.stroke-width-2 { --stroke-width: var(--spacing-2); }
+.stroke-width-3 { --stroke-width: var(--spacing-3); }
+.stroke-width-4 { --stroke-width: var(--spacing-4); }
+.stroke-width-5 { --stroke-width: var(--spacing-5); }
+.stroke-width-6 { --stroke-width: var(--spacing-6); }
+.stroke-width-7 { --stroke-width: var(--spacing-7); }
+
+
+.stroke-width-1px { --stroke-width: 1px; }
+.stroke-width-2px { --stroke-width: 2px; }
+.stroke-width-3px { --stroke-width: 3px; }
+.stroke-width-4px { --stroke-width: 4px; }
+.stroke-width-5px { --stroke-width: 5px; }
+

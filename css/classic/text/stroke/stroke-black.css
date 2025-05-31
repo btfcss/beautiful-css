@@ -1,0 +1,38 @@
+.stroke-black { --stroke-light:var(--black-500);--stroke-dark:var(--black-500);}
+.stroke-black-50  { --stroke-light:var(--black-50 );--stroke-dark:var(--black-50 );}
+.stroke-black-100 { --stroke-light:var(--black-100);--stroke-dark:var(--black-100);}
+.stroke-black-200 { --stroke-light:var(--black-200);--stroke-dark:var(--black-200);}
+.stroke-black-300 { --stroke-light:var(--black-300);--stroke-dark:var(--black-300);}
+.stroke-black-400 { --stroke-light:var(--black-400);--stroke-dark:var(--black-400);}
+.stroke-black-500 { --stroke-light:var(--black-500);--stroke-dark:var(--black-500);}
+.stroke-black-600 { --stroke-light:var(--black-600);--stroke-dark:var(--black-600);}
+.stroke-black-700 { --stroke-light:var(--black-700);--stroke-dark:var(--black-700);}
+.stroke-black-800 { --stroke-light:var(--black-800);--stroke-dark:var(--black-800);}
+.stroke-black-900 { --stroke-light:var(--black-900);--stroke-dark:var(--black-900);}
+.stroke-black-950 { --stroke-light:var(--black-950);--stroke-dark:var(--black-950);}
+
+.light\:stroke-black { --stroke-light:var(--black-500 ); }
+.light\:stroke-black-50  { --stroke-light:var(--black-50 ); }
+.light\:stroke-black-100 { --stroke-light:var(--black-100); }
+.light\:stroke-black-200 { --stroke-light:var(--black-200); }
+.light\:stroke-black-300 { --stroke-light:var(--black-300); }
+.light\:stroke-black-400 { --stroke-light:var(--black-400); }
+.light\:stroke-black-500 { --stroke-light:var(--black-500); }
+.light\:stroke-black-600 { --stroke-light:var(--black-600); }
+.light\:stroke-black-700 { --stroke-light:var(--black-700); }
+.light\:stroke-black-800 { --stroke-light:var(--black-800); }
+.light\:stroke-black-900 { --stroke-light:var(--black-900); }
+.light\:stroke-black-950 { --stroke-light:var(--black-950); }
+
+.dark\:stroke-black  { --stroke-dark:var(--black-500 ); }
+.dark\:stroke-black-50  { --stroke-dark:var(--black-50 ); }
+.dark\:stroke-black-100 { --stroke-dark:var(--black-100); }
+.dark\:stroke-black-200 { --stroke-dark:var(--black-200); }
+.dark\:stroke-black-300 { --stroke-dark:var(--black-300); }
+.dark\:stroke-black-400 { --stroke-dark:var(--black-400); }
+.dark\:stroke-black-500 { --stroke-dark:var(--black-500); }
+.dark\:stroke-black-600 { --stroke-dark:var(--black-600); }
+.dark\:stroke-black-700 { --stroke-dark:var(--black-700); }
+.dark\:stroke-black-800 { --stroke-dark:var(--black-800); }
+.dark\:stroke-black-900 { --stroke-dark:var(--black-900); }
+.dark\:stroke-black-950 { --stroke-dark:var(--black-950); }
