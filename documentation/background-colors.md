@@ -20,7 +20,7 @@ Use background color utility classes to control the background color of elements
 
 ``` html
 <div class="bg-red">bg-red</div>
-<div class="bg-red-200">bg-red-400</div>
+<div class="bg-red-400">bg-red-400</div>
 <div class="light:bg-green dark:bg-orange">light:bg-green dark:bg-orange</div>
 <div class="hover:bg-yellow">hover:bg-yellow</div>
 <div class="light:hover:bg-orange-300 dark:hover:bg-purple-300">dark:hover:bg-purple-300</div>
