@@ -1,4 +1,4 @@
-<div class="card">
+<div id="background-colors" class="card">
   <div class="header">
     <h2>Background Colors</h2>
   </div>
@@ -17,6 +17,16 @@
     <div class="rounded hover:scale-105 p-4 m-3 rounded-2 dark:bg-yellow-700 dark:hover:bg-purple-700 light:bg-red-500 light:hover:bg-green-500">Custom</div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="background-colors">&lt;code&gt;</button>
   </div>
+</div>
+
+
+
+
+<div id="doc-background-colors" hidden>
+  <h2>Background Colors <a href="#background-colors" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/background-colors.ejs %>
+  </content>
 </div>

@@ -56,14 +56,14 @@ Use text color utility classes to control the color of text elements. These clas
 
 ---
 
-### Variation
+### Shades
 
 
 Each color includes 11 shade levels, ranging from the lightest `(-50)` to the darkest `(-950)`. Use these to fine-tune the text color of elements.
 
 #### Blue Shade Examples
 
-| Variation | CSS Class | Output |
+| Shade | CSS Class | Output |
 | --- | --- | --- |
 | **50** | `color-blue-50` | <span class="color-blue-50">50</span> |
 | **100** | `color-blue-100` | <span class="color-blue-100">100</span> |

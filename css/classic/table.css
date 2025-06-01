@@ -1,4 +1,5 @@
 table {
+    margin-top: var(--spacing-3);
     border-collapse: collapse;
     overflow-x: auto;
     background-color: inherit;
