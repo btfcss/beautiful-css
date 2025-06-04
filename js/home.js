@@ -2,7 +2,7 @@ import hljs from "highlight.js";
 import '@fortawesome/fontawesome-free/js/all.js';
 import "./color-scheme-switcher";
 import "./documentation";
-
+import "./search";
 
 
 
