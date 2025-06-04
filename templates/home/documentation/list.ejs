@@ -1,0 +1,129 @@
+<p>These utility classes allow you to control the appearance and
+structure of lists (<code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code>)
+and their items.</p>
+<h3 id="base-styling">Base Styling</h3>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 87%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Selector</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>ul</code>, <code>ol</code></td>
+<td>Applies padding and vertical margin to unordered and ordered
+lists.</td>
+</tr>
+<tr class="even">
+<td><code>li</code></td>
+<td>Applies vertical spacing between list items.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="list-style-type-classes">List Style Type Classes</h3>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 18%" />
+<col style="width: 42%" />
+<col style="width: 32%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Class Name</th>
+<th>Description</th>
+<th>CSS Property</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>●</td>
+<td><code>.list-disc</code></td>
+<td>Bulleted list with filled circles</td>
+<td><code>list-style-type: disc;</code></td>
+</tr>
+<tr class="even">
+<td>○</td>
+<td><code>.list-circle</code></td>
+<td>Bulleted list with hollow circles</td>
+<td><code>list-style-type: circle;</code></td>
+</tr>
+<tr class="odd">
+<td>■</td>
+<td><code>.list-square</code></td>
+<td>Bulleted list with squares</td>
+<td><code>list-style-type: square;</code></td>
+</tr>
+<tr class="even">
+<td>1.</td>
+<td><code>.list-decimal</code></td>
+<td>Ordered list with numbers</td>
+<td><code>list-style-type: decimal;</code></td>
+</tr>
+<tr class="odd">
+<td>ა</td>
+<td><code>.list-georgian</code></td>
+<td>Ordered list using Georgian numerals</td>
+<td><code>list-style-type: georgian;</code></td>
+</tr>
+<tr class="even">
+<td>೧</td>
+<td><code>.list-kannada</code></td>
+<td>Ordered list using Kannada numerals</td>
+<td><code>list-style-type: kannada;</code></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><code>.list-none</code></td>
+<td>Removes list bullets/numbers</td>
+<td><code>list-style-type: none;</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="usage-example">Usage Example</h3>
+<h4 id="code">Code</h4>
+<pre class="html"><code>&lt;ul class=&quot;list-circle&quot;&gt;
+  &lt;li&gt;Circle item one&lt;/li&gt;
+  &lt;li&gt;Circle item two&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul class=&quot;list-square&quot;&gt;
+  &lt;li&gt;Square item one&lt;/li&gt;
+  &lt;li&gt;Square item two&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul class=&quot;list-none&quot;&gt;
+  &lt;li&gt;Bullet removed&lt;/li&gt;
+  &lt;li&gt;No marker here&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+<h4 id="output">Output</h4>
+<ul class="list-circle">
+<li>
+Circle item one
+</li>
+<li>
+Circle item two
+</li>
+</ul>
+<ol class="list-square mt-5">
+<li>
+Square item one
+</li>
+<li>
+Square item two
+</li>
+</ol>
+<ul class="list-none mt-5">
+<li>
+Bullet removed
+</li>
+<li>
+No marker here
+</li>
+</ul>

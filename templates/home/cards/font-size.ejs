@@ -1,4 +1,4 @@
-<div class="card">
+<div id="font-size"class="card">
   <div class="header">
     <h2>Font Size</h2>
   </div>
@@ -73,6 +73,18 @@
 
 
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="font-size">&lt;code&gt;</button>
   </div>
+</div>
+
+
+
+
+
+
+<div id="doc-font-size" hidden>
+  <h2>Font Size <a href="#font-size" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/font-size.ejs %>
+  </content>
 </div>

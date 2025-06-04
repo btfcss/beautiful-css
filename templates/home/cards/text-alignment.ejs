@@ -1,4 +1,4 @@
-<div class="card">
+<div id="text-alignment" class="card">
   <div class="header">
     <h2>Left Alignment</h2>
   </div>
@@ -32,6 +32,14 @@
       metus, nec venenatis sapien efficitur vitae.</p>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="text-alignment">&lt;code&gt;</button>
   </div>
+</div>
+
+
+<div id="doc-text-alignment" hidden>
+  <h2>Text Alignment <a href="#text-alignment" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/text-alignement.ejs %>
+  </content>
 </div>
