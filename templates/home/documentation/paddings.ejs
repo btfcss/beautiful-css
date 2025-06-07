@@ -1,0 +1,142 @@
+<p>The padding utility classes allow you to quickly apply consistent
+inner spacing within elements using a standardized spacing scale. All
+classes support responsive design with mobile-first breakpoints.</p>
+<h3 id="examples">Examples</h3>
+<pre class="html"><code>&lt;div class=&quot;p-7&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;px-0&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;py-5&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;pt-1&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;pl-lg-3&quot;&gt;...&lt;/div&gt;</code></pre>
+<h3 id="basic-syntax">Basic Syntax</h3>
+<pre class="html"><code>&lt;div class=&quot;p-{value}&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;px-{value}&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;pt-{value}&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;pl[-breakpoint]-{value}&quot;&gt;...&lt;/div&gt;
+&lt;!-- and so on --&gt;</code></pre>
+<ul>
+<li><p><code>{value}</code>: <code>0</code> to <code>7</code></p></li>
+<li><p>Direction prefixes:</p>
+<ul>
+<li><code>p</code>: all sides</li>
+<li><code>px</code>: left &amp; right</li>
+<li><code>py</code>: top &amp; bottom</li>
+<li><code>pt</code>: top</li>
+<li><code>pr</code>: right</li>
+<li><code>pb</code>: bottom</li>
+<li><code>pl</code>: left</li>
+</ul></li>
+</ul>
+<hr />
+<h3 id="spacing-scale">Spacing Scale</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>0</code></td>
+<td><code>0</code> padding</td>
+</tr>
+<tr class="even">
+<td><code>1</code></td>
+<td><code>var(--spacing-1)</code></td>
+</tr>
+<tr class="odd">
+<td><code>2</code></td>
+<td><code>var(--spacing-2)</code></td>
+</tr>
+<tr class="even">
+<td><code>3</code></td>
+<td><code>var(--spacing-3)</code></td>
+</tr>
+<tr class="odd">
+<td><code>4</code></td>
+<td><code>var(--spacing-4)</code></td>
+</tr>
+<tr class="even">
+<td><code>5</code></td>
+<td><code>var(--spacing-5)</code></td>
+</tr>
+<tr class="odd">
+<td><code>6</code></td>
+<td><code>var(--spacing-6)</code></td>
+</tr>
+<tr class="even">
+<td><code>7</code></td>
+<td><code>var(--spacing-7)</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="responsive-variants">Responsive Variants</h3>
+<p>Use responsive prefixes to apply different paddings at different
+breakpoints.</p>
+<pre class="html"><code>&lt;div class=&quot;p-2 p-md-4 p-lg-6&quot;&gt;...&lt;/div&gt;</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th>Prefix</th>
+<th>Applies at screen width ≥</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>sm</code></td>
+<td>Small</td>
+</tr>
+<tr class="even">
+<td><code>md</code></td>
+<td>Middle</td>
+</tr>
+<tr class="odd">
+<td><code>lg</code></td>
+<td>Large</td>
+</tr>
+<tr class="even">
+<td><code>xl</code></td>
+<td>Extra large</td>
+</tr>
+<tr class="odd">
+<td><code>xxl</code></td>
+<td>Extra extra large</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="class-reference">Class Reference</h3>
+<h4 id="all-sides">All Sides</h4>
+<pre class="css"><code>.p-{0–7}</code></pre>
+<h4 id="horizontal-paddings">Horizontal Paddings</h4>
+<pre class="css"><code>.px-{0–7}</code></pre>
+<h4 id="vertical-paddings">Vertical Paddings</h4>
+<pre class="css"><code>.py-{0–7}</code></pre>
+<h4 id="individual-sides">Individual Sides</h4>
+<pre class="css"><code>.pt-{0–7}    /* top */
+.pr-{0–7}    /* right */
+.pb-{0–7}    /* bottom */
+.pl-{0–7}    /* left */</code></pre>
+<h4 id="responsive">Responsive</h4>
+<p>All classes above support responsive breakpoints:</p>
+<pre class="css"><code>.p-sm-{value}
+.px-md-{value}
+.pt-lg-{value}
+.pl-xl-{value}</code></pre>
+<hr />
+<h3 id="example">Example</h3>
+<pre class="html"><code>&lt;div class=&quot;p-0&quot;&gt;No padding&lt;/div&gt;
+&lt;div class=&quot;px-3 py-2&quot;&gt;Custom horizontal and vertical paddings&lt;/div&gt;
+&lt;div class=&quot;pt-4 pb-1&quot;&gt;Top and bottom paddings&lt;/div&gt;
+&lt;div class=&quot;p-2 p-md-5 p-xl-7&quot;&gt;Responsive padding&lt;/div&gt;</code></pre>
+<hr />
+<h3 id="notes">Notes</h3>
+<ul>
+<li>All utilities use <code>!important</code> to ensure high
+specificity.</li>
+<li>These utilities are mobile-first; larger breakpoints override
+smaller ones.</li>
+<li>Padding values are based on CSS variables
+(e.g. <code>--spacing-1</code>) for easy theming.</li>
+</ul>

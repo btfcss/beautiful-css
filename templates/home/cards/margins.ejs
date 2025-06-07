@@ -1,4 +1,4 @@
-<div class="card">
+<div id="marigns" class="card">
   <div class="header">
     <h2>Margins</h2>
   </div>
@@ -29,6 +29,15 @@
     </div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="margins">&lt;code&gt;</button>
   </div>
+</div>
+
+
+
+<div id="doc-margins" hidden>
+  <h2>Margins <a href="#margins" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/margins.ejs %>
+  </content>
 </div>

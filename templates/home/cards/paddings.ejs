@@ -1,4 +1,4 @@
-<div class="card">
+<div id="paddings" class="card">
   <div class="header">
     <h2>Paddings</h2>
   </div>
@@ -13,6 +13,15 @@
     <div class="p-7 mx-auto my-3 rounded-2 w-fit stripes-green">Padding 7</div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="paddings">&lt;code&gt;</button>
   </div>
+</div>
+
+
+
+<div id="doc-paddings" hidden>
+  <h2>Paddings <a href="#paddings" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/paddings.ejs %>
+  </content>
 </div>
