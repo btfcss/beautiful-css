@@ -3,7 +3,8 @@
 }
 
 .no-wrap,
-.text-nowrap {
+.text-nowrap,
+.text-no-wrap {
   white-space: nowrap;
 }
 

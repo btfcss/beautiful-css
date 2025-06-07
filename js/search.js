@@ -4,6 +4,22 @@ const searchClearEl = document.getElementById('search-clear');
 
 const masonryEl = document.getElementById('masonry');
 const cardsEl = masonryEl.querySelectorAll(".card");
+const noSearchResultEl = document.getElementById('no-search-result');
+
+/**
+ * Checks if a given string contains all the elements of an array as substrings.
+ *
+ * This function iterates through each substring in the provided array and checks 
+ * if each one is present in the main string using the `includes` method.
+ *
+ * @param {string} mainString The main string in which to search for substrings.
+ * @param {array} substrings An array of substrings to check for within the main string.
+ * @returns Returns true if all substrings from the array are found in the main string, false otherwise.
+ */
+const containsAllSubstrings = (mainString, substrings) => {
+  return substrings.every(substring => mainString.includes(substring));
+}
+
 
 
 /**
@@ -13,7 +29,6 @@ const cardsEl = masonryEl.querySelectorAll(".card");
 const cardList = Array.from(cardsEl).map((cardEl) => {
   let content = cardEl.querySelector('.header').innerText.toLocaleLowerCase();
   content += "\n" +  cardEl.querySelector('.body').innerText.toLocaleLowerCase();
-  console.log (content);
   return { "element": cardEl, "text": content };
 })
 
@@ -24,10 +39,10 @@ const cardList = Array.from(cardsEl).map((cardEl) => {
  * @param {string} text The text to search
  * @returns {boolean} True if the text if found in at least one card, false otherwise
  */
-const search = (text) => {
+const search = (words) => {
   let isFound = false;
   cardList.forEach(card => {
-    if (card.text.includes(text)) {
+    if (containsAllSubstrings(card.text, words)) {
       card.element.classList.remove('d-none');
       isFound = true;
     }
@@ -41,6 +56,7 @@ const search = (text) => {
  * Show all cards
  */
 const showAll = () => {
+  hideNoSearchResults();
   cardsEl.forEach(cardEl => { cardEl.classList.remove('d-none'); });
 }
 
@@ -49,7 +65,7 @@ const showAll = () => {
  * Hide the no search results message
  */
 const hideNoSearchResults = () => {
-
+  noSearchResultEl.classList.add('d-none');
 }
 
 
@@ -57,14 +73,14 @@ const hideNoSearchResults = () => {
  * Show the no search results message
  */
 const showNoSearchResults = () => {
-  
+  noSearchResultEl.classList.remove('d-none');
 }
 
 // On text input update
 searchTextEl.addEventListener('input', () => {
-  text = searchTextEl.value.toLowerCase();
-  if (text.length > 2) {
-    const isFound = search(text);
+  query = searchTextEl.value.toLowerCase();
+  if (query.length > 2) {
+    const isFound = search(query.split(/\s+/));
     if (isFound) hideNoSearchResults(); else showNoSearchResults();
   }
   else showAll();

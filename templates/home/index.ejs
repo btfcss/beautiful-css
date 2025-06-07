@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="grow-1 h-flex-center">
-        <div class="light:bg-white-300 dark:bg-black-100 w-fit p-2 rounded-pill">
+        <div class="light:bg-white-300 dark:bg-black-100 w-fit p-2 rounded-pill text-no-wrap">
           <button class="btn-blue btn-xs rounded-pill px-3" id="btn-color-scheme-light"><i
               class="fa-solid fa-sun"></i><span class="ml-2 d-none d-md-inline-block"> light</span></button>
           <button class="btn-blue btn-xs rounded-pill px-3 active" id="btn-color-scheme-system"><i
@@ -38,7 +38,7 @@
               class="fa-solid fa-moon"></i><span class="ml-2 d-none d-md-inline-block"> dark</span></button>
         </div>
       </div>
-      <div class="text-end h-32 v-flex-center">end</div>
+      <div class="text-end h-32 v-flex-center"> </div>
     </div>
   </div>
 
@@ -68,6 +68,12 @@
         </button>
       </div>
 
+    </div>
+
+    <div id="no-search-result" class="text-center mt-6 d-none">      
+      <i class="fa-regular fa-face-sad-tear fs-6xl"></i>
+      <h3 class="mt-4">Hmm… nothing matched your search.</h3>
+      <p>Try a different keyword or check for typos.</p>
     </div>
 
     <div id="masonry" class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
