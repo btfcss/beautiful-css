@@ -46,29 +46,44 @@
 .h-max-100 { max-height: 100%!important; }
 
 
+.h-20vw { height: 20vw!important; }
 .h-25vw { height: 25vw!important; }
 .h-50vw { height: 50vw!important; }
 .h-75vw { height: 75vw!important; }
 .h-96vw { height: 96vw!important; }
 .h-100vw { height: 100vw!important; }
 
+.h-min-20vw { min-height: 20vw!important; }
 .h-min-25vw { min-height: 25vw!important; }
 .h-min-50vw { min-height: 50vw!important; }
 .h-min-75vw { min-height: 75vw!important; }
 .h-min-96vw { min-height: 96vw!important; }
 .h-min-100vw { min-height: 100vw!important; }
 
-
+.h-max-20vw { max-height: 20vw!important; }
 .h-max-25vw { max-height: 25vw!important; }
 .h-max-50vw { max-height: 50vw!important; }
 .h-max-75vw { max-height: 75vw!important; }
 .h-max-96vw { max-height: 96vw!important; }
 .h-max-100vw { max-height: 100vw!important; }
 
+.h-20vh { height: 20vh!important; }
 .h-25vh { height: 25vh!important; }
 .h-50vh { height: 50vh!important; }
 .h-75vh { height: 75vh!important; }
 .h-100vh { height: 100vh!important; }
+
+.h-min-20vh { min-height: 20vh!important; }
+.h-min-25vh { min-height: 25vh!important; }
+.h-min-50vh { min-height: 50vh!important; }
+.h-min-75vh { min-height: 75vh!important; }
+.h-min-100vh { min-height: 100vh!important; }
+
+.h-max-20vh { max-height: 20vh!important; }
+.h-max-25vh { max-height: 25vh!important; }
+.h-max-50vh { max-height: 50vh!important; }
+.h-max-75vh { max-height: 75vh!important; }
+.h-max-100vh { max-height: 100vh!important; }
 
 .h-100dvw { height: 100dvw!important; }
 .h-100dvh { height: 100dvh!important; }

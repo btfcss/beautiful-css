@@ -1,4 +1,4 @@
-<div class="card">
+<div id="vertical-flex" class="card">
   <div class="header">
     <h2>Vertical Flex</h2>
   </div>
@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <div class="h-flex-evenly">
+    <div class="h-flex-evenly gap-3">
 
       <div class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-between gap-3 h-256px">
         <div class="p-3 bg-red rounded">01</div>
@@ -46,6 +46,14 @@
     </div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="vertical-flex">&lt;code&gt;</button>
   </div>
+</div>
+
+
+<div id="doc-vertical-flex" hidden>
+  <h2>Vertical Flex <a href="#vertical-flex" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/vertical-flex.ejs %>
+  </content>
 </div>
