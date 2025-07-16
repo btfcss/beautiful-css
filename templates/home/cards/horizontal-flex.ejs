@@ -1,4 +1,4 @@
-<div class="card">
+<div id="horizontal-flex" class="card">
   <div class="header">
     <h2>Horizontal Flex</h2>
   </div>
@@ -42,6 +42,14 @@
 
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="horizontal-flex">&lt;code&gt;</button>
   </div>
+</div>
+
+
+<div id="doc-horizontal-flex" hidden>
+  <h2>Horizontal Flex <a href="#horizontal-flex" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/horizontal-flex.ejs %>
+  </content>
 </div>

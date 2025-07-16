@@ -2,110 +2,7 @@
 layout</strong> (column-based <code>flex-direction</code>) and vertical
 alignment (<code>justify-content</code>) using concise and semantic
 class names.</p>
-<div class="h-flex-evenly">
-<div>
-<h3>
-v-flex-start
-</h3>
-<div
-class="mx-auto border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-start gap-3 text-center w-64px h-256px">
-<div class="p-3 bg-red fit-content rounded">
-01
-</div>
-<div class="p-3 bg-red rounded">
-02
-</div>
-<div class="p-3 bg-red rounded">
-03
-</div>
-</div>
-</div>
-<div>
-<h3>
-v-flex-end
-</h3>
-<div
-class="mx-auto border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-end gap-3 text-center w-64px h-256px">
-<div class="p-3 bg-red fit-content rounded">
-01
-</div>
-<div class="p-3 bg-red rounded">
-02
-</div>
-<div class="p-3 bg-red rounded">
-03
-</div>
-</div>
-</div>
-<div>
-<h3>
-v-flex-center
-</h3>
-<div
-class="mx-auto border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-center gap-3 text-center w-64px h-256px">
-<div class="p-3 bg-red fit-content rounded">
-01
-</div>
-<div class="p-3 bg-red rounded">
-02
-</div>
-<div class="p-3 bg-red rounded">
-03
-</div>
-</div>
-</div>
-<div>
-<h3>
-v-flex-between
-</h3>
-<div
-class="mx-auto border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-between gap-3 text-center w-64px h-256px">
-<div class="p-3 bg-red fit-content rounded">
-01
-</div>
-<div class="p-3 bg-red rounded">
-02
-</div>
-<div class="p-3 bg-red rounded">
-03
-</div>
-</div>
-</div>
-<div>
-<h3>
-v-flex-around
-</h3>
-<div
-class="mx-auto border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-around gap-3 text-center w-64px h-256px">
-<div class="p-3 bg-red fit-content rounded">
-01
-</div>
-<div class="p-3 bg-red rounded">
-02
-</div>
-<div class="p-3 bg-red rounded">
-03
-</div>
-</div>
-</div>
-<div>
-<h3>
-v-flex-evenly
-</h3>
-<div
-class="mx-auto border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-evenly gap-3 text-center w-64px h-256px">
-<div class="p-3 bg-red fit-content rounded">
-01
-</div>
-<div class="p-3 bg-red rounded">
-02
-</div>
-<div class="p-3 bg-red rounded">
-03
-</div>
-</div>
-</div>
-</div>
+<h4 id="class-reference">Class Reference</h4>
 <table>
 <colgroup>
 <col style="width: 21%" />
@@ -152,66 +49,150 @@ class="mx-auto border light:hatching-grey-100 light:border-grey-100 dark:hatchin
 </tr>
 </tbody>
 </table>
-<h3 id="examples">Examples</h3>
-<pre class="html"><code>&lt;div class=&quot;v-flex-start&quot;&gt;...&lt;/div&gt;
-&lt;div class=&quot;v-flex-center&quot;&gt;...&lt;/div&gt;
-&lt;div class=&quot;v-flex-between&quot;&gt;...&lt;/div&gt;</code></pre>
-<h3 id="basic-syntax">Basic Syntax</h3>
+<h4 id="basic-syntax">Basic Syntax</h4>
 <pre class="html"><code>&lt;div class=&quot;v-flex-{alignment}&quot;&gt;...&lt;/div&gt;</code></pre>
-<h2 id="flex-grow-utilities">Flex Grow Utilities</h2>
+<p>Where <code>{alignment}</code> is one of: <code>start</code>,
+<code>end</code>, <code>center</code>, <code>between</code>,
+<code>around</code>, <code>evenly</code>.</p>
+<h4 id="examples">Examples</h4>
+<div
+class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-start gap-3 text-center w-64px h-256px">
+<div class="p-3 bg-red fit-content rounded">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;v-flex-start gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<div
+class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-end gap-3 text-center w-64px h-256px">
+<div class="p-3 bg-red fit-content rounded">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;v-flex-end gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<div
+class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-center gap-3 text-center w-64px h-256px">
+<div class="p-3 bg-red fit-content rounded">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;v-flex-center gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<div
+class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-between gap-3 text-center w-64px h-256px">
+<div class="p-3 bg-red fit-content rounded">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;v-flex-between gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<div
+class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-around gap-3 text-center w-64px h-256px">
+<div class="p-3 bg-red fit-content rounded">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;v-flex-around gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<div
+class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-evenly gap-3 text-center w-64px h-256px">
+<div class="p-3 bg-red fit-content rounded">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;v-flex-evenly gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="flex-grow-utilities">Flex Grow Utilities</h3>
 <p>Control how flexible a flex item should grow relative to the rest of
 the items with <code>.grow-{n}</code> classes.</p>
-<table>
-<thead>
-<tr class="header">
-<th>Class</th>
-<th>CSS Output</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>.grow-0</code></td>
-<td><code>flex-grow: 0</code></td>
-</tr>
-<tr class="even">
-<td><code>.grow-1</code></td>
-<td><code>flex-grow: 1</code></td>
-</tr>
-<tr class="odd">
-<td><code>.grow-2</code></td>
-<td><code>flex-grow: 2</code></td>
-</tr>
-<tr class="even">
-<td><code>.grow-3</code></td>
-<td><code>flex-grow: 3</code></td>
-</tr>
-<tr class="odd">
-<td><code>.grow-4</code></td>
-<td><code>flex-grow: 4</code></td>
-</tr>
-<tr class="even">
-<td><code>.grow-5</code></td>
-<td><code>flex-grow: 5</code></td>
-</tr>
-<tr class="odd">
-<td><code>.grow-6</code></td>
-<td><code>flex-grow: 6</code></td>
-</tr>
-<tr class="even">
-<td><code>.grow-7</code></td>
-<td><code>flex-grow: 7</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="examples-1">Examples</h3>
-<pre class="html"><code>&lt;div class=&quot;grow-1&quot;&gt;...&lt;/div&gt;
-&lt;div class=&quot;grow-0&quot;&gt;...&lt;/div&gt;</code></pre>
-<h3 id="basic-syntax-1">Basic Syntax</h3>
+<h4 id="basic-syntax-1">Basic Syntax</h4>
 <pre class="html"><code>&lt;div class=&quot;grow-{n}&quot;&gt;...&lt;/div&gt;</code></pre>
 <ul>
-<li><p><code>{n}</code> is a number between <code>0</code> and
-<code>7</code></p></li>
-<li><p>Maps to <code>flex-grow: n</code></p></li>
-<li><p>All utilities use <code>!important</code> if needed to override
-base styles.</p></li>
+<li><code>{n}</code> is a number between <code>0</code> and
+<code>7</code></li>
+<li>Maps to <code>flex-grow: n</code></li>
+</ul>
+<h4 id="example">Example</h4>
+<div
+class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-between gap-3 text-center w-64px h-256px">
+<div class="p-3 bg-red fit-content rounded">
+01
+</div>
+<div class="p-3 bg-red rounded grow-1">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;v-flex-between gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div class=&quot;grow-1&quot;&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="gap-utilities">Gap Utilities</h3>
+<p>The <code>.gap-*</code> utility classes let you quickly control the
+spacing between flex or grid items using a consistent spacing scale.</p>
+<p>They apply the native CSS <code>gap</code> property, which works with
+both flex and grid containers.</p>
+<h4 id="basic-syntax-2">Basic Syntax</h4>
+<pre class="html"><code>&lt;div class=&quot;gap-{n}&quot;&gt;...&lt;/div&gt;</code></pre>
+<ul>
+<li><code>{n}</code> is a number between <code>0</code> and
+<code>7</code></li>
 </ul>
