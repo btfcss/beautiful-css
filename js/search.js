@@ -93,3 +93,11 @@ searchClearEl.addEventListener('click', () => {
   searchTextEl.value = "";
   searchTextEl.focus();
 })
+
+
+
+// Get query parameters (q for query)
+const params = new URLSearchParams(window.location.search);
+// Set the query in the search box and trigger the input event
+searchTextEl.value = params.get("q");
+searchTextEl.dispatchEvent(new Event('input', { bubbles: true }));
