@@ -132,3 +132,19 @@ Use `.v-span-X` on grid items to make them span multiple rows.
 ```
 
 This creates a 3-column grid where the first item spans 2 rows.
+
+
+### Gap Utilities
+
+The `.gap-*` utility classes let you quickly control the spacing between flex or grid items using a consistent spacing scale.
+
+They apply the native CSS `gap` property, which works with both flex and grid containers.
+
+
+#### Basic Syntax
+
+```html
+<div class="gap-{n}">...</div>
+```
+
+* `{n}` is a number between `0` and `7`
