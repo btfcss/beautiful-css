@@ -1,5 +1,17 @@
 @import url(spacing.css);
 
+.h-grid,
+.h-grid-2,
+.h-grid-3,
+.h-grid-4,
+.h-grid-5,
+.h-grid-6,
+.h-grid-7,
+.h-grid-8,
+.h-grid-9,
+.h-grid-10,
+.h-grid-12,
+.h-grid-12,
 .grid {
   grid-template-columns: repeat(auto-fit,minmax(0%,1fr));
   grid-column-gap: var(--spacing-2);
@@ -7,10 +19,63 @@
   display: grid;    
 }
 
+.h-grid-2 { grid-template-columns: repeat(2, 1fr); }
+.h-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.h-grid-4 { grid-template-columns: repeat(4, 1fr); }
+.h-grid-5 { grid-template-columns: repeat(5, 1fr); }
+.h-grid-6 { grid-template-columns: repeat(6, 1fr); }
+.h-grid-7 { grid-template-columns: repeat(7, 1fr); }
+.h-grid-8 { grid-template-columns: repeat(8, 1fr); }
+.h-grid-9 { grid-template-columns: repeat(9, 1fr); }
+.h-grid-10 { grid-template-columns: repeat(10, 1fr); }
+.h-grid-11 { grid-template-columns: repeat(11, 1fr); }
+.h-grid-12 { grid-template-columns: repeat(12, 1fr); }
 
-.v-grid {
-  grid-template-columns: repeat(1,1fr);
+
+.h-span-2 { grid-column: span 2; }
+.h-span-3 { grid-column: span 3; }
+.h-span-4 { grid-column: span 4; }
+.h-span-5 { grid-column: span 5; }
+.h-span-6 { grid-column: span 6; }
+
+
+.v-grid,
+.v-grid-2,
+.v-grid-3,
+.v-grid-4,
+.v-grid-5,
+.v-grid-6,
+.v-grid-7,
+.v-grid-8,
+.v-grid-9,
+.v-grid-10,
+.v-grid-12,
+.v-grid-12 {
+  grid-template-rows: repeat(1,1fr);
   grid-column-gap: var(--spacing-2);
   grid-row-gap: var(--spacing-2);
-  display: grid;    
+  display: grid;   
+  grid-auto-flow: column;
 }
+
+.v-grid {
+  grid-auto-flow: row;
+}
+
+.v-grid-2 { grid-template-rows: repeat(2, 1fr); }
+.v-grid-3 { grid-template-rows: repeat(3, 1fr); }
+.v-grid-4 { grid-template-rows: repeat(4, 1fr); }
+.v-grid-5 { grid-template-rows: repeat(5, 1fr); }
+.v-grid-6 { grid-template-rows: repeat(6, 1fr); }
+.v-grid-7 { grid-template-rows: repeat(7, 1fr); }
+.v-grid-8 { grid-template-rows: repeat(8, 1fr); }
+.v-grid-9 { grid-template-rows: repeat(9, 1fr); }
+.v-grid-10 { grid-template-rows: repeat(10, 1fr); }
+.v-grid-11 { grid-template-rows: repeat(11, 1fr); }
+.v-grid-12 { grid-template-rows: repeat(12, 1fr); }
+
+.v-span-2 { grid-row: span 2; }
+.v-span-3 { grid-row: span 3; }
+.v-span-4 { grid-row: span 4; }
+.v-span-5 { grid-row: span 5; }
+.v-span-6 { grid-row: span 6; }

@@ -60,23 +60,25 @@
 
 
       <div class="input-group my-4 rounded-pill w-max-sm mx-auto">
-        <span class="input-group-text pl-4 pr-2 mr-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></span>
+        <span class="input-group-text pl-4 pr-2 mr-0" id="basic-addon1"><i
+            class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></span>
         <input id="search-text" type="text" class="form-control" placeholder="Search" aria-label="Search"
-          aria-describedby="basic-addon1"> 
-          <button  id="search-clear" class="btn-grey px-3">
+          aria-describedby="basic-addon1">
+        <button id="search-clear" class="btn-grey px-3">
           <i class="fa-solid fa-xmark"></i>
         </button>
       </div>
 
     </div>
 
-    <div id="no-search-result" class="text-center mt-6 d-none">      
+    <div id="no-search-result" class="text-center mt-6 d-none">
       <i class="fa-regular fa-face-sad-tear fs-6xl"></i>
       <h3 class="mt-4">Hmm… nothing matched your search.</h3>
       <p>Try a different keyword or check for typos.</p>
     </div>
 
-    <div id="masonry" class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
+    <div id="masonry"
+      class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
 
 
 
@@ -110,20 +112,97 @@
 
 
 
-      <!-- Grid -->
-      <div class="card">
+      <!-- Horizontal Grid -->
+      <div id="horizontal-grid" class="card">
         <div class="header">
-          <h2>Grid</h2>
+          <h2>Horizontal Grid</h2>
         </div>
-        <div class="body grid">
-          <div class="rounded-3 border p-4 text-center hover:scale-105">1
+        <div class="body">
+          <div
+            class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-grid gap-3 rounded monospace mb-4 text-center">
+            <div class="p-3 bg-red rounded">01</div>
+            <div class="p-3 bg-red rounded">02</div>
+            <div class="p-3 bg-red rounded">03</div>
+            <div class="p-3 bg-red rounded">04</div>
           </div>
-          <div class="rounded-3 border p-4 text-center hover:scale-105">2
+
+
+          <div
+            class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-grid-5 gap-3 rounded monospace mb-4 text-center">
+            <div class="p-3 bg-red rounded">01</div>
+            <div class="p-3 bg-red rounded">02</div>
+            <div class="p-3 bg-red rounded">03</div>
+            <div class="p-3 bg-red rounded">04</div>
+            <div class="p-3 bg-red rounded">05</div>
+            <div class="p-3 bg-red rounded">06</div>
+            <div class="p-3 bg-red rounded">07</div>
+            <div class="p-3 bg-red rounded">08</div>
           </div>
-          <div class="rounded-3 border p-4 text-center hover:scale-105">3
+
+          <div
+            class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-grid-5 gap-3 rounded monospace mb-4 text-center">
+            <div class="p-3 bg-red rounded">01</div>
+            <div class="p-3 bg-red rounded h-span-2">02</div>
+            <div class="p-3 bg-red rounded v-span-2">03</div>
+            <div class="p-3 bg-red rounded">04</div>
+            <div class="p-3 bg-red rounded">05</div>
+            <div class="p-3 bg-red rounded">06</div>
+            <div class="p-3 bg-red rounded">07</div>
+            <div class="p-3 bg-red rounded">08</div>
           </div>
-          <div class="rounded-3 border p-4 text-center hover:scale-105">4
+
+
+        </div>
+        <div class="footer align-right">
+          <button class="btn-blue">&lt;code&gt;</button>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Vertical Grid -->
+      <div id="vertical-grid" class="card">
+        <div class="header">
+          <h2>Vertical Grid</h2>
+        </div>
+        <div class="body">
+          <div
+            class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-grid gap-3 rounded monospace mb-4 text-center">
+            <div class="p-3 bg-red rounded">01</div>
+            <div class="p-3 bg-red rounded">02</div>
+            <div class="p-3 bg-red rounded">03</div>
+            <div class="p-3 bg-red rounded">04</div>
           </div>
+
+
+          <div
+            class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-grid-5 gap-3 rounded monospace mb-4 text-center">
+            <div class="p-3 bg-red rounded">01</div>
+            <div class="p-3 bg-red rounded">02</div>
+            <div class="p-3 bg-red rounded">03</div>
+            <div class="p-3 bg-red rounded">04</div>
+            <div class="p-3 bg-red rounded">05</div>
+            <div class="p-3 bg-red rounded">06</div>
+            <div class="p-3 bg-red rounded">07</div>
+            <div class="p-3 bg-red rounded">08</div>
+          </div>
+
+
+          <div
+            class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-grid-5 gap-3 rounded monospace mb-4 text-center">
+            <div class="p-3 bg-red rounded">01</div>
+            <div class="p-3 bg-red rounded h-span-2">02</div>
+            <div class="p-3 bg-red rounded v-span-2">03</div>
+            <div class="p-3 bg-red rounded">04</div>
+            <div class="p-3 bg-red rounded">05</div>
+            <div class="p-3 bg-red rounded">06</div>
+            <div class="p-3 bg-red rounded">07</div>
+            <div class="p-3 bg-red rounded">08</div>
+          </div>
+
+
         </div>
         <div class="footer align-right">
           <button class="btn-blue">&lt;code&gt;</button>
