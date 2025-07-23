@@ -1,0 +1,234 @@
+<p>Use the horizontal grid system to build flexible, responsive layouts
+with a set number of columns. These utilities allow you to quickly
+create multi-column layouts and control how wide elements span across
+the grid.</p>
+<h3 id="grid-columns">Grid Columns</h3>
+<p>Use <code>.h-grid-N</code> to define a grid with a fixed number of
+columns.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.h-grid</code></td>
+<td>Creates an auto-fitting column grid</td>
+</tr>
+<tr class="even">
+<td><code>.h-grid-2</code></td>
+<td>Creates a 2-column grid</td>
+</tr>
+<tr class="odd">
+<td><code>.h-grid-3</code></td>
+<td>Creates a 3-column grid</td>
+</tr>
+<tr class="even">
+<td><code>.h-grid-4</code></td>
+<td>Creates a 4-column grid</td>
+</tr>
+<tr class="odd">
+<td><code>.h-grid-5</code></td>
+<td>Creates a 5-column grid</td>
+</tr>
+<tr class="even">
+<td><code>.h-grid-6</code></td>
+<td>Creates a 6-column grid</td>
+</tr>
+<tr class="odd">
+<td><code>.h-grid-7</code></td>
+<td>Creates a 7-column grid</td>
+</tr>
+<tr class="even">
+<td><code>.h-grid-8</code></td>
+<td>Creates a 8-column grid</td>
+</tr>
+<tr class="odd">
+<td><code>.h-grid-9</code></td>
+<td>Creates a 9-column grid</td>
+</tr>
+<tr class="even">
+<td><code>.h-grid-10</code></td>
+<td>Creates a 10-column grid</td>
+</tr>
+<tr class="odd">
+<td><code>.h-grid-11</code></td>
+<td>Creates a 11-column grid</td>
+</tr>
+<tr class="even">
+<td><code>.h-grid-12</code></td>
+<td>Creates a 12-column grid</td>
+</tr>
+</tbody>
+</table>
+<h4 id="examples">Examples</h4>
+<div
+class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-grid gap-3 monospace mt-3 mb-5 text-center">
+<div class="p-3 bg-red rounded">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+<div class="p-3 bg-red rounded">
+04
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;h-grid gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+  &lt;div&gt;04&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<div
+class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-grid-3 gap-3 monospace mt-3 mb-5 text-center">
+<div class="p-3 bg-red rounded">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+<div class="p-3 bg-red rounded">
+04
+</div>
+<div class="p-3 bg-red rounded">
+05
+</div>
+<div class="p-3 bg-red rounded">
+06
+</div>
+<div class="p-3 bg-red rounded">
+07
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;h-grid-3 gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+  &lt;div&gt;04&lt;/div&gt;
+  &lt;div&gt;05&lt;/div&gt;
+  &lt;div&gt;06&lt;/div&gt;
+  &lt;div&gt;07&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="column-spanning">Column Spanning</h3>
+<p>Use <code>.h-span-X</code> on grid items to make them span multiple
+columns.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.h-span-2</code></td>
+<td>Span 2 columns</td>
+</tr>
+<tr class="even">
+<td><code>.h-span-3</code></td>
+<td>Span 3 columns</td>
+</tr>
+<tr class="odd">
+<td><code>.h-span-4</code></td>
+<td>Span 4 columns</td>
+</tr>
+<tr class="even">
+<td><code>.h-span-5</code></td>
+<td>Span 5 columns</td>
+</tr>
+<tr class="odd">
+<td><code>.h-span-6</code></td>
+<td>Span 6 columns</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example">Example</h4>
+<div
+class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-grid-6 gap-3 monospace mt-3 mb-5 text-center">
+<div class="p-3 bg-red rounded">
+01
+</div>
+<div class="p-3 bg-red rounded h-span-2">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+<div class="p-3 bg-red rounded">
+04
+</div>
+</div>
+<pre class="html"><code>&lt;div
+  class=&quot;h-grid-6 gap-3&quot;&gt;
+  &lt;div&gt;01&lt;/div&gt;
+  &lt;div class=&quot;h-span-2&quot;&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+  &lt;div&gt;04&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>This creates a 6-column grid where the second item spans 2
+columns.</p>
+<h3 id="row-spanning">Row Spanning</h3>
+<p>Use <code>.v-span-X</code> on grid items to make them span multiple
+rows.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.v-span-2</code></td>
+<td>Span 2 rows</td>
+</tr>
+<tr class="even">
+<td><code>.v-span-3</code></td>
+<td>Span 3 rows</td>
+</tr>
+<tr class="odd">
+<td><code>.v-span-4</code></td>
+<td>Span 4 rows</td>
+</tr>
+<tr class="even">
+<td><code>.v-span-5</code></td>
+<td>Span 5 rows</td>
+</tr>
+<tr class="odd">
+<td><code>.v-span-6</code></td>
+<td>Span 6 rows</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-1">Example</h4>
+<div
+class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-grid-3 gap-3 monospace mt-3 mb-5 text-center">
+<div class="p-3 bg-red rounded v-span-2">
+01
+</div>
+<div class="p-3 bg-red rounded">
+02
+</div>
+<div class="p-3 bg-red rounded">
+03
+</div>
+<div class="p-3 bg-red rounded">
+04
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;h-grid-3 gap-3&quot;&gt;
+  &lt;div class=&quot;v-span-2&quot;&gt;01&lt;/div&gt;
+  &lt;div&gt;02&lt;/div&gt;
+  &lt;div&gt;03&lt;/div&gt;
+  &lt;div&gt;04&lt;/div&gt;  
+&lt;/div&gt;</code></pre>
+<p>This creates a 3-column grid where the first item spans 2 rows.</p>

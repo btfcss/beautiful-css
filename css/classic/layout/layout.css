@@ -1,6 +1,7 @@
 @import url(breakpoints.css);
 @import url(spacing.css);
-@import url(grid.css);
+@import url(horizontal-grid.css);
+@import url(vertical-grid.css);
 @import url(masonry.css);
 @import url(margins.css);
 @import url(paddings.css);
