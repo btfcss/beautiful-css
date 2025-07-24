@@ -86,6 +86,35 @@
       <%- include cards/typography.ejs %>
       <%- include cards/text-colors.ejs %>
       <%- include cards/background-colors.ejs %>
+
+
+      <div id="background-opacity" class="card">
+        <div class="header">
+          <h2>Background Opacity</h2>
+        </div>
+        <div class="body text-center">
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-red bg-opacity-0">0%</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-red bg-opacity-10">10%</div>
+          
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-red">Red</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-pink">Pink</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-purple">Purple</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-blue">Blue</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-cyan">Cyan</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-green">Green</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-white color-black">White</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-grey">Grey</div>
+          <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-black color-white">Black</div>
+          <div
+            class="rounded hover:scale-105 p-4 m-3 rounded-2 dark:bg-yellow-700 dark:hover:bg-purple-700 light:bg-red-500 light:hover:bg-green-500">
+            Custom</div>
+        </div>
+        <div class="footer align-right">
+          <button class="btn-blue" data-open-modal="documentation-modal"
+            data-documentation="background-colors">&lt;code&gt;</button>
+        </div>
+      </div>
+
       <%- include cards/text-alignment.ejs %>
       <%- include cards/blockquote.ejs %>
       <%- include cards/font-size.ejs %>
