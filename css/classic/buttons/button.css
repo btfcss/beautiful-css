@@ -41,7 +41,7 @@
   outline: 0;
   transition: background-color,border-color,color,fill,stroke, 0.15s;  
 
-  background-color: light-dark(oklch(var(--bg-light)), oklch(var(--bg-dark)));
+  background-color: light-dark(oklch(var(--bg-light, 0 0 0 / 0)), oklch(var(--bg-dark, 0 0 0 / 0)));
 
   border-color: light-dark(oklch(var(--border-light)), oklch(var(--border-dark)));
   border-top-width: oklch(var(--border-top-width, var(--border-width, 1px)));
