@@ -7,9 +7,18 @@
 .w-8px { width: 8px!important; }
 .w-16px { width: 16px!important; }
 .w-32px { width: 32px!important; }
+.w-48px { width: 32px!important; }
 .w-64px { width: 64px!important; }
 .w-128px { width: 128px!important; }
 .w-256px { width: 256px!important; }
+
+.w-100wh-8px { width: calc(100vw - 8px); }
+.w-100wh-16px { width: calc(100vw - 16px); }
+.w-100wh-32px { width: calc(100vw - 32px); }
+.w-100wh-48px { width: calc(100vw - 48px); }
+.w-100wh-64px { width: calc(100vw - 64px); }
+.w-100wh-128px { width: calc(100vw - 128px); }
+.w-100wh-256px { width: calc(100vw - 256px); }
 
 .w-sm { width: var(--breakpoint-sm)!important; }
 .w-md { width: var(--breakpoint-md)!important; }

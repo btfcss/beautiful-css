@@ -7,9 +7,18 @@
 .h-8px { height: 8px!important; }
 .h-16px { height: 16px!important; }
 .h-32px { height: 32px!important; }
+.h-48px { height: 48px!important; }
 .h-64px { height: 64px!important; }
 .h-128px { height: 128px!important; }
 .h-256px { height: 256px!important; }
+
+.h-100vh-8px { height: calc(100vh - 8px); }
+.h-100vh-16px { height: calc(100vh - 16px); }
+.h-100vh-32px { height: calc(100vh - 32px); }
+.h-100vh-48px { height: calc(100vh - 48px); }
+.h-100vh-64px { height: calc(100vh - 64px); }
+.h-100vh-128px { height: calc(100vh - 128px); }
+.h-100vh-256px { height: calc(100vh - 256px); }
 
 .h-sm { height: var(--breakpoint-sm)!important; }
 .h-md { height: var(--breakpoint-md)!important; }
