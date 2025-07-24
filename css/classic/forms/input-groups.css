@@ -29,8 +29,8 @@
   justify-content: center;
   background-color: blue;
   border-radius: var(--spacing-2);
-  border: 1px solid light-dark(var(--grey-300), var(--grey-800));
-  background-color: light-dark(var(--white-200),var(--black-300));
+  border: 1px solid light-dark(oklch(var(--grey-300)), oklch(var(--grey-800)));
+  background-color: light-dark(oklch(var(--white-200)),oklch(var(--black-300)));
   width: 100%;
 }
 
@@ -44,19 +44,19 @@
 .input-group:has(*:focus-within),
 .input-group:has(*:focus-visible) {
   border-color: var(--blue-400);
-  box-shadow: 0 0 0 var(--spacing-1) var(--blue-400);
+  box-shadow: 0 0 0 var(--spacing-1) oklch(var(--blue-400));
 }
 
 .input-group:has(*.valid:focus),
 .input-group:has(*.valid:focus-within),
 .input-group:has(*.valid:focus-visible) {
-  border-color: var(--green-400);
-  box-shadow: 0 0 0 var(--spacing-1) var(--green-400);
+  border-color: oklch(var(--green-400));
+  box-shadow: 0 0 0 var(--spacing-1) oklch(var(--green-400));
 }
 
 .input-group:has(*.invalid:focus),
 .input-group:has(*.invalid:focus-within),
 .input-group:has(*.invalid:focus-visible) {
-  border-color: var(--red-400);
-  box-shadow: 0 0 0 var(--spacing-1) var(--red-400);
+  border-color: oklch(var(--red-400));
+  box-shadow: 0 0 0 var(--spacing-1) oklch(var(--red-400));
 }

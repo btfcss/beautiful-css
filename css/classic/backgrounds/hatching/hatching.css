@@ -17,6 +17,6 @@
 [class*="hatching-"] {
   background-position: 0 0;
   background-size: 10px 10px;
-  background-image: repeating-linear-gradient(135deg,light-dark(var(--hatching-light, transparent), var(--hatching-dark, transparent)) 0 1px,transparent  0 50%);
+  background-image: repeating-linear-gradient(135deg,light-dark(oklch(var(--hatching-light, 0 0 0 / 0)), oklch(var(--hatching-dark, 0 0 0 / 0))) 0 1px,transparent  0 50%);
 }
 

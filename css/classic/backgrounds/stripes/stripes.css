@@ -16,9 +16,9 @@
 [class*="light\:stripes-"],
 [class*="stripes-"] {
   background: repeating-linear-gradient(135deg,
-      light-dark(var(--stripes-bg-light, transparent),var(--stripes-bg-dark, transparent)),
-      light-dark(var(--stripes-bg-light, transparent),var(--stripes-bg-dark, transparent)) 10px,
-      light-dark(var(--stripes-fg-light, transparent),var(--stripes-fg-dark, transparent)) 10px,
-      light-dark(var(--stripes-fg-light, transparent),var(--stripes-fg-dark, transparent)) 20px);
+      light-dark(oklch(var(--stripes-bg-light, 0 0 0 / 0)),oklch(var(--stripes-bg-dark, 0 0 0 / 0))),
+      light-dark(oklch(var(--stripes-bg-light, 0 0 0 / 0)),oklch(var(--stripes-bg-dark, 0 0 0 / 0))) 10px,
+      light-dark(oklch(var(--stripes-fg-light, 0 0 0 / 0)),oklch(var(--stripes-fg-dark, 0 0 0 / 0))) 10px,
+      light-dark(oklch(var(--stripes-fg-light, 0 0 0 / 0)),oklch(var(--stripes-fg-dark, 0 0 0 / 0))) 20px);
 }
 

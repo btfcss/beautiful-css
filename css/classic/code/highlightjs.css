@@ -20,17 +20,17 @@ pre code.hljs {
   line-height: 1.4rem;
   margin: 1rem 0em;
   width: fit-content;
-  border-radius: var(--spacing-2);  
+  border-radius: var(--spacing-2);
 }
 
 .hljs {
-  color: light-dark(var(--black-300), var(--white-700));
-  background-color: light-dark(var(--white-500), var(--black-400));
+  color: light-dark(oklch(var(--black-300)), oklch(var(--white-700)));
+  background-color: light-dark(oklch(var(--white-500)), oklch(var(--black-400)));
 }
 
 .hljs::selection,
 .hljs ::selection {
-  background-color: light-dark(var(--blue-300), var(--blue-700));
+  background-color: light-dark(oklch(var(--blue-300)), oklch(var(--blue-700)));
 }
 
 /* purposely do not highlight these things */
@@ -40,20 +40,20 @@ pre code.hljs {
 
 /* Comments, Invisibles, Line Highlighting */
 .hljs-comment {
-  color: light-dark(var(--green-600), var(--green-500));
+  color: light-dark(oklch(var(--green-600)), oklch(var(--green-500)));
   font-style: italic;
 }
 
 /* Dark Foreground (Used for status bars) */
 .hljs-tag {
-  color: light-dark(var(--grey-800), var(--grey-200));
+  color: light-dark(oklch(var(--grey-800)), oklch(var(--grey-200)));
 }
 
 /* Default Foreground, Caret, Delimiters, Operators */
 .hljs-subst,
 .hljs-punctuation,
 .hljs-operator {
-  color: light-dark(var(--black-100), var(--black-100));
+  color: light-dark(oklch(var(--black-100)), oklch(var(--black-100)));
 }
 
 .hljs-operator {
@@ -67,7 +67,7 @@ pre code.hljs {
 .hljs-selector-tag,
 .hljs-name,
 .hljs-deletion {
-  color: var(--red-400);
+  color: oklch(var(--red-400));
 }
 
 /* base09 - Integers, Boolean, Constants, XML Attributes, Markup Link Url */
@@ -77,19 +77,19 @@ pre code.hljs {
 .hljs-attr,
 .hljs-variable.constant_,
 .hljs-literal {
-  color: var(--blue-500);  
+  color: oklch(var(--blue-500));
 }
 
 /* base0A - Classes, Markup Bold, Search Text Background */
 .hljs-title,
 .hljs-class .hljs-title,
 .hljs-title.class_ {
-  color: var(--pink-500);
+  color: oklch(var(--pink-500));
 }
 
 .hljs-strong {
   font-weight: bold;
-  color: var(--pink-500);
+  color: oklch(var(--pink-500));
 }
 
 /* base0B - Strings, Inherited Class, Markup Code, Diff Inserted */
@@ -97,7 +97,7 @@ pre code.hljs {
 .hljs-addition,
 .hljs-title.class_.inherited__,
 .hljs-string {
-  color: light-dark(var(--green-500), var(--green-400));
+  color: light-dark(oklch(var(--green-500)), oklch(var(--green-400)));
 }
 
 /* base0C - Support, Regular Expressions, Escape Characters, Markup Quotes */
@@ -107,7 +107,7 @@ pre code.hljs {
 .hljs-quote,
 .hljs-keyword.hljs-atrule,
 .hljs-regexp {
-  color: var(--orange-500);
+  color: oklch(var(--orange-500));
 }
 
 /* base0D - Functions, Methods, Attribute IDs, Headings */
@@ -116,7 +116,7 @@ pre code.hljs {
 .ruby .hljs-property,
 .hljs-title.function_,
 .hljs-section {
-  color: var(--orange-500);
+  color: oklch(var(--orange-500));
 }
 
 /* base0E - Keywords, Storage, Selector, Markup Italic, Diff Changed */
@@ -128,11 +128,11 @@ pre code.hljs {
 .hljs-template-tag,
 .diff .hljs-meta,
 .hljs-keyword {
-  color: light-dark(var(--blue-600), var(--blue-400));
+  color: light-dark(oklch(var(--blue-600)), oklch(var(--blue-400)));
 }
 
 .hljs-emphasis {
-  color: light-dark(var(--blue-600), var(--blue-400));
+  color: light-dark(oklch(var(--blue-600)), oklch(var(--blue-400)));
   font-style: italic
 }
 
@@ -144,7 +144,7 @@ pre code.hljs {
 .hljs-meta,
 .hljs-meta .hljs-keyword,
 .hljs-meta .hljs-string {
-  color: var(--blue-400);
+  color: oklch(var(--blue-400));
 }
 
 /* for v10 compatible themes */

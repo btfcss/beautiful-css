@@ -1,12 +1,12 @@
 @import url(highlightjs.css);
 
-code  {
+code {
     font-size: 0.98rem;
-    color: light-dark(var(--black-800), var(--white-100));
+    color: light-dark(oklch(var(--black-800)), oklch(var(--white-100)));
     padding-left: var(--spacing-2);
     padding-right: var(--spacing-2);
     margin-left: var(--spacing-2);
     margin-right: var(--spacing-2);
-    background-color: light-dark(var(--white-500), var(--black-400))!important;
-    border-radius: var(--spacing-2);    
+    background-color: light-dark(oklch(var(--white-500)), oklch(var(--black-400))) !important;
+    border-radius: var(--spacing-2);
 }

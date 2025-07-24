@@ -32,8 +32,8 @@
 :root {
   /* color-scheme: light dark; */
   color-scheme: var(--color-scheme, light);
-  --background-color: light-dark(var(--white-100), var(--black-800));
-  --text-color: light-dark(var(--black-500), var(--white-500));
+  --background-color: light-dark(oklch(var(--white-100)), oklch(var(--black-800)));
+  --text-color: light-dark(oklch(var(--black-500)), oklch(var(--white-500)));
 }
 
 body {

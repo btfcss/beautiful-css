@@ -17,7 +17,7 @@
 [class*="light\:stroke-"],
 [class*="dark\:stroke-"],
 [class*="stroke-"] {
-  -webkit-text-stroke-color: light-dark(var(--stroke-light, var(--black-950)), var(--stroke-dark, var(--white-50))) !important;
+  -webkit-text-stroke-color: light-dark(oklch(var(--stroke-light, var(--black-950))), oklch(var(--stroke-dark, var(--white-50)))) !important;
   -webkit-text-stroke-width: var(--stroke-width, 1px);
   paint-order: stroke fill;
 }

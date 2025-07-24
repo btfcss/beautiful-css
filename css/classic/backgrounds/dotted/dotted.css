@@ -17,5 +17,5 @@
 [class*="dotted-"] {
   background-position: 0 0;
   background-size: 10px 10px;
-  background-image: radial-gradient(light-dark(var(--dotted-light, transparent), var(--dotted-dark, transparent)) 1px,transparent 0); 
+  background-image: radial-gradient(light-dark(oklch(var(--dotted-light, 0 0 0 / 0)), oklch(var(--dotted-dark, 0 0 0 / 0))) 1px,transparent 0); 
 }

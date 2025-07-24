@@ -19,7 +19,7 @@
 [class*="light\:hover\:color-"],
 [class*="dark\:hover\:color-"],
 [class*="hover\:color-"] {
-  color: light-dark(var(--color-light, var(--black-500)), var(--color-dark, var(--white-500)))!important;
+  color: light-dark(oklch(var(--color-light, var(--black-500))), oklch(var(--color-dark, var(--white-500))))!important;
 }
 
 .color-transparent { --color-light:transparent;--color-dark:transparent; }

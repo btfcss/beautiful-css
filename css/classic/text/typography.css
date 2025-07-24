@@ -64,12 +64,12 @@ u,
 
 .deleted,
 del {
-  color: var(--red-500);
+  color: oklch(var(--red-500));
 }
 
 inserted,
 ins {
-  color: light-dark(var(--green-700), var(--green-500));
+  color: light-dark(oklch(var(--green-700)), oklch(var(--green-500)));
   text-decoration: none;
 }
 
@@ -83,8 +83,8 @@ ins {
 kbd {
   font-family: var(--font-family-monospace) !important;
   display: inline-block !important;
-  background-color: light-dark(var(--black-200), var(--white-200)) !important;
-  color: light-dark(var(--white-950), var(--black-50)) !important;
+  background-color: light-dark(oklch(var(--black-200)), oklch(var(--white-200))) !important;
+  color: light-dark(oklch(var(--white-950)), oklch(var(--black-50))) !important;
   vertical-align: baseline !important;
   padding: var(--spacing-1) !important;
   padding-left: var(--spacing-2) !important;

@@ -21,7 +21,7 @@
 :not(.input-group) > .dark\:btn:focus-visible:not(:disabled),
 :not(.input-group) > .light\:btn:focus:not(:disabled),
 :not(.input-group) > .light\:btn:focus-visible:not(:disabled) {
-  --btn-box-shadow: var(--grey-500);
+  --btn-box-shadow: oklch(var(--grey-500));
 }
 
 
@@ -41,15 +41,15 @@
   outline: 0;
   transition: background-color,border-color,color,fill,stroke, 0.15s;  
 
-  background-color: light-dark(var(--bg-light, inherit), var(--bg-dark, inherit));
+  background-color: light-dark(oklch(var(--bg-light)), oklch(var(--bg-dark)));
 
-  border-color: light-dark(var(--border-light), var(--border-dark));
-  border-top-width: var(--border-top-width, var(--border-width, 1px));
-  border-right-width: var(--border-right-width, var(--border-width, 1px));
-  border-bottom-width: var(--border-bottom-width, var(--border-width, 1px));
-  border-left-width: var(--border-left-width, var(--border-width, 1px));
+  border-color: light-dark(oklch(var(--border-light)), oklch(var(--border-dark)));
+  border-top-width: oklch(var(--border-top-width, var(--border-width, 1px)));
+  border-right-width: oklch(var(--border-right-width, var(--border-width, 1px)));
+  border-bottom-width: oklch(var(--border-bottom-width, var(--border-width, 1px)));
+  border-left-width: oklch(var(--border-left-width, var(--border-width, 1px)));
   
-  color: light-dark(var(--text-light, var(--black-500)), var(--text-dark, var(--white-500)));
+  color: light-dark(oklch(var(--text-light, var(--black-500))), oklch(var(--text-dark, var(--white-500))));
   
   box-shadow: 0 0 0 0.12rem var(--btn-box-shadow);
 }
