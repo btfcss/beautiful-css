@@ -44,8 +44,8 @@
   --bg-dark: var(--black-400);
   --border-light: var(--black-400);
   --border-dark: var(--black-400);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: 1 0 0;
+  --text-dark: 1 0 0;
 }
 
 .btn-black.outline:hover:not(:disabled):not(.active),
@@ -54,8 +54,8 @@
   --bg-dark: var(--black-100);
   --border-light: var(--black-100);
   --border-dark: var(--black-100);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: 1 0 0;
+  --text-dark: 1 0 0;
 }
 
 :not(.input-group) > .btn-black:focus:not(:disabled),

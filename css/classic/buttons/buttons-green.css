@@ -44,8 +44,8 @@
   --bg-dark: var(--green-700);
   --border-light: var(--green-700);
   --border-dark: var(--green-700);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: 1 0 0;
+  --text-dark: 1 0 0;
 }
 
 
@@ -55,8 +55,8 @@
   --bg-dark: var(--green-600);
   --border-light: var(--green-600);
   --border-dark: var(--green-600);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: 1 0 0;
+  --text-dark: 1 0 0;
 }
 
 :not(.input-group) > .btn-green:focus:not(:disabled),

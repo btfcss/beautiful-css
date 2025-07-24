@@ -45,8 +45,8 @@
   --bg-dark: var(--purple-700);
   --border-light: var(--purple-700);
   --border-dark: var(--purple-700);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: 1 0 0;
+  --text-dark: 1 0 0;
 }
 
 .btn-purple.outline:hover:not(:disabled):not(.active),
@@ -55,8 +55,8 @@
   --bg-dark: var(--purple-600);
   --border-light: var(--purple-600);
   --border-dark: var(--purple-600);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: 1 0 0;
+  --text-dark: 1 0 0;
 }
 
 :not(.input-group) > .btn-purple:focus:not(:disabled),

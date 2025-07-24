@@ -45,8 +45,8 @@
   --bg-dark: var(--yellow-700);
   --border-light: var(--yellow-700);
   --border-dark: var(--yellow-700);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: 1 0 0;
+  --text-dark: 1 0 0;
 }
 
 .btn-yellow.outline:hover:not(:disabled):not(.active),
@@ -55,8 +55,8 @@
   --bg-dark: var(--yellow-600);
   --border-light: var(--yellow-600);
   --border-dark: var(--yellow-600);  
-  --text-light: #fff;
-  --text-dark: #fff;
+  --text-light: 1 0 0;
+  --text-dark: 1 0 0;
 }
 
 :not(.input-group) > .btn-yellow:focus:not(:disabled),
