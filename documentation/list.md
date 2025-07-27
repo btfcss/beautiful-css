@@ -20,40 +20,55 @@ These utility classes allow you to control the appearance and structure of lists
 | ೧ | `.list-kannada`   | Ordered list using Kannada numerals | `list-style-type: kannada;`  |
 |     | `.list-none`     |  Removes list bullets/numbers         | `list-style-type: none;`     |
 
-### Usage Example
+### Examples
 
-#### Code
+<ul class="list-circle">
+  <li>Circle item one</li>
+  <li>Circle item two</li>
+</ul>
 
 ```html
 <ul class="list-circle">
   <li>Circle item one</li>
   <li>Circle item two</li>
 </ul>
+```
 
-<ul class="list-square">
+<ul class="list-square mt-5">
   <li>Square item one</li>
   <li>Square item two</li>
 </ul>
 
+
+```html
+<ul class="list-square">
+  <li>Square item one</li>
+  <li>Square item two</li>
+</ul>
+```
+
+<ul class="list-none mt-5">
+  <li>Bullet removed</li>
+  <li>No marker here</li>
+</ul>
+
+```html
 <ul class="list-none">
   <li>Bullet removed</li>
   <li>No marker here</li>
 </ul>
 ```
 
-#### Output
 
-<ul class="list-circle">
-  <li>Circle item one</li>
-  <li>Circle item two</li>
-</ul>
 
-<ol class="list-square mt-5">
-  <li>Square item one</li>
-  <li>Square item two</li>
+<ol class="mt-5">
+  <li>Item 1</li>
+  <li>Item 2</li>
 </ol>
 
-<ul class="list-none mt-5">
-  <li>Bullet removed</li>
-  <li>No marker here</li>
-</ul>
+```html
+<ol class="mt-5">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ol>
+```
