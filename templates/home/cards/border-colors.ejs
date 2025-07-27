@@ -1,5 +1,5 @@
 <!-- Border Colors -->
-<div class="card">
+<div id="border-colors" class="card">
   <div class="header">
     <h2>Border Colors</h2>
   </div>
@@ -19,6 +19,14 @@
     <div class="rounded-3 hover:border-blue-700 p-4 m-3 border-2 light:border-pink-700 light:hover:border-red-700 dark:border-cyan-200 dark:hover-blue-200 text-center">Custom</div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="border-colors">&lt;code&gt;</button>
   </div>
+</div>
+
+
+<div id="doc-border-colors" hidden>
+  <h2>Border Colors <a href="#border-colors" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/border-colors.ejs %>
+  </content>
 </div>
