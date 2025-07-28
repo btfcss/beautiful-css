@@ -1,4 +1,4 @@
-<div class="card">
+<div id="rotation" class="card">
   <div class="header">
     <h2>Rotation</h2>
   </div>
@@ -12,6 +12,13 @@
     <img class="mx-auto hover:rotate-0 transition-rotate duration-500 rotate-315" src="/images/rotations.jpg">
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="rotation">&lt;code&gt;</button>
   </div>
+</div>
+
+<div id="doc-rotation" hidden>
+  <h2>Rotation <a href="#rotation" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/rotation.ejs %>
+  </content>
 </div>

@@ -6,33 +6,69 @@
   rotate: 0deg;
 }
 
+
 .rotate-45 {
   rotate: 45deg;
 }
+
+.hover\:rotate-45:hover {
+  rotate: 45deg;
+}
+
 
 .rotate-90 {
   rotate: 90deg;
 }
 
+.hover\:rotate-90:hover {
+  rotate: 90deg;
+}
+
+
 .rotate-135 {
   rotate: 135deg;
 }
+
+.hover\:rotate-135:hover {
+  rotate: 135deg;
+}
+
 
 .rotate-180 {
   rotate: 180deg;
 }
 
+.hover\:rotate-180:hover {
+  rotate: 180deg;
+}
+
+
 .rotate-225 {
   rotate: 225deg;
 }
+
+.hover\:rotate-225:hover {
+  rotate: 225deg;
+}
+
 
 .rotate-270 {
   rotate: 270deg;
 }
 
+.hover\:rotate-270:hover {
+  rotate: 270deg;
+}
+
+
 .rotate-315 {
   rotate: 315deg;
 }
+
+.hover\:rotate-315:hover {
+  rotate: 315deg;
+}
+
 
 .transition-rotate {
   transition-property: rotate;
