@@ -72,8 +72,8 @@ body:has(.modal[open]) {
 
 
 .modal.no-animation {
-  --opening-duration: 0ms;
-  --closing-duration: 0ms;
+  --opening-duration: 5ms;
+  --closing-duration: 5ms;
 }
 
 .modal.no-blur::backdrop {

@@ -13,9 +13,14 @@ document.body.addEventListener('click', (event) => {
   if (event.target.matches('[data-open-modal]')) openModal(event.target.dataset.openModal, event.target);
 
   // Check if modal close attribute exists
-  if (event.target.matches('[data-close-modal]')) closeModal(currentModalId);
-
+  if (event.target.matches('[data-close-modal]')) {
+    if (currentModalId == null) currentModalId = event.target.id;
+    closeModal(currentModalId);
+  }
 });
+
+
+
 
 
 /**
@@ -61,11 +66,16 @@ export const openModal = (id, triggerElement) => {
     // Dispatch the shown event
     eventOpened.triggerElement = triggerElement;
     modalEl.dispatchEvent(eventOpened);
-  
+
+    modalEl.addEventListener('cancel', onEscapeKeyPressed, { 'once': true })
+
   }, { once: true });
-  
+
   // Show the modal (and trigger the  animation)
   modalEl.showModal();
+
+
+
 
   // Scroll to top of modal if requested
   if (modalEl.dataset.scrollTo === 'top')
@@ -75,6 +85,26 @@ export const openModal = (id, triggerElement) => {
   currentModalId = id;
 }
 
+
+/**
+ * Handles the Escape key press event to close a modal.
+ *
+ * @param {object} event - The keyboard event triggered by the Escape key.
+ * @returns {void}
+ */
+const onEscapeKeyPressed = (event) => {
+
+  // If the event is not cancelable, reset currentModalId
+  if (!event.cancelable) {
+    currentModalId = null;        
+    return;
+  }
+
+  // The modal is cancelable, run the animation
+  event.preventDefault();
+  closeModal(event.target.id, null);
+  
+}
 
 
 /**
@@ -109,6 +139,11 @@ export const closeModal = (id, next) => {
     // Open the next modal if required
     if (next) openModal(next);
   }, { once: true });
+
+
+  // Remove the event listener
+  modalEl.removeEventListener('cancel', onEscapeKeyPressed); 
+
 }
 
 

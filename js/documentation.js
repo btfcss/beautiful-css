@@ -1,4 +1,7 @@
 import { openModal } from "@btfcss/modal";
+//import { openModal } from "./modal.js";
+
+
 
 // Prepare documentation modal elements
 const documentationModal = document.getElementById('documentation-modal');
@@ -22,5 +25,5 @@ documentationModal.addEventListener('onModalOpen', (event) => {
 
 // Open the document modal if requested in the URL
 const hash = window.location.hash.substring(1);
-const button = document.querySelector('[data-documentation="'+hash+'"]');
+const button = document.querySelector('[data-documentation="' + hash + '"]');
 if (hash && button) openModal('documentation-modal', button);
