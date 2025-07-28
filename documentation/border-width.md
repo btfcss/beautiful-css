@@ -6,13 +6,13 @@ Use the `.border-*` utility classes to control the **border width** of elements.
 
 | Class       | CSS Output          | Description        |
 | ----------- | ------------------- | ------------------ |
-| `.border-0` | `border-width: 0`   | No border          |
-| `.border`   | `border-width: 1px` | Default 1px border |
-| `.border-1` | `border-width: 1px` | Same as `.border`  |
-| `.border-2` | `border-width: 2px` | Medium thickness   |
-| `.border-3` | `border-width: 3px` | Thick border       |
-| `.border-4` | `border-width: 4px` | Extra thick        |
-| `.border-5` | `border-width: 5px` | Maximum thickness  |
+| `border-0` | `border-width: 0`   | No border          |
+| `border`   | `border-width: 1px` | Default 1px border |
+| `border-1` | `border-width: 1px` | Same as `.border`  |
+| `border-2` | `border-width: 2px` | Medium thickness   |
+| `border-3` | `border-width: 3px` | Thick border       |
+| `border-4` | `border-width: 4px` | Extra thick        |
+| `border-5` | `border-width: 5px` | Maximum thickness  |
 
 All classes include `!important` to ensure override priority.
 
@@ -49,7 +49,7 @@ All classes include `!important` to ensure override priority.
 ```
 
 * `{n}` ranges from `0` to `5`
-* `.border` is equivalent to `.border-1`
+* `border` is equivalent to `border-1`
 
 
 

@@ -12,13 +12,13 @@ These utility classes allow you to control the appearance and structure of lists
 
 | Symbol | Class Name        | Description                          | CSS Property                 |
 |----- | ----------------  |  ------------------------------------|---------------------------- |
-| ● | `.list-disc`      | Bulleted list with filled circles | `list-style-type: disc;`     |
-| ○ | `.list-circle`    | Bulleted list with hollow circles  | `list-style-type: circle;`   |
-| ■ | `.list-square`    | Bulleted list with squares          | `list-style-type: square;`   |
-| 1. | `.list-decimal`   | Ordered list with numbers        | `list-style-type: decimal;`  |
-| ა | `.list-georgian`  | Ordered list using Georgian numerals | `list-style-type: georgian;` |
-| ೧ | `.list-kannada`   | Ordered list using Kannada numerals | `list-style-type: kannada;`  |
-|     | `.list-none`     |  Removes list bullets/numbers         | `list-style-type: none;`     |
+| ● | `list-disc`      | Bulleted list with filled circles | `list-style-type: disc;`     |
+| ○ | `list-circle`    | Bulleted list with hollow circles  | `list-style-type: circle;`   |
+| ■ | `list-square`    | Bulleted list with squares          | `list-style-type: square;`   |
+| 1. | `list-decimal`   | Ordered list with numbers        | `list-style-type: decimal;`  |
+| ა | `list-georgian`  | Ordered list using Georgian numerals | `list-style-type: georgian;` |
+| ೧ | `list-kannada`   | Ordered list using Kannada numerals | `list-style-type: kannada;`  |
+|     | `list-none`     |  Removes list bullets/numbers         | `list-style-type: none;`     |
 
 ### Examples
 
