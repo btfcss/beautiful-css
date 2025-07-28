@@ -12,7 +12,7 @@
 @import url(border-white.css);
 @import url(border-grey.css);
 @import url(border-black.css);
-@import url(border-style.css);
+@import url(border-styles.css);
 @import url(border-width.css);
 @import url(rounded.css);
 
@@ -21,7 +21,7 @@
 :root {
   --border-radius: var(--spacing-4);
   --border-light: var(--white-400);
-  --border-dark:var(--black-400);
+  --border-dark: var(--black-400);
 }
 
 
@@ -96,6 +96,15 @@
 [class*="hover:\border-white"],
 [class*="hover:\border-grey"],
 [class*="hover:\border-black"] {
-  border-style: var(--border-style, solid);
+
   border-color: light-dark(oklch(var(--border-light, 0 0 0 / 0)), oklch(var(--border-dark, 0 0 0 / 0)));
+}
+
+[class*="dark\:border-"],
+[class*="light\:border-"],
+[class*="border-"],
+[class*="dark\:hover\:border-"],
+[class*="light\:hover:\border-"],
+[class*="hover:\border-"] {
+  border-style: var(--border-style, solid);
 }
