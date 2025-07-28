@@ -1,6 +1,6 @@
-<div class="card">
+<div id="border-side" class="card">
   <div class="header">
-    <h2>Side Borders</h2>
+    <h2>Border Side</h2>
   </div>
   <div class="body text-center py-5">
 
@@ -16,6 +16,14 @@
 
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="border-side">&lt;code&gt;</button>
   </div>
+</div>
+
+
+<div id="doc-border-side" hidden>
+  <h2>Border Side <a href="#border-side" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/border-side.ejs %>
+  </content>
 </div>
