@@ -25,11 +25,22 @@ The `.fit-*` classes are shorthand aliases for their corresponding `.object-*` u
 ### Examples
 
 
+
+#### Fit inside the container
+Use `object-contain` to make the content fit entirely within the container without clipping. The aspect ratio is preserved, and empty space may appear.
+
+<div  class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/object-fit.jpg" class="h-100 w-100 object-contain"></div>
+
+```html
+<img src="image.jpg" class="h-100 w-100 object-contain">
+```
+
+
 #### Cover the container
 
 Use `object-cover` to fill the container while preserving the aspect ratio. The image will be clipped if necessary.
 
-<div  class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/skateboard.jpg" class="h-100 w-100 object-cover"></div>
+<div  class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/object-fit.jpg" class="h-100 w-100 object-cover"></div>
 
 ```html
 <img src="image.jpg" class="h-100 w-100 object-cover">
@@ -38,21 +49,11 @@ Use `object-cover` to fill the container while preserving the aspect ratio. The 
 
 
 
-#### Fit inside the container
-Use `object-contain` to make the content fit entirely within the container without clipping. The aspect ratio is preserved, and empty space may appear.
-
-<div  class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/skateboard.jpg" class="h-100 w-100 object-contain"></div>
-
-```html
-<img src="image.jpg" class="h-100 w-100 object-contain">
-```
-
-
 #### Stretch to fill
 Use `object-fill` to make the content fill the container regardless of its aspect ratio. This may distort the content.
 
 
-<div  class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/skateboard.jpg" class="h-100 w-100 object-fill"></div>
+<div  class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/object-fit.jpg" class="h-100 w-100 object-fill"></div>
 
 ```html
 <img src="image.jpg" class="h-100 w-100 object-fill">
@@ -64,7 +65,7 @@ Use `object-fill` to make the content fill the container regardless of its aspec
 Use `object-scale-down` to display the content at its original size unless it’s too large—then it scales down to fit the container.
 
 
-<div  class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/skateboard-small.jpg" class="h-100 w-100 object-scale-down"></div>
+<div  class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/object-fit-small.jpg" class="h-100 w-100 object-scale-down"></div>
 
 
 ```html
@@ -78,7 +79,7 @@ Use `object-scale-down` to display the content at its original size unless it’
 Use `object-none` to keep the original size of the content, ignoring the container dimensions. It may overflow if the content is larger.
 
 
-<div  class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/skateboard.jpg" class="h-100 w-100 object-none"></div>
+<div  class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto"><img src="/images/object-fit.jpg" class="h-100 w-100 object-none"></div>
 
 
 ```html

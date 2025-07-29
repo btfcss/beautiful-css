@@ -56,29 +56,29 @@ corresponding <code>.object-*</code> utilities, providing an alternate,
 shorter syntax for controlling the <code>object-fit</code> behavior of
 media elements.</p>
 <h3 id="examples">Examples</h3>
-<h4 id="cover-the-container">Cover the container</h4>
-<p>Use <code>object-cover</code> to fill the container while preserving
-the aspect ratio. The image will be clipped if necessary.</p>
-<div
-class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
-<img src="/images/skateboard.jpg" class="h-100 w-100 object-cover">
-</div>
-<pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-cover&quot;&gt;</code></pre>
 <h4 id="fit-inside-the-container">Fit inside the container</h4>
 <p>Use <code>object-contain</code> to make the content fit entirely
 within the container without clipping. The aspect ratio is preserved,
 and empty space may appear.</p>
 <div
-class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
-<img src="/images/skateboard.jpg" class="h-100 w-100 object-contain">
+class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/object-fit.jpg" class="h-100 w-100 object-contain">
 </div>
 <pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-contain&quot;&gt;</code></pre>
+<h4 id="cover-the-container">Cover the container</h4>
+<p>Use <code>object-cover</code> to fill the container while preserving
+the aspect ratio. The image will be clipped if necessary.</p>
+<div
+class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/object-fit.jpg" class="h-100 w-100 object-cover">
+</div>
+<pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-cover&quot;&gt;</code></pre>
 <h4 id="stretch-to-fill">Stretch to fill</h4>
 <p>Use <code>object-fill</code> to make the content fill the container
 regardless of its aspect ratio. This may distort the content.</p>
 <div
-class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
-<img src="/images/skateboard.jpg" class="h-100 w-100 object-fill">
+class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/object-fit.jpg" class="h-100 w-100 object-fill">
 </div>
 <pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-fill&quot;&gt;</code></pre>
 <h4 id="scale-down-if-needed">Scale down if needed</h4>
@@ -86,8 +86,8 @@ class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 bo
 original size unless it’s too large—then it scales down to fit the
 container.</p>
 <div
-class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
-<img src="/images/skateboard-small.jpg" class="h-100 w-100 object-scale-down">
+class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/object-fit-small.jpg" class="h-100 w-100 object-scale-down">
 </div>
 <pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-scale-down&quot;&gt;</code></pre>
 <h4 id="use-original-size-only">Use original size only</h4>
@@ -95,7 +95,7 @@ class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 bo
 content, ignoring the container dimensions. It may overflow if the
 content is larger.</p>
 <div
-class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
-<img src="/images/skateboard.jpg" class="h-100 w-100 object-none">
+class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 border dark:border-black-400 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/object-fit.jpg" class="h-100 w-100 object-none">
 </div>
 <pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-none&quot;&gt;</code></pre>
