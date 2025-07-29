@@ -35,6 +35,16 @@ Use `hatching` utility classes to apply a diagonal striped pattern using a singl
 </div>
 ```
 
+<div class="w-fit mt-5 bg-red-800 hatching-orange-500 color-white p-4 rounded">
+  Combine hatching and background color
+</div>
+
+
+```html
+<div class="bg-red-800 hatching-orange-500">
+  Combine hatching and background color
+</div>
+```
 
 ### Usage Notes
 
