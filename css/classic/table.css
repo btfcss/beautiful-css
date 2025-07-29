@@ -6,7 +6,7 @@ table {
 }
 
 .table-striped>tbody>tr:nth-of-type(odd)>* {
-    background-color: light-dark(var(--white-200), var(--black-500));
+    background-color: light-dark(oklch(var(--white-200)), oklch(var(--black-500)));
 }
 
 table * {
@@ -21,11 +21,11 @@ td {
 table tr th,
 table tr td {
     padding: .5rem;    
-    border-bottom: 1px solid light-dark(var(--grey-300), var(--grey-700));
+    border-bottom: 1px solid light-dark(oklch(var(--grey-300)), oklch(var(--grey-700)));
     text-align: -webkit-match-parent;    
     background-color: inherit;
 }
 
 th {
-    color: light-dark(var(--black-900), var(--white-100));
+    color: light-dark(oklch(var(--black-900)), oklch(var(--white-100)));
 }
