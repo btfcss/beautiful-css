@@ -1,0 +1,88 @@
+<p>Control how replaced elements like <code>&lt;img&gt;</code> or
+<code>&lt;video&gt;</code> should be resized to fit their container
+using the <code>object-fit</code> property.</p>
+<h3 id="syntax">Syntax</h3>
+<pre class="html"><code>.object-[fit]</code></pre>
+<p>Where <code>[fit]</code> can be:</p>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 82%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>object-contain</code></td>
+<td>Scale the content to maintain its aspect ratio while fitting within
+the container.</td>
+</tr>
+<tr class="even">
+<td><code>object-cover</code></td>
+<td>Scale the content to maintain its aspect ratio while filling the
+container. May crop content.</td>
+</tr>
+<tr class="odd">
+<td><code>object-fill</code></td>
+<td>Stretch the content to fill the container. Aspect ratio is not
+preserved.</td>
+</tr>
+<tr class="even">
+<td><code>object-none</code></td>
+<td>Do not resize the content. It will retain its original size.</td>
+</tr>
+<tr class="odd">
+<td><code>object-scale-down</code></td>
+<td>Scale down the content to the smallest size between
+<code>none</code> or <code>contain</code>.</td>
+</tr>
+</tbody>
+</table>
+<p>Use these classes to manage how media behaves inside fixed-size
+containers.</p>
+<h3 id="examples">Examples</h3>
+<h4 id="resizing-to-cover">Resizing to cover</h4>
+<p>Use the <code>object-cover</code> utility to resize an element’s
+content to cover its container:</p>
+<div
+class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/skateboard.jpg" class="h-100 w-100 object-cover">
+</div>
+<pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-cover&quot;&gt;</code></pre>
+<h4 id="containing-within">Containing within</h4>
+<p>Use the <code>object-contain</code> utility to resize an element’s
+content to stay contained within its container:</p>
+<div
+class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/skateboard.jpg" class="h-100 w-100 object-contain">
+</div>
+<pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-contain&quot;&gt;</code></pre>
+<h4 id="stretching-to-fit">Stretching to fit</h4>
+<p>Use the <code>object-fill</code> utility to stretch an element’s
+content to fit its container:</p>
+<div
+class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/skateboard.jpg" class="h-100 w-100 object-fill">
+</div>
+<pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-fill&quot;&gt;</code></pre>
+<h4 id="scaling-down">Scaling down</h4>
+<p>Use the <code>object-scale-down</code> utility to display an
+element’s content at its original size but scale it down to fit its
+container if necessary:</p>
+<div
+class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/skateboard-small.jpg" class="h-100 w-100 object-scale-down">
+</div>
+<pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-scale-down&quot;&gt;</code></pre>
+<h4 id="using-the-original-size">Using the original size</h4>
+<p>Use the <code>object-none</code> utility to display an element’s
+content at its original size ignoring the container size:</p>
+<div
+class="overflow-hidden w-256px dark:hatching-grey-900 light:hatching-grey-200 border dark:border-grey-900 light:border-grey-200 rounded ratio-16x9 mr-auto">
+<img src="/images/skateboard.jpg" class="h-100 w-100 object-none">
+</div>
+<pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-none&quot;&gt;</code></pre>
