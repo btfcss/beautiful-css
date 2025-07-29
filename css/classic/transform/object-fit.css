@@ -1,5 +1,5 @@
-.object-contain { object-fit: contain; }
-.object-cover { object-fit: cover; }
-.object-fill { object-fit: fill; }
-.object-none { object-fit: none; }
-.object-scale-down { object-fit: scale-down; }
+.fit-contain, .object-contain { object-fit: contain; }
+.fit-cover, .object-cover { object-fit: cover; }
+.fit-fill, .object-fill { object-fit: fill; }
+.fit-none, .object-none { object-fit: none; }
+.fit-scale-down, .object-scale-down { object-fit: scale-down; }
