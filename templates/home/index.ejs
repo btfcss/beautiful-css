@@ -115,6 +115,42 @@
       <%- include cards/horizontal-flex.ejs %>
       <%- include cards/vertical-flex.ejs %>
       <%- include cards/scale.ejs %>
+
+      <div id="object-fit" class="card">
+        <div class="header">
+          <h2>Object Fit</h2>
+        </div>
+        <div class="body v-grid gap-3">
+          <div
+            class="overflow-hidden mx-auto w-75 dark:hatching-grey-800 light:hatching-grey-200 border border-grey rounded ratio-1x1">
+            <img src="/images/skateboard.jpg" class="h-100 w-100 object-contain">
+          </div>
+
+          <div
+            class="overflow-hidden mx-auto w-75 dark:hatching-grey-800 light:hatching-grey-200 border border-grey rounded ratio-1x1">
+            <img src="/images/skateboard.jpg" class="h-100 w-100 object-fill">
+          </div>
+
+          <div
+            class="overflow-hidden mx-auto w-75 dark:hatching-grey-800 light:hatching-grey-200 border border-grey rounded ratio-1x1">
+            <img src="/images/skateboard.jpg" class="h-100 w-100 object-cover">
+          </div>
+
+          <div
+            class="overflow-hidden mx-auto w-75 dark:hatching-grey-800 light:hatching-grey-200 border border-grey rounded ratio-1x1">
+            <img src="/images/skateboard.jpg" class="h-100 w-100 object-none">
+          </div>
+
+        </div>
+        <div class="footer align-right">
+          <button class="btn-blue" data-open-modal="documentation-modal"
+            data-documentation="object-fit">&lt;code&gt;</button>
+        </div>
+      </div>
+
+
+
+
       <%- include cards/rotation.ejs %>
       <%- include cards/cursor.ejs %>
       <%- include cards/masonry.ejs %>
