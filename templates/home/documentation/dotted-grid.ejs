@@ -1,1 +1,223 @@
-
+<p>Add a subtle dotted pattern to any element using theme-aware utility
+classes. Dots are rendered using <code>radial-gradient</code> and spaced
+every 10×10px.</p>
+<h3 id="class-reference">Class Reference</h3>
+<table>
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 71%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.dotted-[color]</code></td>
+<td>Applies a default dotted pattern in the specified color (same in
+both modes)</td>
+</tr>
+<tr class="even">
+<td><code>.dotted-[color]-[shade]</code></td>
+<td>Use a specific shade of a color for both light and dark modes</td>
+</tr>
+<tr class="odd">
+<td><code>.light:dotted-[color]</code></td>
+<td>Dotted background visible only in light mode</td>
+</tr>
+<tr class="even">
+<td><code>.dark:dotted-[color]</code></td>
+<td>Dotted background visible only in dark mode</td>
+</tr>
+<tr class="odd">
+<td><code>.light:dotted-[color]-[shade]</code></td>
+<td>Light mode only with specific shade</td>
+</tr>
+<tr class="even">
+<td><code>.dark:dotted-[color]-[shade]</code></td>
+<td>Dark mode only with specific shade</td>
+</tr>
+</tbody>
+</table>
+<h3 id="examples">Examples</h3>
+<div class="w-fit mt-5 dotted-pink p-4">
+<p>Pink dots</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot;dotted-pink&quot;&gt;
+  Pink dots
+&lt;/div&gt;</code></pre>
+<div class="w-fit mt-5 dotted-green-300 p-4">
+<p>Dots with green-300</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot;dotted-green-300&quot;&gt;
+  Dots with green-300
+&lt;/div&gt;</code></pre>
+<div class="w-fit mt-5 light:dotted-pink-200 dark:dotted-blue-700 p-4">
+<p>Theme-responsive dotted background</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot;light:dotted-pink-200 dark:dotted-blue-700&quot;&gt;
+  Theme-responsive dotted background
+&lt;/div&gt;</code></pre>
+<div
+class="w-fit mt-5 bg-red-800 dotted-orange-700 rounded color-white p-4">
+<p>Combine background and dotted grid</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot; bg-red-800 dotted-orange-500&quot;&gt;
+  Combine background and dotted grid
+&lt;/div&gt;</code></pre>
+<h3 id="color-list">Color list</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Color</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Yellow</strong></td>
+<td><code>dotted-yellow</code></td>
+<td><span class="px-7 dotted-yellow">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Orange</strong></td>
+<td><code>dotted-orange</code></td>
+<td><span class="px-7 dotted-orange">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Red</strong></td>
+<td><code>dotted-red</code></td>
+<td><span class="px-7 dotted-red">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Pink</strong></td>
+<td><code>dotted-pink</code></td>
+<td><span class="px-7 dotted-pink">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Purple</strong></td>
+<td><code>dotted-purple</code></td>
+<td><span class="px-7 dotted-purple">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Blue</strong></td>
+<td><code>dotted-blue</code></td>
+<td><span class="px-7 dotted-blue">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Cyan</strong></td>
+<td><code>dotted-cyan</code></td>
+<td><span class="px-7 dotted-cyan">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Green</strong></td>
+<td><code>dotted-green</code></td>
+<td><span class="px-7 dotted-green">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>White</strong></td>
+<td><code>dotted-white</code></td>
+<td><span class="px-7 dotted-white">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Black</strong></td>
+<td><code>dotted-black</code></td>
+<td><span class="px-7 dotted-black">Color Example</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="shades">Shades</h3>
+<p>Each color includes 11 shade levels, ranging from the lightest
+<code>(-50)</code> to the darkest <code>(-950)</code>. Use these to
+fine-tune the text color of elements.</p>
+<h4 id="red-shade-examples">Red Shade Examples</h4>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Shade</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>50</strong></td>
+<td><code>dotted-red-50</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-50">50</span></td>
+</tr>
+<tr class="even">
+<td><strong>100</strong></td>
+<td><code>dotted-red-100</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-100">100</span></td>
+</tr>
+<tr class="odd">
+<td><strong>200</strong></td>
+<td><code>dotted-red-200</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-200">200</span></td>
+</tr>
+<tr class="even">
+<td><strong>300</strong></td>
+<td><code>dotted-red-300</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-300">300</span></td>
+</tr>
+<tr class="odd">
+<td><strong>400</strong></td>
+<td><code>dotted-red-400</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-400">400</span></td>
+</tr>
+<tr class="even">
+<td><strong>500</strong></td>
+<td><code>dotted-red-500</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-500">500</span></td>
+</tr>
+<tr class="odd">
+<td><strong>600</strong></td>
+<td><code>dotted-red-600</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-600">600</span></td>
+</tr>
+<tr class="even">
+<td><strong>700</strong></td>
+<td><code>dotted-red-700</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-700">700</span></td>
+</tr>
+<tr class="odd">
+<td><strong>800</strong></td>
+<td><code>dotted-red-800</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-800">800</span></td>
+</tr>
+<tr class="even">
+<td><strong>900</strong></td>
+<td><code>dotted-red-900</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-900">900</span></td>
+</tr>
+<tr class="odd">
+<td><strong>950</strong></td>
+<td><code>dotted-red-950</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded dotted-red-950">950</span></td>
+</tr>
+</tbody>
+</table>
