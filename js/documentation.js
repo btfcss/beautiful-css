@@ -1,5 +1,5 @@
-import { openModal } from "@btfcss/modal";
-//import { openModal } from "./modal.js";
+//import { openModal } from "@btfcss/modal";
+import { openModal } from "./modal.js";
 
 
 

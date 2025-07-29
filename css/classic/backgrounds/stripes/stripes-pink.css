@@ -7,6 +7,16 @@
   --stripes-fg-dark:var(--pink-950);
 }
 
+.stripes-bg-pink { 
+  --stripes-bg-light:var(--pink-100);
+  --stripes-bg-dark:var(--pink-900);
+}
+
+.stripes-fg-pink { 
+  --stripes-fg-light:var(--pink-200);
+  --stripes-fg-dark:var(--pink-950);
+}
+
 .stripes-bg-pink-50  { --stripes-bg-light:var(--pink-50 );--stripes-bg-dark:var(--pink-50 );}
 .stripes-bg-pink-100 { --stripes-bg-light:var(--pink-100);--stripes-bg-dark:var(--pink-100);}
 .stripes-bg-pink-200 { --stripes-bg-light:var(--pink-200);--stripes-bg-dark:var(--pink-200);}
@@ -30,6 +40,11 @@
 .stripes-fg-pink-800 { --stripes-fg-light:var(--pink-800);--stripes-fg-dark:var(--pink-800);}
 .stripes-fg-pink-900 { --stripes-fg-light:var(--pink-900);--stripes-fg-dark:var(--pink-900);}
 .stripes-fg-pink-950 { --stripes-fg-light:var(--pink-950);--stripes-fg-dark:var(--pink-950);}
+
+.light\:stripes-pink { 
+  --stripes-bg-light:var(--pink-100);
+  --stripes-fg-light:var(--pink-200);
+}
 
 .light\:stripes-bg-pink     { --stripes-bg-light:var(--pink-100); }
 .light\:stripes-bg-pink-50  { --stripes-bg-light:var(--pink-50 ); }
@@ -56,6 +71,11 @@
 .light\:stripes-fg-pink-800 { --stripes-fg-light:var(--pink-800); }
 .light\:stripes-fg-pink-900 { --stripes-fg-light:var(--pink-900); }
 .light\:stripes-fg-pink-950 { --stripes-fg-light:var(--pink-950); }
+
+.dark\:stripes-pink { 
+  --stripes-bg-dark:var(--pink-900);
+  --stripes-fg-dark:var(--pink-950);
+}
 
 .dark\:stripes-bg-pink     { --stripes-bg-dark:var(--pink-900); }
 .dark\:stripes-bg-pink-50  { --stripes-bg-dark:var(--pink-50 ); }

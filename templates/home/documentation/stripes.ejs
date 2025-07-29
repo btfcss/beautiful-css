@@ -1,0 +1,199 @@
+<p>These utilities apply diagonal striped backgrounds using a repeating
+linear gradient. They support light and dark mode theming.</p>
+<h3 id="usage">Usage</h3>
+<p>Apply classes prefixed with optional mode prefixes to add striped
+backgrounds:</p>
+<ul>
+<li><code>.stripes-[color]</code> — Stripes background</li>
+<li><code>.light:stripes-[color]</code> — Stripes background applied in
+light mode only</li>
+<li><code>.dark:stripes-[color]</code> — Stripes background applied in
+dark mode only</li>
+<li><code>.stripes-bg-[color]-[shade]</code> — Specify the background
+color and shade</li>
+<li><code>.stripes-fg-[color]-[shade]</code> — Specify the foreground
+color and shade</li>
+<li><code>.light:stripes-bg-[color]</code> — Applies the background
+stripe color only in light mode</li>
+<li><code>.dark:stripes-bg-[color]</code> — Applies the background
+stripe color only in dark mode</li>
+<li><code>.light:stripes-fg-[color]</code> — Applies the foreground
+(stripe line) color only in light mode</li>
+<li><code>.dark:stripes-fg-[color]</code> — Applies the foreground
+(stripe line) color only in dark mode</li>
+</ul>
+<h3 id="examples">Examples</h3>
+<div class="w-fit mt-5 stripes-red p-4">
+<p>Striped background with default colors.</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot;stripes-red&quot;&gt;
+  Striped background with default colors.
+&lt;/div&gt;</code></pre>
+<div class="w-fit mt-5 dark:stripes-blue light:stripes-orange p-4">
+<p>Orange stripes in light mode and blue stripes in dark mode</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot;dark:stripes-blue light:stripes-orange&quot;&gt;
+  Orange stripes in light mode and blue stripes in dark mode
+&lt;/div&gt;</code></pre>
+<div class="w-fit mt-5 stripes-bg-yellow stripes-fg-purple-500 p-4">
+<p>Orange and purple stripes</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot;stripes-bg-yellow stripes-fg-purple-500&quot;&gt;
+  Orange and purple stripes
+&lt;/div&gt;</code></pre>
+<h3 id="color-list">Color list</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Color</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Yellow</strong></td>
+<td><code>stripes-yellow</code></td>
+<td><span class="px-3 stripes-yellow">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Orange</strong></td>
+<td><code>stripes-orange</code></td>
+<td><span class="px-3 stripes-orange">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Red</strong></td>
+<td><code>stripes-red</code></td>
+<td><span class="px-3 stripes-red">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Pink</strong></td>
+<td><code>stripes-pink</code></td>
+<td><span class="px-3 stripes-pink">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Purple</strong></td>
+<td><code>stripes-purple</code></td>
+<td><span class="px-3 stripes-purple">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Blue</strong></td>
+<td><code>stripes-blue</code></td>
+<td><span class="px-3 stripes-blue">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Cyan</strong></td>
+<td><code>stripes-cyan</code></td>
+<td><span class="px-3 stripes-cyan">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Green</strong></td>
+<td><code>stripes-green</code></td>
+<td><span class="px-3 stripes-green">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>White</strong></td>
+<td><code>stripes-white</code></td>
+<td><span class="px-3 stripes-white color-black">Color
+Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Black</strong></td>
+<td><code>stripes-black</code></td>
+<td><span class="px-3 stripes-black color-white">Color
+Example</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="shades">Shades</h3>
+<p>Each color includes 11 shade levels, ranging from the lightest
+<code>(-50)</code> to the darkest <code>(-950)</code>. Use these to
+fine-tune the text color of elements.</p>
+<h4 id="red-shade-examples">Red Shade Examples</h4>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Shade</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>50</strong></td>
+<td><code>stripes-fg-red-50</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-50 color-black">50</span></td>
+</tr>
+<tr class="even">
+<td><strong>100</strong></td>
+<td><code>stripes-fg-red-100</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-100 color-black">100</span></td>
+</tr>
+<tr class="odd">
+<td><strong>200</strong></td>
+<td><code>stripes-fg-red-200</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-200 color-black">200</span></td>
+</tr>
+<tr class="even">
+<td><strong>300</strong></td>
+<td><code>stripes-fg-red-300</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-300 color-black">300</span></td>
+</tr>
+<tr class="odd">
+<td><strong>400</strong></td>
+<td><code>stripes-fg-red-400</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-400 color-black">400</span></td>
+</tr>
+<tr class="even">
+<td><strong>500</strong></td>
+<td><code>stripes-fg-red-500</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-500">500</span></td>
+</tr>
+<tr class="odd">
+<td><strong>600</strong></td>
+<td><code>stripes-fg-red-600</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-600">600</span></td>
+</tr>
+<tr class="even">
+<td><strong>700</strong></td>
+<td><code>stripes-fg-red-700</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-700">700</span></td>
+</tr>
+<tr class="odd">
+<td><strong>800</strong></td>
+<td><code>stripes-fg-red-800</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-800">800</span></td>
+</tr>
+<tr class="even">
+<td><strong>900</strong></td>
+<td><code>stripes-fg-red-900</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-900">900</span></td>
+</tr>
+<tr class="odd">
+<td><strong>950</strong></td>
+<td><code>stripes-fg-red-950</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded stripes-fg-red-950">950</span></td>
+</tr>
+</tbody>
+</table>

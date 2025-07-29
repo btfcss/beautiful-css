@@ -7,6 +7,16 @@
   --stripes-fg-dark:var(--yellow-950);
 }
 
+.stripes-bg-yellow { 
+  --stripes-bg-light:var(--yellow-100);
+  --stripes-bg-dark:var(--yellow-900);
+}
+
+.stripes-fg-yellow { 
+  --stripes-fg-light:var(--yellow-200);
+  --stripes-fg-dark:var(--yellow-950);
+}
+
 .stripes-bg-yellow-50  { --stripes-bg-light:var(--yellow-50 );--stripes-bg-dark:var(--yellow-50 );}
 .stripes-bg-yellow-100 { --stripes-bg-light:var(--yellow-100);--stripes-bg-dark:var(--yellow-100);}
 .stripes-bg-yellow-200 { --stripes-bg-light:var(--yellow-200);--stripes-bg-dark:var(--yellow-200);}
@@ -30,6 +40,12 @@
 .stripes-fg-yellow-800 { --stripes-fg-light:var(--yellow-800);--stripes-fg-dark:var(--yellow-800);}
 .stripes-fg-yellow-900 { --stripes-fg-light:var(--yellow-900);--stripes-fg-dark:var(--yellow-900);}
 .stripes-fg-yellow-950 { --stripes-fg-light:var(--yellow-950);--stripes-fg-dark:var(--yellow-950);}
+
+.light\:stripes-yellow { 
+  --stripes-bg-light:var(--yellow-100);
+  --stripes-fg-light:var(--yellow-200);
+}
+
 
 .light\:stripes-bg-yellow     { --stripes-bg-light:var(--yellow-100); }
 .light\:stripes-bg-yellow-50  { --stripes-bg-light:var(--yellow-50 ); }
@@ -56,6 +72,12 @@
 .light\:stripes-fg-yellow-800 { --stripes-fg-light:var(--yellow-800); }
 .light\:stripes-fg-yellow-900 { --stripes-fg-light:var(--yellow-900); }
 .light\:stripes-fg-yellow-950 { --stripes-fg-light:var(--yellow-950); }
+
+.dark\:stripes-yellow { 
+  --stripes-bg-dark:var(--yellow-900);
+  --stripes-fg-dark:var(--yellow-950);
+}
+
 
 .dark\:stripes-bg-yellow     { --stripes-bg-dark:var(--yellow-900); }
 .dark\:stripes-bg-yellow-50  { --stripes-bg-dark:var(--yellow-50 ); }

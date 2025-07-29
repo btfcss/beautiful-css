@@ -42,9 +42,9 @@ document.body.addEventListener('keydown', function (event) {
     const openModal = document.querySelector('.modal[open]');
     if (openModal) {
       // Close the modal
-      closeModal(openModal.id); 
+      closeModal(openModal.id);
       // prevent default escape behavior (like exiting fullscreen or cancel current modal)
-      event.preventDefault(); 
+      event.preventDefault();
     }
   }
 });
@@ -105,8 +105,10 @@ export const openModal = (id, triggerElement) => {
 
 
   // Scroll to top of modal if requested
-  if (modalEl.dataset.scrollTo === 'top')
+  if (modalEl.dataset.scrollTo === 'top') {
+    console.log(typeof(modalEl.querySelector('.modal-content')))
     modalEl.querySelector('.modal-content').scrollTo(top);
+  }
 
   // Set the modal as current modal
   currentModalId = id;
@@ -124,14 +126,14 @@ export const openModal = (id, triggerElement) => {
 const onEscapeKeyPressed = (event) => {
   // If the event is not cancelable, reset currentModalId
   if (!event.cancelable) {
-    currentModalId = null;        
+    currentModalId = null;
     return;
   }
 
   // The modal is cancelable, run the animation
   event.preventDefault();
   closeModal(event.target.id, null);
-  
+
 }
 
 
@@ -170,7 +172,7 @@ export const closeModal = (id, next) => {
 
 
   // Remove the event listener
-  modalEl.removeEventListener('cancel', onEscapeKeyPressed); 
+  modalEl.removeEventListener('cancel', onEscapeKeyPressed);
 
 }
 
