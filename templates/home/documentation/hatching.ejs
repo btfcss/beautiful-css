@@ -1,1 +1,212 @@
-<p>hatching</p>
+<p>Use <code>hatching</code> utility classes to apply a diagonal striped
+pattern using a single color across light and dark modes. This pattern
+uses a <code>135deg</code> repeating-linear-gradient.</p>
+<h3 id="class-patterns">Class Patterns</h3>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.hatching-[color]</code></td>
+<td>Sets the hatching color for both light and dark modes</td>
+</tr>
+<tr class="even">
+<td><code>.hatching-[color]-[shade]</code></td>
+<td>Sets the hatching color shade
+(e.g. <code>hatching-blue-400</code>)</td>
+</tr>
+<tr class="odd">
+<td><code>.light\:hatching-[color]-[shade]</code></td>
+<td>Sets the hatching color for <strong>light mode only</strong></td>
+</tr>
+<tr class="even">
+<td><code>.dark\:hatching-[color]-[shade]</code></td>
+<td>Sets the hatching color for <strong>dark mode only</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="examples">Examples</h3>
+<div class="w-fit mt-5 hatching-orange p-4 rounded">
+<p>Diagonal orange hatch pattern</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot;hatching-orange&quot;&gt;
+  Diagonal orange hatch pattern
+&lt;/div&gt;</code></pre>
+<div
+class="w-fit mt-5 light:hatching-red-200 dark:hatching-blue-700 p-4 rounded">
+<p>Diagonal hatch pattern for adaptive theming</p>
+</div>
+<pre class="html"><code>&lt;div class=&quot;light:hatching-red-200 dark:hatching-blue-700&quot;&gt;
+  Diagonal hatch pattern for adaptive theming
+&lt;/div&gt;</code></pre>
+<h3 id="usage-notes">Usage Notes</h3>
+<ul>
+<li>The background pattern is diagonal and sized at
+<code>10px x 10px</code></li>
+<li>Uses <code>--hatching-light</code> and <code>--hatching-dark</code>
+CSS variables under the hood</li>
+<li>Can be combined for adaptive themes, e.g. use different colors per
+mode</li>
+</ul>
+<h3 id="color-list">Color list</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Color</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Yellow</strong></td>
+<td><code>hatching-yellow</code></td>
+<td><span class="px-3 hatching-yellow">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Orange</strong></td>
+<td><code>hatching-orange</code></td>
+<td><span class="px-3 hatching-orange">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Red</strong></td>
+<td><code>hatching-red</code></td>
+<td><span class="px-3 hatching-red">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Pink</strong></td>
+<td><code>hatching-pink</code></td>
+<td><span class="px-3 hatching-pink">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Purple</strong></td>
+<td><code>hatching-purple</code></td>
+<td><span class="px-3 hatching-purple">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Blue</strong></td>
+<td><code>hatching-blue</code></td>
+<td><span class="px-3 hatching-blue">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>Cyan</strong></td>
+<td><code>hatching-cyan</code></td>
+<td><span class="px-3 hatching-cyan">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Green</strong></td>
+<td><code>hatching-green</code></td>
+<td><span class="px-3 hatching-green">Color Example</span></td>
+</tr>
+<tr class="odd">
+<td><strong>White</strong></td>
+<td><code>hatching-white</code></td>
+<td><span class="px-3 hatching-white">Color Example</span></td>
+</tr>
+<tr class="even">
+<td><strong>Black</strong></td>
+<td><code>hatching-black</code></td>
+<td><span class="px-3 hatching-black">Color Example</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="shades">Shades</h3>
+<p>Each color includes 11 shade levels, ranging from the lightest
+<code>(-50)</code> to the darkest <code>(-950)</code>. Use these to
+fine-tune the text color of elements.</p>
+<h4 id="red-shade-examples">Red Shade Examples</h4>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Shade</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>50</strong></td>
+<td><code>hatching-red-50</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-50">50</span></td>
+</tr>
+<tr class="even">
+<td><strong>100</strong></td>
+<td><code>hatching-red-100</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-100">100</span></td>
+</tr>
+<tr class="odd">
+<td><strong>200</strong></td>
+<td><code>hatching-red-200</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-200">200</span></td>
+</tr>
+<tr class="even">
+<td><strong>300</strong></td>
+<td><code>hatching-red-300</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-300">300</span></td>
+</tr>
+<tr class="odd">
+<td><strong>400</strong></td>
+<td><code>hatching-red-400</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-400">400</span></td>
+</tr>
+<tr class="even">
+<td><strong>500</strong></td>
+<td><code>hatching-red-500</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-500">500</span></td>
+</tr>
+<tr class="odd">
+<td><strong>600</strong></td>
+<td><code>hatching-red-600</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-600">600</span></td>
+</tr>
+<tr class="even">
+<td><strong>700</strong></td>
+<td><code>hatching-red-700</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-700">700</span></td>
+</tr>
+<tr class="odd">
+<td><strong>800</strong></td>
+<td><code>hatching-red-800</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-800">800</span></td>
+</tr>
+<tr class="even">
+<td><strong>900</strong></td>
+<td><code>hatching-red-900</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-900">900</span></td>
+</tr>
+<tr class="odd">
+<td><strong>950</strong></td>
+<td><code>hatching-red-950</code></td>
+<td><span
+class="w-128px d-block text-center monospace rounded hatching-red-950">950</span></td>
+</tr>
+</tbody>
+</table>
