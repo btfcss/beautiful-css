@@ -73,29 +73,29 @@
 [class*="dark\:hover\:border-grey"],
 [class*="dark\:hover\:border-black"],
 
-[class*="light\:hover:\border-yellow"],
-[class*="light\:hover:\border-orange"],
-[class*="light\:hover:\border-red"],
-[class*="light\:hover:\border-pink"],
-[class*="light\:hover:\border-purple"],
-[class*="light\:hover:\border-blue"],
-[class*="light\:hover:\border-cyan"],
-[class*="light\:hover:\border-green"],
-[class*="light\:hover:\border-white"],
-[class*="light\:hover:\border-grey"],
-[class*="light\:hover:\border-black"],
+[class*="light\:hover\:border-yellow"],
+[class*="light\:hover\:border-orange"],
+[class*="light\:hover\:border-red"],
+[class*="light\:hover\:border-pink"],
+[class*="light\:hover\:border-purple"],
+[class*="light\:hover\:border-blue"],
+[class*="light\:hover\:border-cyan"],
+[class*="light\:hover\:border-green"],
+[class*="light\:hover\:border-white"],
+[class*="light\:hover\:border-grey"],
+[class*="light\:hover\:border-black"],
 
-[class*="hover:\border-yellow"],
-[class*="hover:\border-orange"],
-[class*="hover:\border-red"],
-[class*="hover:\border-pink"],
-[class*="hover:\border-purple"],
-[class*="hover:\border-blue"],
-[class*="hover:\border-cyan"],
-[class*="hover:\border-green"],
-[class*="hover:\border-white"],
-[class*="hover:\border-grey"],
-[class*="hover:\border-black"] {
+[class*="hover\:border-yellow"],
+[class*="hover\:border-orange"],
+[class*="hover\:border-red"],
+[class*="hover\:border-pink"],
+[class*="hover\:border-purple"],
+[class*="hover\:border-blue"],
+[class*="hover\:border-cyan"],
+[class*="hover\:border-green"],
+[class*="hover\:border-white"],
+[class*="hover\:border-grey"],
+[class*="hover\:border-black"] {
 
   border-color: light-dark(oklch(var(--border-light, 0 0 0 / 0)), oklch(var(--border-dark, 0 0 0 / 0)));
 }
@@ -104,7 +104,7 @@
 [class*="light\:border-"],
 [class*="border-"],
 [class*="dark\:hover\:border-"],
-[class*="light\:hover:\border-"],
-[class*="hover:\border-"] {
+[class*="light\:hover\:border-"],
+[class*="hover\:border-"] {
   border-style: var(--border-style, solid);
 }

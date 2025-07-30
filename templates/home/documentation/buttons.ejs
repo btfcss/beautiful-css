@@ -1,0 +1,194 @@
+<p>Buttons styled with semantic or brand color themes. Each color button
+supports multiple states and modifiers like <code>.outline</code>,
+<code>.active</code>, <code>.disabled</code>, <code>.square</code>, and
+<code>.circular</code>.</p>
+<h3 id="base-class-.btn-color">Base Class:
+<code>.btn-[color]</code></h3>
+<button class="btn-blue mt-5">
+Simple Button
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn-[color]&quot;&gt;Simple Button&lt;/button&gt;</code></pre>
+<h3 id="button-color-list">Button Color list</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Color</th>
+<th>CSS Class</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Yellow</strong></td>
+<td><code>btn-yellow</code></td>
+<td><button class="px-3 w-100 btn-yellow">Yellow button</button></td>
+</tr>
+<tr class="even">
+<td><strong>Orange</strong></td>
+<td><code>btn-orange</code></td>
+<td><button class="px-3 w-100 btn-orange">Orange button</button></td>
+</tr>
+<tr class="odd">
+<td><strong>Red</strong></td>
+<td><code>btn-red</code></td>
+<td><button class="px-3 w-100 btn-red">Red button</button></td>
+</tr>
+<tr class="even">
+<td><strong>Pink</strong></td>
+<td><code>btn-pink</code></td>
+<td><button class="px-3 w-100 btn-pink">Pink button</button></td>
+</tr>
+<tr class="odd">
+<td><strong>Purple</strong></td>
+<td><code>btn-purple</code></td>
+<td><button class="px-3 w-100 btn-purple">Purple button</button></td>
+</tr>
+<tr class="even">
+<td><strong>Blue</strong></td>
+<td><code>btn-blue</code></td>
+<td><button class="px-3 w-100 btn-blue">Blue button</button></td>
+</tr>
+<tr class="odd">
+<td><strong>Cyan</strong></td>
+<td><code>btn-cyan</code></td>
+<td><button class="px-3 w-100 btn-cyan">Cyan button</button></td>
+</tr>
+<tr class="even">
+<td><strong>Green</strong></td>
+<td><code>btn-green</code></td>
+<td><button class="px-3 w-100 btn-green">Green button</button></td>
+</tr>
+<tr class="odd">
+<td><strong>White</strong></td>
+<td><code>btn-white</code></td>
+<td><button class="px-3 w-100 btn-white">White button</button></td>
+</tr>
+<tr class="even">
+<td><strong>Black</strong></td>
+<td><code>btn-black</code></td>
+<td><button class="px-3 w-100 btn-black">Black button</button></td>
+</tr>
+</tbody>
+</table>
+<h3 id="custom-color">Custom Color</h3>
+<p>You can customize button colors using utility classes by combining
+<code>.btn</code> with background color utilities like
+<code>.bg-[color]-[shade]</code> and
+<code>.hover:bg-[color]-[shade]</code>.</p>
+<button class="btn bg-blue-300 hover:bg-blue-400 mt-4 text-black">
+Light Blue Button
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn bg-blue-300 hover:bg-blue-400&quot;&gt;Simple Button&lt;/button&gt;</code></pre>
+<h2 id="button-sizes">Button Sizes</h2>
+<p>Use size utility classes to adjust the button’s font size and
+padding. These classes can be combined with any <code>.btn</code>
+variant.</p>
+<div class="h-flex-start gap-3 mt-4">
+<button class="btn-xs h-fit btn-purple">
+Extra Small
+</button>
+<button class="btn-sm btn-purple">
+Small
+</button>
+<button class="btn-purple">
+Standard
+</button>
+<button class="btn-lg btn-purple">
+Large
+</button>
+<button class="btn-xl btn-purple">
+Extra Large
+</button>
+</div>
+<table>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.btn-xs</code></td>
+<td>Extra small</td>
+</tr>
+<tr class="even">
+<td><code>.btn-sm</code></td>
+<td>Small</td>
+</tr>
+<tr class="odd">
+<td><code>.btn-lg</code></td>
+<td>Large</td>
+</tr>
+<tr class="even">
+<td><code>.btn-xl</code></td>
+<td>Extra large</td>
+</tr>
+</tbody>
+</table>
+<button class="btn-xs btn-purple mt-4">
+Extra Small Button
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn-xs btn-purple&quot;&gt;Extra Small Button&lt;/button&gt;</code></pre>
+<p>If no size class is specified, the button uses the default
+<code>.btn</code> size.</p>
+<h3 id="button-styles">Button Styles</h3>
+<p>Customize the shape of buttons using utility classes that control
+their border radius and proportions.</p>
+<h4 id="rounded-pill">Rounded Pill</h4>
+<p><code>.rounded-pill</code> Creates a pill-shaped button with fully
+rounded ends. Ideal for badges, tags, or soft, rounded UI.</p>
+<button class="btn-orange rounded-pill mt-4">
+.rounded-pill
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn-orange rounded-pill&quot;&gt;.rounded-pill&lt;/button&gt;</code></pre>
+<h4 id="circular-button">Circular Button</h4>
+<p><code>.btn-circular</code> creates a perfectly circular button,
+typically used for icons or floating action buttons (FAB). Ensures a 1:1
+aspect ratio.</p>
+<button class="btn-orange btn-circular mt-4">
++
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn-orange btn-circular&quot;&gt;+&lt;/button&gt;</code></pre>
+<h3 id="square-button">Square Button</h3>
+<p><code>.btn-square</code> creates a square button by forcing a 1:1
+aspect ratio. Useful for tool buttons or grid layouts.</p>
+<button class="btn-orange btn-square fs-4xl">
+≡
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn-orange btn-square&quot;&gt;≡&lt;/button&gt;</code></pre>
+<h3 id="disabled-state">Disabled State</h3>
+<p>The <code>:disabled</code> pseudo-class visually indicates that the
+button is not interactive. Disabled buttons:</p>
+<ul>
+<li>Appear faded or desaturated to signal inactivity.</li>
+<li>Use <code>cursor: not-allowed</code> to reinforce their disabled
+state.</li>
+<li>Ignore hover, focus, and active styles.</li>
+</ul>
+<button class="btn-blue" disabled>
+Disabled
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn-blue&quot; disabled&gt;Disabled&lt;/button&gt;</code></pre>
+<p>Here’s a clear and useful description for the <strong>active</strong>
+state section in your button documentation:</p>
+<hr />
+<h3 id="active-state">Active State</h3>
+<p>The <code>.active</code> class visually indicates that the button is
+currently selected, pressed, or toggled. It is useful for:</p>
+<ul>
+<li>Toggle buttons (on/off states)</li>
+<li>Multi-button selections</li>
+<li>Navigation highlights</li>
+</ul>
+<button class="btn btn-blue active mt-4">
+Active
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn btn-blue active&quot;&gt;Active&lt;/button&gt;</code></pre>
+<p>Note: Make sure the button is <strong>not disabled</strong>, as
+<code>:disabled</code> takes precedence over <code>.active</code>.</p>

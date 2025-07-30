@@ -36,6 +36,7 @@
   font-family: var(--font-family);
   font-size: 1rem;
   padding: var(--spacing-2) var(--spacing-3);
+  height: fit-content;
   border-radius : var(--spacing-2);    
   cursor: pointer;
   outline: 0;
@@ -44,10 +45,10 @@
   background-color: light-dark(oklch(var(--bg-light, 0 0 0 / 0)), oklch(var(--bg-dark, 0 0 0 / 0)));
 
   border-color: light-dark(oklch(var(--border-light)), oklch(var(--border-dark)));
-  border-top-width: oklch(var(--border-top-width, var(--border-width, 1px)));
-  border-right-width: oklch(var(--border-right-width, var(--border-width, 1px)));
-  border-bottom-width: oklch(var(--border-bottom-width, var(--border-width, 1px)));
-  border-left-width: oklch(var(--border-left-width, var(--border-width, 1px)));
+  border-top-width: var(--border-top-width, var(--border-width, 1px));
+  border-right-width: var(--border-right-width, var(--border-width, 1px));
+  border-bottom-width: var(--border-bottom-width, var(--border-width, 1px));
+  border-left-width: var(--border-left-width, var(--border-width, 1px));
   
   color: light-dark(oklch(var(--text-light, var(--black-500))), oklch(var(--text-dark, var(--white-500))));
   
@@ -65,12 +66,20 @@
 
 .btn-circular {
   aspect-ratio: 1/1;
-  border-radius: 100%
+  border-radius: 100%;
+  min-width: fit-content;
+  min-height: fit-content;
+  display: inline-flex;
+  align-items: center;
 }
 
 
 .btn-square {
   aspect-ratio: 1/1;
+  min-width: fit-content;
+  min-height: fit-content;
+  display: inline-flex;
+  align-items: center;
 }
 
 

@@ -15,6 +15,9 @@ Use text color utility classes to control the color of text elements. These clas
 * `[state]`– Applies the color on specific states (e.g., `hover:color-purple-600`)
 
 
+You can also use the shorthand `text-[name]` or `text-[name]-[shade]` as an alias for `color-[name]` and `color-[name]-[shade]`, which is more concise and commonly used.
+
+
 #### Example
 
 ``` html

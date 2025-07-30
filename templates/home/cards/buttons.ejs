@@ -1,4 +1,4 @@
-<div class="card">
+<div id="buttons" class="card">
   <div class="header">
     <h2>Buttons</h2>
   </div>
@@ -50,6 +50,15 @@
     </div>
   </div>
   <div class="footer text-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="buttons">&lt;code&gt;</button>
   </div>
+</div>
+
+
+
+<div id="doc-buttons" hidden>
+  <h2>Buttons <a href="#buttons" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/buttons.ejs %>
+  </content>
 </div>
