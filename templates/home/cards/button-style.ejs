@@ -1,4 +1,4 @@
-<div class="card">
+<div id="button-style" class="card">
   <div class="header">
     <h2>Button Style</h2>
   </div>
@@ -34,6 +34,15 @@
     </div>
   </div>
   <div class="footer text-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="button-style">&lt;code&gt;</button>
   </div>
+</div>
+
+
+
+<div id="doc-button-style" hidden>
+  <h2>Button Style <a href="#button-style" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/button-style.ejs %>
+  </content>
 </div>

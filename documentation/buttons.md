@@ -91,7 +91,7 @@ Customize the shape of buttons using utility classes that control their border r
 <button class="btn-orange btn-circular">+</button>
 ```
 
-### Square Button
+#### Square Button
 
 `.btn-square` creates a square button by forcing a 1:1 aspect ratio. Useful for tool buttons or grid layouts.
 
@@ -119,7 +119,7 @@ The `:disabled` pseudo-class visually indicates that the button is not interacti
 
 Here’s a clear and useful description for the **active** state section in your button documentation:
 
----
+
 
 ### Active State
 

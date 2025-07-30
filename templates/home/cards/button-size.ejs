@@ -1,4 +1,4 @@
-<div class="card">
+<div id="button-size" class="card">
   <div class="header">
     <h2>Button Size</h2>
   </div>
@@ -22,6 +22,14 @@
     <div class="m-4 mx-0 text-center p-0"><button class="btn-blue w-100 outline">Full Width Button</button></div>
   </div>
   <div class="footer text-right">    
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="button-size">&lt;code&gt;</button>
   </div>
+</div>
+
+
+<div id="doc-button-size" hidden>
+  <h2>Button Size <a href="#button-size" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/button-size.ejs %>
+  </content>
 </div>
