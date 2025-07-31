@@ -54,7 +54,7 @@ body:has(.modal[open]) {
 }
 
 .modal-content>header>.btn-close {
-  margin-left: var(--spacing-4);
+  margin-left: var(--spacing-5);
   padding: 1em;
   width: 1em;
   aspect-ratio: 1/1;

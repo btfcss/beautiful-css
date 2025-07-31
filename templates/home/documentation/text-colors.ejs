@@ -1,8 +1,8 @@
-<h3 id="text-colors-utilities">Text Colors utilities</h3>
+<h3 id="doc-text-colors-utilities">Text Colors utilities</h3>
 <p>Use text color utility classes to control the color of text elements.
 These classes follow a clear pattern and support responsive and
 state-based variants.</p>
-<h4 id="syntax">Syntax</h4>
+<h4 id="doc-syntax">Syntax</h4>
 <pre class="css"><code>[color-scheme]:[state]:color-[name]-[shade]</code></pre>
 <ul>
 <li><code>color-[name]</code> – Applies a base color (e.g.,
@@ -18,12 +18,12 @@ mode (e.g., <code>dark:color-green</code>)</li>
 <code>text-[name]-[shade]</code> as an alias for
 <code>color-[name]</code> and <code>color-[name]-[shade]</code>, which
 is more concise and commonly used.</p>
-<h4 id="example">Example</h4>
+<h4 id="doc-example">Example</h4>
 <pre class="html"><code>&lt;p class=&quot;color-red&quot;&gt;This is red.&lt;/p&gt;
 &lt;p class=&quot;color-blue-200&quot;&gt;This is light blue.&lt;/p&gt;
 &lt;p class=&quot;light:color-green&quot;&gt;Green in light mode.&lt;/p&gt;
 &lt;p class=&quot;dark:hover:color-purple-300&quot;&gt;Purple on hover in dark mode.&lt;/p&gt;</code></pre>
-<h4 id="output">Output</h4>
+<h4 id="doc-output">Output</h4>
 <p class="color-red">
 This is red.
 </p>
@@ -36,7 +36,7 @@ Green in light mode.
 <p class="dark:hover:color-purple-300">
 Purple on hover in dark mode.
 </p>
-<h4 id="notes">Notes</h4>
+<h4 id="doc-notes">Notes</h4>
 <ul>
 <li>Use color shades like <code>-100</code>, <code>-200</code>,
 <code>-300</code>, etc., for finer control.</li>
@@ -46,7 +46,7 @@ theme-specific styling.</li>
 be combined with theme variants for precise interactivity.</li>
 </ul>
 <hr />
-<h3 id="color-list">Color list</h3>
+<h3 id="doc-color-list">Color list</h3>
 <table>
 <colgroup>
 <col style="width: 33%" />
@@ -114,11 +114,11 @@ be combined with theme variants for precise interactivity.</li>
 </tbody>
 </table>
 <hr />
-<h3 id="shades">Shades</h3>
+<h3 id="doc-shades">Shades</h3>
 <p>Each color includes 11 shade levels, ranging from the lightest
 <code>(-50)</code> to the darkest <code>(-950)</code>. Use these to
 fine-tune the text color of elements.</p>
-<h4 id="blue-shade-examples">Blue Shade Examples</h4>
+<h4 id="doc-blue-shade-examples">Blue Shade Examples</h4>
 <table>
 <thead>
 <tr class="header">
@@ -185,7 +185,7 @@ fine-tune the text color of elements.</p>
 </tr>
 </tbody>
 </table>
-<h4 id="notes-1">Notes</h4>
+<h4 id="doc-notes-1">Notes</h4>
 <ul>
 <li>Use lower numbers (e.g., <code>-50</code>, <code>-100</code>) for
 <strong>light text colors</strong>.</li>
@@ -195,38 +195,38 @@ fine-tune the text color of elements.</p>
 <code>dark:hover:color-blue-300</code>).</li>
 </ul>
 <hr />
-<h3 id="color-scheme">Color Scheme</h3>
+<h3 id="doc-color-scheme">Color Scheme</h3>
 <p>You can use theme-based prefixes to apply different text colors based
 on the active color mode (<code>dark:</code> or
 <code>light:</code>).</p>
-<h4 id="example-1">Example</h4>
+<h4 id="doc-example-1">Example</h4>
 <pre class="html"><code>&lt;p class=&quot;light:color-red dark:color-blue&quot;&gt;Red in light mode and blue in dark mode.&lt;/p&gt;</code></pre>
-<h4 id="output-1">Output</h4>
+<h4 id="doc-output-1">Output</h4>
 <p class="light:color-red dark:color-blue">
 Red in light mode and blue in dark mode.
 </p>
-<h4 id="notes-2">Notes</h4>
+<h4 id="doc-notes-2">Notes</h4>
 <ul>
 <li>These prefixes can be combined with hover and focus states, like
 <code>dark:hover:color-green-300</code>.</li>
 <li>Omitting the prefix applies the color in all modes.</li>
 </ul>
 <hr />
-<h3 id="hover">Hover</h3>
+<h3 id="doc-hover">Hover</h3>
 <p>Use the <code>hover:</code> prefix to apply a text color when the
 user hovers over an element.</p>
-<h4 id="syntax-1">Syntax</h4>
+<h4 id="doc-syntax-1">Syntax</h4>
 <pre class="css"><code>hover:color-[name]-[shade]</code></pre>
 <ul>
 <li>Triggers the text color change <strong>on hover</strong></li>
 <li>Can be combined with other variants like <code>dark:</code> or
 <code>light:</code></li>
 </ul>
-<h4 id="example-2">Example</h4>
+<h4 id="doc-example-2">Example</h4>
 <pre class="html"><code>&lt;p class=&quot;hover:color-blue-500&quot;&gt;
   Hover over this text to turn it blue.
 &lt;/p&gt;</code></pre>
-<h4 id="output-2">Output</h4>
+<h4 id="doc-output-2">Output</h4>
 <p class="hover:color-blue-500">
 Hover over this text to turn it blue.
 </p>

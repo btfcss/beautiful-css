@@ -1,7 +1,7 @@
 //import { openModal } from "@btfcss/modal";
 import { openModal } from "./modal.js";
 
-
+let docId = undefined;
 
 // Prepare documentation modal elements
 const documentationModal = document.getElementById('documentation-modal');
@@ -10,10 +10,18 @@ const documentationModalContent = documentationModal.querySelector('.modal-conte
 
 
 const populateModal = (documentationId) => {
-  // Populate them modal
+  
+  // If the same documentation has already been opened, do not scroll to top
+  if (docId == documentationId) {    
+    documentationModal.removeAttribute('data-scroll-to');
+    return;
+  }
+  else documentationModal.setAttribute('data-scroll-to', 'top');
+  // Populate the modal
   const doc = document.getElementById(documentationId);
   documentationModalHeader.innerHTML = doc.querySelector('h2').innerHTML;
   documentationModalContent.innerHTML = doc.querySelector('content').innerHTML;
+  docId = documentationId;
 }
 
 // When the modal documentation is opened

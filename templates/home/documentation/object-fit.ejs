@@ -1,7 +1,7 @@
 <p>Control how replaced elements like <code>&lt;img&gt;</code> or
 <code>&lt;video&gt;</code> should be resized to fit their container
 using the <code>object-fit</code> property.</p>
-<h3 id="syntax">Syntax</h3>
+<h3 id="doc-syntax">Syntax</h3>
 <pre class="html"><code>.object-[fit]</code></pre>
 <p>Where <code>[fit]</code> can be:</p>
 <table>
@@ -55,8 +55,8 @@ containers.</p>
 corresponding <code>.object-*</code> utilities, providing an alternate,
 shorter syntax for controlling the <code>object-fit</code> behavior of
 media elements.</p>
-<h3 id="examples">Examples</h3>
-<h4 id="fit-inside-the-container">Fit inside the container</h4>
+<h3 id="doc-examples">Examples</h3>
+<h4 id="doc-fit-inside-the-container">Fit inside the container</h4>
 <p>Use <code>object-contain</code> to make the content fit entirely
 within the container without clipping. The aspect ratio is preserved,
 and empty space may appear.</p>
@@ -65,7 +65,7 @@ class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 b
 <img src="/images/object-fit.jpg" class="h-100 w-100 object-contain">
 </div>
 <pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-contain&quot;&gt;</code></pre>
-<h4 id="cover-the-container">Cover the container</h4>
+<h4 id="doc-cover-the-container">Cover the container</h4>
 <p>Use <code>object-cover</code> to fill the container while preserving
 the aspect ratio. The image will be clipped if necessary.</p>
 <div
@@ -73,7 +73,7 @@ class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 b
 <img src="/images/object-fit.jpg" class="h-100 w-100 object-cover">
 </div>
 <pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-cover&quot;&gt;</code></pre>
-<h4 id="stretch-to-fill">Stretch to fill</h4>
+<h4 id="doc-stretch-to-fill">Stretch to fill</h4>
 <p>Use <code>object-fill</code> to make the content fill the container
 regardless of its aspect ratio. This may distort the content.</p>
 <div
@@ -81,7 +81,7 @@ class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 b
 <img src="/images/object-fit.jpg" class="h-100 w-100 object-fill">
 </div>
 <pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-fill&quot;&gt;</code></pre>
-<h4 id="scale-down-if-needed">Scale down if needed</h4>
+<h4 id="doc-scale-down-if-needed">Scale down if needed</h4>
 <p>Use <code>object-scale-down</code> to display the content at its
 original size unless it’s too large—then it scales down to fit the
 container.</p>
@@ -90,7 +90,7 @@ class="overflow-hidden w-256px dark:hatching-black-400 light:hatching-grey-200 b
 <img src="/images/object-fit-small.jpg" class="h-100 w-100 object-scale-down">
 </div>
 <pre class="html"><code>&lt;img src=&quot;image.jpg&quot; class=&quot;h-100 w-100 object-scale-down&quot;&gt;</code></pre>
-<h4 id="use-original-size-only">Use original size only</h4>
+<h4 id="doc-use-original-size-only">Use original size only</h4>
 <p>Use <code>object-none</code> to keep the original size of the
 content, ignoring the container dimensions. It may overflow if the
 content is larger.</p>

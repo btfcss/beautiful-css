@@ -1,0 +1,161 @@
+<p>The <code>modal</code> component is a dialog box that can be shown or
+hidden dynamically. It uses the native HTML <code>&lt;dialog&gt;</code>
+element enhanced with utility classes and data attributes for consistent
+behavior and styling.</p>
+<hr />
+<p>⚠️ <a href="https://beautiful-css.com">Beautiful CSS</a> provides
+only CSS styles. You can write your own JavaScript to manage modal
+interactions or use our dedicated utility library:</p>
+<ul>
+<li><a href="https://www.npmjs.com/package/@btfcss/modal">npm</a></li>
+<li><a href="https://github.com/btfcss/modal">GitHub</a></li>
+</ul>
+<hr />
+<h3 id="doc-html-structure">HTML Structure</h3>
+<pre class="html"><code>&lt;dialog class=&quot;modal&quot;&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;header&gt;&lt;/header&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/dialog&gt;</code></pre>
+<p>The modal content is structured into three elements:</p>
+<ul>
+<li><code>&lt;header&gt;</code>: Contains the modal title and close
+button.</li>
+<li><code>&lt;div&gt;</code>: Main content area of the modal.</li>
+<li><code>&lt;footer&gt;</code>: Footer of the modal</li>
+</ul>
+<p><code>class="modal"</code> Applies base styling for visibility,
+animation, and positioning.</p>
+<h3 id="doc-examples">Examples</h3>
+<h4 id="doc-basic-example">Basic Example</h4>
+<p>This example is a starting point for building modals.</p>
+<button class="btn-green btn-lg" data-open-modal="basic-modal-example">
+Launch demo modal
+</button>
+<pre class="html"><code>&lt;dialog id=&quot;my-modal&quot; class=&quot;modal&quot; data-scroll-to=&quot;top&quot; data-close-modal&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;header&gt;
+      &lt;h2 class=&quot;mt-0&quot;&gt;Title&lt;/h2&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn-close&quot; data-close-modal aria-label=&quot;Close&quot;&gt;&lt;/button&gt;
+    &lt;/header&gt;
+    &lt;div&gt;
+      Here is the main content
+    &lt;/div&gt;
+    &lt;footer class=&quot;align-right&quot;&gt;
+      &lt;button class=&quot;btn-blue&quot; data-close-modal&gt;Close&lt;/button&gt;
+    &lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/dialog&gt;</code></pre>
+<h4 id="doc-modal-without-animation">Modal Without Animation</h4>
+<p>To disable the modal’s opening and closing animations, add the
+<code>.no-animation</code> class to the <code>&lt;dialog&gt;</code>
+element:</p>
+<button class="btn-green btn-lg" data-open-modal="no-animation-modal">
+No animation
+</button>
+<pre class="html"><code>&lt;dialog id=&quot;my-modal&quot; class=&quot;modal no-animation&quot; data-close-modal&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;header&gt;&lt;/header&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/dialog&gt;</code></pre>
+<h4 id="doc-without-backdrop-blur">Without Backdrop Blur</h4>
+<p>To disable the blur effect on the background when the modal is open,
+add the <code>.no-blur</code> class to the <code>&lt;dialog&gt;</code>
+element:</p>
+<button class="btn-green btn-lg" data-open-modal="blurred-modal">
+No blur
+</button>
+<pre class="html"><code>&lt;dialog id=&quot;my-modal&quot; class=&quot;modal no-blur&quot; data-close-modal&gt;
+  &lt;div class=&quot;modal-content&quot;&gt;
+    &lt;header&gt;&lt;/header&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/dialog&gt;</code></pre>
+<h4 id="doc-full-width-modal">Full Width Modal</h4>
+<p>This example shows a modal that spans the entire width of the
+viewport, while still respecting a maximum width to avoid overly wide
+content on large screens.</p>
+<button class="btn-green btn-lg" data-open-modal="full-width-modal">
+Full width
+</button>
+<pre class="html"><code>&lt;dialog id=&quot;my-modal&quot; class=&quot;modal&quot; data-close-modal&gt;
+  &lt;div class=&quot;modal-content w-100vw w-max-100&quot;&gt;
+    &lt;header&gt;&lt;/header&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/dialog&gt;</code></pre>
+<h4 id="doc-centered-modal">Centered Modal</h4>
+<p>This example demonstrates a centered modal:</p>
+<button class="btn-green btn-lg" data-open-modal="centered-modal">
+Centered modal
+</button>
+<pre class="html"><code>&lt;dialog id=&quot;my-modal&quot; class=&quot;modal&quot; data-close-modal&gt;
+  &lt;div class=&quot;modal-content mx-auto&quot;&gt;
+    &lt;header&gt;&lt;/header&gt;
+    &lt;div&gt;&lt;/div&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+  &lt;/div&gt;
+&lt;/dialog&gt;</code></pre>
+<h3 id="doc-attributes">Attributes</h3>
+<p>The following attributes are intended to work with our dedicated
+library (<a href="https://www.npmjs.com/package/@btfcss/modal">npm</a>,
+<a href="https://www.npmjs.com/package/@btfcss/modal">github</a>),
+otherwise developer have to write its own JavaScript logiccode to manage
+theses options :</p>
+<ul>
+<li><code>id="my-modal"</code> – Unique identifier for targeting the
+modal via JavaScript.</li>
+<li><code>data-scroll-to="top"</code> <strong>(Optional)</strong> – When
+added to <code>&lt;dialog&gt;</code>, it automatically scrolls the modal
+content to the top when opened.</li>
+<li><code>data-close-modal</code> – Can be added to any element inside
+the modal to close it when clicked (e.g., close button, background
+click). When added to the <code>&lt;dialog&gt;</code>, it closes the
+modal when the user clicks outside the modal.</li>
+</ul>
+<h4 id="doc-opening-button">Opening Button</h4>
+<p>Use <code>data-open-modal</code> on a button to open a specific
+modal:</p>
+<button class="btn-green" data-open-modal="simple-modal">
+Open Modal
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn-green&quot; data-open-modal=&quot;my-modal&quot;&gt;Open Modal&lt;/button&gt;</code></pre>
+<h3 id="doc-closing-cross">Closing Cross</h3>
+<p>The following code creates a close button styled as a cross:</p>
+<pre class="html"><code>&lt;button type=&quot;button&quot; class=&quot;btn-close&quot; data-close-modal aria-label=&quot;Close&quot;&gt;&lt;/button&gt;</code></pre>
+<ul>
+<li><code>.btn-close</code>: – Overrides the default button style to
+appear as a close icon (“X”).</li>
+</ul>
+<p>Use <code>[data-close-modal]</code> on buttons or overlays to allow
+declarative closing via JavaScript event delegation.</p>
+<h3 id="doc-classes">Classes</h3>
+<p>The following optional classes can be added to the
+<code>&lt;dialog&gt;</code> element to control modal behavior:</p>
+<ul>
+<li><code>.no-animation</code>: prevent animation when opening / closing
+the modal</li>
+<li><code>.no-blur</code>: prevent the background blur effect when the
+modal is opened</li>
+<li><code>.my-auto</code>: center the modal verticaly in the
+viewport</li>
+</ul>
+<p>Add <code>w-100vw</code> and <code>w-max-100</code> to
+<code>.modal-content</code> to create a full-width modal.</p>
+<h3 id="doc-basic-javascript-usage">Basic JavaScript Usage</h3>
+<p>Since the modals are based on the <a
+href="https://www.npmjs.com/package/@btfcss/modal">HTML dialog
+element</a>, you can control them with plain JavaScript:</p>
+<pre class="js"><code>// Show the modal programmatically
+document.getElementById(&#39;my-modal&#39;).showModal();</code></pre>
+<pre class="js"><code>// Close the modal manually
+document.getElementById(&#39;my-modal&#39;).close();</code></pre>
+<p>Note: <a href="https://beautiful-css.com">Beautiful CSS</a> includes
+open/close animations that may need to be accounted for when managing
+visibility manually.</p>

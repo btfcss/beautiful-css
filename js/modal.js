@@ -99,6 +99,7 @@ export const openModal = (id, triggerElement) => {
   }, { once: true });
 
   // Show the modal (and trigger the  animation)
+  console.log (modalEl)
   modalEl.showModal();
 
 

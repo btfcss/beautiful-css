@@ -1,15 +1,16 @@
 <dialog id="toggle-modal-2" aria-modal="true" class="modal" data-close-modal>
-    <div class="modal-content">
-        <header>
-            <h2 class="mt-0">Modal 2</h2>
-            <button type="button" class="btn-close" data-close-modal aria-label="Close"></button>
-        </header>
-        <div>
-            Click the button to go back to the first modal.
-        </div>
-        <footer class="align-right">
-            <button class="btn-blue" data-open-modal="toggle-modal-1">Back to first modal</button>
-            <button class="btn-grey" data-close-modal>Close</button>
-        </footer>
-    </div>
+	<div class="modal-content">
+		<header>
+			<h2 class="mt-0">Modal 2</h2>
+			<button type="button" class="btn-close" data-close-modal aria-label="Close"></button>
+		</header>
+		<div>
+			<p>Click the button to go back to the first modal.</p>
+			<button class="btn-green btn-lg w-100" data-open-modal="toggle-modal-1">Back to first modal</button>
+		</div>
+		<footer class="align-right">
+			<button class="btn-blue" data-open-modal="documentation-modal">Documentation</button>
+			<button class="btn-grey" data-close-modal>Close</button>
+		</footer>
+	</div>
 </dialog>

@@ -1,4 +1,4 @@
-<div class="card">
+<div id="modal" class="card">
     <div class="header">
         <h2>Modal Dialogs</h2>
     </div>
@@ -13,6 +13,14 @@
         <button class="btn-green btn-lg" data-open-modal="full-width-modal">Full width</button>
     </div>
     <div class="footer align-right">
-        <button class="btn-blue">&lt;code&gt;</button>
+        <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="modal">&lt;code&gt;</button>
     </div>
+</div>
+
+
+<div id="doc-modal" hidden>
+  <h2>Modal Dialogs <a href="#modal" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/modal.ejs %>
+  </content>
 </div>
