@@ -1,5 +1,5 @@
-//import { openModal } from "@btfcss/modal";
-import { openModal } from "./modal.js";
+import { openModal } from "@btfcss/modal";
+//import { openModal } from "./modal.js";
 
 let docId = undefined;
 
@@ -26,6 +26,7 @@ const populateModal = (documentationId) => {
 
 // When the modal documentation is opened
 documentationModal.addEventListener('onModalOpen', (event) => {
+  console.log (event.triggerElement)
   // Populate them modal
   populateModal('doc-' + event.triggerElement.dataset.documentation);
 });

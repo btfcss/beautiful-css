@@ -21,7 +21,7 @@ document.body.addEventListener('click', (event) => {
   // Check if modal close attribute exists
   if (event.target.matches('[data-close-modal]')) {
     if (currentModalId == null) currentModalId = event.target.id;
-    closeModal(currentModalId);
+    closeModal(currentModalId, event.target);
   }
 });
 
@@ -42,7 +42,7 @@ document.body.addEventListener('keydown', function (event) {
     const openModal = document.querySelector('.modal[open]');
     if (openModal) {
       // Close the modal
-      closeModal(openModal.id);
+      closeModal(openModal.id, event);
       // prevent default escape behavior (like exiting fullscreen or cancel current modal)
       event.preventDefault();
     }
@@ -74,7 +74,7 @@ export const openModal = (id, triggerElement) => {
   if (id == currentModalId) return;
 
   // If a modal is currently opened, close the modal before opening the new one
-  if (currentModalId) { closeModal(currentModalId, id); return; }
+  if (currentModalId) { closeModal(currentModalId, triggerElement, id); return; }
 
   // Dispatch the show event
   const modalEl = document.getElementById(id);
@@ -99,7 +99,6 @@ export const openModal = (id, triggerElement) => {
   }, { once: true });
 
   // Show the modal (and trigger the  animation)
-  console.log (modalEl)
   modalEl.showModal();
 
 
@@ -107,7 +106,6 @@ export const openModal = (id, triggerElement) => {
 
   // Scroll to top of modal if requested
   if (modalEl.dataset.scrollTo === 'top') {
-    console.log(typeof(modalEl.querySelector('.modal-content')))
     modalEl.querySelector('.modal-content').scrollTo(top);
   }
 
@@ -133,7 +131,7 @@ const onEscapeKeyPressed = (event) => {
 
   // The modal is cancelable, run the animation
   event.preventDefault();
-  closeModal(event.target.id, null);
+  closeModal(event.target.id, null, null);
 
 }
 
@@ -142,8 +140,9 @@ const onEscapeKeyPressed = (event) => {
  * Close the modal with a given ID
  * @param {string} id ID of the modal
  * @param {HTMLElement} [triggerElement] The element that triggered the modal closing (optional).
+ * @param {string} [next] ID of the next modal to open (toogle) (optional)
  */
-export const closeModal = (id, next) => {
+export const closeModal = (id, triggerElement, next) => {
 
   // Trigger the hide event
   const modalEl = document.getElementById(id);
@@ -168,7 +167,7 @@ export const closeModal = (id, next) => {
     currentModalId = null;
 
     // Open the next modal if required
-    if (next) openModal(next);
+    if (next) openModal(next, triggerElement);
   }, { once: true });
 
 
