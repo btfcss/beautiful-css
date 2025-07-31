@@ -48,7 +48,51 @@ body:has(.modal[open]) {
 .modal-content>header {
   border-bottom: 1px solid light-dark(oklch(var(--grey-500)), oklch(var(--grey-950)));
   padding: clamp(var(--spacing-1), 1vw, var(--spacing-4));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.modal-content>header>.btn-close {
+  margin-left: var(--spacing-4);
+  padding: 1em;
+  width: 1em;
+  aspect-ratio: 1/1;
+  position: relative;  
+  border-color: oklch(var(--blue-300));
+}
+
+
+.modal-content>header>.btn-close:not(:focus-visible) {
+  border-color: transparent;
+}
+  
+
+
+.modal-content>header>.btn-close:before, .modal-content>header>.btn-close:after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  content: ' ';
+  height: 1.5em;
+  width: 3px;
+  background-color: light-dark(oklch(var(--grey-600)), oklch(var(--grey-600)));
+}
+.modal-content>header>.btn-close:hover:before, .modal-content>header>.btn-close:hover:after {
+  background-color: light-dark(oklch(var(--black-800)), oklch(var(--white-200)));
+}
+
+.modal-content>header>.btn-close:before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.modal-content>header>.btn-close:after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+
+
 
 .modal-content>div {
   padding: clamp(var(--spacing-1), 1vw, var(--spacing-4));

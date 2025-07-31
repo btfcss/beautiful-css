@@ -45,14 +45,14 @@
   background-color: light-dark(oklch(var(--bg-light, 0 0 0 / 0)), oklch(var(--bg-dark, 0 0 0 / 0)));
 
   border-color: light-dark(oklch(var(--border-light)), oklch(var(--border-dark)));
-  border-top-width: var(--border-top-width, var(--border-width, 1px));
-  border-right-width: var(--border-right-width, var(--border-width, 1px));
-  border-bottom-width: var(--border-bottom-width, var(--border-width, 1px));
-  border-left-width: var(--border-left-width, var(--border-width, 1px));
+  border-top-width: var(--border-top-width, var(--border-width, 2px));
+  border-right-width: var(--border-right-width, var(--border-width, 2px));
+  border-bottom-width: var(--border-bottom-width, var(--border-width, 2px));
+  border-left-width: var(--border-left-width, var(--border-width, 2px));
   
   color: light-dark(oklch(var(--text-light, var(--black-500))), oklch(var(--text-dark, var(--white-500))));
   
-  box-shadow: 0 0 0 0.12rem var(--btn-box-shadow);
+  box-shadow: 0 0 0 0.12rem oklch(var(--btn-box-shadow));
 }
 
 .btn:disabled,
