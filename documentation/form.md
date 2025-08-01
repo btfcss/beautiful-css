@@ -14,7 +14,7 @@ Use `.form-label` for consistent label spacing, and `.form-control` for styled f
 
 #### Input Text
 
-<div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100"><label for="exampleFormControlInputText" class="form-label">Text input</label><input type="text" class="form-control" id="exampleFormControlInputText" placeholder="Default Input"></div>
+<div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100"><label for="docExampleFormControlInputText" class="form-label">Text input</label><input type="text" class="form-control" id="docExampleFormControlInputText" placeholder="Default Input"></div>
 
 ```html
 <label for="exampleFormControlInputText" class="form-label">Text input</label>
@@ -23,7 +23,7 @@ Use `.form-label` for consistent label spacing, and `.form-control` for styled f
 
 #### Password
 
-<div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100"><label for="exampleFormControlPassword" class="form-label">Password</label><input type="password" class="form-control" id="exampleFormControlPassword" placeholder="••••••••" autocomplete="off"></div>
+<div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100"><label for="docExampleFormControlPassword" class="form-label">Password</label><input type="password" class="form-control" id="docExampleFormControlPassword" placeholder="••••••••" autocomplete="off"></div>
 
 ```html
 <label for="exampleFormControlPassword" class="form-label">Password</label>

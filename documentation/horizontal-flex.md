@@ -14,6 +14,7 @@ They use `display: flex` and align items along the main (horizontal) axis.
 | `.h-flex-around`  | `justify-content: space-around`  | Equal space around each item        |
 | `.h-flex-evenly`  | `justify-content: space-evenly`  | Equal space between and around      |
 
+`h-flex` is a shorthand for `.v-flex-start`.
 
 #### Basic Syntax
 

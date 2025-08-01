@@ -14,6 +14,7 @@ These utility classes help you control **vertical layout** (column-based `flex-d
 | `.v-flex-evenly`  | `justify-content: space-evenly`  | Equal space between and around |
 
 
+`v-flex` is a shorthand for `.v-flex-start`.
 
 #### Basic Syntax
 
