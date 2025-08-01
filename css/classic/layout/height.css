@@ -11,6 +11,7 @@
 .h-64px { height: 64px!important; }
 .h-128px { height: 128px!important; }
 .h-256px { height: 256px!important; }
+.h-500px { height: 500px!important; }
 
 .h-100vh-8px { height: calc(100vh - 8px); }
 .h-100vh-16px { height: calc(100vh - 16px); }
