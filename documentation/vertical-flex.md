@@ -29,7 +29,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 
 
 
-<div class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-start gap-3 text-center rounded w-64px h-256px">
+<div class="mt-5 mb-0 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-start gap-3 text-center rounded w-64px h-256px">
 <div class="p-3 bg-red fit-content rounded ">01</div>
 <div class="p-3 bg-red rounded ">02</div>
 <div class="p-3 bg-red rounded ">03</div>
@@ -45,7 +45,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 
 
 
-<div class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-end gap-3 text-center rounded w-64px h-256px">
+<div class="mt-5 mb-0 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-end gap-3 text-center rounded w-64px h-256px">
 <div class="p-3 bg-red fit-content rounded ">01</div>
 <div class="p-3 bg-red rounded ">02</div>
 <div class="p-3 bg-red rounded ">03</div>
@@ -60,7 +60,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 ```
 
 
-<div class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-center gap-3 text-center rounded w-64px h-256px">
+<div class="mt-5 mb-0 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-center gap-3 text-center rounded w-64px h-256px">
 <div class="p-3 bg-red fit-content rounded ">01</div>
 <div class="p-3 bg-red rounded ">02</div>
 <div class="p-3 bg-red rounded ">03</div>
@@ -76,7 +76,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 
 
 
-<div class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-between gap-3 text-center rounded w-64px h-256px">
+<div class="mt-5 mb-0 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-between gap-3 text-center rounded w-64px h-256px">
 <div class="p-3 bg-red fit-content rounded ">01</div>
 <div class="p-3 bg-red rounded ">02</div>
 <div class="p-3 bg-red rounded ">03</div>
@@ -92,7 +92,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 
 
 
-<div class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-around gap-3 text-center rounded w-64px h-256px">
+<div class="mt-5 mb-0 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-around gap-3 text-center rounded w-64px h-256px">
 <div class="p-3 bg-red fit-content rounded ">01</div>
 <div class="p-3 bg-red rounded ">02</div>
 <div class="p-3 bg-red rounded ">03</div>
@@ -108,7 +108,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 
 
 
-<div class="mt-5 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-evenly gap-3 text-center rounded w-64px h-256px">
+<div class="mt-5 mb-0 border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded v-flex-evenly gap-3 text-center rounded w-64px h-256px">
 <div class="p-3 bg-red fit-content rounded ">01</div>
 <div class="p-3 bg-red rounded ">02</div>
 <div class="p-3 bg-red rounded ">03</div>

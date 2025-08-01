@@ -27,7 +27,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 
 #### Examples
 
-<div class="mt-5">
+<div class="mt-5 mb-0 w-max-md">
 <div class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-start gap-3 rounded monospace mb-4">
 <div class="p-3 bg-red rounded ">01</div>
 <div class="p-3 bg-red rounded monospace">02</div>
@@ -43,7 +43,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 </div>
 ```
 
-<div class="mt-5">
+<div class="mt-5 mb-0 w-max-md">
 <div class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-end gap-3 rounded monospace mb-4">
 <div class="p-3 bg-red rounded ">01</div>
 <div class="p-3 bg-red rounded monospace">02</div>
@@ -60,7 +60,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 ```
 
 
-<div class="mt-5">
+<div class="mt-5 mb-0 w-max-md">
 <div class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-center gap-3 rounded monospace mb-4">
 <div class="p-3 bg-red rounded ">01</div>
 <div class="p-3 bg-red rounded monospace">02</div>
@@ -78,7 +78,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 
 
 
-<div class="mt-5">
+<div class="mt-5 mb-0 w-max-md">
 <div class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-between gap-3 rounded monospace mb-4">
 <div class="p-3 bg-red rounded ">01</div>
 <div class="p-3 bg-red rounded monospace">02</div>
@@ -94,7 +94,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 </div>
 ```
 
-<div class="mt-5">
+<div class="mt-5 mb-0 w-max-md">
 <div class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-around gap-3 rounded monospace mb-4">
 <div class="p-3 bg-red rounded ">01</div>
 <div class="p-3 bg-red rounded monospace">02</div>
@@ -111,7 +111,7 @@ Where `{alignment}` is one of: `start`, `end`, `center`, `between`, `around`, `e
 ```
 
 
-<div class="mt-5">
+<div class="mt-5 mb-0 w-max-md">
 <div class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-evenly gap-3 rounded monospace mb-4">
 <div class="p-3 bg-red rounded ">01</div>
 <div class="p-3 bg-red rounded monospace">02</div>
@@ -145,7 +145,7 @@ Control how flexible a flex item should grow relative to the rest of the items w
 
 #### Example
 
-<div class="mt-5">
+<div class="mt-5 mb-0 w-max-md">
 <div class="border light:hatching-grey-100 light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-between gap-3 rounded monospace mb-4">
 <div class="p-3 bg-red rounded ">01</div>
 <div class="p-3 bg-red rounded monospace grow-1 text-center">02</div>
