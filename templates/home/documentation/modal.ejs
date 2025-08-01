@@ -76,7 +76,11 @@ No blur
     &lt;footer&gt;&lt;/footer&gt;
   &lt;/div&gt;
 &lt;/dialog&gt;</code></pre>
-<h4 id="doc-full-width-modal">Full Width Modal</h4>
+<h4 id="doc-modal-width">Modal Width</h4>
+<p>The modal tries to respect the preferred width of the
+<code>.modal-content</code> element, as long as it fits within the
+viewport.</p>
+<pre class="html"><code>&lt;div class=&quot;modal-content w-md&quot;&gt;</code></pre>
 <p>This example shows a modal that spans the entire width of the
 viewport, while still respecting a maximum width to avoid overly wide
 content on large screens.</p>
@@ -84,12 +88,13 @@ content on large screens.</p>
 Full width
 </button>
 <pre class="html"><code>&lt;dialog id=&quot;my-modal&quot; class=&quot;modal&quot; data-close-modal&gt;
-  &lt;div class=&quot;modal-content w-100vw w-max-100&quot;&gt;
+  &lt;div class=&quot;modal-content w-100vw&quot;&gt;
     &lt;header&gt;&lt;/header&gt;
     &lt;div&gt;&lt;/div&gt;
     &lt;footer&gt;&lt;/footer&gt;
   &lt;/div&gt;
 &lt;/dialog&gt;</code></pre>
+<p>You can repla</p>
 <h4 id="doc-centered-modal">Centered Modal</h4>
 <p>This example demonstrates a centered modal:</p>
 <button class="btn-green btn-lg" data-open-modal="centered-modal">

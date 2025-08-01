@@ -9,7 +9,7 @@ body:has(.modal[open]) {
 }
 
 .modal {
-  z-index: 1055;
+  z-index: 1055;  
   max-height: 100vh;
   margin-top: var(--spacing-1);
   margin-bottom: var(--spacing-1);
@@ -41,13 +41,14 @@ body:has(.modal[open]) {
   overscroll-behavior: contain;
   height: fit-content;
   overflow-y: auto;
+  max-width: 100%;
 }
 
 
 
 .modal-content>header {
   border-bottom: 1px solid light-dark(oklch(var(--grey-500)), oklch(var(--grey-950)));
-  padding: clamp(var(--spacing-1), 1vw, var(--spacing-4));
+  padding: clamp(var(--spacing-3), 1vw, var(--spacing-4));
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,12 +96,12 @@ body:has(.modal[open]) {
 
 
 .modal-content>div {
-  padding: clamp(var(--spacing-1), 1vw, var(--spacing-4));
+  padding: clamp(var(--spacing-3), 1vw, var(--spacing-4));
 }
 
 .modal-content>footer {
   border-top: 1px solid light-dark(oklch(var(--grey-500)), oklch(var(--grey-950)));
-  padding: clamp(var(--spacing-1), 1vw, var(--spacing-4));
+  padding: clamp(var(--spacing-3), 1vw, var(--spacing-4));
 }
 
 
