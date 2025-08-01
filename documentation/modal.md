@@ -95,7 +95,7 @@ To disable the blur effect on the background when the modal is open, add the `.n
 The modal tries to respect the preferred width of the `.modal-content` element, as long as it fits within the viewport.
 
 ``` html
-<div class="modal-content w-md">
+<div class="modal-content w-500px">
 ```
 
 This example shows a modal that spans the entire width of the viewport, while still respecting a maximum width to avoid overly wide content on large screens.
