@@ -57,7 +57,7 @@ Use `.form-label` for consistent label spacing, and `.form-control` for styled f
 
 ### Disabled State
 
-Use the `disabled` attribute to visually indicate inactivity.
+Use the `disabled` attribute to visually indicate that a field is not editable. Disabled inputs appear dimmed and use alternate border and placeholder colors based on the theme.
 
 <div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100">
 <input class="form-control" disabled placeholder="Disabled input">

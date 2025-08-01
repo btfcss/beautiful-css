@@ -1,6 +1,6 @@
-<div class="card">
+<div id="form-styling" class="card">
   <div class="header">
-    <h2>Form Styling</h2>
+    <h2>Form Styling </h2>
   </div>
   <div class="body">
 
@@ -35,6 +35,13 @@
 
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="form-styling">&lt;code&gt;</button>
   </div>
+</div>
+
+<div id="doc-form-styling" hidden>
+  <h2>Form Styling <a href="#form-styling" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/form-styling.ejs %>
+  </content>
 </div>
