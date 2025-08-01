@@ -11,6 +11,7 @@
 .w-64px { width: 64px!important; }
 .w-128px { width: 128px!important; }
 .w-256px { width: 256px!important; }
+.w-500px { width: 500px!important; }
 
 .w-100wh-8px { width: calc(100vw - 8px); }
 .w-100wh-16px { width: calc(100vw - 16px); }
