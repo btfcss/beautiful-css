@@ -3,7 +3,7 @@ const searchTextEl = document.getElementById('search-text');
 const searchClearEl = document.getElementById('search-clear');
 
 const masonryEl = document.getElementById('masonry');
-const cardsEl = masonryEl.querySelectorAll(".card");
+const cardsEl = masonryEl.querySelectorAll("#mansory>.card");
 const noSearchResultEl = document.getElementById('no-search-result');
 
 /**

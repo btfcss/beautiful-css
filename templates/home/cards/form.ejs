@@ -1,4 +1,4 @@
-<div class="card">
+<div id="form" class="card">
   <div class="header">
     <h2>Form</h2>
   </div>
@@ -30,6 +30,13 @@
 
   </form>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="form">&lt;code&gt;</button>
   </div>
+</div>
+
+<div id="doc-form" hidden>
+  <h2>Form <a href="#form" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/form.ejs %>
+  </content>
 </div>

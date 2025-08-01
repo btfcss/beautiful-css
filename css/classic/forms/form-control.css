@@ -33,6 +33,7 @@ select.form-control {
 
 .form-control:disabled {
   border-color:  light-dark(oklch(var(--grey-300)), oklch(var(--black-100)));
+  cursor: not-allowed;
 }
 
 .form-control:disabled::placeholder {
