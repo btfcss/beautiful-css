@@ -1,4 +1,4 @@
-<div class="card">
+<div id="rounded" class="card">
   <div class="header">
     <h2>Rounded</h2>
   </div>
@@ -16,6 +16,13 @@
     <div class="p-7 m-3 light:bg-white-500 dark:bg-black-500 border-blue border-1 hover:scale-105 rounded-pill">Rounded pill</div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="rounded">&lt;code&gt;</button>
   </div>
+</div>
+
+<div id="doc-rounded" hidden>
+  <h2>Rounded <a href="#rounded" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/rounded.ejs %>
+  </content>
 </div>
