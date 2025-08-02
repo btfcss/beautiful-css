@@ -26,7 +26,6 @@ const populateModal = (documentationId) => {
 
 // When the modal documentation is opened
 documentationModal.addEventListener('onModalOpen', (event) => {
-  console.log (event.triggerElement)
   // Populate them modal
   populateModal('doc-' + event.triggerElement.dataset.documentation);
 });
