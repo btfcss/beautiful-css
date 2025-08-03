@@ -1,4 +1,4 @@
-The color palette is built using the oklch css color space, which enables precise perceptual control over lightness, contras, and visual hamony. It includes a wide range of tones organized into tonal columns from 50 to 950, making it ideal for building clear visual hierarches, UI systems, brandind and editoral design. 
+The color palette is built using the OKLCH CSS color space, which enables precise perceptual control over lightness, contrast, and visual harmony. It includes a wide range of tones organized into tonal columns from 50 to 950, making it ideal for building clear visual hierarchies, UI systems, branding, and editorial design.
 
 
 <div class="h-grid-12 gap-1 w-fit text-center fs-sm">
@@ -147,3 +147,17 @@ The color palette is built using the oklch css color space, which enables precis
 <div class="w-32px hover:scale-150 rounded h-32px bg-black-900"> </div>
 <div class="w-32px hover:scale-150 rounded h-32px bg-black-950"> </div>
 </div>
+
+
+### Usage
+
+```less
+[color-scheme]:[state]:[target]-[name]-[shade]
+```
+
+* `[color-scheme]` – Applies the color in `light:` or `dark:` mode *(optional)*
+* `[state]` – Applies the color on specific states (e.g., `hover:bg-purple-600`) *(optional)*
+* `[target]` – Element targeted (e.g., `bg`, `text`, `border`, etc.)
+* `[name]` – Base color name (e.g., `yellow`, `orange`, `blue`, etc.)
+* `[shade]` – Specific tone in the color scale (e.g., `50`, `100`, `200`, ..., `950`)
+

@@ -1,8 +1,8 @@
-<p>The color palette is built using the oklch css color space, which
-enables precise perceptual control over lightness, contras, and visual
-hamony. It includes a wide range of tones organized into tonal columns
-from 50 to 950, making it ideal for building clear visual hierarches, UI
-systems, brandind and editoral design.</p>
+<p>The color palette is built using the OKLCH CSS color space, which
+enables precise perceptual control over lightness, contrast, and visual
+harmony. It includes a wide range of tones organized into tonal columns
+from 50 to 950, making it ideal for building clear visual hierarchies,
+UI systems, branding, and editorial design.</p>
 <div class="h-grid-12 gap-1 w-fit text-center fs-sm">
 <div class="w-64px monospace h-32px h-flex">
 <span class="self-center text-center"></span>
@@ -437,3 +437,18 @@ systems, brandind and editoral design.</p>
 
 </div>
 </div>
+<h3 id="doc-usage">Usage</h3>
+<pre class="less"><code>[color-scheme]:[state]:[target]-[name]-[shade]</code></pre>
+<ul>
+<li><code>[color-scheme]</code> – Applies the color in
+<code>light:</code> or <code>dark:</code> mode <em>(optional)</em></li>
+<li><code>[state]</code> – Applies the color on specific states (e.g.,
+<code>hover:bg-purple-600</code>) <em>(optional)</em></li>
+<li><code>[target]</code> – Element targeted (e.g., <code>bg</code>,
+<code>text</code>, <code>border</code>, etc.)</li>
+<li><code>[name]</code> – Base color name (e.g., <code>yellow</code>,
+<code>orange</code>, <code>blue</code>, etc.)</li>
+<li><code>[shade]</code> – Specific tone in the color scale (e.g.,
+<code>50</code>, <code>100</code>, <code>200</code>, …,
+<code>950</code>)</li>
+</ul>
