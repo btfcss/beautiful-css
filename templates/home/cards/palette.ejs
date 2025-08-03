@@ -1,4 +1,4 @@
-<div class="card">
+<div id="palette" class="card">
   <div class="header ">
     <h2>Color Palette</h2>
   </div>
@@ -150,6 +150,17 @@
     </div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue"  data-open-modal="documentation-modal" data-documentation="palette">&lt;code&gt;</button>
   </div>
+</div>
+
+
+
+
+
+<div id="doc-palette" hidden>
+  <h2>Palette <a href="#palette" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/palette.ejs %>
+  </content>
 </div>
