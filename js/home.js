@@ -3,9 +3,9 @@ import '@fortawesome/fontawesome-free/js/all.js';
 import "./color-scheme-switcher";
 import "./documentation";
 import "./search";
+import { setupListeners } from "@btfcss/modal";
 
-
-
+console.log (setupListeners)
 
 // Highlight codes
 hljs.highlightAll({ showLanguageLabel: true });
@@ -15,6 +15,9 @@ hljs.highlightAll({ showLanguageLabel: true });
 // The page is hidden at startup
 // Display the page once loaded
 window.onload = function () {
+  // Setup modal event listerners
+  setupListeners();
+  // Show the page
   document.querySelector('body').style.removeProperty('display');
 };
 
