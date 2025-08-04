@@ -1,4 +1,4 @@
-<div class="card">
+<div id="input-group" class="card">
   <div class="header">
     <h2>Input Groups</h2>
   </div>
@@ -29,6 +29,15 @@
 
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="input-group">&lt;code&gt;</button>
   </div>
+</div>
+
+
+
+<div id="doc-input-group" hidden>
+  <h2>Input Group <a href="#input-group" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/input-group.ejs %>
+  </content>
 </div>

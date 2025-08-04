@@ -1,6 +1,6 @@
 .input-group > * {
   border: 0!important;
-  border-radius: 0;
+  border-radius: 0!important;
   margin: 0;
 }
 
@@ -30,7 +30,7 @@
   background-color: blue;
   border-radius: var(--spacing-2);
   border: 1px solid light-dark(oklch(var(--grey-300)), oklch(var(--grey-800)));
-  background-color: light-dark(oklch(var(--white-200)),oklch(var(--black-300)));
+  background-color: light-dark(oklch(var(--white-400)),oklch(var(--black-300)));
   width: 100%;
 }
 

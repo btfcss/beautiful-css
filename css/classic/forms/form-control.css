@@ -13,7 +13,7 @@ label {
   box-sizing: border-box;
   border-radius: var(--spacing-2);
   border: 1px solid light-dark(oklch(var(--grey-300)), oklch(var(--grey-800)));
-  background-color: light-dark(oklch(var(--white-200)),oklch(var(--black-300)));
+  background-color: light-dark(oklch(var(--white-400)),oklch(var(--black-300)));
   font-size: 1rem;
   outline: 0;
 }

@@ -1,0 +1,68 @@
+<p>Input groups combine text inputs with icons, buttons, or labels for
+enhanced UI patterns such as search bars, usernames, or formatted
+inputs.</p>
+<p>Wrap the content in a <code>.input-group</code> container to align
+form controls and addons horizontally.</p>
+<h3 id="doc-basic-input-group">Basic Input Group</h3>
+<p>Use <code>.input-group-text</code> to prepend or append static text
+or symbols.</p>
+<div class="input-group w-fit mb-4 mt-2">
+<span
+class="input-group-text">@</span><input type="text" class="form-control" placeholder="Username">
+</div>
+<pre class="html"><code>&lt;div class=&quot;input-group&quot;&gt;
+  &lt;span class=&quot;input-group-text&quot;&gt;@&lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Username&quot;&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="doc-search-bar-with-buttons">Search Bar with Buttons</h3>
+<p>Input groups can include buttons for actions like
+<strong>search</strong> or <strong>clear</strong>. Combine buttons and
+inputs inside a <code>.input-group</code> for layout.</p>
+<div class="input-group w-fit mb-4 rounded-pill">
+<button class="btn-grey px-3">
+<i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i>
+</button>
+<input type="text" class="form-control" placeholder="Search">
+<button class="btn-grey px-3"><i class="fa-solid fa-xmark"></i></button>
+</div>
+<pre class="html"><code>&lt;div class=&quot;input-group rounded-pill&quot;&gt;
+  &lt;button class=&quot;btn-grey px-3&quot;&gt;
+    &lt;img src=&quot;magnifying-glass.png&quot;&gt;
+  &lt;/button&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Search&quot;&gt;
+  &lt;button class=&quot;btn-grey px-3&quot;&gt;
+    &lt;img src=&quot;xmark.png&quot;&gt;
+  &lt;/button&gt;
+&lt;/div&gt;</code></pre>
+<h3 id="doc-custom-themed-input-group">Custom Themed Input Group</h3>
+<p>Use utility classes for dynamic theming. This example
+demonstrates:</p>
+<ul>
+<li>Pill shape via <code>.rounded-pill</code></li>
+<li>Color theming using <code>light:</code> and <code>dark:</code>
+prefixes</li>
+<li>Transparent backgrounds and interactive styling on buttons</li>
+</ul>
+<div
+class="input-group w-fit mb-4 w-100 rounded-pill dark:border-purple-700 light:border-green-300 dark:color-white-900 light:color-black-100">
+<button class="btn dark:bg-purple-700 dark:hover:bg-purple-500 light:bg-green-300 light:hover:bg-green-500 px-3">
+<i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i>
+</button>
+<input type="text" class="form-control bg-cyan-lighter-5" placeholder="Custom">
+<button
+class="btn dark:bg-purple-700 dark:hover:bg-purple-500 light:bg-green-300 light:hover:bg-green-500 px-3">
+<i class="fa-solid fa-xmark"></i> </button>
+</div>
+<pre class="html"><code>&lt;div
+  class=&quot;input-group mb-4 rounded-pill dark:border-purple-700 light:border-green-300 dark:color-white-900 light:color-black-100&quot;&gt;
+  &lt;button class=&quot;btn dark:bg-purple-700 dark:hover:bg-purple-500 light:bg-green-300 light:hover:bg-green-500 px-3&quot;&gt;
+    &lt;img src=&quot;magnifying-glass.png&quot;&gt;
+  &lt;/button&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control bg-cyan-lighter-5&quot; placeholder=&quot;Custom&quot;&gt;
+  &lt;button class=&quot;btn dark:bg-purple-700 dark:hover:bg-purple-500 light:bg-green-300 light:hover:bg-green-500 px-3&quot;&gt;
+    &lt;img src=&quot;xmark.png&quot;&gt;
+  &lt;/button&gt;
+&lt;/div&gt;</code></pre>
+<p>💡 Use <code>.rounded-pill</code> for a softer, modern appearance.
+Customize further with background, border, and icon classes to match
+your theme.</p>

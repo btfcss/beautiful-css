@@ -1,5 +1,16 @@
 Customize the shape of buttons using utility classes that control their border radius and proportions.
 
+
+### Outline Button
+
+Add the `.outline` class to create a **hollow button** style. 
+
+<button class="px-3 w-fit btn-pink outline mt-4">Outline button</button>
+
+```html
+<button class="btn-pink outline">Outline button</button>
+```
+
 ### Rounded Pill
 
 `.rounded-pill` Creates a pill-shaped button with fully rounded ends. Ideal for badges, tags, or soft, rounded UI.
