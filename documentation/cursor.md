@@ -9,7 +9,6 @@ Use cursor utility classes to control the mouse pointer appearance on hover. The
 
 Where `[value]` is a supported cursor type.
 
----
 
 ### Available Classes
 
@@ -27,7 +26,6 @@ Where `[value]` is a supported cursor type.
 | `.cursor-zoom-out`    | `zoom-out`    | Indicates zoom-out functionality            |
 | `.cursor-grab`        | `grab`        | Indicates draggable content                 |
 
----
 
 ### Examples
 

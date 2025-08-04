@@ -38,6 +38,17 @@ s,
   text-decoration: line-through;
 }
 
+a {
+  color: oklch(var(--blue-500))
+}
+
+a:active {
+  color: oklch(var(--red-500))
+}
+
+a:visited {
+  color: oklch(var(--purple-500))
+}
 
 .hover\:strikethrough:hover {
   text-decoration: line-through;

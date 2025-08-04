@@ -1,0 +1,82 @@
+@import url(button.css);
+@import url(../text/fonts.css);
+
+
+
+.btn-link {
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: transparent;
+  --border-dark: transparent;
+  --text-light: var(--blue-500);
+  --text-dark: var(--blue-500);
+  --border-width: 0px;
+  --btn-box-shadow: transparent;
+  text-decoration: underline;
+}
+
+.btn-link:disabled {
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: transparent;
+  --border-dark: transparent;
+  --border-width: 0px;
+  --text-light: var(--grey-600);
+  --text-dark: var(--grey-900);
+}
+
+
+
+
+.btn-link.outline {
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--blue-500);
+  --border-dark: var(--blue-500);
+  --text-light: var(--blue-500);
+  --text-dark: var(--blue-500);
+}
+
+.btn-link.outline:disabled {
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: transparent;
+  --border-dark: transparent;
+  --border-width: 0px;
+  --text-light: var(--grey-600);
+  --text-dark: var(--grey-900);
+}
+
+.btn-link:active:not(:disabled) {
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: transparent;
+  --border-dark: transparent;
+  --text-light: var(--red-500);
+  --text-dark: var(--red-500);
+}
+
+.btn-link.active:not(:disabled) {
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: transparent;
+  --border-dark: transparent;
+  --text-light: var(--blue-600);
+  --text-dark: var(--blue-600);
+}
+
+.btn-link.outline:hover:not(:disabled):not(.active),
+.btn-link:hover:not(:disabled):not(.active) {
+  --bg-light: transparent;
+  --bg-dark: transparent;
+  --border-light: var(--blue-600);
+  --border-dark: var(--blue-600);  
+  --text-light: var(--blue-500);
+  --text-dark: var(--blue-500);
+}
+
+:not(.input-group)>.btn-link.outline:focus:not(:disabled),
+:not(.input-group)>.btn-link.outline:focus-visible:not(:disabled) {
+  --btn-box-shadow: var(--blue-300);
+}
+
