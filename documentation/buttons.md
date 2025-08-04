@@ -23,6 +23,7 @@ Buttons styled with semantic or brand color themes. Each color button supports m
 | **Green**   | `btn-green`  | <button class="px-3 w-100 btn-green">Green button</button> |
 | **White**   | `btn-white`  | <button class="px-3 w-100 btn-white">White button</button> |
 | **Black**   | `btn-black`  | <button class="px-3 w-100 btn-black">Black button</button> |
+| **Link**    | `btn-link `  | <button class="px-3 w-100 btn-link">Button link</button> |
 
 
 ### Custom Color
@@ -71,34 +72,47 @@ If no size class is specified, the button uses the default `.btn` size.
 
 Customize the shape of buttons using utility classes that control their border radius and proportions.
 
+
+#### Outline Button
+
+Add the `.outline` class to create a **hollow button** style. 
+
+<button class="px-3 w-fit btn-blue outline mt-4">Outline button</button>
+
+```html
+<button class="btn-blue outline">Outline button</button>
+```
+
+Use outline buttons when you want a lighter visual touch or to balance visual hierarchy next to solid buttons.
+
 #### Rounded Pill
 
 `.rounded-pill` Creates a pill-shaped button with fully rounded ends. Ideal for badges, tags, or soft, rounded UI.
 
-<button class="btn-orange rounded-pill mt-4">.rounded-pill</button>
+<button class="btn-blue rounded-pill mt-4">.rounded-pill</button>
 
 ```html
-<button class="btn-orange rounded-pill">.rounded-pill</button>
+<button class="btn-blue rounded-pill">.rounded-pill</button>
 ```
 
 #### Circular Button
 
 `.btn-circular` creates a perfectly circular button, typically used for icons or floating action buttons (FAB). Ensures a 1:1 aspect ratio.
 
-<button class="btn-orange btn-circular mt-4">+</button>
+<button class="btn-blue btn-circular mt-4">+</button>
 
 ```html
-<button class="btn-orange btn-circular">+</button>
+<button class="btn-blue btn-circular">+</button>
 ```
 
 #### Square Button
 
 `.btn-square` creates a square button by forcing a 1:1 aspect ratio. Useful for tool buttons or grid layouts.
 
-<button class="btn-orange btn-square fs-4xl">≡</button>
+<button class="btn-blue btn-square fs-4xl">≡</button>
 
 ```html
-<button class="btn-orange btn-square">≡</button>
+<button class="btn-blue btn-square">≡</button>
 ```
 
 ### Disabled State

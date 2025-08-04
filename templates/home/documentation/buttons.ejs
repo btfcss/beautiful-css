@@ -73,6 +73,11 @@ Simple Button
 <td><code>btn-black</code></td>
 <td><button class="px-3 w-100 btn-black">Black button</button></td>
 </tr>
+<tr class="odd">
+<td><strong>Link</strong></td>
+<td><code>btn-link</code></td>
+<td><button class="px-3 w-100 btn-link">Button link</button></td>
+</tr>
 </tbody>
 </table>
 <h3 id="doc-custom-color">Custom Color</h3>
@@ -140,28 +145,37 @@ Extra Small Button
 <h3 id="doc-button-styles">Button Styles</h3>
 <p>Customize the shape of buttons using utility classes that control
 their border radius and proportions.</p>
+<h4 id="doc-outline-button">Outline Button</h4>
+<p>Add the <code>.outline</code> class to create a <strong>hollow
+button</strong> style.</p>
+<button class="px-3 w-fit btn-blue outline mt-4">
+Outline button
+</button>
+<pre class="html"><code>&lt;button class=&quot;btn-blue outline&quot;&gt;Outline button&lt;/button&gt;</code></pre>
+<p>Use outline buttons when you want a lighter visual touch or to
+balance visual hierarchy next to solid buttons.</p>
 <h4 id="doc-rounded-pill">Rounded Pill</h4>
 <p><code>.rounded-pill</code> Creates a pill-shaped button with fully
 rounded ends. Ideal for badges, tags, or soft, rounded UI.</p>
-<button class="btn-orange rounded-pill mt-4">
+<button class="btn-blue rounded-pill mt-4">
 .rounded-pill
 </button>
-<pre class="html"><code>&lt;button class=&quot;btn-orange rounded-pill&quot;&gt;.rounded-pill&lt;/button&gt;</code></pre>
+<pre class="html"><code>&lt;button class=&quot;btn-blue rounded-pill&quot;&gt;.rounded-pill&lt;/button&gt;</code></pre>
 <h4 id="doc-circular-button">Circular Button</h4>
 <p><code>.btn-circular</code> creates a perfectly circular button,
 typically used for icons or floating action buttons (FAB). Ensures a 1:1
 aspect ratio.</p>
-<button class="btn-orange btn-circular mt-4">
+<button class="btn-blue btn-circular mt-4">
 +
 </button>
-<pre class="html"><code>&lt;button class=&quot;btn-orange btn-circular&quot;&gt;+&lt;/button&gt;</code></pre>
+<pre class="html"><code>&lt;button class=&quot;btn-blue btn-circular&quot;&gt;+&lt;/button&gt;</code></pre>
 <h4 id="doc-square-button">Square Button</h4>
 <p><code>.btn-square</code> creates a square button by forcing a 1:1
 aspect ratio. Useful for tool buttons or grid layouts.</p>
-<button class="btn-orange btn-square fs-4xl">
+<button class="btn-blue btn-square fs-4xl">
 ≡
 </button>
-<pre class="html"><code>&lt;button class=&quot;btn-orange btn-square&quot;&gt;≡&lt;/button&gt;</code></pre>
+<pre class="html"><code>&lt;button class=&quot;btn-blue btn-square&quot;&gt;≡&lt;/button&gt;</code></pre>
 <h3 id="doc-disabled-state">Disabled State</h3>
 <p>The <code>:disabled</code> pseudo-class visually indicates that the
 button is not interactive. Disabled buttons:</p>
