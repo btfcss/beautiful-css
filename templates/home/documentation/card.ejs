@@ -1,0 +1,96 @@
+<p>Cards are flexible content containers that can include headers,
+bodies, footers, and even images. Use them to group related information
+in a visually distinct block.</p>
+<h3 id="doc-basic-structure">Basic Structure</h3>
+<pre class="html"><code>&lt;div class=&quot;card&quot;&gt;
+  &lt;div class=&quot;header&quot;&gt;...&lt;/div&gt;
+  &lt;div class=&quot;body&quot;&gt;...&lt;/div&gt;
+  &lt;div class=&quot;footer&quot;&gt;...&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<ul>
+<li><code>.card</code> – the container for the card component.</li>
+<li><code>.header</code> – optional section used for titles, images, or
+actions.</li>
+<li><code>.body</code> – main content area of the card.</li>
+<li><code>.footer</code> – optional section for actions or
+metadata.</li>
+</ul>
+<h3 id="doc-card-with-multiple-headers">Card with Multiple Headers</h3>
+<p>You can insert multiple headers within a card for complex
+layouts.</p>
+<h4 id="doc-preview">Preview</h4>
+<div class="card w-256px mt-4 mb-3">
+<div class="header">
+<h2>
+Card with Headers
+</h2>
+</div>
+<div class="body">
+Example of card with several <b>headers</b>.
+</div>
+<div class="header">
+<h2>
+Another Headers
+</h2>
+</div>
+<div class="body">
+You can insert multiple <b>headers</b> in a single card.
+</div>
+<div class="footer align-right">
+<button class="btn-blue" data-open-modal="documentation-modal" data-documentation="card">
+Do something
+</button>
+</div>
+</div>
+<pre class="html"><code>&lt;div id=&quot;card&quot; class=&quot;card&quot;&gt;
+  &lt;div class=&quot;header&quot;&gt;&lt;h2&gt;Card with Headers&lt;/h2&gt;&lt;/div&gt;
+  &lt;div class=&quot;body&quot;&gt;Example of card with several &lt;b&gt;headers&lt;/b&gt;.&lt;/div&gt;  
+  &lt;div class=&quot;header&quot;&gt;&lt;h2&gt;Another Headers&lt;/h2&gt;&lt;/div&gt;  
+  &lt;div class=&quot;body&quot;&gt;You can insert multiple &lt;b&gt;headers&lt;/b&gt; in a single card.&lt;/div&gt;  
+  &lt;div class=&quot;footer align-right&quot;&gt;
+     &lt;button class=&quot;btn-blue&quot; data-open-modal=&quot;documentation-modal&quot; data-documentation=&quot;card&quot;&gt;Do something&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<ul>
+<li>Headers can appear at multiple positions inside the card.</li>
+<li>Alternate headers and bodies to separate content logically.</li>
+<li>Use <code>.align-right</code> in the footer to align buttons to the
+right.</li>
+</ul>
+<h3 id="doc-card-with-image-header">Card with Image Header</h3>
+<p>Headers can also be replaced with an image for a more visual
+layout.</p>
+<h4 id="doc-preview-1">Preview</h4>
+<div class="card mt-4 mb-3 w-256px">
+<img class="header" src="/images/card-header.jpg">
+<div class="body">
+<h3>
+Card Title
+</h3>
+<p>
+Example of a card with an image for blog posts, user cards, and many
+more.
+</p>
+</div>
+<div class="footer align-right">
+<button class="btn-blue">
+Do something
+</button>
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;card&quot;&gt;
+  &lt;img class=&quot;header&quot; src=&quot;/images/card-header.jpg&quot;&gt;
+  &lt;div class=&quot;body&quot;&gt;
+    &lt;h3&gt;Card Title&lt;/h3&gt;
+    &lt;p&gt;Example of a card with an image for blog posts, user cards, and many more.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;footer align-right&quot;&gt;
+    &lt;button class=&quot;btn-blue&quot;&gt;Do something&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<ul>
+<li>An <code>&lt;img&gt;</code> element with the <code>.header</code>
+class is used to display an image at the top.</li>
+<li>Ideal for use cases like blog cards, product cards, or profile
+previews.</li>
+</ul>

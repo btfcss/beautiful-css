@@ -1,7 +1,7 @@
 The color palette is built using the OKLCH CSS color space, which enables precise perceptual control over lightness, contrast, and visual harmony. It includes a wide range of tones organized into tonal columns from 50 to 950, making it ideal for building clear visual hierarchies, UI systems, branding, and editorial design.
 
 
-<div class="h-grid-12 gap-1 w-fit text-center fs-sm">
+<div class="h-grid-12-auto gap-1 w-fit text-center fs-sm">
 <div class="w-64px monospace h-32px h-flex"><span class="self-center text-center"></span></div>
 <div class="w-32px monospace h-32px h-flex mx-auto"><span class="self-center w-100">50</span></div>
 <div class="w-32px monospace h-32px h-flex mx-auto"><span class="self-center w-100">100</span></div>

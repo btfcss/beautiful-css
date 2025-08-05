@@ -1,36 +1,37 @@
 @import url(spacing.css);
 
 .h-grid,
-.h-grid-2,
-.h-grid-3,
-.h-grid-4,
-.h-grid-5,
-.h-grid-6,
-.h-grid-7,
-.h-grid-8,
-.h-grid-9,
-.h-grid-10,
-.h-grid-11,
-.h-grid-12,
-.grid {
+.grid,
+[class*="h-grid-"] {
   grid-template-columns: repeat(auto-fit,minmax(0%,1fr));
   grid-column-gap: var(--spacing-2);
   grid-row-gap: var(--spacing-2);
   display: grid;    
 }
 
-.h-grid-2 { grid-template-columns: repeat(2, auto); }
-.h-grid-3 { grid-template-columns: repeat(3, auto); }
-.h-grid-4 { grid-template-columns: repeat(4, auto); }
-.h-grid-5 { grid-template-columns: repeat(5, auto); }
-.h-grid-6 { grid-template-columns: repeat(6, auto); }
-.h-grid-7 { grid-template-columns: repeat(7, auto); }
-.h-grid-8 { grid-template-columns: repeat(8, auto); }
-.h-grid-9 { grid-template-columns: repeat(9, auto); }
-.h-grid-10 { grid-template-columns: repeat(10, auto); }
-.h-grid-11 { grid-template-columns: repeat(11, auto); }
-.h-grid-12 { grid-template-columns: repeat(12, auto); }
+.h-grid-2 { grid-template-columns: repeat(2, 1fr); }
+.h-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.h-grid-4 { grid-template-columns: repeat(4, 1fr); }
+.h-grid-5 { grid-template-columns: repeat(5, 1fr); }
+.h-grid-6 { grid-template-columns: repeat(6, 1fr); }
+.h-grid-7 { grid-template-columns: repeat(7, 1fr); }
+.h-grid-8 { grid-template-columns: repeat(8, 1fr); }
+.h-grid-9 { grid-template-columns: repeat(9, 1fr); }
+.h-grid-10 { grid-template-columns: repeat(10, 1fr); }
+.h-grid-11 { grid-template-columns: repeat(11, 1fr); }
+.h-grid-12 { grid-template-columns: repeat(12, 1fr); }
 
+.h-grid-2-auto { grid-template-columns: repeat(2, auto); }
+.h-grid-3-auto { grid-template-columns: repeat(3, auto); }
+.h-grid-4-auto { grid-template-columns: repeat(4, auto); }
+.h-grid-5-auto { grid-template-columns: repeat(5, auto); }
+.h-grid-6-auto { grid-template-columns: repeat(6, auto); }
+.h-grid-7-auto { grid-template-columns: repeat(7, auto); }
+.h-grid-8-auto { grid-template-columns: repeat(8, auto); }
+.h-grid-9-auto { grid-template-columns: repeat(9, auto); }
+.h-grid-10-auto { grid-template-columns: repeat(10, auto); }
+.h-grid-11-auto { grid-template-columns: repeat(11, auto); }
+.h-grid-12-auto { grid-template-columns: repeat(12, auto); }
 
 .h-span-2 { grid-column: span 2; }
 .h-span-3 { grid-column: span 3; }
