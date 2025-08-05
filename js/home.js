@@ -5,7 +5,6 @@ import "./documentation";
 import "./search";
 import { setupListeners } from "@btfcss/modal";
 
-console.log (setupListeners)
 
 // Highlight codes
 hljs.highlightAll({ showLanguageLabel: true });
