@@ -1,40 +1,47 @@
-.input-group > * {
-  border: 0!important;
-  border-radius: 0!important;
+.input-group>* {
+  border:0;
+  border-radius: 0;
   margin: 0;
 }
 
-.input-group:not(.rounded-pill) > *:first-child {  
+.input-group:not(.rounded-pill)>*:first-child {
   border-top-left-radius: var(--spacing-2);
   border-bottom-left-radius: var(--spacing-2);
 }
-.input-group:not(.rounded-pill) > *:last-child {  
+
+.input-group:not(.rounded-pill)>*:last-child {
   border-top-right-radius: var(--spacing-2);
   border-bottom-right-radius: var(--spacing-2);
 }
 
-.input-group.rounded-pill > *:first-child {  
-  border-top-left-radius:  50vh !important;
-  border-bottom-left-radius:  50vh !important;
+.input-group.rounded-pill>*:first-child {
+  border-top-left-radius: 50vh !important;
+  border-bottom-left-radius: 50vh !important;
 }
-.input-group.rounded-pill > *:last-child {  
+
+.input-group.rounded-pill>*:last-child {
   border-top-right-radius: 50vh !important;
-  border-bottom-right-radius:  50vh !important;
+  border-bottom-right-radius: 50vh !important;
 }
+
 
 
 .input-group {
-  display: flex;  
+  display: flex;
   align-items: stretch;
   justify-content: center;
   background-color: blue;
   border-radius: var(--spacing-2);
   border: 1px solid light-dark(oklch(var(--grey-300)), oklch(var(--grey-800)));
-  background-color: light-dark(oklch(var(--white-400)),oklch(var(--black-300)));
+  background-color: light-dark(oklch(var(--white-400)), oklch(var(--black-300)));
   width: 100%;
 }
 
-.input-group > span {
+.input-group>*:not(:last-child) {
+  border-right: 1px solid light-dark(oklch(var(--grey-300)), oklch(var(--grey-800)));
+}
+
+.input-group>span {
   padding: 0 var(--spacing-3);
   white-space: nowrap;
   align-content: center;

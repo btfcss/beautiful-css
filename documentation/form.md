@@ -98,6 +98,19 @@ Add `.valid` or `.invalid` classes to style form fields based on validation.
 <input class="form-control invalid" placeholder="Invalid input">
 ```
 
+### Size
+
+You can change the font size of form controls to create smaller or larger inputs using text size utility classes like `.fs-xs` or `.fs-2xl`. These changes affect both the input’s text size and, indirectly, its overall visual footprint.
+
+<div class="w-max-md card p-3 border dark:border-grey-900 light:border-grey-100">
+<input type="text" class="form-control fs-xs p-1 my-4" placeholder="Small input">
+<input type="text" class="form-control fs-2xl" placeholder="Large input">
+</div>
+
+```html
+<input type="text" class="form-control fs-xs p-1" placeholder="Small input">
+<input type="text" class="form-control fs-2xl" placeholder="Large input">
+```
 
 
 ### Without Border
