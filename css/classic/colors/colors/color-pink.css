@@ -1,80 +1,80 @@
 @import url(../palette.css);
 
-.color-pink { --color-light:var(--pink-500);--color-dark:var(--pink-500);}
-.color-pink-50  { --color-light:var(--pink-50 );--color-dark:var(--pink-50 );}
-.color-pink-100 { --color-light:var(--pink-100);--color-dark:var(--pink-100);}
-.color-pink-200 { --color-light:var(--pink-200);--color-dark:var(--pink-200);}
-.color-pink-300 { --color-light:var(--pink-300);--color-dark:var(--pink-300);}
-.color-pink-400 { --color-light:var(--pink-400);--color-dark:var(--pink-400);}
-.color-pink-500 { --color-light:var(--pink-500);--color-dark:var(--pink-500);}
-.color-pink-600 { --color-light:var(--pink-600);--color-dark:var(--pink-600);}
-.color-pink-700 { --color-light:var(--pink-700);--color-dark:var(--pink-700);}
-.color-pink-800 { --color-light:var(--pink-800);--color-dark:var(--pink-800);}
-.color-pink-900 { --color-light:var(--pink-900);--color-dark:var(--pink-900);}
-.color-pink-950 { --color-light:var(--pink-950);--color-dark:var(--pink-950);}
+.text-pink, .color-pink { --color-light:var(--pink-500);--color-dark:var(--pink-500); }
+.text-pink-50, .color-pink-50 { --color-light:var(--pink-50 );--color-dark:var(--pink-50 ); }
+.text-pink-100, .color-pink-100 { --color-light:var(--pink-100);--color-dark:var(--pink-100); }
+.text-pink-200, .color-pink-200 { --color-light:var(--pink-200);--color-dark:var(--pink-200); }
+.text-pink-300, .color-pink-300 { --color-light:var(--pink-300);--color-dark:var(--pink-300); }
+.text-pink-400, .color-pink-400 { --color-light:var(--pink-400);--color-dark:var(--pink-400); }
+.text-pink-500, .color-pink-500 { --color-light:var(--pink-500);--color-dark:var(--pink-500); }
+.text-pink-600, .color-pink-600 { --color-light:var(--pink-600);--color-dark:var(--pink-600); }
+.text-pink-700, .color-pink-700 { --color-light:var(--pink-700);--color-dark:var(--pink-700); }
+.text-pink-800, .color-pink-800 { --color-light:var(--pink-800);--color-dark:var(--pink-800); }
+.text-pink-900, .color-pink-900 { --color-light:var(--pink-900);--color-dark:var(--pink-900); }
+.text-pink-950, .color-pink-950 { --color-light:var(--pink-950);--color-dark:var(--pink-950); }
 
-.light\:color-pink { --color-light:var(--pink-500 ); }
-.light\:color-pink-50  { --color-light:var(--pink-50 ); }
-.light\:color-pink-100 { --color-light:var(--pink-100); }
-.light\:color-pink-200 { --color-light:var(--pink-200); }
-.light\:color-pink-300 { --color-light:var(--pink-300); }
-.light\:color-pink-400 { --color-light:var(--pink-400); }
-.light\:color-pink-500 { --color-light:var(--pink-500); }
-.light\:color-pink-600 { --color-light:var(--pink-600); }
-.light\:color-pink-700 { --color-light:var(--pink-700); }
-.light\:color-pink-800 { --color-light:var(--pink-800); }
-.light\:color-pink-900 { --color-light:var(--pink-900); }
-.light\:color-pink-950 { --color-light:var(--pink-950); }
+.light\:text-pink, .light\:color-pink { --color-light:var(--pink-500 ); }
+.light\:text-pink-50, .light\:color-pink-50 { --color-light:var(--pink-50 ); }
+.light\:text-pink-100, .light\:color-pink-100 { --color-light:var(--pink-100); }
+.light\:text-pink-200, .light\:color-pink-200 { --color-light:var(--pink-200); }
+.light\:text-pink-300, .light\:color-pink-300 { --color-light:var(--pink-300); }
+.light\:text-pink-400, .light\:color-pink-400 { --color-light:var(--pink-400); }
+.light\:text-pink-500, .light\:color-pink-500 { --color-light:var(--pink-500); }
+.light\:text-pink-600, .light\:color-pink-600 { --color-light:var(--pink-600); }
+.light\:text-pink-700, .light\:color-pink-700 { --color-light:var(--pink-700); }
+.light\:text-pink-800, .light\:color-pink-800 { --color-light:var(--pink-800); }
+.light\:text-pink-900, .light\:color-pink-900 { --color-light:var(--pink-900); }
+.light\:text-pink-950, .light\:color-pink-950 { --color-light:var(--pink-950); }
 
-.dark\:color-pink  { --color-dark:var(--pink-500 ); }
-.dark\:color-pink-50  { --color-dark:var(--pink-50 ); }
-.dark\:color-pink-100 { --color-dark:var(--pink-100); }
-.dark\:color-pink-200 { --color-dark:var(--pink-200); }
-.dark\:color-pink-300 { --color-dark:var(--pink-300); }
-.dark\:color-pink-400 { --color-dark:var(--pink-400); }
-.dark\:color-pink-500 { --color-dark:var(--pink-500); }
-.dark\:color-pink-600 { --color-dark:var(--pink-600); }
-.dark\:color-pink-700 { --color-dark:var(--pink-700); }
-.dark\:color-pink-800 { --color-dark:var(--pink-800); }
-.dark\:color-pink-900 { --color-dark:var(--pink-900); }
-.dark\:color-pink-950 { --color-dark:var(--pink-950); }
+.dark\:text-pink, .dark\:color-pink { --color-dark:var(--pink-500 ); }
+.dark\:text-pink-50, .dark\:color-pink-50 { --color-dark:var(--pink-50 ); }
+.dark\:text-pink-100, .dark\:color-pink-100 { --color-dark:var(--pink-100); }
+.dark\:text-pink-200, .dark\:color-pink-200 { --color-dark:var(--pink-200); }
+.dark\:text-pink-300, .dark\:color-pink-300 { --color-dark:var(--pink-300); }
+.dark\:text-pink-400, .dark\:color-pink-400 { --color-dark:var(--pink-400); }
+.dark\:text-pink-500, .dark\:color-pink-500 { --color-dark:var(--pink-500); }
+.dark\:text-pink-600, .dark\:color-pink-600 { --color-dark:var(--pink-600); }
+.dark\:text-pink-700, .dark\:color-pink-700 { --color-dark:var(--pink-700); }
+.dark\:text-pink-800, .dark\:color-pink-800 { --color-dark:var(--pink-800); }
+.dark\:text-pink-900, .dark\:color-pink-900 { --color-dark:var(--pink-900); }
+.dark\:text-pink-950, .dark\:color-pink-950 { --color-dark:var(--pink-950); }
 
 
-.hover\:color-pink:hover { --color-light:var(--pink-500);--color-dark:var(--pink-500);}
-.hover\:color-pink-50:hover  { --color-light:var(--pink-50 );--color-dark:var(--pink-50 );}
-.hover\:color-pink-100:hover { --color-light:var(--pink-100);--color-dark:var(--pink-100);}
-.hover\:color-pink-200:hover { --color-light:var(--pink-200);--color-dark:var(--pink-200);}
-.hover\:color-pink-300:hover { --color-light:var(--pink-300);--color-dark:var(--pink-300);}
-.hover\:color-pink-400:hover { --color-light:var(--pink-400);--color-dark:var(--pink-400);}
-.hover\:color-pink-500:hover { --color-light:var(--pink-500);--color-dark:var(--pink-500);}
-.hover\:color-pink-600:hover { --color-light:var(--pink-600);--color-dark:var(--pink-600);}
-.hover\:color-pink-700:hover { --color-light:var(--pink-700);--color-dark:var(--pink-700);}
-.hover\:color-pink-800:hover { --color-light:var(--pink-800);--color-dark:var(--pink-800);}
-.hover\:color-pink-900:hover { --color-light:var(--pink-900);--color-dark:var(--pink-900);}
-.hover\:color-pink-950:hover { --color-light:var(--pink-950);--color-dark:var(--pink-950);}
+.hover\:text-pink:hover, .hover\:color-pink:hover { --color-light:var(--pink-500);--color-dark:var(--pink-500); }
+.hover\:text-pink-50:hover, .hover\:color-pink-50:hover { --color-light:var(--pink-50 );--color-dark:var(--pink-50 ); }
+.hover\:text-pink-100:hover, .hover\:color-pink-100:hover { --color-light:var(--pink-100);--color-dark:var(--pink-100); }
+.hover\:text-pink-200:hover, .hover\:color-pink-200:hover { --color-light:var(--pink-200);--color-dark:var(--pink-200); }
+.hover\:text-pink-300:hover, .hover\:color-pink-300:hover { --color-light:var(--pink-300);--color-dark:var(--pink-300); }
+.hover\:text-pink-400:hover, .hover\:color-pink-400:hover { --color-light:var(--pink-400);--color-dark:var(--pink-400); }
+.hover\:text-pink-500:hover, .hover\:color-pink-500:hover { --color-light:var(--pink-500);--color-dark:var(--pink-500); }
+.hover\:text-pink-600:hover, .hover\:color-pink-600:hover { --color-light:var(--pink-600);--color-dark:var(--pink-600); }
+.hover\:text-pink-700:hover, .hover\:color-pink-700:hover { --color-light:var(--pink-700);--color-dark:var(--pink-700); }
+.hover\:text-pink-800:hover, .hover\:color-pink-800:hover { --color-light:var(--pink-800);--color-dark:var(--pink-800); }
+.hover\:text-pink-900:hover, .hover\:color-pink-900:hover { --color-light:var(--pink-900);--color-dark:var(--pink-900); }
+.hover\:text-pink-950:hover, .hover\:color-pink-950:hover { --color-light:var(--pink-950);--color-dark:var(--pink-950); }
 
-.light\:hover\:color-pink:hover { --color-light:var(--pink-500 ); }
-.light\:hover\:color-pink-50:hover  { --color-light:var(--pink-50 ); }
-.light\:hover\:color-pink-100:hover { --color-light:var(--pink-100); }
-.light\:hover\:color-pink-200:hover { --color-light:var(--pink-200); }
-.light\:hover\:color-pink-300:hover { --color-light:var(--pink-300); }
-.light\:hover\:color-pink-400:hover { --color-light:var(--pink-400); }
-.light\:hover\:color-pink-500:hover { --color-light:var(--pink-500); }
-.light\:hover\:color-pink-600:hover { --color-light:var(--pink-600); }
-.light\:hover\:color-pink-700:hover { --color-light:var(--pink-700); }
-.light\:hover\:color-pink-800:hover { --color-light:var(--pink-800); }
-.light\:hover\:color-pink-900:hover { --color-light:var(--pink-900); }
-.light\:hover\:color-pink-950:hover { --color-light:var(--pink-950); }
+.light\:hover\:text-pink:hover, .light\:hover\:color-pink:hover { --color-light:var(--pink-500 ); }
+.light\:hover\:text-pink-50:hover, .light\:hover\:color-pink-50:hover { --color-light:var(--pink-50 ); }
+.light\:hover\:text-pink-100:hover, .light\:hover\:color-pink-100:hover { --color-light:var(--pink-100); }
+.light\:hover\:text-pink-200:hover, .light\:hover\:color-pink-200:hover { --color-light:var(--pink-200); }
+.light\:hover\:text-pink-300:hover, .light\:hover\:color-pink-300:hover { --color-light:var(--pink-300); }
+.light\:hover\:text-pink-400:hover, .light\:hover\:color-pink-400:hover { --color-light:var(--pink-400); }
+.light\:hover\:text-pink-500:hover, .light\:hover\:color-pink-500:hover { --color-light:var(--pink-500); }
+.light\:hover\:text-pink-600:hover, .light\:hover\:color-pink-600:hover { --color-light:var(--pink-600); }
+.light\:hover\:text-pink-700:hover, .light\:hover\:color-pink-700:hover { --color-light:var(--pink-700); }
+.light\:hover\:text-pink-800:hover, .light\:hover\:color-pink-800:hover { --color-light:var(--pink-800); }
+.light\:hover\:text-pink-900:hover, .light\:hover\:color-pink-900:hover { --color-light:var(--pink-900); }
+.light\:hover\:text-pink-950:hover, .light\:hover\:color-pink-950:hover { --color-light:var(--pink-950); }
 
-.dark\:hover\:color-pink:hover  { --color-dark:var(--pink-500 ); }
-.dark\:hover\:color-pink-50:hover  { --color-dark:var(--pink-50 ); }
-.dark\:hover\:color-pink-100:hover { --color-dark:var(--pink-100); }
-.dark\:hover\:color-pink-200:hover { --color-dark:var(--pink-200); }
-.dark\:hover\:color-pink-300:hover { --color-dark:var(--pink-300); }
-.dark\:hover\:color-pink-400:hover { --color-dark:var(--pink-400); }
-.dark\:hover\:color-pink-500:hover { --color-dark:var(--pink-500); }
-.dark\:hover\:color-pink-600:hover { --color-dark:var(--pink-600); }
-.dark\:hover\:color-pink-700:hover { --color-dark:var(--pink-700); }
-.dark\:hover\:color-pink-800:hover { --color-dark:var(--pink-800); }
-.dark\:hover\:color-pink-900:hover { --color-dark:var(--pink-900); }
-.dark\:hover\:color-pink-950:hover { --color-dark:var(--pink-950); }
+.dark\:hover\:text-pink:hover, .dark\:hover\:color-pink:hover { --color-dark:var(--pink-500 ); }
+.dark\:hover\:text-pink-50:hover, .dark\:hover\:color-pink-50:hover { --color-dark:var(--pink-50 ); }
+.dark\:hover\:text-pink-100:hover, .dark\:hover\:color-pink-100:hover { --color-dark:var(--pink-100); }
+.dark\:hover\:text-pink-200:hover, .dark\:hover\:color-pink-200:hover { --color-dark:var(--pink-200); }
+.dark\:hover\:text-pink-300:hover, .dark\:hover\:color-pink-300:hover { --color-dark:var(--pink-300); }
+.dark\:hover\:text-pink-400:hover, .dark\:hover\:color-pink-400:hover { --color-dark:var(--pink-400); }
+.dark\:hover\:text-pink-500:hover, .dark\:hover\:color-pink-500:hover { --color-dark:var(--pink-500); }
+.dark\:hover\:text-pink-600:hover, .dark\:hover\:color-pink-600:hover { --color-dark:var(--pink-600); }
+.dark\:hover\:text-pink-700:hover, .dark\:hover\:color-pink-700:hover { --color-dark:var(--pink-700); }
+.dark\:hover\:text-pink-800:hover, .dark\:hover\:color-pink-800:hover { --color-dark:var(--pink-800); }
+.dark\:hover\:text-pink-900:hover, .dark\:hover\:color-pink-900:hover { --color-dark:var(--pink-900); }
+.dark\:hover\:text-pink-950:hover, .dark\:hover\:color-pink-950:hover { --color-dark:var(--pink-950); }

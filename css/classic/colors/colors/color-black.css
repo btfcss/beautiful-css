@@ -1,80 +1,80 @@
 @import url(../palette.css);
 
-.color-black { --color-light:var(--black-500);--color-dark:var(--black-500);}
-.color-black-50  { --color-light:var(--black-50 );--color-dark:var(--black-50 );}
-.color-black-100 { --color-light:var(--black-100);--color-dark:var(--black-100);}
-.color-black-200 { --color-light:var(--black-200);--color-dark:var(--black-200);}
-.color-black-300 { --color-light:var(--black-300);--color-dark:var(--black-300);}
-.color-black-400 { --color-light:var(--black-400);--color-dark:var(--black-400);}
-.color-black-500 { --color-light:var(--black-500);--color-dark:var(--black-500);}
-.color-black-600 { --color-light:var(--black-600);--color-dark:var(--black-600);}
-.color-black-700 { --color-light:var(--black-700);--color-dark:var(--black-700);}
-.color-black-800 { --color-light:var(--black-800);--color-dark:var(--black-800);}
-.color-black-900 { --color-light:var(--black-900);--color-dark:var(--black-900);}
-.color-black-950 { --color-light:var(--black-950);--color-dark:var(--black-950);}
+.text-black, .color-black { --color-light:var(--black-500);--color-dark:var(--black-500); }
+.text-black-50, .color-black-50 { --color-light:var(--black-50 );--color-dark:var(--black-50 ); }
+.text-black-100, .color-black-100 { --color-light:var(--black-100);--color-dark:var(--black-100); }
+.text-black-200, .color-black-200 { --color-light:var(--black-200);--color-dark:var(--black-200); }
+.text-black-300, .color-black-300 { --color-light:var(--black-300);--color-dark:var(--black-300); }
+.text-black-400, .color-black-400 { --color-light:var(--black-400);--color-dark:var(--black-400); }
+.text-black-500, .color-black-500 { --color-light:var(--black-500);--color-dark:var(--black-500); }
+.text-black-600, .color-black-600 { --color-light:var(--black-600);--color-dark:var(--black-600); }
+.text-black-700, .color-black-700 { --color-light:var(--black-700);--color-dark:var(--black-700); }
+.text-black-800, .color-black-800 { --color-light:var(--black-800);--color-dark:var(--black-800); }
+.text-black-900, .color-black-900 { --color-light:var(--black-900);--color-dark:var(--black-900); }
+.text-black-950, .color-black-950 { --color-light:var(--black-950);--color-dark:var(--black-950); }
 
-.light\:color-black { --color-light:var(--black-500 ); }
-.light\:color-black-50  { --color-light:var(--black-50 ); }
-.light\:color-black-100 { --color-light:var(--black-100); }
-.light\:color-black-200 { --color-light:var(--black-200); }
-.light\:color-black-300 { --color-light:var(--black-300); }
-.light\:color-black-400 { --color-light:var(--black-400); }
-.light\:color-black-500 { --color-light:var(--black-500); }
-.light\:color-black-600 { --color-light:var(--black-600); }
-.light\:color-black-700 { --color-light:var(--black-700); }
-.light\:color-black-800 { --color-light:var(--black-800); }
-.light\:color-black-900 { --color-light:var(--black-900); }
-.light\:color-black-950 { --color-light:var(--black-950); }
+.light\:text-black, .light\:color-black { --color-light:var(--black-500 ); }
+.light\:text-black-50, .light\:color-black-50 { --color-light:var(--black-50 ); }
+.light\:text-black-100, .light\:color-black-100 { --color-light:var(--black-100); }
+.light\:text-black-200, .light\:color-black-200 { --color-light:var(--black-200); }
+.light\:text-black-300, .light\:color-black-300 { --color-light:var(--black-300); }
+.light\:text-black-400, .light\:color-black-400 { --color-light:var(--black-400); }
+.light\:text-black-500, .light\:color-black-500 { --color-light:var(--black-500); }
+.light\:text-black-600, .light\:color-black-600 { --color-light:var(--black-600); }
+.light\:text-black-700, .light\:color-black-700 { --color-light:var(--black-700); }
+.light\:text-black-800, .light\:color-black-800 { --color-light:var(--black-800); }
+.light\:text-black-900, .light\:color-black-900 { --color-light:var(--black-900); }
+.light\:text-black-950, .light\:color-black-950 { --color-light:var(--black-950); }
 
-.dark\:color-black  { --color-dark:var(--black-500 ); }
-.dark\:color-black-50  { --color-dark:var(--black-50 ); }
-.dark\:color-black-100 { --color-dark:var(--black-100); }
-.dark\:color-black-200 { --color-dark:var(--black-200); }
-.dark\:color-black-300 { --color-dark:var(--black-300); }
-.dark\:color-black-400 { --color-dark:var(--black-400); }
-.dark\:color-black-500 { --color-dark:var(--black-500); }
-.dark\:color-black-600 { --color-dark:var(--black-600); }
-.dark\:color-black-700 { --color-dark:var(--black-700); }
-.dark\:color-black-800 { --color-dark:var(--black-800); }
-.dark\:color-black-900 { --color-dark:var(--black-900); }
-.dark\:color-black-950 { --color-dark:var(--black-950); }
+.dark\:text-black, .dark\:color-black { --color-dark:var(--black-500 ); }
+.dark\:text-black-50, .dark\:color-black-50 { --color-dark:var(--black-50 ); }
+.dark\:text-black-100, .dark\:color-black-100 { --color-dark:var(--black-100); }
+.dark\:text-black-200, .dark\:color-black-200 { --color-dark:var(--black-200); }
+.dark\:text-black-300, .dark\:color-black-300 { --color-dark:var(--black-300); }
+.dark\:text-black-400, .dark\:color-black-400 { --color-dark:var(--black-400); }
+.dark\:text-black-500, .dark\:color-black-500 { --color-dark:var(--black-500); }
+.dark\:text-black-600, .dark\:color-black-600 { --color-dark:var(--black-600); }
+.dark\:text-black-700, .dark\:color-black-700 { --color-dark:var(--black-700); }
+.dark\:text-black-800, .dark\:color-black-800 { --color-dark:var(--black-800); }
+.dark\:text-black-900, .dark\:color-black-900 { --color-dark:var(--black-900); }
+.dark\:text-black-950, .dark\:color-black-950 { --color-dark:var(--black-950); }
 
 
-.hover\:color-black:hover { --color-light:var(--black-500);--color-dark:var(--black-500);}
-.hover\:color-black-50:hover  { --color-light:var(--black-50 );--color-dark:var(--black-50 );}
-.hover\:color-black-100:hover { --color-light:var(--black-100);--color-dark:var(--black-100);}
-.hover\:color-black-200:hover { --color-light:var(--black-200);--color-dark:var(--black-200);}
-.hover\:color-black-300:hover { --color-light:var(--black-300);--color-dark:var(--black-300);}
-.hover\:color-black-400:hover { --color-light:var(--black-400);--color-dark:var(--black-400);}
-.hover\:color-black-500:hover { --color-light:var(--black-500);--color-dark:var(--black-500);}
-.hover\:color-black-600:hover { --color-light:var(--black-600);--color-dark:var(--black-600);}
-.hover\:color-black-700:hover { --color-light:var(--black-700);--color-dark:var(--black-700);}
-.hover\:color-black-800:hover { --color-light:var(--black-800);--color-dark:var(--black-800);}
-.hover\:color-black-900:hover { --color-light:var(--black-900);--color-dark:var(--black-900);}
-.hover\:color-black-950:hover { --color-light:var(--black-950);--color-dark:var(--black-950);}
+.hover\:text-black:hover, .hover\:color-black:hover { --color-light:var(--black-500);--color-dark:var(--black-500); }
+.hover\:text-black-50:hover, .hover\:color-black-50:hover { --color-light:var(--black-50 );--color-dark:var(--black-50 ); }
+.hover\:text-black-100:hover, .hover\:color-black-100:hover { --color-light:var(--black-100);--color-dark:var(--black-100); }
+.hover\:text-black-200:hover, .hover\:color-black-200:hover { --color-light:var(--black-200);--color-dark:var(--black-200); }
+.hover\:text-black-300:hover, .hover\:color-black-300:hover { --color-light:var(--black-300);--color-dark:var(--black-300); }
+.hover\:text-black-400:hover, .hover\:color-black-400:hover { --color-light:var(--black-400);--color-dark:var(--black-400); }
+.hover\:text-black-500:hover, .hover\:color-black-500:hover { --color-light:var(--black-500);--color-dark:var(--black-500); }
+.hover\:text-black-600:hover, .hover\:color-black-600:hover { --color-light:var(--black-600);--color-dark:var(--black-600); }
+.hover\:text-black-700:hover, .hover\:color-black-700:hover { --color-light:var(--black-700);--color-dark:var(--black-700); }
+.hover\:text-black-800:hover, .hover\:color-black-800:hover { --color-light:var(--black-800);--color-dark:var(--black-800); }
+.hover\:text-black-900:hover, .hover\:color-black-900:hover { --color-light:var(--black-900);--color-dark:var(--black-900); }
+.hover\:text-black-950:hover, .hover\:color-black-950:hover { --color-light:var(--black-950);--color-dark:var(--black-950); }
 
-.light\:hover\:color-black:hover { --color-light:var(--black-500 ); }
-.light\:hover\:color-black-50:hover  { --color-light:var(--black-50 ); }
-.light\:hover\:color-black-100:hover { --color-light:var(--black-100); }
-.light\:hover\:color-black-200:hover { --color-light:var(--black-200); }
-.light\:hover\:color-black-300:hover { --color-light:var(--black-300); }
-.light\:hover\:color-black-400:hover { --color-light:var(--black-400); }
-.light\:hover\:color-black-500:hover { --color-light:var(--black-500); }
-.light\:hover\:color-black-600:hover { --color-light:var(--black-600); }
-.light\:hover\:color-black-700:hover { --color-light:var(--black-700); }
-.light\:hover\:color-black-800:hover { --color-light:var(--black-800); }
-.light\:hover\:color-black-900:hover { --color-light:var(--black-900); }
-.light\:hover\:color-black-950:hover { --color-light:var(--black-950); }
+.light\:hover\:text-black:hover, .light\:hover\:color-black:hover { --color-light:var(--black-500 ); }
+.light\:hover\:text-black-50:hover, .light\:hover\:color-black-50:hover { --color-light:var(--black-50 ); }
+.light\:hover\:text-black-100:hover, .light\:hover\:color-black-100:hover { --color-light:var(--black-100); }
+.light\:hover\:text-black-200:hover, .light\:hover\:color-black-200:hover { --color-light:var(--black-200); }
+.light\:hover\:text-black-300:hover, .light\:hover\:color-black-300:hover { --color-light:var(--black-300); }
+.light\:hover\:text-black-400:hover, .light\:hover\:color-black-400:hover { --color-light:var(--black-400); }
+.light\:hover\:text-black-500:hover, .light\:hover\:color-black-500:hover { --color-light:var(--black-500); }
+.light\:hover\:text-black-600:hover, .light\:hover\:color-black-600:hover { --color-light:var(--black-600); }
+.light\:hover\:text-black-700:hover, .light\:hover\:color-black-700:hover { --color-light:var(--black-700); }
+.light\:hover\:text-black-800:hover, .light\:hover\:color-black-800:hover { --color-light:var(--black-800); }
+.light\:hover\:text-black-900:hover, .light\:hover\:color-black-900:hover { --color-light:var(--black-900); }
+.light\:hover\:text-black-950:hover, .light\:hover\:color-black-950:hover { --color-light:var(--black-950); }
 
-.dark\:hover\:color-black:hover  { --color-dark:var(--black-500 ); }
-.dark\:hover\:color-black-50:hover  { --color-dark:var(--black-50 ); }
-.dark\:hover\:color-black-100:hover { --color-dark:var(--black-100); }
-.dark\:hover\:color-black-200:hover { --color-dark:var(--black-200); }
-.dark\:hover\:color-black-300:hover { --color-dark:var(--black-300); }
-.dark\:hover\:color-black-400:hover { --color-dark:var(--black-400); }
-.dark\:hover\:color-black-500:hover { --color-dark:var(--black-500); }
-.dark\:hover\:color-black-600:hover { --color-dark:var(--black-600); }
-.dark\:hover\:color-black-700:hover { --color-dark:var(--black-700); }
-.dark\:hover\:color-black-800:hover { --color-dark:var(--black-800); }
-.dark\:hover\:color-black-900:hover { --color-dark:var(--black-900); }
-.dark\:hover\:color-black-950:hover { --color-dark:var(--black-950); }
+.dark\:hover\:text-black:hover, .dark\:hover\:color-black:hover { --color-dark:var(--black-500 ); }
+.dark\:hover\:text-black-50:hover, .dark\:hover\:color-black-50:hover { --color-dark:var(--black-50 ); }
+.dark\:hover\:text-black-100:hover, .dark\:hover\:color-black-100:hover { --color-dark:var(--black-100); }
+.dark\:hover\:text-black-200:hover, .dark\:hover\:color-black-200:hover { --color-dark:var(--black-200); }
+.dark\:hover\:text-black-300:hover, .dark\:hover\:color-black-300:hover { --color-dark:var(--black-300); }
+.dark\:hover\:text-black-400:hover, .dark\:hover\:color-black-400:hover { --color-dark:var(--black-400); }
+.dark\:hover\:text-black-500:hover, .dark\:hover\:color-black-500:hover { --color-dark:var(--black-500); }
+.dark\:hover\:text-black-600:hover, .dark\:hover\:color-black-600:hover { --color-dark:var(--black-600); }
+.dark\:hover\:text-black-700:hover, .dark\:hover\:color-black-700:hover { --color-dark:var(--black-700); }
+.dark\:hover\:text-black-800:hover, .dark\:hover\:color-black-800:hover { --color-dark:var(--black-800); }
+.dark\:hover\:text-black-900:hover, .dark\:hover\:color-black-900:hover { --color-dark:var(--black-900); }
+.dark\:hover\:text-black-950:hover, .dark\:hover\:color-black-950:hover { --color-dark:var(--black-950); }
