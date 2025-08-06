@@ -3,10 +3,23 @@
 field is not editable. Disabled inputs appear dimmed and use alternate
 border and placeholder colors based on the theme.</p>
 <div
-class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100">
-<p><input class="form-control" disabled placeholder="Disabled input"></p>
+class="w-max-md card p-3 border dark:border-grey-900 light:border-grey-100">
+<p><input class="form-control my-4" disabled placeholder="Disabled input"><input class="form-control" type="file" disabled></p>
 </div>
-<pre class="html"><code>&lt;input class=&quot;form-control&quot; disabled placeholder=&quot;Disabled input&quot;&gt;</code></pre>
+<pre class="html"><code>&lt;input class=&quot;form-control&quot; placeholder=&quot;Disabled input&quot; disabled&gt;
+&lt;input class=&quot;form-control&quot; type=&quot;file&quot; disabled&gt;</code></pre>
+<h3 id="doc-size">Size</h3>
+<p>You can change the font size of form controls to create smaller or
+larger inputs using text size utility classes like <code>.fs-xs</code>
+or <code>.fs-2xl</code>. These changes affect both the input’s text size
+and, indirectly, its overall visual footprint.</p>
+<div
+class="w-max-md card p-3 border dark:border-grey-900 light:border-grey-100">
+<p><input type="text" class="form-control fs-xs p-1 my-4" placeholder="Small input">
+<input type="text" class="form-control fs-2xl" placeholder="Large input"></p>
+</div>
+<pre class="html"><code>&lt;input type=&quot;text&quot; class=&quot;form-control fs-xs p-1&quot; placeholder=&quot;Small input&quot;&gt;
+&lt;input type=&quot;text&quot; class=&quot;form-control fs-2xl&quot; placeholder=&quot;Large input&quot;&gt;</code></pre>
 <h3 id="doc-validation-states">Validation States</h3>
 <p>Add <code>.valid</code> or <code>.invalid</code> classes to style
 form fields based on validation.</p>

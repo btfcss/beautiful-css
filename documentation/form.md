@@ -40,6 +40,19 @@ Use `.form-label` for consistent label spacing, and `.form-control` for styled f
 <textarea type="password" class="form-control" id="exampleFormControlTextarea" rows="5" placeholder="Comments"></textarea>
 ```
 
+
+### File Input
+
+<div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100"><div class="mb-4"><label for="docExampleFormFile" class="form-label">File input</label><input class="form-control" type="file" id="docExampleFormFile"></div></div>
+
+```html
+<div class="mb-4">
+  <label for="exampleFormFile" class="form-label">File input</label>
+  <input class="form-control" type="file" id="exampleFormFile">
+</div>
+```
+
+
 ### Select Dropdowns
 
 <div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100"><label for="exampleFormControlTextarea" class="form-label">Select</label><select class="form-control" aria-label="Default select example"><option selected>Select</option><option value="1">First choice</option><option value="2">Second choice</option><option value="3">Third choice</option></select></div>
@@ -59,12 +72,13 @@ Use `.form-label` for consistent label spacing, and `.form-control` for styled f
 
 Use the `disabled` attribute to visually indicate that a field is not editable. Disabled inputs appear dimmed and use alternate border and placeholder colors based on the theme.
 
-<div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100">
-<input class="form-control" disabled placeholder="Disabled input">
+<div class="w-max-md card p-3 border dark:border-grey-900 light:border-grey-100">
+<input class="form-control my-4" disabled placeholder="Disabled input"><input class="form-control" type="file" disabled>
 </div>
 
 ```html
-<input class="form-control" disabled placeholder="Disabled input">
+<input class="form-control" placeholder="Disabled input" disabled>
+<input class="form-control" type="file" disabled>
 ```
 
 

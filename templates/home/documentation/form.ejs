@@ -31,6 +31,18 @@ class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100"
 </div>
 <pre class="html"><code>&lt;label for=&quot;exampleFormControlTextarea&quot; class=&quot;form-label&quot;&gt;Textarea&lt;/label&gt;
 &lt;textarea type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;exampleFormControlTextarea&quot; rows=&quot;5&quot; placeholder=&quot;Comments&quot;&gt;&lt;/textarea&gt;</code></pre>
+<h3 id="doc-file-input">File Input</h3>
+<div
+class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100">
+<div class="mb-4">
+<label for="docExampleFormFile" class="form-label">File
+input</label><input class="form-control" type="file" id="docExampleFormFile">
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;mb-4&quot;&gt;
+  &lt;label for=&quot;exampleFormFile&quot; class=&quot;form-label&quot;&gt;File input&lt;/label&gt;
+  &lt;input class=&quot;form-control&quot; type=&quot;file&quot; id=&quot;exampleFormFile&quot;&gt;
+&lt;/div&gt;</code></pre>
 <h3 id="doc-select-dropdowns">Select Dropdowns</h3>
 <div
 class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100">
@@ -50,10 +62,11 @@ choice</option><option value="3">Third choice</option></select>
 field is not editable. Disabled inputs appear dimmed and use alternate
 border and placeholder colors based on the theme.</p>
 <div
-class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100">
-<p><input class="form-control" disabled placeholder="Disabled input"></p>
+class="w-max-md card p-3 border dark:border-grey-900 light:border-grey-100">
+<p><input class="form-control my-4" disabled placeholder="Disabled input"><input class="form-control" type="file" disabled></p>
 </div>
-<pre class="html"><code>&lt;input class=&quot;form-control&quot; disabled placeholder=&quot;Disabled input&quot;&gt;</code></pre>
+<pre class="html"><code>&lt;input class=&quot;form-control&quot; placeholder=&quot;Disabled input&quot; disabled&gt;
+&lt;input class=&quot;form-control&quot; type=&quot;file&quot; disabled&gt;</code></pre>
 <h3 id="doc-validation-states">Validation States</h3>
 <p>Add <code>.valid</code> or <code>.invalid</code> classes to style
 form fields based on validation.</p>

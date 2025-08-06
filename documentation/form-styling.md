@@ -2,15 +2,29 @@
 
 Use the `disabled` attribute to visually indicate that a field is not editable. Disabled inputs appear dimmed and use alternate border and placeholder colors based on the theme.
 
-<div class="w-max-md mt-4 card p-3 border dark:border-grey-900 light:border-grey-100">
-<input class="form-control" disabled placeholder="Disabled input">
+<div class="w-max-md card p-3 border dark:border-grey-900 light:border-grey-100">
+<input class="form-control my-4" disabled placeholder="Disabled input"><input class="form-control" type="file" disabled>
 </div>
 
 ```html
-<input class="form-control" disabled placeholder="Disabled input">
+<input class="form-control" placeholder="Disabled input" disabled>
+<input class="form-control" type="file" disabled>
 ```
 
 
+### Size
+
+You can change the font size of form controls to create smaller or larger inputs using text size utility classes like `.fs-xs` or `.fs-2xl`. These changes affect both the input’s text size and, indirectly, its overall visual footprint.
+
+<div class="w-max-md card p-3 border dark:border-grey-900 light:border-grey-100">
+<input type="text" class="form-control fs-xs p-1 my-4" placeholder="Small input">
+<input type="text" class="form-control fs-2xl" placeholder="Large input">
+</div>
+
+```html
+<input type="text" class="form-control fs-xs p-1" placeholder="Small input">
+<input type="text" class="form-control fs-2xl" placeholder="Large input">
+```
 
 ### Validation States
 

@@ -13,13 +13,38 @@ label {
   box-sizing: border-box;
   border-radius: var(--spacing-2);
   border: 1px solid light-dark(oklch(var(--grey-300)), oklch(var(--grey-800)));
-  background-color: light-dark(oklch(var(--white-400)),oklch(var(--black-300)));
+  background-color: light-dark(oklch(var(--white-200)),oklch(var(--black-300)));
   font-size: 1rem;
-  outline: 0;
+  outline: 0;  
 }
 
+input[type=file].form-control {
+  padding: 0;  
+  background-color: transparent;
+}
+
+input[type=file]::file-selector-button {
+  border: 0;  
+  border-right: 1px solid light-dark(oklch(var(--grey-300)), oklch(var(--grey-800)));
+  margin-right: var(--spacing-2);
+  padding: var(--spacing-2) var(--spacing-3);
+  background-color: light-dark(oklch(var(--white-200)), oklch(var(--black-300)));
+  transition: background-color 0.15s ease-in-out;
+}
+
+input[type=file]:not(:disabled)::file-selector-button:hover {
+  background-color: light-dark(oklch(var(--white-600)), oklch(var(--black-50)))
+}
+
+input[type=file]:disabled::file-selector-button {
+  border-color:  light-dark(oklch(var(--grey-300)), oklch(var(--black-100)));
+  color: light-dark(oklch(var(--grey-300)), oklch(var(--grey-900)));
+  cursor: not-allowed;
+}
+
+
 .form-control::placeholder {
-  color: light-dark(oklch(var(--grey-700)), oklch(var(--grey-600)));
+  color: light-dark(oklch(var(--grey-800)), oklch(var(--grey-600)));
 }
 
 select.form-control {
@@ -36,6 +61,7 @@ select.form-control {
   cursor: not-allowed;
 }
 
+.form-control:disabled,
 .form-control:disabled::placeholder {
   color: light-dark(oklch(var(--grey-300)), oklch(var(--grey-900)));
 }
