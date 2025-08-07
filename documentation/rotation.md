@@ -16,17 +16,18 @@ Optional variants:
 ### Examples
 
 
-<div class="w-fit p-3 border mt-5 mb-3 rotate-180">Upside down</div>
+
+<div class="w-fit p-3 border rounded mt-5 mb-3 rotate-180">Upside down</div>
 
 ```html
 <div class="rotate-180">Upside down</div>
 ```
 
 
-<div class="w-fit p-3 border m-5 rotate-270 hover:rotate-90 transition-rotate duration-500">Hover me</div>
+<div class="w-fit p-3 border mt-5 mb-3 rounded hover:rotate-90">Hover me</div>
 
 ```html
-<div class="rotate-270 hover:rotate-90 transition-rotate duration-500">Hover me</div>
+<div class="rotate-90">Hover me</div>
 ```
 
 This rotates the icon by 90° when hovered, with a smooth 300ms transition.
@@ -60,13 +61,47 @@ This rotates the icon by 90° when hovered, with a smooth 300ms transition.
 | `hover:rotate-315` | Rotates element 315° on hover |
 
 
+
+
 ### Transition Utilities
 
-| Class                | Description                         |
-| -------------------- | ----------------------------------- |
-| `transition-rotate` | Enables smooth rotation transitions |
-| `duration-300`      | Transition duration of 300ms        |
-| `duration-500`      | Transition duration of 500ms        |
+Use transition utilities to animate property changes smoothly, especially useful with scaling and transform effects.
+
+#### Duration Classes
+
+| Class Name      | CSS Equivalent                  | Description                         |
+| --------------- | ------------------------------- | ----------------------------------- |
+| `.duration-150` | `transition-duration: 150ms`    | Short transitions                   |
+| `.duration-200` | `transition-duration: 200ms`    | Common for button hovers            |
+| `.duration-250` | `transition-duration: 250ms`    | Moderate timing                     |
+| `.duration-300` | `transition-duration: 300ms`    | Balanced for most UI interactions   |
+| `.duration-500` | `transition-duration: 500ms`    | Slow transition for dramatic effect |
+| `.duration-700` | `transition-duration: 700ms`    | Very slow transition |
 
 
+#### Transition Properties
+
+
+| Class Name              | CSS Equivalent   | Description |
+| --- | --- | --- |
+| `.transition`           | `transition-property: all;`       | Enables transitions on all properties using a smooth easing function     |
+| `.transition-rotate` | `transition-property: rotate;` | Applies smooth transitions only to `rotate` |
+
+
+#### Example with Transitions
+
+
+
+<div class="w-fit p-3 border m-5 rotate-180 rounded hover:rotate-0 transition-rotate duration-500">Hover me</div>
+
+```html
+<div class="rotate-180 hover:rotate-0 transition-rotate duration-500">Hover me</div>
+```
+
+
+#### Notes
+
+* Combine `.transition-rotate` with `.duration-*` for smooth rotation.
+* Use `.transition` if multiple CSS properties (e.g., color, box-shadow) should animate together.
+* Ensure elements with transforms do not interfere with layout (e.g., overlapping or scaling out of bounds).
 

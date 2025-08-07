@@ -11,15 +11,14 @@ transitions.</li>
 <li><code>duration-[time]</code>: Defines transition duration.</li>
 </ul>
 <h3 id="doc-examples">Examples</h3>
-<div class="w-fit p-3 border mt-5 mb-3 rotate-180">
+<div class="w-fit p-3 border rounded mt-5 mb-3 rotate-180">
 Upside down
 </div>
 <pre class="html"><code>&lt;div class=&quot;rotate-180&quot;&gt;Upside down&lt;/div&gt;</code></pre>
-<div
-class="w-fit p-3 border m-5 rotate-270 hover:rotate-90 transition-rotate duration-500">
+<div class="w-fit p-3 border mt-5 mb-3 rounded hover:rotate-90">
 Hover me
 </div>
-<pre class="html"><code>&lt;div class=&quot;rotate-270 hover:rotate-90 transition-rotate duration-500&quot;&gt;Hover me&lt;/div&gt;</code></pre>
+<pre class="html"><code>&lt;div class=&quot;rotate-90&quot;&gt;Hover me&lt;/div&gt;</code></pre>
 <p>This rotates the icon by 90° when hovered, with a smooth 300ms
 transition.</p>
 <h3 id="doc-class-reference">Class Reference</h3>
@@ -110,25 +109,95 @@ transition.</p>
 </tbody>
 </table>
 <h3 id="doc-transition-utilities">Transition Utilities</h3>
+<p>Use transition utilities to animate property changes smoothly,
+especially useful with scaling and transform effects.</p>
+<h4 id="doc-duration-classes">Duration Classes</h4>
 <table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 38%" />
+<col style="width: 43%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>Class</th>
+<th>Class Name</th>
+<th>CSS Equivalent</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>transition-rotate</code></td>
-<td>Enables smooth rotation transitions</td>
+<td><code>.duration-150</code></td>
+<td><code>transition-duration: 150ms</code></td>
+<td>Short transitions</td>
 </tr>
 <tr class="even">
-<td><code>duration-300</code></td>
-<td>Transition duration of 300ms</td>
+<td><code>.duration-200</code></td>
+<td><code>transition-duration: 200ms</code></td>
+<td>Common for button hovers</td>
 </tr>
 <tr class="odd">
-<td><code>duration-500</code></td>
-<td>Transition duration of 500ms</td>
+<td><code>.duration-250</code></td>
+<td><code>transition-duration: 250ms</code></td>
+<td>Moderate timing</td>
+</tr>
+<tr class="even">
+<td><code>.duration-300</code></td>
+<td><code>transition-duration: 300ms</code></td>
+<td>Balanced for most UI interactions</td>
+</tr>
+<tr class="odd">
+<td><code>.duration-500</code></td>
+<td><code>transition-duration: 500ms</code></td>
+<td>Slow transition for dramatic effect</td>
+</tr>
+<tr class="even">
+<td><code>.duration-700</code></td>
+<td><code>transition-duration: 700ms</code></td>
+<td>Very slow transition</td>
 </tr>
 </tbody>
 </table>
+<h4 id="doc-transition-properties">Transition Properties</h4>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class Name</th>
+<th>CSS Equivalent</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.transition</code></td>
+<td><code>transition-property: all;</code></td>
+<td>Enables transitions on all properties using a smooth easing
+function</td>
+</tr>
+<tr class="even">
+<td><code>.transition-rotate</code></td>
+<td><code>transition-property: rotate;</code></td>
+<td>Applies smooth transitions only to <code>rotate</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="doc-example-with-transitions">Example with Transitions</h4>
+<div
+class="w-fit p-3 border m-5 rotate-180 rounded hover:rotate-0 transition-rotate duration-500">
+Hover me
+</div>
+<pre class="html"><code>&lt;div class=&quot;rotate-180 hover:rotate-0 transition-rotate duration-500&quot;&gt;Hover me&lt;/div&gt;</code></pre>
+<h4 id="doc-notes">Notes</h4>
+<ul>
+<li>Combine <code>.transition-rotate</code> with
+<code>.duration-*</code> for smooth rotation.</li>
+<li>Use <code>.transition</code> if multiple CSS properties (e.g.,
+color, box-shadow) should animate together.</li>
+<li>Ensure elements with transforms do not interfere with layout (e.g.,
+overlapping or scaling out of bounds).</li>
+</ul>
