@@ -141,8 +141,3 @@
 }
 
 
-
-.transition-scale {
-  transition-property: transform;
-  transition-timing-function: ease-in-out;
-}
