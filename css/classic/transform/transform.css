@@ -2,3 +2,40 @@
 @import url(rotate.css);
 @import url(translate.css);
 @import url(object-fit.css);
+
+
+
+.transition {
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+
+
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.duration-150 {
+  transition-duration: 150ms;
+}
+
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.duration-250 {
+  transition-duration: 250ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}

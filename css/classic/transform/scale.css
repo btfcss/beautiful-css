@@ -6,6 +6,11 @@
   transform: scale(50%);
 }
 
+.focus\:scale-50:focus {
+  transform: scale(50%);
+}
+
+
 .scale-80 {
   transform: scale(80%);
 }
@@ -13,6 +18,11 @@
 .hover\:scale-80:hover {
   transform: scale(80%);
 }
+
+.focus\:scale-80:focus {
+  transform: scale(80%);
+}
+
 
 .scale-90 {
   transform: scale(90%);
@@ -22,11 +32,20 @@
   transform: scale(90%);
 }
 
+.focus\:scale-90:focus {
+  transform: scale(90%);
+}
+
+
 .scale-95 {
   transform: scale(95%);
 }
 
 .hover\:scale-95:hover {
+  transform: scale(95%);
+}
+
+.focus\:scale-95:focus {
   transform: scale(95%);
 }
 
@@ -39,6 +58,11 @@
   transform: scale(98%);
 }
 
+.focus\:scale-98:focus {
+  transform: scale(98%);
+}
+
+
 .scale-100 {
   transform: scale(100%);
 }
@@ -46,6 +70,11 @@
 .hover\:scale-100:hover {
   transform: scale(100%);
 }
+
+.focus\:scale-100:focus {
+  transform: scale(100%);
+}
+
 
 .scale-102 {
   transform: scale(102%);
@@ -55,6 +84,9 @@
   transform: scale(102%);
 }
 
+.focus\:scale-102:focus {
+  transform: scale(102%);
+}
 
 
 .scale-105 {
@@ -62,6 +94,10 @@
 }
 
 .hover\:scale-105:hover {
+  transform: scale(105%);
+}
+
+.focus\:scale-105:focus {
   transform: scale(105%);
 }
 
@@ -74,12 +110,20 @@
   transform: scale(110%);
 }
 
+.focus\:scale-110:focus {
+  transform: scale(110%);
+}
+
 
 .scale-120 {
   transform: scale(120%);
 }
 
 .hover\:scale-120:hover {
+  transform: scale(120%);
+}
+
+.focus\:scale-120:focus {
   transform: scale(120%);
 }
 
@@ -90,4 +134,15 @@
 
 .hover\:scale-150:hover {
   transform: scale(150%);
+}
+
+.focus\:scale-150:focus {
+  transform: scale(150%);
+}
+
+
+
+.transition-scale {
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
 }

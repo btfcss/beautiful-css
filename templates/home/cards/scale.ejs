@@ -1,21 +1,28 @@
-<div class="card">
+<div id="scale" class="card">
   <div class="header">
     <h2>Scale</h2>
   </div>
   <div class="body text-center v-grid grid-gap-3 cursor-default">
-    <div class="rounded-3 border p-4 mx-auto scale-50 hover:scale-100">50%</div>
-    <div class="rounded-3 border p-4 mx-auto scale-80 hover:scale-100">80%</div>
-    <div class="rounded-3 border p-4 mx-auto scale-90 hover:scale-100">90%</div>
-    <div class="rounded-3 border p-4 mx-auto scale-95 hover:scale-100">95%</div>
-    <div class="rounded-3 border p-4 mx-auto scale-98 hover:scale-100">98%</div>
-    <div class="rounded-3 border p-4 mx-auto">100%</div>
-    <div class="rounded-3 border p-4 mx-auto scale-102 hover:scale-100">102%</div>
-    <div class="rounded-3 border p-4 mx-auto scale-105 hover:scale-100">105%</div>
-    <div class="rounded-3 border p-4 mx-auto mb-3 scale-110 hover:scale-100">110%</div>
-    <div class="rounded-3 border p-4 mx-auto mb-5 scale-120 hover:scale-100">120%</div>
-    <div class="rounded-3 border p-4 mx-auto mb-2 scale-150 hover:scale-100">150%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto scale-50 hover:scale-100">50%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto scale-80 hover:scale-100">80%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto scale-90 hover:scale-100">90%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto scale-95 hover:scale-100">95%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto scale-98 hover:scale-100">98%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto">100%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto scale-102 hover:scale-100">102%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto scale-105 hover:scale-100">105%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto mb-3 scale-110 hover:scale-100">110%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto mb-5 scale-120 hover:scale-100">120%</div>
+    <div class="rounded-3 border p-4 transition duration-200 mx-auto mb-2 scale-150 hover:scale-100">150%</div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="scale">&lt;code&gt;</button>
   </div>
+</div>
+
+<div id="doc-scale" hidden>
+  <h2>Scale <a href="#scale" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/scale.ejs %>
+  </content>
 </div>
