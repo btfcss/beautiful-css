@@ -14,6 +14,28 @@
 .w-256px { width: 256px!important; }
 .w-500px { width: 500px!important; }
 
+.w-min-8px { min-width: 8px!important; }
+.w-min-16px { min-width: 16px!important; }
+.w-min-24px { min-width: 24px!important; }
+.w-min-32px { min-width: 32px!important; }
+.w-min-48px { min-width: 48px!important; }
+.w-min-64px { min-width: 64px!important; }
+.w-min-128px { min-width: 128px!important; }
+.w-min-256px { min-width: 256px!important; }
+.w-min-500px { min-width: 500px!important; }
+
+
+.w-max-8px { max-width: 8px!important; }
+.w-max-16px { max-width: 16px!important; }
+.w-max-24px { max-width: 24px!important; }
+.w-max-32px { max-width: 32px!important; }
+.w-max-48px { max-width: 48px!important; }
+.w-max-64px { max-width: 64px!important; }
+.w-max-128px { max-width: 128px!important; }
+.w-max-256px { max-width: 256px!important; }
+.w-max-500px { max-width: 500px!important; }
+
+
 .w-100wh-8px { width: calc(100vw - 8px); }
 .w-100wh-16px { width: calc(100vw - 16px); }
 .w-100wh-32px { width: calc(100vw - 32px); }

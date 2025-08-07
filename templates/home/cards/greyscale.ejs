@@ -1,4 +1,4 @@
-<div class="card">
+<div id="greyscale" class="card">
     <div class="header">
         <h2>Greyscale</h2>
     </div>
@@ -10,6 +10,13 @@
         <img class="w-100 mb-3 rounded hover:scale-105 greyscale-0 hover:greyscale-0" src="/images/color-image.jpg">
     </div>
     <div class="footer align-right">
-        <button class="btn-blue">&lt;code&gt;</button>
+        <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="greyscale">&lt;code&gt;</button>
     </div>
+</div>
+
+<div id="doc-greyscale" hidden>
+  <h2>Greyscale <a href="#greyscale" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/greyscale.ejs %>
+  </content>
 </div>
