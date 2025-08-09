@@ -12,6 +12,7 @@
 .w-64px { width: 64px!important; }
 .w-128px { width: 128px!important; }
 .w-256px { width: 256px!important; }
+.w-350px { width: 350px!important; }
 .w-500px { width: 500px!important; }
 
 .w-min-8px { min-width: 8px!important; }
@@ -22,6 +23,7 @@
 .w-min-64px { min-width: 64px!important; }
 .w-min-128px { min-width: 128px!important; }
 .w-min-256px { min-width: 256px!important; }
+.w-min-350px { min-width: 350px!important; }
 .w-min-500px { min-width: 500px!important; }
 
 
@@ -33,6 +35,7 @@
 .w-max-64px { max-width: 64px!important; }
 .w-max-128px { max-width: 128px!important; }
 .w-max-256px { max-width: 256px!important; }
+.w-max-350px { max-width: 350px!important; }
 .w-max-500px { max-width: 500px!important; }
 
 

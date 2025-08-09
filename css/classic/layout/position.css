@@ -35,6 +35,7 @@
 .top-64px { top: 64px }
 .top-128px { top: 128px }
 .top-256px { top: 256px }
+.top-350px { top: 350px }
 .top-500px { top: 500px }
 
 
@@ -49,6 +50,7 @@
 .right-64px { right: 64px }
 .right-128px { right: 128px }
 .right-256px { right: 256px }
+.right-350px { right: 350px }
 .right-500px { right: 500px }
 
 
@@ -63,6 +65,7 @@
 .bottom-64px { bottom: 64px }
 .bottom-128px { bottom: 128px }
 .bottom-256px { bottom: 256px }
+.bottom-350px { bottom: 350px }
 .bottom-500px { bottom: 500px }
 
 
@@ -77,5 +80,6 @@
 .left-64px { left: 64px }
 .left-128px { left: 128px }
 .left-256px { left: 256px }
+.left-350px { left: 350px }
 .left-500px { left: 500px }
 
