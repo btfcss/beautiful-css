@@ -88,7 +88,7 @@
 
 
 .spinner-dots-fade {
-  font-size: 0.9rem;
+  font-size: 1rem;
   width: 0.5em;
   height: 0.5em;
   border-radius: 50%;
@@ -103,27 +103,27 @@
 @keyframes mulShdSpin {
   0%,
   100% {
-    box-shadow: 0em -2.2cqmin 0em 0em var(--spinner-color-100), 1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20), 2.2cqmin 0em 0 0em var(--spinner-color-20), 1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), 0em 2.2cqmin 0 0em var(--spinner-color-20), -1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), -2.2cqmin 0em 0 0em var(--spinner-color-50), -1.55cqmin -1.55cqmin 0 0em var(--spinner-color-70);
+    box-shadow: 0em -1.1em 0em 0em var(--spinner-color-100), 0.8em -0.8em 0 0em var(--spinner-color-20), 1.1em 0em 0 0em var(--spinner-color-20), 0.8em 0.8em 0 0em var(--spinner-color-20), 0em 1.1em 0 0em var(--spinner-color-20), -0.8em 0.8em 0 0em var(--spinner-color-20), -1.1em 0em 0 0em var(--spinner-color-50), -0.8em -0.8em 0 0em var(--spinner-color-70);
   }
   12.5% {
-    box-shadow: 0em -2.2cqmin 0em 0em var(--spinner-color-70), 1.55cqmin -1.55cqmin 0 0em var(--spinner-color-100), 2.2cqmin 0em 0 0em var(--spinner-color-20), 1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), 0em 2.2cqmin 0 0em var(--spinner-color-20), -1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), -2.2cqmin 0em 0 0em var(--spinner-color-20), -1.55cqmin -1.55cqmin 0 0em var(--spinner-color-50);
+    box-shadow: 0em -1.1em 0em 0em var(--spinner-color-70), 0.8em -0.8em 0 0em var(--spinner-color-100), 1.1em 0em 0 0em var(--spinner-color-20), 0.8em 0.8em 0 0em var(--spinner-color-20), 0em 1.1em 0 0em var(--spinner-color-20), -0.8em 0.8em 0 0em var(--spinner-color-20), -1.1em 0em 0 0em var(--spinner-color-20), -0.8em -0.8em 0 0em var(--spinner-color-50);
   }
   25% {
-    box-shadow: 0em -2.2cqmin 0em 0em var(--spinner-color-50), 1.55cqmin -1.55cqmin 0 0em var(--spinner-color-70), 2.2cqmin 0em 0 0em var(--spinner-color-100), 1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), 0em 2.2cqmin 0 0em var(--spinner-color-20), -1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), -2.2cqmin 0em 0 0em var(--spinner-color-20), -1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20);
+    box-shadow: 0em -1.1em 0em 0em var(--spinner-color-50), 0.8em -0.8em 0 0em var(--spinner-color-70), 1.1em 0em 0 0em var(--spinner-color-100), 0.8em 0.8em 0 0em var(--spinner-color-20), 0em 1.1em 0 0em var(--spinner-color-20), -0.8em 0.8em 0 0em var(--spinner-color-20), -1.1em 0em 0 0em var(--spinner-color-20), -0.8em -0.8em 0 0em var(--spinner-color-20);
   }
   37.5% {
-    box-shadow: 0em -2.2cqmin 0em 0em var(--spinner-color-20), 1.55cqmin -1.55cqmin 0 0em var(--spinner-color-50), 2.2cqmin 0em 0 0em var(--spinner-color-70), 1.55cqmin 1.55cqmin 0 0em var(--spinner-color-100), 0em 2.2cqmin 0 0em var(--spinner-color-20), -1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), -2.2cqmin 0em 0 0em var(--spinner-color-20), -1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20);
+    box-shadow: 0em -1.1em 0em 0em var(--spinner-color-20), 0.8em -0.8em 0 0em var(--spinner-color-50), 1.1em 0em 0 0em var(--spinner-color-70), 0.8em 0.8em 0 0em var(--spinner-color-100), 0em 1.1em 0 0em var(--spinner-color-20), -0.8em 0.8em 0 0em var(--spinner-color-20), -1.1em 0em 0 0em var(--spinner-color-20), -0.8em -0.8em 0 0em var(--spinner-color-20);
   }
   50% {
-    box-shadow: 0em -2.2cqmin 0em 0em var(--spinner-color-20), 1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20), 2.2cqmin 0em 0 0em var(--spinner-color-50), 1.55cqmin 1.55cqmin 0 0em var(--spinner-color-70), 0em 2.2cqmin 0 0em var(--spinner-color-100), -1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), -2.2cqmin 0em 0 0em var(--spinner-color-20), -1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20);
+    box-shadow: 0em -1.1em 0em 0em var(--spinner-color-20), 0.8em -0.8em 0 0em var(--spinner-color-20), 1.1em 0em 0 0em var(--spinner-color-50), 0.8em 0.8em 0 0em var(--spinner-color-70), 0em 1.1em 0 0em var(--spinner-color-100), -0.8em 0.8em 0 0em var(--spinner-color-20), -1.1em 0em 0 0em var(--spinner-color-20), -0.8em -0.8em 0 0em var(--spinner-color-20);
   }
   62.5% {
-    box-shadow: 0em -2.2cqmin 0em 0em var(--spinner-color-20), 1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20), 2.2cqmin 0em 0 0em var(--spinner-color-20), 1.55cqmin 1.55cqmin 0 0em var(--spinner-color-50), 0em 2.2cqmin 0 0em var(--spinner-color-70), -1.55cqmin 1.55cqmin 0 0em var(--spinner-color-100), -2.2cqmin 0em 0 0em var(--spinner-color-20), -1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20);
+    box-shadow: 0em -1.1em 0em 0em var(--spinner-color-20), 0.8em -0.8em 0 0em var(--spinner-color-20), 1.1em 0em 0 0em var(--spinner-color-20), 0.8em 0.8em 0 0em var(--spinner-color-50), 0em 1.1em 0 0em var(--spinner-color-70), -0.8em 0.8em 0 0em var(--spinner-color-100), -1.1em 0em 0 0em var(--spinner-color-20), -0.8em -0.8em 0 0em var(--spinner-color-20);
   }
   75% {
-    box-shadow: 0em -2.2cqmin 0em 0em var(--spinner-color-20), 1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20), 2.2cqmin 0em 0 0em var(--spinner-color-20), 1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), 0em 2.2cqmin 0 0em var(--spinner-color-50), -1.55cqmin 1.55cqmin 0 0em var(--spinner-color-70), -2.2cqmin 0em 0 0em var(--spinner-color-100), -1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20);
+    box-shadow: 0em -1.1em 0em 0em var(--spinner-color-20), 0.8em -0.8em 0 0em var(--spinner-color-20), 1.1em 0em 0 0em var(--spinner-color-20), 0.8em 0.8em 0 0em var(--spinner-color-20), 0em 1.1em 0 0em var(--spinner-color-50), -0.8em 0.8em 0 0em var(--spinner-color-70), -1.1em 0em 0 0em var(--spinner-color-100), -0.8em -0.8em 0 0em var(--spinner-color-20);
   }
   87.5% {
-    box-shadow: 0em -2.2cqmin 0em 0em var(--spinner-color-20), 1.55cqmin -1.55cqmin 0 0em var(--spinner-color-20), 2.2cqmin 0em 0 0em var(--spinner-color-20), 1.55cqmin 1.55cqmin 0 0em var(--spinner-color-20), 0em 2.2cqmin 0 0em var(--spinner-color-20), -1.55cqmin 1.55cqmin 0 0em var(--spinner-color-50), -2.2cqmin 0em 0 0em var(--spinner-color-70), -1.55cqmin -1.55cqmin 0 0em var(--spinner-color-100);
+    box-shadow: 0em -1.1em 0em 0em var(--spinner-color-20), 0.8em -0.8em 0 0em var(--spinner-color-20), 1.1em 0em 0 0em var(--spinner-color-20), 0.8em 0.8em 0 0em var(--spinner-color-20), 0em 1.1em 0 0em var(--spinner-color-20), -0.8em 0.8em 0 0em var(--spinner-color-50), -1.1em 0em 0 0em var(--spinner-color-70), -0.8em -0.8em 0 0em var(--spinner-color-100);
   }
 }

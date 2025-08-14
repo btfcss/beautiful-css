@@ -4,6 +4,7 @@
 .h-min { height: min-content!important; }
 .h-max { height: max-content!important; }
 
+.h-4px { height: 4px!important; }
 .h-8px { height: 8px!important; }
 .h-16px { height: 16px!important; }
 .h-24px { height: 24px!important; }
@@ -15,6 +16,7 @@
 .h-350px { height: 350px!important; }
 .h-500px { height: 500px!important; }
 
+.h-min-4px { min-height: 4px!important; }
 .h-min-8px { min-height: 8px!important; }
 .h-min-16px { min-height: 16px!important; }
 .h-min-24px { min-height: 24px!important; }
@@ -26,6 +28,7 @@
 .h-min-350px { min-height: 350px!important; }
 .h-min-500px { min-height: 500px!important; }
 
+.h-max-4px { max-height: 4px!important; }
 .h-max-8px { max-height: 8px!important; }
 .h-max-16px { max-height: 16px!important; }
 .h-max-24px { max-height: 24px!important; }
