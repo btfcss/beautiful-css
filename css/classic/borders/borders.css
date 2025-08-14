@@ -108,3 +108,7 @@
 [class*="hover\:border-"] {
   border-style: var(--border-style, solid);
 }
+
+.border-transparent { --border-light:0 0 0 / 0;--border-dark:0 0 0 / 0;}
+.light\:border-transparent { --border-light:0 0 0 / 0;}
+.dark\:border-transparent { --border-dark:0 0 0 / 0;}

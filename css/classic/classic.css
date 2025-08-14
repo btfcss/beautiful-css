@@ -20,11 +20,12 @@
 @import url(lists.css);
 @import url(table.css);
 @import url(blockquote.css);
-
+@import url(spinners.css);
 
 *, :after, :before, ::backdrop {
   box-sizing: border-box;
-  border: 0 solid;
+  border-width: 0; 
+  border-style: solid;
   margin: 0;
   padding: 0;
 }

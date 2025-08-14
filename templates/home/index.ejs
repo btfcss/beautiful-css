@@ -79,7 +79,45 @@
     <div id="masonry"
       class="masonry-1 masonry-sm-2 masonry-md-2 masonry-lg-3 masonry-xl-4 masonry-xxl-5 masonry-gap-6 mt-6">
 
+      <div id="spinners" class="card">
+        <div class="header">
+          <h2>Spinners</h2>
+        </div>
+        <div class="body text-center v-grid gap-6 my-5">
+          <div class="w-100 text-center h-grid">
+            <span class="spinner place-self-center color-red"></span>
+            <span class="spinner place-self-center h-48px w-48px"></span>
+            <span class="spinner place-self-center border-purple color-transparent h-48px w-48px"></span>
+            <span class="spinner place-self-center border-transparent color-green h-48px w-48px duration-2000"></span>
+          </div>
 
+          <div class="w-100 text-center h-grid">
+            <span class="spinner-clip place-self-center color-red"></span>
+            <span class="spinner-clip place-self-center h-48px w-48px"></span>
+            <span class="spinner-clip place-self-center color-purple h-48px w-48px"></span>
+            <span class="spinner-clip place-self-center color-green h-48px w-48px duration-2000"></span>
+          </div>
+
+          <div class="w-100 text-center h-grid">
+            <span class="spinner-grow place-self-center bg-red"></span>
+            <span class="spinner-grow place-self-center h-48px w-48px"></span>
+            <span class="spinner-grow place-self-center bg-purple h-48px w-48px"></span>
+            <span class="spinner-grow place-self-center bg-green h-48px w-48px"></span>
+          </div>
+
+                    <div class="w-100 text-center h-grid">
+            <span class="spinner-dots-fade place-self-center color-red scale-50"></span>
+            <span class="spinner-dots-fade place-self-center"></span>
+            <span class="spinner-dots-fade place-self-center color-purple"></span>
+            <span class="spinner-dots-fade place-self-center color-green duration-2000"></span>
+          </div>
+
+        </div>
+        <div class="footer align-right">
+          <button class="btn-blue" data-open-modal="documentation-modal"
+            data-documentation="spinners">&lt;code&gt;</button>
+        </div>
+      </div>
 
       <%- include cards/headings.ejs %>
       <%- include cards/typography.ejs %>
@@ -127,7 +165,7 @@
       <%- include cards/greyscale.ejs %>
       <%- include cards/palette.ejs %>
 
-      
+
       <%- include modals/simple-modal.ejs %>
       <%- include modals/basic-example.ejs %>
       <%- include modals/no-animation.ejs %>

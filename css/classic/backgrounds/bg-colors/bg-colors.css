@@ -12,22 +12,25 @@
 @import url(bg-black.css);
 
 
-.bg-transparent { --bg-light:transparent;--bg-dark:transparent;}
-.light\:bg-transparent { --bg-light:transparent;}
-.dark\:bg-transparent { --bg-dark:transparent;}
+.bg-transparent { --bg-light:0 0 0 / 0;--bg-dark:0 0 0 / 0;}
+.light\:bg-transparent { --bg-light:0 0 0 / 0;}
+.dark\:bg-transparent { --bg-dark:0 0 0 / 0;}
 
 [class*="light\:bg-"]:not([class*="dark\:bg-"]) {
   background-color: light-dark(oklch(var(--bg-light, var(--white-200))), oklch(var(--bg-dark, 0 0 0 / 0)))!important;
+  --bg-spinner: light-dark(oklch(var(--bg-light, var(--white-200))), oklch(var(--bg-dark, 0 0 0 / 0)));
 }
 
 [class*="dark\:bg-"]:not([class*="light\:bg-"]) {
   background-color: light-dark(oklch(var(--bg-light,0 0 0 / 0)), oklch(var(--bg-dark, var(--black-200))))!important;
+  --bg-spinner: light-dark(oklch(var(--bg-light,0 0 0 / 0)), oklch(var(--bg-dark, var(--black-200))))!important;
 }
 
 
 [class*="light\:bg-"][class*="dark\:bg-"],
 [class*="bg-"] {
   background-color: light-dark(oklch(var(--bg-light) / var(--bg-opacity, 1)), oklch(var(--bg-dark) / var(--bg-opacity, 1)))!important;
+  --bg-spinner: light-dark(oklch(var(--bg-light) / var(--bg-opacity, 1)), oklch(var(--bg-dark) / var(--bg-opacity, 1)))!important;
 }
 
 

@@ -87,3 +87,22 @@
 .self-stretch { align-self: stretch; }
 .self-baseline { align-self: baseline; }
 .self-baseline-last { align-self: last baseline; }
+
+
+.justify-self-auto { justify-self: auto; }
+.justify-self-start { justify-self: flex-start; }
+.justify-self-end { justify-self: flex-end; }
+.justify-self-end-safe { justify-self: safe flex-end; }
+.justify-self-center { justify-self: center; }
+.justify-self-center-safe { justify-self: safe center; }
+.justify-self-stretch { justify-self: stretch; }
+.justify-self-baseline { justify-self: baseline; }
+.justify-self-baseline-last { justify-self: last baseline; }
+
+.place-self-auto { place-self: auto; }
+.place-self-start { place-self: start; }
+.place-self-end { place-self: end; }
+.place-self-end-safe { place-self: safe end; }
+.place-self-center { place-self: center; }
+.place-self-center-safe { place-self: safe center; }
+.place-self-stretch { place-self: stretch; }

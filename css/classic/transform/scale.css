@@ -11,6 +11,19 @@
 }
 
 
+.scale-75 {
+  transform: scale(75%);
+}
+
+.hover\:scale-75:hover {
+  transform: scale(75%);
+}
+
+.focus\:scale-75:focus {
+  transform: scale(75%);
+}
+
+
 .scale-80 {
   transform: scale(80%);
 }

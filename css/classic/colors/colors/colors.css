@@ -96,9 +96,9 @@
   color: light-dark(oklch(var(--color-light, var(--black-500))), oklch(var(--color-dark, var(--white-500))))!important;
 }
 
-.text-transparent, .color-transparent { --color-light:transparent;--color-dark:transparent; }
-.light\:text-transparent, .light\:color-transparent { --color-light:transparent; }
-.dark\:text-transparent, .dark\:color-transparent  { --color-dark:transparent; }
+.text-transparent, .color-transparent { --color-light:0 0 0 / 0;--color-dark:0 0 0 / 0; }
+.light\:text-transparent, .light\:color-transparent { --color-light:0 0 0 / 0; }
+.dark\:text-transparent, .dark\:color-transparent  { --color-dark:0 0 0 / 0; }
 
 
 
