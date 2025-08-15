@@ -70,8 +70,3 @@
 }
 
 
-.transition-rotate {
-  transition-property: rotate;
-  transition-timing-function: ease-in-out;
-}
-

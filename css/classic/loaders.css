@@ -1,5 +1,5 @@
 .loader {
-  width: 2rem;
+  aspect-ratio: 1/1;
   height: 2rem;
   border-width: 0.5cqmin;
   border-style: solid;
@@ -21,7 +21,7 @@
 
 
 .loader-clip {
-  width: 2rem;
+  aspect-ratio: 1/1;
   height: 2rem;
   border-radius: 50%;
   position: relative;
@@ -69,7 +69,7 @@
 
 .loader-grow {
   background-color: oklch(var(--blue-500));
-  width: 2rem;
+  aspect-ratio: 1/1;
   height: 2rem;
   border-radius: 50%;
   border: 0;
@@ -94,7 +94,7 @@
 
 .loader-dots-fade {
   font-size: 1rem;
-  width: 0.5em;
+  aspect-ratio: 1/1;
   height: 0.5em;
   border-radius: 50%;
   position: relative;
@@ -149,7 +149,7 @@
 .loader-dots-spin {
   color: light-dark(oklch(var(--color-light, var(--blue-500))), oklch(var(--color-dark, var(--blue-500))));
   font-size: 1rem;
-  width: 0.5em;
+  aspect-ratio: 1/1;
   height: 0.5em;
   border-radius: 50%;
   position: relative;
@@ -263,8 +263,8 @@
   font-size: 1rem;
   text-indent: -9999em;
   overflow: hidden;
-  width: 0.5em;
   height: 0.5em;
+  aspect-ratio: 1/1;
   border-radius: 50%;
   position: relative;
   animation: loader-comet 1.7s infinite ease, spinner-rotation 1.7s infinite ease;

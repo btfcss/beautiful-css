@@ -1,32 +1,63 @@
-<div id="background-colors" class="card">
+<div id="loaders" class="card">
   <div class="header">
-    <h2>Background Colors</h2>
+    <h2>Loaders <span class="d-none">spinners</span></h2>
   </div>
-  <div class="body text-center">
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-yellow">Yellow</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-orange">Orange</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-red">Red</div>   
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-pink">Pink</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-purple">Purple</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-blue">Blue</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-cyan">Cyan</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-green">Green</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-white color-black">White</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-grey">Grey</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 bg-black color-white">Black</div>
-    <div class="rounded hover:scale-105 p-4 m-3 rounded-2 dark:bg-yellow-700 dark:hover:bg-purple-700 light:bg-red-500 light:hover:bg-green-500">Custom</div>
+  <div class="body text-center v-grid gap-4 my-5">
+    <div class="w-100 text-center h-64px h-grid">
+      <span class="loader place-self-center color-red"></span>
+      <span class="loader place-self-center h-48px w-48px"></span>
+      <span class="loader place-self-center border-purple color-transparent h-48px w-48px"></span>
+      <span
+        class="loader place-self-center border-transparent color-green h-48px w-48px animation-duration-2000"></span>
+    </div>
+
+    <div class="w-100 text-center h-64px h-grid">
+      <span class="loader-clip place-self-center color-red"></span>
+      <span class="loader-clip place-self-center h-48px w-48px"></span>
+      <span class="loader-clip place-self-center color-purple h-48px w-48px"></span>
+      <span class="loader-clip place-self-center color-green h-48px w-48px scale-150 animation-duration-2000"></span>
+    </div>
+
+    <div class="w-100 text-center h-64px h-grid">
+      <span class="loader-grow place-self-center bg-red"></span>
+      <span class="loader-grow place-self-center h-48px w-48px"></span>
+      <span class="loader-grow place-self-center bg-purple h-48px w-48px"></span>
+      <span class="loader-grow place-self-center bg-green h-48px w-48px scale-150"></span>
+    </div>
+
+    <div class="w-100 text-center h-64px h-grid">
+      <span class="loader-dots-fade place-self-center color-red fs-2xs h-4px w-4px"></span>
+      <span class="loader-dots-fade place-self-center"></span>
+      <span class="loader-dots-fade place-self-center color-purple"></span>
+      <span class="loader-dots-fade place-self-center color-green animation-duration-2000 scale-150"></span>
+    </div>
+
+    <div class="w-100 text-center h-64px h-grid">
+      <span class="loader-dots-spin place-self-center color-red fs-2xs h-4px w-4px"></span>
+      <span class="loader-dots-spin place-self-center"></span>
+      <span class="loader-dots-spin place-self-center color-purple"></span>
+      <span class="loader-dots-spin place-self-center color-green animation-duration-2000 scale-150"></span>
+    </div>
+
+    <div class="w-100 text-center h-64px h-grid">
+      <span class="loader-comet place-self-center color-red fs-2xs h-4px w-4px"></span>
+      <span class="loader-comet place-self-center"></span>
+      <span class="loader-comet place-self-center color-purple"></span>
+      <span class="loader-comet place-self-center color-green animation-duration-2000 scale-150"></span>
+    </div>
   </div>
   <div class="footer align-right">
-    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="background-colors">&lt;code&gt;</button>
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="loaders">&lt;code&gt;</button>
   </div>
 </div>
 
 
 
 
-<div id="doc-background-colors" hidden>
-  <h2>Background Colors <a href="#background-colors" class="no-decoration hover:underline">#</a></h2>
+
+<div id="doc-loaders" hidden>
+  <h2>Loaders <a href="#loaders" class="no-decoration hover:underline">#</a></h2>
   <content>
-    <%- include ../documentation/background-colors.ejs %>
+    <%- include ../documentation/loaders.ejs %>
   </content>
 </div>

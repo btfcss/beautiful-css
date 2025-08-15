@@ -1,0 +1,186 @@
+<p>The framework provides different loader styles, each animated with
+CSS. They can be customized with size, color, scaling, and animation
+speed utilities.</p>
+<h3 id="doc-loader">.loader</h3>
+<p>A <strong>circular spinner</strong> that rotates a bordered ring.</p>
+<ul>
+<li>Use <code>.color-*</code> to set the primary stroke color.</li>
+<li>Use <code>.border-color-*</code> to set the background stroke
+color.</li>
+</ul>
+<h4 id="doc-examples">Examples</h4>
+<div class="h-flex-start gap-3 mt-4">
+<div class="w-48px h-48px h-grid">
+<span class="loader place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader color-red border-pink place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span
+class="loader color-green border-transparent place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span
+class="loader color-transparent border-cyan place-self-center"></span>
+</div>
+</div>
+<pre class="html"><code>&lt;span class=&quot;loader&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader color-red border-pink&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader color-green border-transparent&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader color-transparent border-cyan&quot;&gt;&lt;/span&gt;</code></pre>
+<h3 id="doc-loader-clip">.loader-clip</h3>
+<p>A <strong>clipped border spinner</strong> that animates as a rotating
+arc.</p>
+<ul>
+<li>Use <code>.color-*</code> to change the spinner color.</li>
+</ul>
+<h4 id="doc-examples-1">Examples</h4>
+<div class="h-flex-start gap-3 mt-4">
+<div class="w-48px h-48px h-grid">
+<span class="loader-clip place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-clip color-red place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span
+class="loader-clip color-green animation-duration-2000 place-self-center"></span>
+</div>
+</div>
+<pre class="html"><code>&lt;span class=&quot;loader-clip&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-clip color-red&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-clip color-green animation-duration-2000&quot;&gt;&lt;/span&gt;</code></pre>
+<h3 id="doc-loader-grow">.loader-grow</h3>
+<p>A <strong>pulsing loader</strong> that expands and fades in/out.</p>
+<ul>
+<li>Use <code>.bg-*</code> to set the fill color.</li>
+</ul>
+<h4 id="doc-examples-2">Examples</h4>
+<div class="h-flex-start gap-3 mt-4">
+<div class="w-48px h-48px h-grid">
+<span class="loader-grow place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-grow bg-red place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span
+class="loader-grow bg-green animation-duration-2000 place-self-center"></span>
+</div>
+</div>
+<pre class="html"><code>&lt;span class=&quot;loader-grow&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-grow color-red&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-grow color-green animation-duration-2000&quot;&gt;&lt;/span&gt;</code></pre>
+<h3 id="doc-loader-dots-fade">.loader-dots-fade</h3>
+<p>Three <strong>fading dots</strong> that appear and disappear
+sequentially.</p>
+<ul>
+<li>Use <code>.color-*</code> to change the dots color.</li>
+</ul>
+<h4 id="doc-examples-3">Examples</h4>
+<div class="h-flex-start gap-3 mt-4">
+<div class="w-48px h-48px h-grid">
+<span class="loader-dots-fade place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-dots-fade color-red place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span
+class="loader-dots-fade color-green animation-duration-2000 place-self-center"></span>
+</div>
+</div>
+<pre class="html"><code>&lt;span class=&quot;loader-dots-fade&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-dots-fade color-red&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-dots-fade color-green animation-duration-2000&quot;&gt;&lt;/span&gt;</code></pre>
+<h3 id="doc-loader-dots-spin">.loader-dots-spin</h3>
+<p>Three <strong>rotating dots</strong> arranged in a circular path.</p>
+<ul>
+<li>Use <code>.color-*</code> to change the dots color.</li>
+</ul>
+<h4 id="doc-examples-4">Examples</h4>
+<div class="h-flex-start gap-3 mt-4">
+<div class="w-48px h-48px h-grid">
+<span class="loader-dots-spin place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-dots-spin color-red place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span
+class="loader-dots-spin color-green animation-duration-2000 place-self-center"></span>
+</div>
+</div>
+<pre class="html"><code>&lt;span class=&quot;loader-dots-spin&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-dots-spin color-red&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-dots-spin color-green animation-duration-2000&quot;&gt;&lt;/span&gt;</code></pre>
+<h3 id="doc-loader-comet">.loader-comet</h3>
+<p>A <strong>comet-style loader</strong> where dots rotate with a
+trailing fade effect.</p>
+<ul>
+<li>Use <code>.color-*</code> to change the dots color.</li>
+</ul>
+<h4 id="doc-examples-5">Examples</h4>
+<div class="h-flex-start gap-3 mt-4">
+<div class="w-48px h-48px h-grid">
+<span class="loader-comet place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-comet color-red place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span
+class="loader-comet color-green animation-duration-2000 place-self-center"></span>
+</div>
+</div>
+<pre class="html"><code>&lt;span class=&quot;loader-comet&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-comet color-red&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-comet color-green animation-duration-2000&quot;&gt;&lt;/span&gt;</code></pre>
+<h3 id="doc-sizing">Sizing</h3>
+<p>There are several ways to size the loaders. The best option is to use
+the utlity class <code>.scale-[ratio]</code>.</p>
+<div class="h-flex-start gap-4 mt-4">
+<div class="w-48px h-48px h-grid">
+<span class="loader scale-50 place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-clip scale-75 place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-grow place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-dots-fade scale-110 place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-dots-spin scale-120 place-self-center"></span>
+</div>
+<div class="w-48px h-48px h-grid">
+<span class="loader-comet scale-150 place-self-center"></span>
+</div>
+</div>
+<pre class="html"><code>&lt;span class=&quot;loader scale-50&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-clip scale-75&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-grow&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-dots-fade scale-110&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-dots-spin scale-120&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-comet scale-150&quot;&gt;&lt;/span&gt;</code></pre>
+<p>For spinners with dots, dots are created with
+<code>box-shadow</code>. The dot size is relative to the element size.
+You can change the dots size by modifying height or height. The global
+loader size is relative to element font size.</p>
+<div class="h-flex-start gap-3 mt-4">
+<div class="w-64px h-64px h-grid">
+<span class="loader-dots-fade fs-xs place-self-center"></span>
+</div>
+<div class="w-64px h-64px h-grid">
+<span class="loader-dots-spin h-16px place-self-center"></span>
+</div>
+<div class="w-64px h-64px h-grid">
+<span class="loader-comet fs-5xl h-4px place-self-center"></span>
+</div>
+</div>
+<pre class="html"><code>&lt;span class=&quot;loader-dots-fade fs-xs&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-dots-spin h-16px&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;loader-comet fs-5xl h-4px&quot;&gt;&lt;/span&gt;</code></pre>

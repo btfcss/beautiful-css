@@ -21,6 +21,7 @@
 @import url(table.css);
 @import url(blockquote.css);
 @import url(loaders.css);
+@import url(animations/animations.css);
 
 *, :after, :before, ::backdrop {
   box-sizing: border-box;
