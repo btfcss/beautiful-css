@@ -1,9 +1,9 @@
 The framework provides different loader styles, each animated with CSS. They can be customized with size, color, scaling, and animation speed utilities.
 
 
-### .loader
+### Circular Spinner
 
-A **circular spinner** that rotates a bordered ring.
+`.loader` creates a **circular spinner** that rotates a bordered ring.
 
 - Use `.color-*` to set the primary stroke color.
 - Use `.border-color-*` to set the background stroke color.
@@ -33,9 +33,9 @@ A **circular spinner** that rotates a bordered ring.
 
 
 
-### .loader-clip
+### Clipped Border Spinner
 
-A **clipped border spinner** that animates as a rotating arc.
+`.loader-clip` creates a **clipped border spinner** that animates as a rotating arc.
 
 - Use `.color-*` to change the spinner color.
 
@@ -56,9 +56,9 @@ A **clipped border spinner** that animates as a rotating arc.
 
 
 
-### .loader-grow
+### Pulsing Loader
 
-A **pulsing loader** that expands and fades in/out.
+`.loader-grow` creates a **pulsing loader** that expands and fades in/out.
 
 - Use `.bg-*` to set the fill color.
 
@@ -82,9 +82,9 @@ A **pulsing loader** that expands and fades in/out.
 
 
 
-### .loader-dots-fade
+### Fading Dots
 
-Three **fading dots** that appear and disappear sequentially.
+`.loader-dots-fade` creates three **fading dots** that appear and disappear sequentially.
 
 - Use `.color-*` to change the dots color.
 
@@ -103,9 +103,9 @@ Three **fading dots** that appear and disappear sequentially.
 ```
 
 
-### .loader-dots-spin
+### Rotating Dots
 
-Three **rotating dots** arranged in a circular path.
+`.loader-dots-spin` creates three **rotating dots** arranged in a circular path.
 
 - Use `.color-*` to change the dots color.
 
@@ -126,9 +126,9 @@ Three **rotating dots** arranged in a circular path.
 
 
 
-### .loader-comet
+### Comet-Style Loader
 
-A **comet-style loader** where dots rotate with a trailing fade effect.
+`.comet-style` creates a **comet-style loader** where dots rotate with a trailing fade effect.
 
 - Use `.color-*` to change the dots color.
 
