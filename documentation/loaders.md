@@ -12,6 +12,7 @@ A **circular spinner** that rotates a bordered ring.
 
 <div class="h-flex-start gap-3 mt-4">
 <div class="w-48px h-48px h-grid"><span class="loader place-self-center"></span></div>
+<div class="w-48px h-48px h-grid"><span class="loader color-orange place-self-center"></span></div>
 <div class="w-48px h-48px h-grid"><span class="loader color-red border-pink place-self-center"></span></div>
 <div class="w-48px h-48px h-grid"><span class="loader color-green border-transparent place-self-center"></span></div>
 <div class="w-48px h-48px h-grid"><span class="loader color-transparent border-cyan place-self-center"></span></div>
@@ -20,6 +21,7 @@ A **circular spinner** that rotates a bordered ring.
 
 ```html
 <span class="loader"></span>
+<span class="loader color-orange"></span>
 <span class="loader color-red border-pink"></span>
 <span class="loader color-green border-transparent"></span>
 <span class="loader color-transparent border-cyan"></span>
