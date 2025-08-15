@@ -20,7 +20,7 @@
 @import url(lists.css);
 @import url(table.css);
 @import url(blockquote.css);
-@import url(spinners.css);
+@import url(loaders.css);
 
 *, :after, :before, ::backdrop {
   box-sizing: border-box;
