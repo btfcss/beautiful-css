@@ -13,7 +13,7 @@
 
 @keyframes spinner-rotation {
   100% {
-    transform: rotate(360deg);
+    rotate: 360deg;
   }
 }
 
@@ -155,7 +155,6 @@
   position: relative;
   text-indent: -9999em;
   animation: loader-dots-spin 1.3s infinite linear;
-  transform: translateZ(0);
 }
 
 @keyframes loader-dots-spin {
@@ -254,5 +253,77 @@
       -0.8em 0.8em 0 -0.5em,
       -1.1em 0em 0 0,
       -0.8em -0.8em 0 0.05em;
+  }
+}
+
+
+
+.loader-comet {
+  color: light-dark(oklch(var(--color-light, var(--blue-500))), oklch(var(--color-dark, var(--blue-500))));
+  font-size: 1rem;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  position: relative;
+  animation: loader-comet 1.7s infinite ease, spinner-rotation 1.7s infinite ease;
+}
+
+@keyframes loader-comet {
+  0% {
+    box-shadow:
+      0 -1.1em 0 0.05em,
+      0 -1.1em 0 0.015em,
+      0 -1.1em 0 -0.02em,
+      0 -1.1em 0 -0.055em,
+      0 -1.1em 0 -0.085em;
+  }
+
+  5%,
+  95% {
+    box-shadow:
+      0 -1.1em 0 0.05em,
+      0 -1.1em 0 0.015em,
+      0 -1.1em 0 -0.02em,
+      0 -1.1em 0 -0.055em,
+      0 -1.1em 0 -0.085em;
+  }
+
+  10%,
+  59% {
+    box-shadow:
+      calc(cos(-90.00deg)*1.1em) calc(sin(-90.00deg)*1.1em)  0 0.05em,
+      calc(cos(-99.31deg)*1.1em) calc(sin(-99.31deg)*1.1em) 0 0.015em,
+      calc(cos(-108.64deg)*1.1em) calc(sin(-108.64deg)*1.1em) 0 -0.02em,
+      calc(cos(-117.96deg)*1.1em) calc(sin(-117.96deg)*1.1em) 0 -0.055em,
+      calc(cos(-122.58deg)*1.1em) calc(sin(-122.58deg)*1.1em)0 -0.085em;
+  }
+
+  20% {
+    box-shadow:
+      calc(cos(-90.00deg)*1.1em) calc(sin(-90.00deg)*1.1em) 0 0.05em,
+      calc(cos(-127.30deg)*1.1em) calc(sin(-127.30deg)*1.1em) 0 0.015em,
+      calc(cos(-155.10deg)*1.1em) calc(sin(-155.10deg)*1.1em) 0 -0.02em,
+      calc(cos(-170.19deg)*1.1em) calc(sin(-170.19deg)*1.1em) 0 -0.055em,
+      calc(cos(-191.75deg)*1.1em) calc(sin(-191.75deg)*1.1em) 0 -0.085em;
+  }
+
+  38% {
+    box-shadow:
+      calc(cos(-90.00deg)*1.1em) calc(sin(-90.00deg)*1.1em) 0 0.05em,
+      calc(cos(-131.93deg)*1.1em) calc(sin(-131.93deg)*1.1em) 0 0.015em,
+      calc(cos(-169.20deg)*1.1em) calc(sin(-169.20deg)*1.1em) 0 -0.02em,
+      calc(cos(-197.12deg)*1.1em) calc(sin(-197.12deg)*1.1em) 0 -0.055em,
+      calc(cos(-220deg)*1.1em) calc(sin(-220deg)*1.1em) 0 -0.085em;
+  }
+
+  100% {
+    box-shadow:
+      0 -1.1em  0 0.05em,
+      0 -1.1em  0 0.015em,
+      0 -1.1em  0 -0.02em,
+      0 -1.1em  0 -0.055em,
+      0 -1.1em  0 -0.085em;
   }
 }
