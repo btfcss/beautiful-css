@@ -149,7 +149,7 @@ A **comet-style loader** where dots rotate with a trailing fade effect.
 
 ### Sizing
 
-There are several ways to size the loaders. The best option is to use the utlity class `.scale-[ratio]`.
+There are several ways to size the loaders. The most flexible option is to use the utility class `.scale-[ratio]`.
 
 
 <div class="h-flex-start gap-4 mt-4">
@@ -170,9 +170,12 @@ There are several ways to size the loaders. The best option is to use the utlity
 <span class="loader-comet scale-150"></span>
 ```
 
-For spinners with dots, dots are created with `box-shadow`. The dot size is relative to the element size. You can change the dots size by modifying height or height. The global loader size is relative to element font size. 
+For `.loader-dots-fade`, `.loader-dots-spin` and `.loader-comet`, dots are generated with `box-shadow`. 
 
+* The **dot size** depends on the element’s height.
+* The **loader’s overall size** is relative to the element’s font size.
 
+You can adjust both independently to fine-tune the effect:
 
 <div class="h-flex-start gap-3 mt-4">
 <div class="w-64px h-64px h-grid"><span class="loader-dots-fade fs-xs place-self-center"></span></div>

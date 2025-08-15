@@ -138,8 +138,8 @@ class="loader-comet color-green animation-duration-2000 place-self-center"></spa
 &lt;span class=&quot;loader-comet color-red&quot;&gt;&lt;/span&gt;
 &lt;span class=&quot;loader-comet color-green animation-duration-2000&quot;&gt;&lt;/span&gt;</code></pre>
 <h3 id="doc-sizing">Sizing</h3>
-<p>There are several ways to size the loaders. The best option is to use
-the utlity class <code>.scale-[ratio]</code>.</p>
+<p>There are several ways to size the loaders. The most flexible option
+is to use the utility class <code>.scale-[ratio]</code>.</p>
 <div class="h-flex-start gap-4 mt-4">
 <div class="w-48px h-48px h-grid">
 <span class="loader scale-50 place-self-center"></span>
@@ -166,10 +166,15 @@ the utlity class <code>.scale-[ratio]</code>.</p>
 &lt;span class=&quot;loader-dots-fade scale-110&quot;&gt;&lt;/span&gt;
 &lt;span class=&quot;loader-dots-spin scale-120&quot;&gt;&lt;/span&gt;
 &lt;span class=&quot;loader-comet scale-150&quot;&gt;&lt;/span&gt;</code></pre>
-<p>For spinners with dots, dots are created with
-<code>box-shadow</code>. The dot size is relative to the element size.
-You can change the dots size by modifying height or height. The global
-loader size is relative to element font size.</p>
+<p>For <code>.loader-dots-fade</code>, <code>.loader-dots-spin</code>
+and <code>.loader-comet</code>, dots are generated with
+<code>box-shadow</code>.</p>
+<ul>
+<li>The <strong>dot size</strong> depends on the element’s height.</li>
+<li>The <strong>loader’s overall size</strong> is relative to the
+element’s font size.</li>
+</ul>
+<p>You can adjust both independently to fine-tune the effect:</p>
 <div class="h-flex-start gap-3 mt-4">
 <div class="w-64px h-64px h-grid">
 <span class="loader-dots-fade fs-xs place-self-center"></span>
