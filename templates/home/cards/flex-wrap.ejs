@@ -1,0 +1,43 @@
+<div id="flex-wrap" class="card">
+  <div class="header">
+    <h2>Flex Wrap</h2>
+  </div>
+  <div class="body text-center">
+
+    <div
+      class="border light:hatching-grey-100 flex-nowrap overflow-hidden light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-start gap-4 rounded monospace mt-4 mb-5">
+      <div class="p-3 w-min-96px bg-red rounded">01</div>
+      <div class="p-3 w-min-96px bg-red rounded">02</div>
+      <div class="p-3 w-min-96px bg-red rounded">03</div>
+    </div>
+
+    <div
+      class="border light:hatching-grey-100 flex-wrap light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-start gap-4 rounded monospace mb-5">
+      <div class="p-3 w-min-96px bg-red rounded">01</div>
+      <div class="p-3 w-min-96px bg-red rounded">02</div>
+      <div class="p-3 w-min-96px bg-red rounded">03</div>
+    </div>
+
+    <div
+      class="border light:hatching-grey-100 flex-wrap-reverse light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-start gap-4 rounded monospace mb-4">
+      <div class="p-3 w-min-96px bg-red rounded">01</div>
+      <div class="p-3 w-min-96px bg-red rounded">02</div>
+      <div class="p-3 w-min-96px bg-red rounded">03</div>
+    </div>
+
+
+
+  </div>
+  <div class="footer align-right">
+    <button class="btn-blue" data-open-modal="documentation-modal"
+      data-documentation="flex-wrap">&lt;code&gt;</button>
+  </div>
+</div>
+
+
+<div id="doc-flex-wrap" hidden>
+  <h2>Flex Wrap <a href="#flex-wrap" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/flex-wrap.ejs %>
+  </content>
+</div>

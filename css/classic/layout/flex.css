@@ -67,6 +67,12 @@
 }
 
 
+.flex-nowrap {flex-wrap: nowrap;}
+.flex-wrap {flex-wrap: wrap;}
+.flex-wrap-reverse {flex-wrap: wrap-reverse;}
+
+
+
 .grow-0 { flex-grow: 0; }
 .grow-1 { flex-grow: 1; }
 .grow-2 { flex-grow: 2; }

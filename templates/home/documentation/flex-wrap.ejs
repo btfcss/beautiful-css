@@ -1,0 +1,95 @@
+<p>The <code>flex-wrap</code> utility controls whether flex items are
+forced onto a single line or can wrap onto multiple lines, and if
+wrapping occurs, in which direction.</p>
+<p>By default, flex items will <strong>not wrap</strong> and try to fit
+in a single row.</p>
+<h3 id="doc-classes">Classes</h3>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 78%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.flex-nowrap</code></td>
+<td>Prevents items from wrapping. All flex items stay in a single
+line.</td>
+</tr>
+<tr class="even">
+<td><code>.flex-wrap</code></td>
+<td>Allows items to wrap onto multiple lines, from top to bottom.</td>
+</tr>
+<tr class="odd">
+<td><code>.flex-wrap-reverse</code></td>
+<td>Allows items to wrap onto multiple lines, but in reverse (bottom to
+top).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="doc-examples">Examples</h3>
+<h4 id="doc-no-wrap-default">No Wrap (Default)</h4>
+<div
+class="w-max-256px border light:hatching-grey-100 flex-nowrap overflow-hidden light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-start gap-4 monospace mt-5 mb-3">
+<div class="p-3 w-min-96px bg-red rounded">
+01
+</div>
+<div class="p-3 w-min-96px bg-red rounded">
+02
+</div>
+<div class="p-3 w-min-96px bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;h-flex-start flex-nowrap gap-4&quot;&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;01&lt;/div&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;02&lt;/div&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Items stay in a <strong>single row</strong>, overflowing if there is
+not enough space.</p>
+<h4 id="doc-wrap">Wrap</h4>
+<div
+class="w-max-256px border light:hatching-grey-100 flex-wrap light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-start gap-4 monospace mt-5 mb-3">
+<div class="p-3 w-min-96px bg-red rounded">
+01
+</div>
+<div class="p-3 w-min-96px bg-red rounded">
+02
+</div>
+<div class="p-3 w-min-96px bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;h-flex-start flex-wrap gap-4&quot;&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;01&lt;/div&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;02&lt;/div&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Items will wrap onto the <strong>next line</strong> when there isn’t
+enough space.</p>
+<h4 id="doc-wrap-reverse">Wrap Reverse</h4>
+<div
+class="w-max-256px border light:hatching-grey-100 flex-wrap-reverse light:border-grey-100 dark:hatching-grey-900 dark:border-grey-900 rounded h-flex-start gap-4 monospace mt-5 mb-3">
+<div class="p-3 w-min-96px bg-red rounded">
+01
+</div>
+<div class="p-3 w-min-96px bg-red rounded">
+02
+</div>
+<div class="p-3 w-min-96px bg-red rounded">
+03
+</div>
+</div>
+<pre class="html"><code>&lt;div class=&quot;h-flex-start flex-wrap-reverse gap-4&quot;&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;01&lt;/div&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;02&lt;/div&gt;
+  &lt;div class=&quot;bg-red&quot;&gt;03&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p>Items wrap onto multiple lines but in <strong>reverse order</strong>
+(from bottom to top).</p>

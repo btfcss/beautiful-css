@@ -1,9 +1,16 @@
-.d-none { display: none; }
-.d-block { display: block; }
-.d-grid { display: grid; }
-.d-flex { display: flex; }
-.d-inline { display: inline;}
-.d-inline-block { display: inline-block; }
+.d-none { display: none!important; }
+.d-block { display: block!important; }
+.d-grid { display: grid!important; }
+.d-flex { display: flex!important; }
+.d-inline { display: inline!important; }
+.d-inline-block { display: inline-block!important; }
+
+.hover\:d-none:hover { display: none!important; }
+.hover\:d-block:hover { display: block!important; }
+.hover\:d-grid:hover { display: grid!important; }
+.hover\:d-flex:hover { display: flex!important; }
+.hover\:d-inline:hover { display: inline!important; }
+.hover\:d-inline-block:hover { display: inline-block!important; }
 
 @media (min-width: 40rem) {
   .d-sm-none { display: none; }
