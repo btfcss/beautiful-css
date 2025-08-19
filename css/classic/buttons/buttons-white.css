@@ -26,7 +26,7 @@
   --bg-dark: transparent;
   --border-light: var(--white-900);
   --border-dark: var(--white-300);  
-  --text-light: var(--white-900);
+  --text-light: var(--black-900);
   --text-dark: var(--white-300);
 }
 
