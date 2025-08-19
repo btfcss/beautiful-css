@@ -1,0 +1,166 @@
+<p>The display utilities allow you to control the <code>display</code>
+property of elements, with support for hover states and responsive
+breakpoints.</p>
+<h3 id="doc-basic-display">Basic Display</h3>
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 30%" />
+<col style="width: 46%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Class</th>
+<th>Description</th>
+<th>CSS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.d-none</code></td>
+<td>Hides element</td>
+<td><code>display: none !important;</code></td>
+</tr>
+<tr class="even">
+<td><code>.d-block</code></td>
+<td>Display as block</td>
+<td><code>display: block !important;</code></td>
+</tr>
+<tr class="odd">
+<td><code>.d-inline</code></td>
+<td>Display as inline</td>
+<td><code>display: inline !important;</code></td>
+</tr>
+<tr class="even">
+<td><code>.d-inline-block</code></td>
+<td>Display as inline-block</td>
+<td><code>display: inline-block !important;</code></td>
+</tr>
+<tr class="odd">
+<td><code>.d-flex</code></td>
+<td>Display as flex</td>
+<td><code>display: flex !important;</code></td>
+</tr>
+<tr class="even">
+<td><code>.d-inline-flex</code></td>
+<td>Display as inline-flex</td>
+<td><code>display: inline-flex !important;</code></td>
+</tr>
+<tr class="odd">
+<td><code>.d-grid</code></td>
+<td>Display as grid</td>
+<td><code>display: grid !important;</code></td>
+</tr>
+<tr class="even">
+<td><code>.d-table</code></td>
+<td>Display as table</td>
+<td><code>display: table !important;</code></td>
+</tr>
+<tr class="odd">
+<td><code>.d-table-row</code></td>
+<td>Display as table-row</td>
+<td><code>display: table-row !important;</code></td>
+</tr>
+<tr class="even">
+<td><code>.d-table-cell</code></td>
+<td>Display as table-cell</td>
+<td><code>display: table-cell !important;</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="doc-example">Example</h4>
+<div class="d-block bg-red p-2 rounded mt-4 mb-3">
+Block element (takes full width)
+</div>
+<div class="d-inline-block bg-blue p-2 rounded">
+Inline element (fits content)
+</div>
+<pre class="html"><code>&lt;div class=&quot;d-block bg-red&quot;&gt;Block element (takes full width)&lt;/div&gt;
+&lt;div class=&quot;d-inline-block bg-blue&quot;&gt;Inline element (fits content)&lt;/div&gt;</code></pre>
+<h3 id="doc-responsive-variants">Responsive Variants</h3>
+<p>Available breakpoints:</p>
+<ul>
+<li><code>sm</code> ≥ 40rem</li>
+<li><code>md</code> ≥ 48rem</li>
+<li><code>lg</code> ≥ 64rem</li>
+<li><code>xl</code> ≥ 80rem</li>
+<li><code>xxl</code> ≥ 96rem</li>
+</ul>
+<p>Pattern: <code>.d-[breakpoint]-[value]</code></p>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 69%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.d-sm-none</code></td>
+<td>Hide on small screens and up</td>
+</tr>
+<tr class="even">
+<td><code>.d-md-flex</code></td>
+<td>Flex on medium screens and up</td>
+</tr>
+<tr class="odd">
+<td><code>.d-lg-inline</code></td>
+<td>Inline on large screens and up</td>
+</tr>
+<tr class="even">
+<td><code>.d-xl-grid</code></td>
+<td>Grid on extra-large screens and up</td>
+</tr>
+<tr class="odd">
+<td><code>.d-xxl-inline-block</code></td>
+<td>Inline-block on extra-extra-large screens and up</td>
+</tr>
+</tbody>
+</table>
+<h4 id="doc-examples">Examples</h4>
+<div class="bg-green p-2 d-block d-md-none rounded mt-4">
+Visible on <b>mobile</b>
+</div>
+<div class="bg-green p-2 d-md-block d-none rounded mt-4">
+Visible on <b>large display</b>
+</div>
+<pre class="html"><code>&lt;div class=&quot;d-block d-md-none&quot;&gt;Visible on &lt;b&gt;mobile&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;d-none d-md-block&quot;&gt;Visible on &lt;b&gt;large display&lt;/b&gt;&lt;/div&gt;</code></pre>
+<h3 id="doc-hover-variants">Hover Variants</h3>
+<p>Use <code>hover:</code> prefixed classes to change display on
+hover.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Class Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>.hover\:d-none</code></td>
+<td>Hides element on hover</td>
+</tr>
+<tr class="even">
+<td><code>.hover\:d-block</code></td>
+<td>Block on hover</td>
+</tr>
+<tr class="odd">
+<td><code>.hover\:d-flex</code></td>
+<td>Flex on hover</td>
+</tr>
+<tr class="even">
+<td><code>.hover\:d-grid</code></td>
+<td>Grid on hover</td>
+</tr>
+</tbody>
+</table>
+<h4 id="doc-example-1">Example</h4>
+<div class="bg-purple p-2 d-inline-block hover:d-block rounded mt-4">
+Hover me
+</div>
+<pre class="html"><code>&lt;div class=&quot;d-inline-block hover:d-block&quot;&gt;Hover me&lt;/div&gt;</code></pre>

@@ -1,0 +1,38 @@
+<div id="display" class="card">
+  <div class="header ">
+    <h2>Display</h2>
+  </div>
+  <div class="body p-4 py-5 v-grid gap-4">
+
+
+    <div>
+      <div class="d-block bg-red p-2 rounded">Block element (takes full width)</div>
+    </div>
+
+    <div>
+      <div class="d-inline-block bg-blue p-2 rounded ">Inline element (fits content)</div>
+    </div>
+
+    <div class="">
+      <div class="bg-purple p-2 d-inline-block hover:d-block rounded">Hover me</div>
+    </div>
+
+    <div>
+      <div class="bg-green p-2 d-block d-md-none rounded">Visible on <b>mobile</b></div>
+      <div class="bg-green p-2 d-md-block d-none rounded">Visible on <b>large display</b></div>
+    </div>
+
+  </div>
+  <div class="footer align-right">
+    <button class="btn-blue" data-open-modal="documentation-modal" data-documentation="display">&lt;code&gt;</button>
+  </div>
+</div>
+
+
+
+<div id="doc-display" hidden>
+  <h2>Display <a href="#display" class="no-decoration hover:underline">#</a></h2>
+  <content>
+    <%- include ../documentation/display.ejs %>
+  </content>
+</div>
