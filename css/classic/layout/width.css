@@ -13,9 +13,101 @@
 .w-64px { width: 64px!important; }
 .w-96px { width: 96px!important; }
 .w-128px { width: 128px!important; }
+.w-160px { width: 160px!important; }
 .w-256px { width: 256px!important; }
+.w-300px { width: 300px!important; }
 .w-350px { width: 350px!important; }
 .w-500px { width: 500px!important; }
+
+/* sm */
+@media (min-width: 40rem) {
+.w-sm-4px { width: 4px!important; }
+.w-sm-8px { width: 8px!important; }
+.w-sm-16px { width: 16px!important; }
+.w-sm-24px { width: 24px!important; }
+.w-sm-32px { width: 32px!important; }
+.w-sm-48px { width: 48px!important; }
+.w-sm-64px { width: 64px!important; }
+.w-sm-96px { width: 96px!important; }
+.w-sm-128px { width: 128px!important; }
+.w-sm-160px { width: 160px!important; }
+.w-sm-256px { width: 256px!important; }
+.w-sm-300px { width: 300px!important; }
+.w-sm-350px { width: 350px!important; }
+.w-sm-500px { width: 500px!important; }
+}
+
+/* md */
+@media (min-width: 48rem) {
+  .w-md-4px { width: 4px!important; }
+  .w-md-8px { width: 8px!important; }
+  .w-md-16px { width: 16px!important; }
+  .w-md-24px { width: 24px!important; }
+  .w-md-32px { width: 32px!important; }
+  .w-md-48px { width: 48px!important; }
+  .w-md-64px { width: 64px!important; }
+  .w-md-96px { width: 96px!important; }
+  .w-md-128px { width: 128px!important; }
+  .w-md-160px { width: 160px!important; }
+  .w-md-256px { width: 256px!important; }
+  .w-md-300px { width: 300px!important; }
+  .w-md-350px { width: 350px!important; }
+  .w-md-500px { width: 500px!important; }
+}
+
+/* lg */
+@media (min-width: 64rem) {
+  .w-lg-4px { width: 4px!important; }
+  .w-lg-8px { width: 8px!important; }
+  .w-lg-16px { width: 16px!important; }
+  .w-lg-24px { width: 24px!important; }
+  .w-lg-32px { width: 32px!important; }
+  .w-lg-48px { width: 48px!important; }
+  .w-lg-64px { width: 64px!important; }
+  .w-lg-96px { width: 96px!important; }
+  .w-lg-128px { width: 128px!important; }
+  .w-lg-160px { width: 160px!important; }
+  .w-lg-256px { width: 256px!important; }
+  .w-lg-300px { width: 300px!important; }
+  .w-lg-350px { width: 350px!important; }
+  .w-lg-500px { width: 500px!important; }
+}
+
+/* xl */
+@media (min-width: 80rem) {
+  .w-xl-4px { width: 4px!important; }
+  .w-xl-8px { width: 8px!important; }
+  .w-xl-16px { width: 16px!important; }
+  .w-xl-24px { width: 24px!important; }
+  .w-xl-32px { width: 32px!important; }
+  .w-xl-48px { width: 48px!important; }
+  .w-xl-64px { width: 64px!important; }
+  .w-xl-96px { width: 96px!important; }
+  .w-xl-128px { width: 128px!important; }
+  .w-xl-160px { width: 160px!important; }
+  .w-xl-256px { width: 256px!important; }
+  .w-xl-300px { width: 300px!important; }
+  .w-xl-350px { width: 350px!important; }
+  .w-xl-500px { width: 500px!important; }
+}
+
+/* xxl */
+@media (min-width: 96rem) {
+  .w-xxl-4px { width: 4px!important; }
+  .w-xxl-8px { width: 8px!important; }
+  .w-xxl-16px { width: 16px!important; }
+  .w-xxl-24px { width: 24px!important; }
+  .w-xxl-32px { width: 32px!important; }
+  .w-xxl-48px { width: 48px!important; }
+  .w-xxl-64px { width: 64px!important; }
+  .w-xxl-96px { width: 96px!important; }
+  .w-xxl-128px { width: 128px!important; }
+  .w-xxl-160px { width: 160px!important; }
+  .w-xxl-256px { width: 256px!important; }
+  .w-xxl-300px { width: 300px!important; }
+  .w-xxl-350px { width: 350px!important; }
+  .w-xxl-500px { width: 500px!important; }
+}
 
 .w-min-4px { min-width: 4px!important; }
 .w-min-8px { min-width: 8px!important; }
@@ -26,7 +118,9 @@
 .w-min-64px { min-width: 64px!important; }
 .w-min-96px { min-width: 96px!important; }
 .w-min-128px { min-width: 128px!important; }
+.w-min-160px { min-width: 160px!important; }
 .w-min-256px { min-width: 256px!important; }
+.w-min-300px { min-width: 300px!important; }
 .w-min-350px { min-width: 350px!important; }
 .w-min-500px { min-width: 500px!important; }
 
@@ -40,7 +134,9 @@
 .w-max-64px { max-width: 64px!important; }
 .w-maw-96px { max-width: 96px!important; }
 .w-max-128px { max-width: 128px!important; }
+.w-max-160px { max-width: 160px!important; }
 .w-max-256px { max-width: 256px!important; }
+.w-max-300px { max-width: 300px!important; }
 .w-max-350px { max-width: 350px!important; }
 .w-max-500px { max-width: 500px!important; }
 
