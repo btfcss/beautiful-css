@@ -1,0 +1,8 @@
+
+
+.leading-0 { line-height: calc(1rem + var(--spaWcing-0)); }
+.leading-1 { line-height: calc(1rem + var(--spacing-1)); }
+.leading-2 { line-height: calc(1rem + var(--spacing-2)); }
+.leading-3 { line-height: calc(1rem + var(--spacing-3)); }
+.leading-4 { line-height: calc(1rem + var(--spacing-4)); }
+.leading-5 { line-height: calc(1rem + var(--spacing-5)); }
